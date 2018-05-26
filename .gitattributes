@@ -1,0 +1,4 @@
+content/**/*.png filter=lfs diff=lfs merge=lfs -text
+content/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+content/**/*.gif filter=lfs diff=lfs merge=lfs -text
+content/**/*.svg filter=lfs diff=lfs merge=lfs -text
