@@ -14,23 +14,23 @@ While my Jeep Cherokee may not be horrible on gas it was kind of a relief to see
 
 The civic also finally got a much needed wash. While it may still be covered in overspray, it does shine up quite nicely. I figure in a month or so I'll go through it fully with a nice clay bar, machine polish, and wax to finish. Hopefully I can hit up a car show before the end of the year as well.
 
-<img src="/imgs/civic/6-23-18/1.jpg" class="image-center">
-<img src="/imgs/civic/6-23-18/2.jpg" class="image-center">
-<img src="/imgs/civic/6-23-18/3.jpg" class="image-center">
+<img src="/img/civic/6-23-18/1.jpg" class="image-center">
+<img src="/img/civic/6-23-18/2.jpg" class="image-center">
+<img src="/img/civic/6-23-18/3.jpg" class="image-center">
 
 Swap Thoughts
 ---
 
 I've never had the chance to drive a swapped honda till now. While this swap may not be the fastest or coolest out there it really brings the car to life. The B20B pairs very nicely with the LS trans. Seems like there's a fair amount of dislike on LS transmissions since they're the longest geared B series transmission, but honestly it works great for long back roads. The engine pulls nicely through out it's entire power band and regardless of the gear the car just wants to go. The motors not winded right up when travelling at 50+ either.
 
-<img src="/imgs/civic/6-23-18/4.jpg" class="image-center">
+<img src="/img/civic/6-23-18/4.jpg" class="image-center">
 
 I do miss power steering though, and plan on adding it back soon. Just need to do a little research on what pump to use. From what I understand is the hose that connects the pump to the rack differs between obd1 and obd2. I can't imagine it'll take too much to figure out.
 
-<img src="/imgs/civic/6-23-18/5.jpg" class="image-center">
+<img src="/img/civic/6-23-18/5.jpg" class="image-center">
 
 Sometime in the future I plan on upgrading to a tuck radiator. The current one is a cheap ebay unit and I plan on replacing every single ebay part currently on the car. While cheap prices may be enticing they just aren't worth it when it comes to the quality, and how long the parts tend to last.
 
-<img src="/imgs/civic/6-23-18/6.jpg" class="image-center">
+<img src="/img/civic/6-23-18/6.jpg" class="image-center">
 
 But for now it's time to just enjoy the car and have some fun with the low end power of the b20b.

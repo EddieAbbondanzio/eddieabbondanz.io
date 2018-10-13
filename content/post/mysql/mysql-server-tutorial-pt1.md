@@ -26,46 +26,46 @@ requirements for it I won't go into detail on it. Simply accept all the defaults
 
 With VirtualBox installed, go ahead and open it up.
 
-<img src="/imgs/mysql/mysql-server-tutorial/pt1/1.png" class="image-center">
+<img src="/img/mysql/mysql-server-tutorial/pt1/1.png" class="image-center">
 
 While it may look simple don't be fooled as VirtualBox is quite the powerful little tool. Overall we won't have to do
 much to it but we do need to adjust one setting first. Click on the **Settings** button then navigate to the **Network** tab.
 
-<img src="/imgs/mysql/mysql-server-tutorial/pt1/2.png" class="image-center">
+<img src="/img/mysql/mysql-server-tutorial/pt1/2.png" class="image-center">
 
-<img src="/imgs/mysql/mysql-server-tutorial/pt1/3.png" class="image-center">
+<img src="/img/mysql/mysql-server-tutorial/pt1/3.png" class="image-center">
 
 Double check to ensure that *Bridged Adapter* is selected in the **Attached To** drop down then click **OK**.
 
-<img src="/imgs/mysql/mysql-server-tutorial/pt1/4.png" class="image-center">
+<img src="/img/mysql/mysql-server-tutorial/pt1/4.png" class="image-center">
 
 Now we'll begin creating our new virtual machine. Click the **New** option in the menu.
 
-<img src="/imgs/mysql/mysql-server-tutorial/pt1/5.png" class="image-center">
+<img src="/img/mysql/mysql-server-tutorial/pt1/5.png" class="image-center">
 
 Give it a name (can be anything really), and select *Linux* in the **Type** dropdown. *Ubuntu* should
 automatically be selected for the **Version** dropdown but if it isn't go ahead and select it. Then click **Next**.
 
-<img src="/imgs/mysql/mysql-server-tutorial/pt1/6.png" class="image-center">
+<img src="/img/mysql/mysql-server-tutorial/pt1/6.png" class="image-center">
 
 If desired, you can adjust the size of the RAM allocated for the VM. For our purposes 1024MB should be
 more than enough. Click **Next**.
 
-<img src="/imgs/mysql/mysql-server-tutorial/pt1/7.png" class="image-center">
+<img src="/img/mysql/mysql-server-tutorial/pt1/7.png" class="image-center">
 
 Nothing to worry about on the next two pages so go ahead and click **Create** then **Next**.
 
-<img src="/imgs/mysql/mysql-server-tutorial/pt1/8.png" class="image-center">
+<img src="/img/mysql/mysql-server-tutorial/pt1/8.png" class="image-center">
 
-<img src="/imgs/mysql/mysql-server-tutorial/pt1/9.png" class="image-center">
+<img src="/img/mysql/mysql-server-tutorial/pt1/9.png" class="image-center">
 
 To gain a (slight) performance boost we'll select the *Fixed Size* option. 
 
-<img src="/imgs/mysql/mysql-server-tutorial/pt1/10.png" class="image-center">
+<img src="/img/mysql/mysql-server-tutorial/pt1/10.png" class="image-center">
 
 Pick a size for your partition (10GB is perfectly fine for this example), then click **Create**.
 
-<img src="/imgs/mysql/mysql-server-tutorial/pt1/11.png" class="image-center">
+<img src="/img/mysql/mysql-server-tutorial/pt1/11.png" class="image-center">
 
 It can take about a minute or so for this step to complete. It varies based on factors such as the speed of
 your hard drive, and how large of a partition you specified. Once complete though the VM will be ready to
