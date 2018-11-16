@@ -17,6 +17,7 @@ paginate = 10
   # CSS name for highlight.js
   highlightjs = "railscasts"
   dateFormat = "02 Jan 2006, 15:04"
+  googleAnalytics = "UA-128571017-1"
 
 [menu]
   # Shown in the side menu.
