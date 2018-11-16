@@ -75,14 +75,3 @@ i {
 .pagination a {
   color: #265778;
 }
-
-.image-center {
-  display: block;
-  margin: 0 auto;
-}
-
-.image-header {
-    width: 75%;
-    display: block;
-    margin: 0 auto 5em;
-}

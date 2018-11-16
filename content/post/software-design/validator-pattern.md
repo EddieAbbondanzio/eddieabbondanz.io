@@ -1,5 +1,5 @@
 ---
-title: "Software Design - Contextual Validation"
+title: "Software Design - Validator Pattern"
 date: 2018-10-10T05:16:42-04:00
 categories: ["Software Design"]
 type: post
