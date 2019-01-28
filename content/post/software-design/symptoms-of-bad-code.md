@@ -1,5 +1,5 @@
 ---
-title: "Symptoms of Bad Code"
+title: "Software Design - Symptoms of Bad Code"
 date: 2018-12-07T19:59:42-04:00
 categories: ["Software Design"]
 type: post

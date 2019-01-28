@@ -1,5 +1,5 @@
 ---
-title: "How To Set Up A TypeScript Project"
+title: "TypeScript - How To Set Up A New Project"
 date: 2018-11-26T06:57:42-04:00
 type: post
 categories: ["TypeScript"]

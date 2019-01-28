@@ -1,5 +1,5 @@
 ---
-title: "Setting up a MySQL Server with Ubuntu via VirtualBox Pt2"
+title: "MySQL - Setting up a MySQL Server with Ubuntu via VirtualBox Part 2"
 date: 2018-07-23T06:58:42-04:00
 type: post
 categories: ["MySQL"]
