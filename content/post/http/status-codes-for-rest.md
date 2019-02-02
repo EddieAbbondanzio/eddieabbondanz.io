@@ -3,10 +3,8 @@ title: "HTTP Status Codes For a RESTful API"
 date: 2019-01-29T18:29:29-04:00
 categories: ["HTTP"]
 type: post
+FeaturedImage: "/img/http/status-codes-for-rest/1.jpg"
 ---
-
-<img src="/img/http/status-codes-for-rest/1.jpg" class="image-center" style="margin-bottom: 64px;">
-
 
 # Intro
 

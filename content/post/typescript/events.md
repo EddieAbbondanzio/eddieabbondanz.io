@@ -3,9 +3,8 @@ title: "TypeScript - Events"
 date: 2019-01-21T18:37:24-04:00
 categories: ["Software Design"]
 type: post
+featuredImage: "/img/typescript/events/1.jpg"
 ---
-
-<img src="/img/typescript/events/1.jpg" class="image-center" style="margin-bottom: 64px;">
 
 # Intro
 
@@ -15,7 +14,7 @@ Polling in Computer Science is "the process where the computer or controlling de
 
 We could represent a very basic form of polling from a network as follows:
 
-```js
+```ts
     while(true) {
         if(network.hasData()) {
             //Do work
@@ -29,7 +28,7 @@ Since the network doesn't "announce" when data comes in, we have to manually che
 
 TypeScript may not support events directly out of the box, but that doesn't mean we can't create our own. We'll start off by defining a type to represent event handlers that can subscribe to events.
 
-```js
+```ts
 /**
  * Event handler that can subscribe to a dispatcher.
  */

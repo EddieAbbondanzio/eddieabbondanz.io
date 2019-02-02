@@ -1,9 +1,9 @@
 ---
 title: "TypeScript - Interpolated Strings"
-date: 2019-02-01T16:52:42-04:00
+date: 2019-03-01T16:52:42-04:00
 type: post
 categories: ["TypeScript"]
+FeaturedImage: "/img/typescript/interpolated-strings/1.jpg"
 ---
 
-# Summary
-
+Interpolated strings are the bees knees
