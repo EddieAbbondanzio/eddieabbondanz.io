@@ -3,9 +3,8 @@ title: "TypeScript - Taking The Magic Out of Magic Strings"
 date: 2019-01-05T09:53:42-04:00
 type: post
 categories: ["TypeScript"]
+featuredImage: "/img/typescript/magic-strings/1.jpg"
 ---
-
-<img src="/img/typescript/magic-strings/1.jpg" class="image-center" style="margin-bottom: 64px;">
 
 # What's so Magical About Magic Strings?
 

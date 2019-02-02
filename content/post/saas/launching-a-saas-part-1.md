@@ -3,9 +3,8 @@ title: "Launching a SaaS - Part 1 The Landing Page"
 date: 2018-12-21T06:59:42-04:00
 categories: ["SaaS"]
 type: post
+featuredImage: "/img/saas/launching-a-saas-part-1/1.jpg"
 ---
-
-<img src="/img/saas/launching-a-saas-part-1/1.jpg" class="image-center">
 
 # Overview
 
@@ -14,7 +13,6 @@ This is the second part of my blog series about launching a Software as a Servic
 ## Table of Contents
 
 * [Part 1: The Landing Page]({{< ref "/post/saas/launching-a-saas-part-1.md" >}})
-* [Part 2: The Back End]({{< ref "/post/saas/launching-a-saas-part-2.md" >}})
 
 What is Software as a Service?
 ===

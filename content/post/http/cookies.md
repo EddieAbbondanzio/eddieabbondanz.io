@@ -3,10 +3,9 @@ title: "HTTP Cookies"
 date: 2019-01-24T18:37:24-04:00
 categories: ["HTTP"]
 type: post
+FeaturedImage: "/img/http/cookies/1.jpg"
+
 ---
-
-
-<img src="/img/http/cookies/1.jpg" class="image-center" style="margin-bottom: 64px;">
 
 # What Are They?
 
