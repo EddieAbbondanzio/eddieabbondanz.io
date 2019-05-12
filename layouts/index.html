@@ -1,0 +1,8 @@
+{{ partial "header.html" . }}
+<section id="content" role="main">
+  {{ $paginator := .Paginate .Site.RegularPages }} {{ range $paginator.Pages }}
+  {{ .Render "li" }}
+  {{ end }}
+  {{ partial "pagination.html" .Paginator }}
+</section>
+{{ partial "footer.html" . }}

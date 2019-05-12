@@ -8,11 +8,12 @@ featuredImage: "/img/saas/launching-a-saas-part-1/1.jpg"
 
 # Overview
 
-This is the second part of my blog series about launching a Software as a Service (SaaS) product. I intend for this series to be a collection of the lessons I've learnt along the way, and is meant to be an educational experience. Because learning new things is one of my motivations there will be times where I explore DIYing portions of the project that should typically be offloaded to a third-party. 
+This is the first part of my blog series about launching a Software as a Service (SaaS) product. I intend for this series to be a collection of the lessons I've learnt along the way, and is meant to be an educational experience. Because learning new things is one of my motivations there will be times where I explore DIYing portions of the project that should typically be offloaded to a third-party. 
 
 ## Table of Contents
 
 * [Part 1: The Landing Page]({{< ref "/post/saas/launching-a-saas-part-1.md" >}})
+* [Part 2: The Launch]({{< ref "/post/saas/launching-a-saas-part-2.md" >}})
 
 What is Software as a Service?
 ===
