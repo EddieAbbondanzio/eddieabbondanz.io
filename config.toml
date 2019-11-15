@@ -11,7 +11,7 @@ paginate = 10
 [params]
     ga_api_key = "UA-128571017-1" # Google Analytics API key.
     avatar = "/img/avatar.jpg" # Image should be square, and roughly 150px x 150px
-    bio = "My name's Eddie Abbondanzio, and I'm a full time Software Developer. Programming is my favorite hobby, and I love working on anything web related, and my own personal projects. If I'm not programming, then I'm likely working on one of my cars."
+    bio = "My name's Eddie Abbondanzio, and this is my blog. I mostly write about game dev / web dev, but I'll throw in the occasional car post."
     github = "http://github.com/EddieAbbondanzio"
     twitter = "https://twitter.com/EAbbondanzio"
 

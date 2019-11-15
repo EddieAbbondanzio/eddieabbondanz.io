@@ -8,19 +8,17 @@ description = "About me, and this site."
 
 <img src="/img/about/me.jpg" style="height: 480px; width: auto;">
 
-Welcome! My name's Eddie Abbondanzio, and this is my personal blog. I'm a software developer who loves to work on his own projects whenever possible. I graduated from the University of Maine in Orono in 2018 with a BS in Computer Science. I'm currently employed full time. Blog posts will cover anything from software architecture, design patterns, web development, and occasionally updates from working on my cars.
-
-
+Welcome! My name's Eddie Abbondanzio, and this is my personal blog. I'm a software developer who loves to work on his own projects whenever possible. I graduated from the University of Maine in Orono in 2018 with a BS in Computer Science. I'm currently self-employed as an automotive detailer and run my own business: <a href="https://edsautodetailing.com">Ed's Auto Detailing</a>. Blog posts will cover anything from software architecture, design patterns, web development, and occasionally updates from working on my cars.
 
 ## Hobbies
-* Anything automotive (detailing, restoration, mods, etc..)
-* Software development (front-end, back-end, you name it).
-* Running
-* Cooking
-* Long walks on the beach... Oh woops, wrong site.
 
-Projects
----
+-   Anything automotive (detailing, restoration, mods, etc..)
+-   Software development (front-end, back-end, you name it).
+-   Running
+-   Cooking
+-   Long walks on the beach... Oh woops, wrong site.
+
+## Projects
 
 I always have several projects in progress. I like staying busy, and seeing what I can come up with. While it may seem contradictive to my career, I prefer to drive older vehicles. During the summer I cruise around in a 1993 Honda Civic (EG hatch), and during the harsh Maine winters I blast around in the snow in my trusty 2000 Jeep Cherokee (XJ).
 

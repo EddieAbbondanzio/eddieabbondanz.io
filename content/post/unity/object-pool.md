@@ -1,17 +1,16 @@
 ---
-title: "Object Pooling in Unity"
+title: 'Object Pooling in Unity'
 date: 2018-03-30T10:06:59-04:00
 draft: false
 type: post
-categories: ["Unity"]
+categories: ['Unity']
 ---
 
-GameObject.Instantiate() is Expensive
----
+## GameObject.Instantiate() is Expensive
 
 Creating new gameobjects during runtime can be a costly operation. Multiple this action by 10 or more times in a single frame and you'll notice a slight hiccup in FPS. One option to counter this is by taking advantage of object pooling. Object pooling is when a collection of inactive gameobjects is kept on standby. When the game needs a new object it can call upon the pool to retrieve an already instantiated instance. Then when finished, the object can be returned back to the pool for later use.
 
-To prepare my project for some of the new features coming up I decided to finally implement a better system for handling object pools. This implementation doesn't use a data structure to maintain references of the objects in the pools. Instead it uses the sibling index of Unity's transforms to keep all of the in use objects at the top, and object sitting in standby at the bottom. Now we only need an integer that tracks the index of the next free object. 
+To prepare my project for some of the new features coming up I decided to finally implement a better system for handling object pools. This implementation doesn't use a data structure to maintain references of the objects in the pools. Instead it uses the sibling index of Unity's transforms to keep all of the in use objects at the top, and object sitting in standby at the bottom. Now we only need an integer that tracks the index of the next free object.
 
 To get started we'll need a way to differentiate between our objects. Create a new enum and add some values to represent the prefabs you wish to pool. I've added the PrefabType cube since in this tutorial we'll be building a cube object pool.
 
@@ -78,7 +77,7 @@ public class PrefabPool : MonoBehaviour {
     /// The target size of the pool.
     /// </summary>
     public int Size;
-    
+
     /// <summary>
     /// How many objects we can adjust the pool by each frame
     /// </summary>
@@ -311,19 +310,3 @@ public void ReturnInstance(GameObject obj) {
 ```
 
 You'll notice that Unity doesn't like to add all the objects right away in Editor Mode. While the pool may not appear to be at it's correct size you can trigger updates in the Editor by clicking objects in the Hierarchy tab. This pool could use some expanding upon, but is atleast a good base to build off of.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

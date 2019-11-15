@@ -1,0 +1,51 @@
+{{$type := (.Get "type")}} {{ if(eq $type "primary")}}
+<div class="alert alert-primary d-flex flex-row  align-items-center">
+  {{ .Inner}}
+</div>
+{{else if (eq $type "secondary")}}
+<div class="alert alert-secondary d-flex flex-row  align-items-center">
+  {{ .Inner}}
+</div>
+{{else if (eq $type "success")}}
+<div class="alert alert-success d-flex flex-row  align-items-center">
+  <i class="material-icons pr-3">
+    check
+  </i>
+  {{ .Inner}}
+</div>
+{{else if (eq $type "danger")}}
+<div class="alert alert-danger d-flex flex-row  align-items-center">
+  <i class="material-icons pr-3">
+    error
+  </i>
+  {{ .Inner}}
+</div>
+{{else if (eq $type "warning")}}
+<div class="alert alert-warning d-flex flex-row  align-items-center">
+  <i class="material-icons pr-3">
+    warning
+  </i>
+  {{ .Inner}}
+</div>
+{{else if (eq $type "info")}}
+<div class="alert alert-info d-flex flex-row  align-items-center">
+  <i class="material-icons pr-3">
+    info
+  </i>
+  {{ .Inner}}
+</div>
+{{else if (eq $type "light")}}
+<div class="alert alert-light d-flex flex-row  align-items-center">
+  <i class="material-icons pr-3"> </i>
+  {{ .Inner}}
+</div>
+{{else if (eq $type "dark")}}
+<div class="alert alert-dark d-flex flex-row  align-items-center">
+  <i class="material-icons pr-3"> </i>
+  {{ .Inner}}
+</div>
+{{else}}
+<div class="alert alert-primary d-flex flex-row  align-items-center">
+  {{ .Inner}}
+</div>
+{{end}}
