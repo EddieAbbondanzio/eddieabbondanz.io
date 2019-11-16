@@ -5,8 +5,7 @@ type: post
 categories: ["C#"]
 ---
 
-Implementing a Thread-Safe Queue
----
+## Implementing a Thread-Safe Queue
 
 One of the most useful data structures when it comes to multi-threading is the queue. However, queues in c# aren't thread-safe by default. Thankfully it's easy enough to implement your own as we will do today. Let's start by defining our class.
 
@@ -93,13 +92,4 @@ public int Count {
 }
 ```
 
-It's easy enough to expand the class if desired. Just ensure your calling lock() first before modifying the underlying queue. 
-
-
-
-
-
-
-
-
-
+It's easy enough to expand the class if desired. Just ensure your calling lock() first before modifying the underlying queue.
