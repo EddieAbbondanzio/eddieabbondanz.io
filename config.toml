@@ -8,6 +8,10 @@ copyright = "&copy; 2019. All rights reserved."
 canonifyurls = true
 paginate = 10
 
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+
 [params]
     ga_api_key = "UA-128571017-1" # Google Analytics API key.
     avatar = "/img/avatar.jpg" # Image should be square, and roughly 150px x 150px
