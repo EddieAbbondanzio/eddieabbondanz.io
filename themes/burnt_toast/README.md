@@ -1,6 +1,6 @@
 # Post Features
 
+- Title + Description
 - Series
 - Category
-- Tags
 - Lastmod date
