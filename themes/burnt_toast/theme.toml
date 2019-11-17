@@ -1,12 +1,10 @@
-name = "Blank"
+name = "BurntToast"
 license = "MIT"
-licenselink = "https://github.com/vimux/blank/blob/master/LICENSE"
-description = "Starter Hugo theme for developers."
-homepage = "https://github.com/vimux/blank/"
-tags = ["blog", "plain", "blank", "starter", "development"]
-features = ["blog"]
-min_version = "0.20"
+description = "A blog theme that supports, series, categories, and tags on posts."
+tags = ["blog", "minimalistic", "professional", "development"]
+features = ["blog", "tags", "categories"]
+min_version = "0.10"
 
 [author]
-  name = "Vimux"
-  homepage = "https://github.com/vimux"
+  name = "Eddie Abbondanzio"
+  homepage = "https://github.com/EddieAbbondanzio"
