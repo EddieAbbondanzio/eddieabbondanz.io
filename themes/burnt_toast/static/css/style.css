@@ -3,6 +3,11 @@
   background-repeat: no-repeat;
 }
 
+#hero-header .hero-body {
+  align-items: flex-end !important;
+  padding-bottom: 64px;
+}
+
 #hero-header .hero-footer > div {
   padding: 32px;
 }

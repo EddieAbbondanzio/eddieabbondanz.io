@@ -39,14 +39,18 @@
               About Me
             </a>
 
-            <a class="navbar-item has-text-white">
+            {{ with .Site.Params.github }}
+            <a class="navbar-item has-text-white" href="{{ . }}" target="_blank">
               GitHub
             </a>
+            {{ end }}
 
-            <a class="navbar-item has-text-white">
+            {{ with .Site.Params.twitter }}
+            <a class="navbar-item has-text-white" href="{{ . }}" target="_blank">
               Twitter
             </a>
-          </div>
+            {{ end }}
+        </div>
         </div>
       </nav>
     </div>
@@ -54,7 +58,7 @@
     <!-- Only show title, and posted date on posts.-->
     {{ if eq .Type "post" }}
     <div class="hero-body has-text-white">
-      <div class="container has-text-centered">
+      <div class="container ">
         <h1 class="is-size-1">
           {{ .Title }}
         </h1>
