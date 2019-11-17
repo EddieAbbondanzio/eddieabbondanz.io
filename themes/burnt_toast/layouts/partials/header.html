@@ -62,9 +62,16 @@
         <h1 class="is-size-1">
           {{ .Title }}
         </h1>
-        <h2 class="is-size-3 has-text-grey-lighter">
-          Posted on {{ .Date.Format "Jan 2, 2006" }}
-        </h2>
+
+        {{ if ne .Lastmod .Date }}
+            <h2 class="is-size-3 has-text-grey-lighter" title="Revised on {{ .Lastmod.Format "Jan 2, 2006" }}">
+            Posted on {{ .Date.Format "Jan 2, 2006" }}* 
+            </h2>
+        {{ else }}
+            <h2 class="is-size-3 has-text-grey-lighter">
+                Posted on {{ .Date.Format "Jan 2, 2006" }} 
+            </h2>
+        {{ end }}
       </div>
     </div>
     {{ end }}
