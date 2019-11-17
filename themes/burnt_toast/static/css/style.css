@@ -8,16 +8,12 @@
   padding-bottom: 64px;
 }
 
-#hero-header .hero-footer > div {
-  padding: 32px;
+.post-header {
+  margin-bottom: 32px;
 }
 
-.share-icons {
-  padding: 0px !important;
-}
-
-.share-icons svg {
-  height: 32px;
+.post-details div {
+  margin-right: 16px;
 }
 
 .d-flex {
@@ -42,13 +38,4 @@
 
 .justify-self-end {
   justify-self: end;
-}
-
-.post-taxonomies div {
-  margin: 8px 0px;
-}
-
-.post-taxonomies i {
-  font-size: 2em;
-  margin-right: 16px;
 }

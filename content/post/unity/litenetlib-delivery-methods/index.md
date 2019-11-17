@@ -1,7 +1,9 @@
 ---
 title: "Unity - LiteNetLib's Delivery Methods"
+description: "Understanding the differences."
 date: 2019-11-14T21:31:00-00:00
 lastmod: 2019-11-17T12:12:00-00:00
+author: "Eddie Abbondanzio"
 category: "Game Dev"
 tags: ["Unity", "LiteNetLib", "UDP"]
 type: post
