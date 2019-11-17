@@ -2,7 +2,7 @@
 baseURL = "https://eddieabbondanz.io"
 languageCode = "en-us"
 title = "Eddie Abbondanzio"
-theme = "allegiant"
+theme = "burnt_toast"
 author = "Eddie Abbondanzio"
 copyright = "&copy; 2019. All rights reserved."
 canonifyurls = true

@@ -12,8 +12,8 @@ This is the first part of my blog series about launching a Software as a Service
 
 ## Table of Contents
 
-- [Part 1: The Landing Page]({{< ref "/post/saas/launching-a-saas-part-1.md" >}})
-- [Part 2: The Launch]({{< ref "/post/saas/launching-a-saas-part-2.md" >}})
+- [Part 1: The Landing Page]({{< ref "/post/saas/launching-a-saas-pt1" >}})
+- [Part 2: The Launch]({{< ref "/post/saas/launching-a-saas-pt2" >}})
 
 # What is Software as a Service?
 

@@ -3,6 +3,7 @@ title: "Acura Build - 12/18/2013"
 date: 2013-12-18
 series: "Acura Build"
 category: "Car Builds"
+type: post
 ---
 
 I've decided to do a projector retrofit. There's nothing wrong with the current headlights I just really like the appeal of the crisp cutoff.

@@ -3,6 +3,7 @@ title: "Acura Build - 03/14/2014"
 date: 2014-03-14
 category: "Car Builds"
 series: "Acura Build"
+type: post
 ---
 
 Made a little more progress on the tablet. I'm using a Nexus 7 Gen 2 tablet.

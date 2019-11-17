@@ -2,6 +2,7 @@
 title: "Logging to Unity or Console"
 date: 2018-03-31T15:56:01-04:00
 categories: ["Unity"]
+type: post
 ---
 
 Sometimes we want code that can run outside of Unity

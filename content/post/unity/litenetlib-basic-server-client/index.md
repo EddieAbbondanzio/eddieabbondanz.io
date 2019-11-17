@@ -3,9 +3,10 @@ title: "Unity - How to Create a Basic Server / Client With LiteNetLib"
 date: 2019-11-13T06:10:00-00:00
 categories: ["Unity"]
 featuredImage: "/post/unity/litenetlib-basic-server-client/images/hero.jpg"
+type: post
 ---
 
-LiteNetLib already provides a good example for creating a basic server / client set up in their documents, but if we want to use it with Unity there's a few extra steps we'll need to take. This article intends to cover the missing steps, and assume you already have LiteNetLib added to your Unity project. If you need guidance on adding LiteNetLib check out: [How to Setup LiteNetLib With Unity]({{< ref "/post/unity/litenetlib-setup.md" >}})
+LiteNetLib already provides a good example for creating a basic server / client set up in their documents, but if we want to use it with Unity there's a few extra steps we'll need to take. This article intends to cover the missing steps, and assume you already have LiteNetLib added to your Unity project. If you need guidance on adding LiteNetLib check out: [How to Setup LiteNetLib With Unity]({{< ref "/post/unity/litenetlib-setup" >}})
 
 # Implementing the Client
 

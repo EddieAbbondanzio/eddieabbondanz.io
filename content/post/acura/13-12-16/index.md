@@ -3,6 +3,7 @@ title: "Acura Build - 12/16/2013"
 date: 2013-12-15
 series: "Acura Build"
 category: "Car Builds"
+type: post
 ---
 
 I bought my first car off my Grandmother. It's a 1999 Acura 3.5RL in rough condition. I've owned it for about 3 years now and only done a few small mods to it since. Over this winter I plan on restoring it bit by bit to get it back to it's former glorly.

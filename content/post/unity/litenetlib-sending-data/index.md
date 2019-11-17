@@ -3,13 +3,14 @@ title: "Unity - How to Send Data With LiteNetLib"
 date: 2019-11-13T19:04:00-00:00
 categories: ["Unity"]
 featuredImage: "/img/unity/litenetlib-sending-data/hero.jpg"
+type: post
 ---
 
-Continuing off the previous post about [how to build a basic server / client set up with LiteNetLib]({{< ref "/post/unity/litenetlib-basic-server-client.md" >}}) it's time to talk about sending data. Because, well, a network set up that doesn't actually send any data is kind of useless.
+Continuing off the previous post about [how to build a basic server / client set up with LiteNetLib]({{< ref "/post/unity/litenetlib-basic-server-client" >}}) it's time to talk about sending data. Because, well, a network set up that doesn't actually send any data is kind of useless.
 
 As we already know, we listen for incoming messages from the network via an `IEventListener` that we pass to our `NetManager`. `IEventListener` contains an event called `NetworkReceiveEvent` which is triggered anytime the network receives data from another connection. (If we were a server this would be one of the clients sending us something.)
 
-In the `NetworkReceiveEvent` delegate we're given a few parameters. The `NetPeer` that the message came from, a `NetDataReader` for reading the incoming data, and the `DeliveryMethod` of how it was sent (see [LiteNetLib's Delivery Methods]({{< ref "/post/unity/litenetlib-delivery-methods.md" >}})).
+In the `NetworkReceiveEvent` delegate we're given a few parameters. The `NetPeer` that the message came from, a `NetDataReader` for reading the incoming data, and the `DeliveryMethod` of how it was sent (see [LiteNetLib's Delivery Methods]({{< ref "/post/unity/litenetlib-delivery-methods" >}})).
 
 ```c#
 public void HandleNetworkRecieveEvent(NetPeer sender, NetDataReader data, DeliveryMethod deliveryMethod) {

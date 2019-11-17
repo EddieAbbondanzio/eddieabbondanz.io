@@ -3,6 +3,7 @@ title: "Acura Build - 04/04/2014"
 date: 2014-04-04
 category: "Car Builds"
 series: "Acura Build"
+type: post
 ---
 
 The RL looks nice but a luxury sedan should really have some tint to it. Initially I planned on doing 35% all around but they shipped me the wrong tint so it ended up with 5% in the rear.
