@@ -3,6 +3,7 @@ title: "Acura Build - 01/09/2014"
 date: 2014-01-09
 category: "Car Builds"
 series: "Acura Build"
+type: post
 ---
 
 The projector retrofit is finally coming to an end.

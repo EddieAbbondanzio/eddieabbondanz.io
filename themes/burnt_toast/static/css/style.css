@@ -1,0 +1,49 @@
+#hero-header {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+#hero-header .hero-footer > div {
+  padding: 32px;
+}
+
+.share-icons {
+  padding: 0px !important;
+}
+
+.share-icons svg {
+  height: 32px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-middle {
+  align-items: middle;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-self-end {
+  justify-self: end;
+}
+
+.post-taxonomies div {
+  margin: 8px 0px;
+}
+
+.post-taxonomies i {
+  font-size: 2em;
+  margin-right: 16px;
+}

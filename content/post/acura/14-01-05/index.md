@@ -3,6 +3,7 @@ title: "Acura Build - 01/05/2014"
 date: 2014-01-05
 category: "Car Builds"
 series: "Acura Build"
+type: post
 ---
 
 I decided to re add the defusers over the blinkers. It looks better in my opinion and feels more OEM.

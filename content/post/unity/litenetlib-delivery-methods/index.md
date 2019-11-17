@@ -1,7 +1,9 @@
 ---
 title: "Unity - LiteNetLib's Delivery Methods"
 date: 2019-11-14T21:31:00-00:00
-categories: ["Unity"]
+category: "Game Dev"
+tags: ["Unity", "LiteNetLib", "UDP"]
+type: post
 featuredImage: "/post/unity/litenetlib-delivery-methods/images/hero.jpg"
 ---
 

@@ -3,6 +3,7 @@ title: "Acura Build - 12/30/2013"
 date: 2013-12-30
 series: "Acura Build"
 category: "Car Builds"
+type: post
 ---
 
 I like doing little things to fix things up. The speaker grills on the car are showing their age so I decided to re upholster them to look new again. Left is original, right is new.

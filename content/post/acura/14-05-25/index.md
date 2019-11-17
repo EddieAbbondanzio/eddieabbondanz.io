@@ -3,6 +3,7 @@ title: "Acura Build - 05/25/2014"
 date: 2014-05-25
 category: "Car Builds"
 series: "Acura Build"
+type: post
 ---
 
 The fog lights were a little too squarish for my taste so I made some custom overlays to give them a slight "curve". The grill is also the custom debadged one I made a couple months back.

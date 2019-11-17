@@ -3,6 +3,7 @@ title: "Acura Build - 01/22/2014"
 date: 2014-01-22
 category: "Car Builds"
 series: "Acura Build"
+type: post
 ---
 
 For 1999 the RL was pretty advanced. It came fitted with a built in GPS system that was probably pretty slick for it's time. However, it hasn't aged too well and is no longer really useful with out of date maps and it's failing hard drive. I've decided to attempt a tablet retrofit using the bezel of a newer GPS system that came in the 2002+ RL.

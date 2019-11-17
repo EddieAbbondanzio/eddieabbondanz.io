@@ -3,6 +3,7 @@ title: "Unity - How to Set Up LiteNetLib"
 date: 2019-11-12T21:01:01-04:00
 categories: ["Unity"]
 featuredImage: "/post/unity/litenetlib-setup/images/hero.jpg"
+type: post
 ---
 
 {{% alert type="secondary" %}}
