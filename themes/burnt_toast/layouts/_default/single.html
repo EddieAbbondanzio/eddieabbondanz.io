@@ -18,14 +18,14 @@
         <!-- Details-->
         <div class="is-flex-desktop flex-row  has-text-grey-lighter">
             {{ if .Params.Author }}
-            <div class="d-flex flex-row align-middle post-detail align-middle has-margin-right-3" title="Author">
+            <div class="d-flex flex-row align-middle align-middle has-margin-right-3" title="Author">
                 <i class="material-icons has-text-grey-light has-margin-right-1">person</i>
                 <a class="has-text-grey-lighter" href="{{ .Site.BaseURL }}/about">{{ .Params.author }}</a>
             </div>
             {{ end }}
 
             {{ if .Params.Category }}
-            <div class="d-flex flex-row is-align-middle post-detail" title="Category">
+            <div class="d-flex flex-row is-align-middle" title="Category">
                 <i class="material-icons has-text-grey-light has-margin-right-1">folder</i>
                 {{ with .Params.category }}
                 <a class="has-text-grey-lighter" href="category/{{ . | urlize }}">{{ . }}</a>
