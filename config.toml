@@ -7,13 +7,16 @@ author = "Eddie Abbondanzio"
 copyright = "&copy; 2019. All rights reserved."
 canonifyurls = true
 paginate = 10
+googleAnalytics = "UA-128571017-1"
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "monokai"
 
 [taxonomies]
+    series = "series"
     category = "categories"
-    tag = "tags"
 
 [params]
-    ga_api_key = "UA-128571017-1" # Google Analytics API key.
     avatar = "/img/avatar.jpg" # Image should be square, and roughly 150px x 150px
     bio = "My name's Eddie Abbondanzio, and this is my blog. I mostly write about game dev / web dev, but I'll throw in the occasional car post."
     github = "http://github.com/EddieAbbondanzio"
