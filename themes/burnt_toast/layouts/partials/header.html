@@ -1,16 +1,14 @@
 <header>
     {{ if isset .Params "featuredimage" }}
     <section id="hero-header" class="hero is-fullheight"
-        style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ .Site.BaseURL }}{{.Params.featuredimage }}); "
+        style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ .Site.BaseURL }}{{.Params.featuredimage }}); "
         role="banner">
         {{ else if .IsHome }}
         <section id="hero-header" class="hero is-fullheight"
-            style="background-color: rgb(46, 155, 218);
-            background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ .Site.BaseURL }}/img/banner.jpg),linear-gradient(to bottom, #009DDC, #006ccb); "
+            style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ .Site.BaseURL }}/img/banner.jpg); "
             role="banner">
             {{ else }}
-            <section id="hero-header" class="hero is-fullheight">
-
+            <section id="hero-header" class="hero is-fullheight is-primary">
                 {{ end}}
 
                 <div class="hero-head">
@@ -21,27 +19,27 @@
                             </a>
 
                             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-                                data-target="navbarBasicExample">
+                                data-target="hamburger-menu">
                                 <span aria-hidden="true"></span>
                                 <span aria-hidden="true"></span>
                                 <span aria-hidden="true"></span>
                             </a>
                         </div>
 
-                        <div class="navbar-menu">
+                        <div id="hamburger-menu" class="navbar-menu">
                             <div class="navbar-end">
-                                <a class="navbar-item has-text-white" href="{{ .Site.BaseURL }}/about">
+                                <a class="navbar-item" href="{{ .Site.BaseURL }}/about">
                                     About Me
                                 </a>
 
                                 {{ with .Site.Params.github }}
-                                <a class="navbar-item has-text-white" href="{{ . }}" target="_blank">
+                                <a class="navbar-item" href="{{ . }}" target="_blank">
                                     GitHub
                                 </a>
                                 {{ end }}
 
                                 {{ with .Site.Params.twitter }}
-                                <a class="navbar-item has-text-white" href="{{ . }}" target="_blank">
+                                <a class="navbar-item" href="{{ . }}" target="_blank">
                                     Twitter
                                 </a>
                                 {{ end }}
@@ -49,41 +47,5 @@
                         </div>
                     </nav>
                 </div>
-
-                <!-- Only show title, and posted date on posts.-->
-                {{ if eq .Type "post" }}
-                <div class="hero-body has-text-white container">
-                    <div class="d-flex flex-column">
-                        <!-- Title and Description -->
-                        <div class="post-header">
-                            <h1 class="is-size-1">
-                                {{ .Title }}
-                            </h1>
-
-                            {{ if .Params.Description }}
-                            <h2 class="is-size-3 has-text-grey-lighter">
-                                {{ .Params.Description }}
-                            </h2>
-                            {{ end }}
-                        </div>
-
-                        <!-- Details-->
-                        <div class="post-details d-flex flex-row  has-text-grey-lighter">
-                            <div class="d-flex flex-row align-middle" title="Author">
-                                <i class="material-icons has-text-grey-light">person</i>
-                                <a class="has-text-grey-lighter"
-                                    href="{{ .Site.BaseURL }}/about">{{ .Params.author }}</a>
-                            </div>
-
-                            <div class="d-flex flex-row align-middle" title="Category">
-                                <i class="material-icons has-text-grey-light">folder</i>
-                                {{ with .Params.category }}
-                                <a class="has-text-grey-lighter" href="category/{{ . | urlize }}">{{ . }}</a>
-                                {{ end }}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{ end }}
             </section>
 </header>
