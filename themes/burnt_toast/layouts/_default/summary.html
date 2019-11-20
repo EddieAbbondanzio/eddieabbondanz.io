@@ -1,16 +1,28 @@
-<article class="card has-margin-all-4">
-    <div class="card-content">
-        <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+<article class="summary has-padding-bottom-4">
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 
-        <time>{{ .Date.Format "02/01/2006 1:04 PM" }}</time>
-        {{ range .Params.tags }}
-        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-        {{ end }}
-        <div>
-            {{ .Summary }}
-            {{ if .Truncated }}
-            <a href="{{ .Permalink }}">Read more...</a>
+    <div class="is-flex is-flex-row has-margin-bottom-3">
+
+        <div class="is-flex is-flex-row is-align-middle  has-margin-right-3"
+            title="Posted on {{ .Date.Format "Jan 2, 2006" }}">
+            <i class="material-icons has-text-grey has-margin-right-1">today</i>
+            <time class="has-text-grey">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </div>
+
+        {{ if .Params.Category }}
+        <div class="is-flex is-flex-row is-align-middle" title="Category">
+            <i class="material-icons has-text-grey has-margin-right-1">folder</i>
+            {{ with .Params.category }}
+            <a class="has-text-grey" href="category/{{ . | urlize }}">{{ . }}</a>
             {{ end }}
         </div>
+        {{ end }}
     </div>
+
+    <p>
+        {{ .Summary }}
+        {{ if .Truncated }}
+        <a href="{{ .Permalink }}">Read more...</a>
+        {{ end }}
+    </p>
 </article>

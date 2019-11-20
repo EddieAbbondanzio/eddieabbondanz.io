@@ -24,10 +24,13 @@
     {{ template "_internal/google_analytics_async.html" . }}
 </head>
 
-<body>
-    {{ partial "header" . }}
-    {{ block "main" . }}{{ end }}
-    {{ partial "footer" . }}
-</body>
+<body class="has-background-light">
+    {{ partial "hero" . }}
+
+    <main class="container has-background-white">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ partial "footer" . }} </body>
 
 </html>

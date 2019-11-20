@@ -1,0 +1,34 @@
+<header>
+    <div class="post-header has-text-white has-margin-all-4-touch has-margin-bottom-4-desktop">
+
+        <!-- Title and Description -->
+        <div class="has-margin-bottom-3">
+            <h1 class="is-marginless is-size-3-touch is-size-1-desktop">
+                {{ .Title }}
+            </h1>
+
+            {{ if .Params.Description }}
+            <h3 class="has-text-grey-lighter is-size-5-touch is-size-3-desktop">
+                {{ .Params.Description }}
+            </h3>
+            {{ end }}
+        </div>
+
+        <!-- Details-->
+        <div class="is-flex-desktop flex-row  has-text-grey-lighter">
+            <div class="is-flex is-flex-row is-align-middle  has-margin-right-3" title="Author">
+                <i class="material-icons has-text-grey-light has-margin-right-1">today</i>
+                <time class="has-text-grey-lighter">{{ .Date.Format "Jan 2, 2006" }}</time>
+            </div>
+
+            {{ if .Params.Category }}
+            <div class="is-flex is-flex-row is-align-middle" title="Category">
+                <i class="material-icons has-text-grey-light has-margin-right-1">folder</i>
+                {{ with .Params.category }}
+                <a class="has-text-grey-lighter" href="category/{{ . | urlize }}">{{ . }}</a>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</header>
