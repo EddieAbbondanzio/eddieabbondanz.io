@@ -1,0 +1,34 @@
+<nav class="navbar is-transparent is-spaced" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item title is-marginless has-text-white" href="{{ .Site.BaseURL }}">
+            {{ .Site.Title}}
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+            data-target="hamburger-menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="hamburger-menu" class="navbar-menu">
+        <div class="navbar-end">
+            <a class="navbar-item" href="{{ .Site.BaseURL }}/about">
+                About Me
+            </a>
+
+            {{ with .Site.Params.github }}
+            <a class="navbar-item" href="{{ . }}" target="_blank">
+                GitHub
+            </a>
+            {{ end }}
+
+            {{ with .Site.Params.twitter }}
+            <a class="navbar-item" href="{{ . }}" target="_blank">
+                Twitter
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</nav>

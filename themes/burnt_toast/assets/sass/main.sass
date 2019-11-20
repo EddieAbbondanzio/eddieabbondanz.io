@@ -4,10 +4,27 @@
 @import "flex.sass"
 @import "alert.sass"
 
-#hero-header
+.hero
     background-size: cover//100% auto
     background-repeat: no-repeat
     background-attachment: fixed
+
+    .hero-foot
+        padding-bottom: 128px
+
+main
+    @extend .has-background-white
+    @extend .has-padding-all-5
+    position: relative
+    top: -128px
+    padding-bottom: 32px
+
+.summary
+    p
+        @extend .is-size-5
+
+    h1
+        margin-bottom: 0.25em
 
 #hamburger-menu
     +touch

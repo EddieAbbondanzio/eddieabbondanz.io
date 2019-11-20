@@ -1,3 +1,4 @@
+{{ if gt .Paginator.TotalPages 1 }}
 <div class="is-flex is-flex-row is-align-center has-margin-y-5 is-justify-center">
     <div class="is-relative">
         {{ if .Paginator.HasPrev }}
@@ -16,3 +17,4 @@
         {{ end }}
     </div>
 </div>
+{{ end }}
