@@ -1,9 +1,9 @@
 ---
-title: 'Object Pooling in Unity'
+title: "Object Pooling in Unity"
 date: 2018-03-30T10:06:59-04:00
 draft: false
 type: post
-categories: ['Unity']
+category: "Unity"
 ---
 
 ## GameObject.Instantiate() is Expensive

@@ -1,8 +1,9 @@
 ---
-title: "B-Series Bolt Sizes"
+title: 'B-Series Bolt Sizes'
 date: 2018-04-06T15:22:42-04:00
 type: post
-category: "Honda"
+category: 'Honda'
+featuredImage: '/post/honda/b-series-bolts/images/featured.jpg'
 ---
 
 ## Trying to find the size of a missing bolt?

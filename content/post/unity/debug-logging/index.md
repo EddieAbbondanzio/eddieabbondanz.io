@@ -1,12 +1,11 @@
 ---
 title: "Logging to Unity or Console"
 date: 2018-03-31T15:56:01-04:00
-categories: ["Unity"]
+category: "Unity"
 type: post
 ---
 
-Sometimes we want code that can run outside of Unity
----
+## Sometimes we want code that can run outside of Unity
 
 And that can make things tricky when it comes to writing text to console. Unity has it's own set of methods for writing to it's command console via the Debug class with the most commonly used one being Debug.Log(). However in the event you want to create a library of code that can be run within Unity or in the command console (say a game server for example) you'll need a way to differentiate between the running environments. Instead of wrapping all our Debug.Log() calls in preprocessor directives such as #IF UNITY_EDITOR we can write a simple logging class to handle it for us. While we're at it well add the ability to write log files since they can be quite useful.
 
@@ -104,7 +103,7 @@ Now Let's go ahead and define our new logging class. You'll want this to be stat
 
 ```c#
 /// <summary>
-/// Logger utility for logging custom error or log messages to 
+/// Logger utility for logging custom error or log messages to
 /// console and file.
 /// </summary>
 public static class LoggerUtils {
@@ -127,7 +126,7 @@ private const string LogFileExtension = "txt";
 private const string LogFileDirectory = "VoxLogs";
 
 /// <summary>
-/// The max number of log files allowed in the folder 
+/// The max number of log files allowed in the folder
 /// at one time.
 /// </summary>
 private const int MaxLogCount = 8;
@@ -157,6 +156,7 @@ static LoggerUtils() {
     destructor = new Destructor();
 }
 ```
+
 Add in some public methods. One to allow setting of the log profile, and several for logging statements. Feel free to change them to your liking as these are just provided as basic examples. The switch statment checks to see where logging should be outputted to. If LogOutput is set to none, nothing will be printed but the message will be saved in the list. I didn't apply the log level to the error method as in my opinion, an error shouldn't be hidden.
 
 ```c#
@@ -326,6 +326,7 @@ public static bool DeleteFileAtIndex(string directory, int index) {
     return false;
 }
 ```
+
 To use the new LoggerUtils class simple call LoggerUtils.SetLogProfile(YOUR_PROFILE_HERE). Then use any of it's .Log() methods. If you want to add a way to automatically set the log profile to Unity debug when in the Unity editor add the following tidbit in an Awake() method of a monoBehaviour in your game.
 
 ```c#
@@ -335,25 +336,3 @@ private void Awake(){
     #endif
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
