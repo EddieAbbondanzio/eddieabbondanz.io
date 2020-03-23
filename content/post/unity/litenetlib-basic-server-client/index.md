@@ -1,7 +1,7 @@
 ---
 title: "Unity - How to Create a Basic Server / Client With LiteNetLib"
 date: 2019-11-13T06:10:00-00:00
-categories: ["Unity"]
+category: "Unity"
 featuredImage: "/post/unity/litenetlib-basic-server-client/images/hero.jpg"
 type: post
 ---
