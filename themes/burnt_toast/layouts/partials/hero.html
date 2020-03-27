@@ -19,13 +19,11 @@
         {{ partial "navbar.html" . }}
       </div>
 
-      {{/* Only show title, if we're at a post page */}} {{ if eq .Type "post" }}
       <div class="hero-foot">
         <div class="container">
           {{ partial "title.html" . }}
         </div>
       </div>
-      {{ end }}
     </section>
   </section>
 </section>
