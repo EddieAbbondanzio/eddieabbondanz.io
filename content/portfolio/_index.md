@@ -1,6 +1,4 @@
 +++
 title = "Portfolio"
-description = "Personal projects I've been working on, or worked on."
+description = "Highlights of personal projects I've been working on, or worked on."
 +++
-
-FUCK
