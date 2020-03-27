@@ -22,3 +22,16 @@ pygmentsStyle = "monokai"
     github = "http://github.com/EddieAbbondanzio"
     twitter = "https://twitter.com/EAbbondanzio"
 
+
+[menu]
+    [[menu.main]]
+    identifier = "about-me"
+    name = "About Me"
+    url = "about"
+    weight = 1
+
+    [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio"
+    weight = 3
