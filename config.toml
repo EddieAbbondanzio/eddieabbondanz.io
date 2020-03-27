@@ -12,6 +12,9 @@ pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsStyle = "monokai"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [taxonomies]
     series = "series"
     category = "categories"
