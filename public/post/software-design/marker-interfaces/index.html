@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Software Design - Marker Interfaces</title>
+    
+    
+    
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+    
+    <link rel="stylesheet" href="https://eddieabbondanz.io/sass/main.min.cfaf5a82ddb1997768713c5494447077b834f7a9145e7079037250a4029c50af.css" integrity="sha256-z69agt2xmXdocTxUlERwd7g096kUXnB5A3JQpAKcUK8=" media="screen">
+
+    <script src="https://eddieabbondanz.io/js/interactivity.js"></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-128571017-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+<body class="has-background-light">
+    
+    <section id="hero-header" class="hero is-fullheight is-primary">
+      
+
+      <div class="hero-head">
+        <nav class="navbar is-transparent is-spaced" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item title is-marginless has-text-white" href="https://eddieabbondanz.io">
+      Eddie Abbondanzio
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="hamburger-menu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="hamburger-menu" class="navbar-menu">
+    <div class="navbar-end">
+      
+      <a class="navbar-item" href="https://eddieabbondanz.io/post" style="text-decoration: none!important;">Posts</a>
+      
+      <a class="navbar-item" href="https://eddieabbondanz.io/about" style="text-decoration: none!important;">About Me</a>
+      
+      <a class="navbar-item" href="https://eddieabbondanz.io/portfolio" style="text-decoration: none!important;">Portfolio</a>
+       
+      <a class="navbar-item" href="http://github.com/EddieAbbondanzio" target="_blank">
+        GitHub
+      </a>
+      
+    </div>
+  </div>
+</nav>
+
+      </div>
+
+      <div class="hero-foot">
+        <div class="container">
+          <header>
+    <div class="post-header has-text-white has-margin-all-4-touch has-margin-bottom-4-desktop">
+
+        
+        <div class="has-margin-bottom-3">
+            <h1 class="is-marginless is-size-3-touch is-size-1-desktop">
+                Software Design - Marker Interfaces
+            </h1>
+
+            
+        </div>
+
+        
+        <div class="is-flex-desktop flex-row  has-text-grey-lighter">
+            
+            <div class="is-flex is-flex-row is-align-middle  has-margin-right-3" title="Date posted">
+                <i class="material-icons has-text-grey-light has-margin-right-1">today</i>
+                <time class="has-text-grey-lighter">Nov 2, 2018</time>
+            </div>
+            
+
+            
+        </div>
+    </div>
+</header>
+        </div>
+      </div>
+    </section>
+  </section>
+</section>
+
+
+    <main class="container has-background-white">
+        
+<article>
+    <h1 id="what-are-they">What Are They?</h1>
+<p>A marker interface is an empty interface (no methods or properties) that is used to identify classes that implement it belong to a special group. Some might argue that this is a code smell, but in certain situations they can be the best solution for constraining types.</p>
+<p>It should be noted that the purpose of marker interfaces is a perfect job for the decorator pattern. However, in some languages (C# for example) attributes lack the support we need to implement a quick solution. For now, in order to keep things simple it seems best to stick with marker interfaces.</p>
+<h1 id="example">Example</h1>
+<p>Your tasked with writing a <code>ServiceLocator</code> that will be used to register, and retrieve various business logic services for a web server.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ServiceLocator</span> {
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Register&lt;???&gt;() {
+        <span style="color:#75715e">//Implementation details...
+</span><span style="color:#75715e"></span>    }
+
+    <span style="color:#66d9ef">public</span> ??? Retrieve&lt;???&gt;() {
+        <span style="color:#75715e">//Implementation details...
+</span><span style="color:#75715e"></span>    }
+}
+</code></pre></div><p>While we could create a <code>ServiceAttribute</code> to indicate which classes are services, this would require additional work and the use of reflection to determine which classes have the attribute at runtime. This is unnecessary overhead that could introduce bugs, and will take longer to develop.</p>
+<p>On the other hand we could leave the <code>ServiceLocator</code> wide open and allow any object to be registered and retrieved, but this could lead to abuse, and doesn&rsquo;t feel quite right. This is where marker interfaces can be taken advantage of.</p>
+<p>Our marker interface would look like so:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#75715e">//The marker interface
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> IService { 
+
+}
+</code></pre></div><p>Now we can update the generic type on the <code>ServiceLocator</code> as such:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ServiceLocator</span> {
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Register&lt;IService&gt;() {
+        <span style="color:#75715e">//Implementation details...
+</span><span style="color:#75715e"></span>    }
+
+    <span style="color:#66d9ef">public</span> IService Retrieve&lt;IService&gt;() {
+        <span style="color:#75715e">//Implementation details...
+</span><span style="color:#75715e"></span>    }
+}
+</code></pre></div><p>Using marker interfaces may not be the best approach in every language, but in certain situations it satisfies the need for a quick, and elegant solution.</p>
+
+</article>
+
+    </main>
+
+    <footer>
+    <p>&copy; 2020 <a href="https://eddieabbondanz.io">Eddie Abbondanzio</a></p>
+</footer> </body>
+</html>
