@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ASP.NET Core - Inversion of Control Container</title>
+    
+    
+    
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+    
+    <link rel="stylesheet" href="https://eddieabbondanz.io/sass/main.min.cfaf5a82ddb1997768713c5494447077b834f7a9145e7079037250a4029c50af.css" integrity="sha256-z69agt2xmXdocTxUlERwd7g096kUXnB5A3JQpAKcUK8=" media="screen">
+
+    <script src="https://eddieabbondanz.io/js/interactivity.js"></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-128571017-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+
+<body class="has-background-light">
+    
+    <section id="hero-header" class="hero is-fullheight is-primary">
+      
+
+      <div class="hero-head">
+        <nav class="navbar is-transparent is-spaced" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item title is-marginless has-text-white" href="https://eddieabbondanz.io">
+      Eddie Abbondanzio
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="hamburger-menu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="hamburger-menu" class="navbar-menu">
+    <div class="navbar-end">
+      
+      <a class="navbar-item" href="https://eddieabbondanz.io/post" style="text-decoration: none!important;">Posts</a>
+      
+      <a class="navbar-item" href="https://eddieabbondanz.io/about" style="text-decoration: none!important;">About Me</a>
+      
+      <a class="navbar-item" href="https://eddieabbondanz.io/portfolio" style="text-decoration: none!important;">Portfolio</a>
+       
+      <a class="navbar-item" href="http://github.com/EddieAbbondanzio" target="_blank">
+        GitHub
+      </a>
+      
+    </div>
+  </div>
+</nav>
+
+      </div>
+
+      <div class="hero-foot">
+        <div class="container">
+          <header>
+    <div class="post-header has-text-white has-margin-all-4-touch has-margin-bottom-4-desktop">
+
+        
+        <div class="has-margin-bottom-3">
+            <h1 class="is-marginless is-size-3-touch is-size-1-desktop">
+                ASP.NET Core - Inversion of Control Container
+            </h1>
+
+            
+        </div>
+
+        
+        <div class="is-flex-desktop flex-row  has-text-grey-lighter">
+            
+            <div class="is-flex is-flex-row is-align-middle  has-margin-right-3" title="Date posted">
+                <i class="material-icons has-text-grey-light has-margin-right-1">today</i>
+                <time class="has-text-grey-lighter">Jun 29, 2019</time>
+            </div>
+            
+
+            
+            <div class="is-flex is-flex-row is-align-middle" title="Category">
+                <i class="material-icons has-text-grey-light has-margin-right-1">folder</i>
+                
+                <a class="has-text-grey-lighter" href="category/aspnet">aspnet</a>
+                
+            </div>
+            
+        </div>
+    </div>
+</header>
+        </div>
+      </div>
+    </section>
+  </section>
+</section>
+
+
+    <main class="container has-background-white">
+        
+<article>
+    <p>ASP.NET Core supports <a href="https://eddieabbondanz.io/post/software-design/dependency-injection/">dependency injection</a> directly out of the box. For Web APIs this is useful for automatically resolving dependencies needed by controllers, or if you&rsquo;re a fan of Uncle Bob&rsquo;s Clean Architecture it can be used to inject external dependencies such as the database into the inner layers.</p>
+<p>Let&rsquo;s imagine we&rsquo;re building an API that has a <code>UserController</code> to provide an endpoint for retrieving users via their numeric id from the database. Since we don&rsquo;t want the <code>UserController</code> to directly interact with the database as it would violate the <a href="https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design">single responsibility principle</a> we will rely upon a <code>UserService</code> to do the dirty work for us.</p>
+<p>We&rsquo;ll even take it one step further and assume our <code>UserService</code> implements an <code>IUserService</code> interface to support dependency inversion by coding against the <code>IUserService</code> interface in the <code>UserController</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> IUserService {
+  Task&lt;User&gt; GetUser(<span style="color:#66d9ef">int</span> id);
+}
+
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserService</span> : IUserService {
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">async</span> Task&lt;User&gt; GetUser(<span style="color:#66d9ef">int</span> id) {
+    <span style="color:#75715e">//Magic goes here...
+</span><span style="color:#75715e"></span>  }
+}
+</code></pre></div><p>And for completeness the <code>UserController</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#a6e22e">[Route(&#34;api/user&#34;)]</span>
+<span style="color:#a6e22e">[ApiController]</span>
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserController</span> : ControllerBase {
+  <span style="color:#66d9ef">private</span> IUserService userService; <span style="color:#75715e">//Need a way to instantiate this...
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">
+</span><span style="color:#a6e22e">  [HttpGet(&#34;{id}&#34;)]</span>
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">async</span> Task&lt;ActionResult&gt; FindUserById(<span style="color:#66d9ef">int</span> id) {
+    User user = <span style="color:#66d9ef">await</span> userService.FindById(id);
+
+    <span style="color:#66d9ef">if</span>(user != <span style="color:#66d9ef">null</span>) {
+      <span style="color:#66d9ef">return</span> Ok(user);
+    } <span style="color:#66d9ef">else</span> {
+      <span style="color:#66d9ef">return</span> NotFound();
+    }
+  }
+}
+</code></pre></div><h1 id="registering-dependencies">Registering Dependencies</h1>
+<p>In order for ASP.NET to be able to resolve a dependency, we need to register it with the IoC container. In older versions of ASP.NET this would be done in <code>global.asax</code>. However, this file is no longer present and the IoC container is now configured in <code>Startup.cs</code>. By default, <code>Startup.cs</code> is located within the root directory of your project. Open it up and locate the following method:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp">  <span style="color:#75715e">// This method gets called by the runtime. Use this method to add services to the container.
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> ConfigureServices(IServiceCollection services) {
+
+  }
+</code></pre></div><p>The parameter <code>services</code> of type <code>IServiceCollection</code> is the IoC container we need to set up. When it comes to registering a dependency with the container we have three different lifetimes available: transient, singleton, or scoped.</p>
+<h2 id="transient">Transient</h2>
+<p>Dependencies registered via <code>AddTransient()</code> will return a new instance each time the dependency is resolved. This is useful for lightweight, stateless classes that don&rsquo;t require initialization.</p>
+<h2 id="singleton">Singleton</h2>
+<p>A <a href="https://en.wikipedia.org/wiki/Singleton_pattern">singleton</a> dependency registered via <code>AddSingleton()</code> will always return the same instance each time it&rsquo;s resolved from the container. This is useful for large classes that are expensive to instantiate, or require set up.</p>
+<h2 id="scoped">Scoped</h2>
+<p>Lastly, a scoped dependency registered with <code>AddScoped()</code> will return a new instance per connection (request). For example if Client A made an API request it would be given one instance of the dependency but if Client B made a request it would be given another.</p>
+<p>None of the three methods accept any parameters, instead the dependency type is passed in via generics. Each method is also overloaded to allow for registering a dependency to it&rsquo;s exact type, or to an interface / abstract class (useful for dependency inversion).</p>
+<p>Continuing on with our example, if we want to register our <code>UserService</code> as a transient we could do so:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp">  <span style="color:#75715e">// This method gets called by the runtime. Use this method to add services to the container.
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> ConfigureServices(IServiceCollection services) {
+    services.AddTransient&lt;UserService&gt;();
+  }
+</code></pre></div><p>But, if we want to fully utilize dependency inversion we would need to reference the interface <code>UserService</code> implements, or else ASP.NET won&rsquo;t be able to resolve a <code>IUserService</code> dependency with our service.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp">  <span style="color:#75715e">// This method gets called by the runtime. Use this method to add services to the container.
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> ConfigureServices(IServiceCollection services) {
+    services.AddTransient&lt;IUserService, UserService&gt;();
+  }
+</code></pre></div><h1 id="resolving-dependencies">Resolving Dependencies</h1>
+<p>We need to make a minor tweak to the constructor of <code>UserController</code> so ASP.NET knows to pass it a dependecy when creating the controller.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#a6e22e">[Route(&#34;api/user&#34;)]</span>
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserController</span> : BaseController {
+  <span style="color:#66d9ef">private</span> IUserService userService;
+
+  <span style="color:#66d9ef">public</span> UserController(IUserService service) {
+    userService = service;
+  }
+  ...
+}
+</code></pre></div><p>Now ASP.NET will automatically inject our depedency of the <code>IUserService</code> when it instantiates an instance of the <code>UserController</code>.</p>
+<p>*<strong>*Note</strong>: Since the <code>UserController</code> constructor expects a parameter of type <code>IUserService</code> it is crucial we register the <code>UserService</code> with its interface. If we register <code>UserService</code> without its interface then ASP.NET will throw an exception due to being unable to find the dependency.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#75715e">//Good
+</span><span style="color:#75715e"></span>services.AddTransient&lt;IUserService, UserService&gt;();
+
+<span style="color:#75715e">//Bad
+</span><span style="color:#75715e"></span>services.AddTransient&lt;UserService&gt;();
+</code></pre></div><h1 id="nested-dependencies">Nested Dependencies</h1>
+<p>The IoC container provided by ASP.NET supports nested dependencies. If our example of the <code>UserController</code> and <code>UserService</code> from earlier was a standard N-Tier structured project, there&rsquo;s a good chance our <code>UserService</code> needs some kind of way to interact with the data persistance layer. In a project with no objet relational mapping (ORM) library this would typically be a <code>UserRepo</code> to allow for CRUD (Create, Read, Update, and Delete) actions of users in the database.</p>
+<p>To ensure we keep the layers of the project loosely-coupled we wouldn&rsquo;t want the <code>UserService</code> to have to create it&rsquo;s own <code>UserRepo</code> instance. Instead we would want to code against a <code>IUserRepo</code> interface and pass the instance of the repo into the service via it&rsquo;s constructor.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserService</span> {
+  <span style="color:#66d9ef">private</span> IUserRepo userRepo;
+
+  <span style="color:#66d9ef">public</span> UserService(IUserRepo uRepo) {
+    userRepo = uRepo;
+  }
+}
+
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> IUserRepo {
+  User FindById(<span style="color:#66d9ef">int</span> id);
+}
+
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserRepo</span> : IUserRepo {
+  <span style="color:#66d9ef">public</span> User FindById(<span style="color:#66d9ef">int</span> id){
+    <span style="color:#75715e">//magic
+</span><span style="color:#75715e"></span>  }
+}
+</code></pre></div><p>Then when we set up our IoC container we need to register the new dependency (the UserRepo)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp">  <span style="color:#75715e">// This method gets called by the runtime. Use this method to add services to the container.
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> ConfigureServices(IServiceCollection services) {
+    services.AddTransient&lt;IUserRepo, UserRepo&gt;();
+    services.AddTransient&lt;IUserService, UserService&gt;();
+  }
+</code></pre></div><p>And now the IoC container will correctly resolve our <code>UserService</code> dependency and give it an instance of the <code>UserRepo</code>.</p>
+<h1 id="3rd-party-ioc-containers">3rd Party IoC Containers</h1>
+<p>While the IoC container provided by ASP.NET should suffice for most uses, it does have some drawbacks. As noted by the <a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2#default-service-container-replacement">official documentation</a> it lacks the following features:</p>
+<ul>
+<li>Property injection</li>
+<li>Injection based on name</li>
+<li>Child containers</li>
+<li>Custom lifetime management</li>
+<li><code>Func&lt;T&gt;</code> support for lazy initialization</li>
+</ul>
+<p>If any of these missing features are deal breakers for you, the default IoC container can be swapped out with an external library such as <a href="https://www.nuget.org/packages/Autofac/">AutoFac</a> and following the instructions available <a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2#default-service-container-replacement">here</a>.</p>
+
+</article>
+
+    </main>
+
+    <footer>
+    <p>&copy; 2020 <a href="https://eddieabbondanz.io">Eddie Abbondanzio</a></p>
+</footer> </body>
+</html>
