@@ -1,16 +1,11 @@
 {{ if isset .Params "featuredimage" }}
-<section
-  class="hero is-fullheight"
+<section class="hero is-fullheight"
   style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ .Site.BaseURL }}{{.Params.featuredimage }}); "
-  role="banner"
->
+  role="banner">
   {{ else if .IsHome }}
-  <section
-    id="hero-header"
-    class="hero is-fullheight"
+  <section id="hero-header" class="hero is-fullheight"
     style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ .Site.BaseURL }}/img/banner.jpg); "
-    role="banner"
-  >
+    role="banner">
     {{ else }}
     <section id="hero-header" class="hero is-fullheight is-primary">
       {{ end}}
