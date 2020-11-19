@@ -15,7 +15,7 @@ My Cherokee is rusty, has a laundry list of issues, gets 17 MPG on the good days
 
 It's hard to explain but I enjoy finding the beauty in ordinary things. I'd rather have an older vehicle that I took the time to work out all the kinks and smooth out the rough edges than something I drove off the dealer's lot. It makes you appreciate just how much time and effort the engineers put into designing said vehicle.  
 
-I don't believe Cherokees will ever be worth a lot of money. But I do believe they've bottomed out in price and are slowly increasing in value. I think because of how many that were produced [(2.8+ million)](http://www.yuccaman.com/jeep/history.html) and the fact that almost anyone you ask has owned one, or knows someone that owned, there will be a nostalgia for them. 
+I don't believe Cherokees will ever be worth a lot of money. But I do believe they've bottomed out in price and are slowly increasing in value. I think because of how many were produced [(2.8+ million)](http://www.yuccaman.com/jeep/history.html) and the fact that almost anyone you ask has owned one, or knows someone that owned, there will be a nostalgia for them. 
 
 While I might be (or might not be!) jumping the gun and fixing up a Cherokee that others may deem as too far gone, I really believe this will become more and more of a common trend over the next decade as the limited pool of XJs slowly dries up. Suddenly those Cherokees that were once rust buckets will become good starting points for full out restorations. Someday...
 
@@ -30,7 +30,7 @@ From there I moved on to replacing every gasket on the engine, new oil pan, resp
 
 After that I pulled the dash and replaced the leaky ac evaporator, and the clogged up heater core. I even splurged and bought a new dash top since mine was cracked and brittle.
 
-With all that work done I figured the Jeep was ready to go for another winter. But, upon inspecting the rear I realized the rust I had been ignoring for several years had reached the point where I could no longer pretend it didn't exist.
+With all that work done I figured the Jeep was ready to go for another winter. But upon inspecting the rear I realized the rust I had been ignoring for several years had reached the point where I could no longer pretend it didn't exist.
 
 For those unfamiliar with XJs, they're a unibody vehicle but if you want to get technical Chrylser likes to call them a "uniframe". They sort of but not really have a frame made of 16ga (1/16") steel beneath them that ties into the unibody. 
 
