@@ -16,7 +16,7 @@
 
         <!-- Details-->
         <div class="is-flex-desktop flex-row  has-text-grey-lighter">
-            {{ if .Date }}
+            {{ if and .Date (not .IsHome) }}
             <div class="is-flex is-flex-row is-align-middle  has-margin-right-3" title="Date posted">
                 <i class="material-icons has-text-grey-light has-margin-right-1">today</i>
                 <time class="has-text-grey-lighter">{{ .Date.Format "Jan 2, 2006" }}</time>
