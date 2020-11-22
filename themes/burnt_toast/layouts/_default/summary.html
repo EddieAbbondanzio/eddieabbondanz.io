@@ -1,5 +1,5 @@
 <article class="summary has-padding-bottom-4">
-    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <h1 class="is-size-3-desktop is-size-5-touch"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 
     <div class="is-flex is-flex-row has-margin-bottom-3">
 
@@ -8,18 +8,9 @@
             <i class="material-icons has-text-grey has-margin-right-1">today</i>
             <time class="has-text-grey">{{ .Date.Format "Jan 2, 2006" }}</time>
         </div>
-
-        {{ if .Params.Category }}
-        <div class="is-flex is-flex-row is-align-middle" title="Category">
-            <i class="material-icons has-text-grey has-margin-right-1">folder</i>
-            {{ with .Params.category }}
-            <a class="has-text-grey" href="category/{{ . | urlize }}">{{ . }}</a>
-            {{ end }}
-        </div>
-        {{ end }}
     </div>
 
-    <p>
+    <p class="is-size-5">
         {{ .Summary }}
         {{ if .Truncated }}
         <a href="{{ .Permalink }}">Read more...</a>
