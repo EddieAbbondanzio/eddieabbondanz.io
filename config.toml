@@ -24,6 +24,7 @@ unsafe= true
     bio = "My name's Eddie Abbondanzio, and this is my blog. I mostly write about game dev / web dev, but I'll throw in the occasional car post."
     github = "http://github.com/EddieAbbondanzio"
     twitter = "https://twitter.com/EAbbondanzio"
+    description = "I build things"
 
 
 [menu]
