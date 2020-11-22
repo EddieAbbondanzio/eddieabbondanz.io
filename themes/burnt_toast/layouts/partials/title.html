@@ -7,10 +7,18 @@
                 {{ .Title }}
             </h1>
 
-            {{ if .Params.Description }}
-            <h3 class="has-text-grey-white-ter is-size-5-touch is-size-3-desktop">
-                {{ .Params.Description }}
+            {{ if .IsHome }}
+            {{ with or .Site.Params.description 1 }}
+            <h3 class="has-text-light is-size-5">
+                {{ . }}
             </h3>
+            {{ end }}
+            {{ else }}
+            {{ with .Params.Description }}
+            <h3 class="has-text-grey-white-ter is-size-5-touch is-size-3-desktop">
+                {{ . }}
+            </h3>
+            {{ end }}
             {{ end }}
         </div>
 
