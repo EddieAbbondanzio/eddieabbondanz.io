@@ -2,13 +2,19 @@
     <div class="post-header has-text-white has-margin-all-4-touch has-margin-bottom-4-desktop">
 
         <!-- Title and Description -->
-        <div class="has-margin-bottom-3">
+        <div class="has-margin-bottom-0">
+            {{ if .IsHome }}
             <h1 class="is-marginless is-size-3-touch is-size-1-desktop">
                 {{ .Title }}
             </h1>
+            {{ else }}
+            <h1 class="has-margin-bottom-0 is-size-2 is-size-4-touch">
+                {{ .Title }}
+            </h1>
+            {{ end }}
 
             {{ if .IsHome }}
-            {{ with or .Site.Params.description 1 }}
+            {{ with .Site.Params.description }}
             <h3 class="has-text-light is-size-5">
                 {{ . }}
             </h3>
@@ -28,15 +34,6 @@
             <div class="is-flex is-flex-row is-align-middle  has-margin-right-3" title="Date posted">
                 <i class="material-icons has-text-grey-light has-margin-right-1">today</i>
                 <time class="has-text-grey-lighter">{{ .Date.Format "Jan 2, 2006" }}</time>
-            </div>
-            {{ end }}
-
-            {{ if .Params.Category }}
-            <div class="is-flex is-flex-row is-align-middle" title="Category">
-                <i class="material-icons has-text-grey-light has-margin-right-1">folder</i>
-                {{ with .Params.category }}
-                <a class="has-text-grey-lighter" href="category/{{ . | urlize }}">{{ . }}</a>
-                {{ end }}
             </div>
             {{ end }}
         </div>
