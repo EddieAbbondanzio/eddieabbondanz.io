@@ -1,14 +1,17 @@
-{{ if isset .Params "featuredimage" }}
+<!-- Home page -->
+{{ if .IsHome }}
 <section class="hero is-fullheight"
-  style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ .Site.BaseURL }}{{.Params.featuredimage }}); "
+  style="background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.15) ), url({{ .Site.BaseURL }}/img/banner.jpg); "
   role="banner">
-  {{ else if .IsHome }}
-  <section id="hero-header" class="hero is-fullheight"
-    style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ .Site.BaseURL }}/img/banner.jpg); "
+  <!-- Blog post with image -->
+  {{ else if isset .Params "featuredimage" }}
+  <section class="hero is-halfheight"
+    style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ .Site.BaseURL }}{{.Params.featuredimage }}); "
     role="banner">
-    {{ else }}
-    <section id="hero-header" class="hero is-fullheight is-primary">
-      {{ end}}
+    <!-- Blog post with no image -->
+    {{ else}}
+    <section class="hero is-halfheight is-primary">
+      {{ end }}
 
       <div class="hero-head">
         {{ partial "navbar.html" . }}
