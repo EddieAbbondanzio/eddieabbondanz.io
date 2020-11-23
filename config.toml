@@ -11,6 +11,7 @@ googleAnalytics = "UA-128571017-1"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsStyle = "monokai"
+summaryLength = 30
 
 [markup.goldmark.renderer]
 unsafe= true

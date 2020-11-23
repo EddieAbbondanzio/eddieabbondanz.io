@@ -2,8 +2,7 @@
 title: "XJ - Ass Cancer Rehab Part 4: Hooking Up The Suspension"
 date: 2020-11-20
 type: post
-category: "Car Builds"
-series: "Cherokee Build"
+featuredImage: "/post/xj/ass-cancer-rehab-part-4/images/24.jpg"
 ---
 
 With the frame squared away I needed something that I could mount up the suspension to. The only thing holding in the rear axle at this point was the rear driveshaft and the front mounts of the leaf springs.

@@ -2,8 +2,7 @@
 title: "XJ - Ass Cancer Rehab Part 5: Designing A Custom Gas Tank Cradle"
 date: 2020-11-22
 type: post
-category: "Car Builds"
-series: "Cherokee Build"
+featuredImage: "/post/xj/ass-cancer-rehab-part-5/images/23.jpg"
 ---
 
 Directly below the floor of the XJ in the cargo area sits the gas tank. Tucked tight between the frame rails it rests a mere 1/2" from the floor. The mount for the gas tank is also what braces the floor in the cargo area.
