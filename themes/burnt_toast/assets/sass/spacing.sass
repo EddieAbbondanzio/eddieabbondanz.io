@@ -1,6 +1,6 @@
 $spacer: 1rem   //Default value from bootstrap
 $types: ('margin', 'padding')
-$sizes: (1: ($spacer * 0.25), 2: ($spacer * 0.5), 3: $spacer, 4: ($spacer * 1.5), 5: ($spacer * 3))
+$sizes: (0: 0, 1: ($spacer * 0.25), 2: ($spacer * 0.5), 3: $spacer, 4: ($spacer * 1.5), 5: ($spacer * 3))
 $positions: ("all" : (""), "top" : ("-top"), "left": ("-left"), "bottom": ("-bottom"), "right": ("-right"), "x": ("-left", "-right"), "y": ("-top", "-bottom"))
 
 =spacings($target:'')
@@ -12,7 +12,7 @@ $positions: ("all" : (""), "top" : ("-top"), "left": ("-left"), "bottom": ("-bot
                     @each $prop in $props
                         #{$type}#{$prop}: $value
 
-+spacings()
+                        +spacings()
 
 +mobile
     +spacings('mobile')

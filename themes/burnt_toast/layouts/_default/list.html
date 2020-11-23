@@ -1,10 +1,5 @@
 {{ define "main" }}
 
-<!-- Only show filter on post lists -->
-{{ if eq .Type "post" }}
-{{ partial "filter.html" . }}
-{{ end }}
-
 {{ with .Content }}
 <div>
     <div>{{ . }}</div>

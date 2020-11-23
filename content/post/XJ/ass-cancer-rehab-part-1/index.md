@@ -1,10 +1,13 @@
 ---
-title: "XJ - Ass Cancer Rehab Part 1: A New Rear Crossmember"
+title: "XJ - Ass Cancer Rehab Part 1: Fabricating A New Rear Crossmember"
 date: 2020-11-13
 type: post
 category: "Car Builds"
 series: "Cherokee Build"
+featuredImage: "/post/xj/ass-cancer-rehab-part-1/images/5.jpg"
 ---
+
+
 
 # Background
 
