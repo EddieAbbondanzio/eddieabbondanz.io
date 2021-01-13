@@ -100,5 +100,4 @@ My workstation. Most of the fabrication was done with me kneeling on the floor a
 
 Don't use plastic saw horses for metal work. They melt and catch fire. Also don't catch sparks with your shirt when grinding as they too will catch fire. I've lost 3 shirts now. The third time a shirt caught fire I had so much trouble trying to put the flames out I almost thought I was going to have to spray myself with the hose. 
 
-
-
+[Continue on to Part 4]({{< ref "ass-cancer-rehab-part-4" >}})
