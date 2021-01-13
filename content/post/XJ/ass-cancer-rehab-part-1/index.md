@@ -17,15 +17,12 @@ Somedays if I'm in an especially sour mood from working on it, I'll joke and say
 
 My Cherokee is rusty, has a laundry list of issues, gets 17 MPG on the good days, and is literally a brick on wheels. But I love it.
 
-It's hard to explain but I enjoy finding the beauty in ordinary things. I'd rather have an older vehicle that I took the time to work out all the kinks and smooth out the rough edges than something I drove off the dealer's lot. It makes you appreciate just how much time and effort the engineers put into designing said vehicle.  
+XJs aren't fancy by any means and that's what I like the most about them. I love driving mine in the snow. Breaching snow banks and drifting around in the snow are my two favorite past times.
 
-I don't believe Cherokees will ever be worth a lot of money. But I do believe they've bottomed out in price and are slowly increasing in value. I think because of how many were produced [(2.8+ million)](http://www.yuccaman.com/jeep/history.html) and the fact that almost anyone you ask has owned one, or knows someone that owned, there will be a nostalgia for them. 
-
-While I might be (or might not be!) jumping the gun and fixing up a Cherokee that others may deem as too far gone, I really believe this will become more and more of a common trend over the next decade as the limited pool of XJs slowly dries up. Suddenly those Cherokees that were once rust buckets will become good starting points for full out restorations. Someday...
-
+I don't think Cherokees will ever be worth a lot of money, nor will I ever get the money back I've put into mine but I realized the only vehicle I'd replace my XJ with is another XJ. Because of that I figured I may as well fix up mine since I already know about all the issues it has. 
 ![](images/1.jpg)
 
-Since May I've been spending the majority of my free time trying to fix it up. I did a full tear down restoration on the front axle which involved removing it from the vehicle, sandblasting it, painting it, and then replacing everything on it with brand new components.
+Since May I've been spending the majority of my free time picking away at its issues. And even though the Jeep seems to fight back against every repair I make, I'm slowly gaining headway. I did a full tear down restoration on the front axle which involved removing it from the vehicle, sandblasting it, painting it, and then replacing everything on it with brand new components.
 
 ![](images/2.jpg)
 ![](images/3.jpg)
@@ -48,21 +45,25 @@ With the Jeep being due for it's yearly state inspection in January, and my only
 
 By far the least enjoyable part of any rust repair job, is assessing the damage. As you dig further and further into your beloved vehicle, you hope with each part that's removed it'll be the last one. But it never is. 
 
+You have to remove all the rust because it's like cancer. Even just a little bit of rust left behind will give it the chance to restart.
+
 My Jeep came from the factory with the tow package which included a tow hitch reciever, and a gas tank skid plate. The reciever was rusted out by the time I took ownership of the Jeep, but I did occasionally use it to haul a small utility trailer around town. 
 
 ![](images/4.jpg)
 
-Those rust flakes on the floor were from me hammering away on the hitch trying to remove it. I failed. The rust holes were not nearly as large prior to me going ham on it.
+Those rust flakes on the floor were from me hammering away on the hitch trying to remove it. I failed. It probably wasn't worth the effort to try to save the hitch since it's so rusted but I figured it may be good to have a spare. Oh well.
+
+I did save the electrical connector and OEM wiring harness that goes with it. I've got a cool idea planned out for them.
 ![](images/5.jpg)
 
-With the hitch out of the way I needed to remove the rear bumper. I ended up ripping off the plastic side pieces of the bumper since all of the screws were rusted out and would strip out if you stared at them too hard.
+With the hitch out of the way I needed to remove the rear bumper. I ended up ripping off the plastic side pieces of the bumper since all of the screws were so rusted out that the heads would strip if you stared at them too hard.
 
 I'll be doing the classic cut-n-fold (minus the folding part) and installing an aftermarket diy rear bumper.
 ![](images/6.jpg)
 
 I knew there was a hole in the passenger quarter panel, but from what I could see from inside the wheel well it looked to be about the size of a half dollar. I had no idea how bad it was.
 
-The driver side quarter panel looked better from the outside, but when peeked at from the inside it looked as if it was about ready to crumble apart. Which it totally did when I took the 2.5lb sledge hammer to it.
+The driver side quarter panel looked better from the outside, but when peeked at from the interior it looked as if it was about ready to crumble apart. Which it totally did when I took the 2.5lb sledge hammer to it.
 ![](images/7.jpg)
 
 With things looking bleak and no hopes of getting away with a quick repair, I put the Jeep on some trusty Harbor Freight jack stands and removed the rear wheels. I needed to see how the frame looked.
@@ -92,9 +93,9 @@ The passenger side floor wasn't terrible with only one rusted through spot direc
 ![](images/14.jpg)
 
 The driver side didn't look terrible either. 
+![](images/15.jpg)
 
 But wait, what's that rust in the corner of the wheel well?
-![](images/15.jpg)
 ![](images/16.jpg)
 
 That's not good. Guess the floor is coming out too now.
@@ -117,9 +118,9 @@ Things weren't looking good at this point. I realized I'd need to replace both f
 
 The rust was actually so bad I had a hard time figuring out where to start the repairs. After about an hour or two of internal debates I decided to start with replacing the rear crossmember below the hatch.
 
-# Fabricating An Assmember
+# Fabricating A Rear Crossmember
 
-The rear crossmember (or assmember as I like to call it) was still structurally intact but the rust was beginning to get severe. I had thoughts about sand blasting it and painting it, but with the metal only being 16ga (1/16") I didn't think there was enough good metal left to go that route.
+The rear crossmember was still structurally intact but the rust was beginning to get severe. I had thoughts about sand blasting it and painting it, but with the metal only being 16ga (1/16") I didn't think there was enough good metal left to go that route.
 
 My second idea was to buy an OEM replacement but it turns out Chrysler discontinued it...
 
@@ -156,7 +157,7 @@ And 6 spot welds later, she was reinstalled.
 
 I was beginning to feel like there was a chance I'd be able to fix this heap.
 
-
+[Continue on to part 2]({{< ref "ass-cancer-rehab-part-2" >}})
 
 
 
