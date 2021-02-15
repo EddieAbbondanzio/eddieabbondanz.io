@@ -1,18 +1,24 @@
 +++
-title = "About Me"
-date = "2018-04-01T15:22:42-04:00"
-description = "About me, and this site."
+title = "Ed Abbondanzio"
+description = "The man, the myth, the legend"
+featuredImage = "/about/images/hero-image.jpg"
 +++
 
-![](images/me.jpg)
+My name's Ed Abbondanzio, and as you've probably already figured out this is my personal blog. I'm a full stack developer (.NET + Vue) who builds and deploys web apps. I graduated from the University of Maine in Orono in 2018 with a bachelors of science in computer science. I'm currently self-employed running my own auto detailing shop <a href="https://edsautodetailing.com" target="_blank">(Ed's Auto Detailing)</a> and have worked professionally as a developer in the past.
 
-Welcome to my website! My name's Eddie Abbondanzio, and this is my personal blog. I'm a full stack web developer who enjoys working on websites and web apps. I graduated from the University of Maine in Orono in 2018 with a BS in computer science. I'm currently self-employed and running my own auto detailing business <a href="https://edsautodetailing.com" target="_blank">(Ed's Auto Detailing)</a>. I am looking for part-time development work, and if you'd like my resume send me an email: me@eddieabbondanz.io
+Other hobbies of mine include working on my vehicles, and slowly learning how to play a synthesizer. I love to tinker on things and figure out how they work. This also happens to be the reason why as a kid half of my toys didn't work due to me disassembling said toys and not being able to correctly re-assemble them (I hadn't learned that part yet). My coup de grâce was removing the training wheels from my bicycle as a youngin and proceeding to fall off the bike. My parents refused to put them back on and I was forced to learn how to ride a bike without training wheels.
 
-Besides developing, cars are my other hobby. I have an older 2000 Jeep Cherokee that I daily drive year round, and a 1993 Honda Civic project car. The civic has been torn down to a shell and painted, engine swapped, and converted to a manual transmission. Occasionally I auto-cross it and hope to make it more of a regular occurance soon.
+My most recent car project was cutting out the rotted rear floor / unibody frame from my Jeep Cherokee and replacing it with all new pieces that I fabricated myself.
+![](images/cut-up-jeep.jpg)
 
+I can happily report my Jeep is currently back on the road, and running great.
+![](images/done-jeep.jpg)
+
+And before that I was restoring an old Honda Civic with a new paint job, rust repair, motor swap, and converting it from an automatic to manual transmission.
 ![](images/civic.jpg)
-![](images/jeep.jpg)
 
-# Site Tech Stack
+I'm currently looking to get back into the development field and am up for hire.
 
-This site is built using <a href="https://gohugo.io/" target="_blank">Hugo</a>. I opted to use Hugo because I wanted a static site as a SPA (Single Page Application) would be overkill for my needs. <a href="https://bulma.io" target="_blank">Bulma</a> is used for styling.
+If you'd like to chat feel free to shoot me an email: me@eddieabbondanz.io
+
+[Cover photo by Safar Safarov](https://unsplash.com/photos/LKsHwgzyk7c)

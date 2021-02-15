@@ -1,0 +1,32 @@
+<div class="columns has-padding-bottom-4">
+    <div class="column is-one-third is-flex is-align-center is-justify-center">
+        {{ if isset .Params "featuredimage" }}
+        <img style="max-height:240px" src="{{ .Site.BaseURL }}{{.Params.featuredimage }}" />
+        {{ end }}
+
+    </div>
+
+
+
+    <div class="column">
+        <h1 class="is-size-4-desktop is-size-5-touch has-margin-bottom-0"><a class="has-text-dark"
+                href="{{ .Permalink }}">{{ .Title }}</a>
+        </h1>
+
+        <div class="is-flex is-flex-row has-margin-bottom-3">
+
+            <div class="is-flex is-flex-row is-align-middle has-margin-right-3"
+                title="Posted on {{ .Date.Format "Jan 2, 2006" }}">
+                <i class="material-icons has-text-grey has-margin-right-1">today</i>
+                <time class="has-text-grey">{{ .Date.Format "Jan 2, 2006" }}</time>
+            </div>
+        </div>
+
+        <p class="is-size-5">
+            {{ .Summary }}
+            {{ if .Truncated }}
+            <a href="{{ .Permalink }}">Read more...</a>
+            {{ end }}
+        </p>
+    </div>
+</div>
