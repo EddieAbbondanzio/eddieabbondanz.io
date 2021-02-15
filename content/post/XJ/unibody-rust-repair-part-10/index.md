@@ -2,6 +2,7 @@
 title: "XJ - Unibody Rust Repair Part 10: The Finishing Touches"
 date: 2021-01-02
 type: post
+thumbnail: "/post/xj/unibody-rust-repair-part-10/images/thumbnail.jpg"
 featuredImage: "/post/xj/unibody-rust-repair-part-10/images/37.jpg"
 ---
 

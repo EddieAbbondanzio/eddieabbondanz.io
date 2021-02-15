@@ -2,6 +2,7 @@
 title: "XJ - Unibody Rust Repair Part 5: Designing A Custom Gas Tank Cradle"
 date: 2020-11-22
 type: post
+thumbnail: "/post/xj/unibody-rust-repair-part-5/images/thumbnail.jpg"
 featuredImage: "/post/xj/unibody-rust-repair-part-5/images/23.jpg"
 ---
 

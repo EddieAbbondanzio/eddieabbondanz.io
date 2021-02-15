@@ -4,6 +4,7 @@ date: 2020-11-13
 type: post
 category: "Car Builds"
 series: "Cherokee Build"
+thumbnail: "/post/xj/unibody-rust-repair-part-1/images/thumbnail.jpg"
 featuredImage: "/post/xj/unibody-rust-repair-part-1/images/5.jpg"
 ---
 

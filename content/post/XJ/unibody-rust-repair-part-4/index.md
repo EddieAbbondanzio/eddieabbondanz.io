@@ -2,6 +2,7 @@
 title: "XJ - Unibody Rust Repair Part 4: Hooking Up The Suspension"
 date: 2020-11-20
 type: post
+thumbnail: "/post/xj/unibody-rust-repair-part-4/images/thumbnail.jpg"
 featuredImage: "/post/xj/unibody-rust-repair-part-4/images/24.jpg"
 ---
 

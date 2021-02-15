@@ -2,6 +2,7 @@
 title: "XJ - Unibody Rust Repair Part 6: Turning A Patch Panel Into A New Cargo Floor Pan"
 date: 2020-12-06
 type: post
+thumbnail: "/post/xj/unibody-rust-repair-part-6/images/thumbnail.jpg"
 featuredImage: "/post/xj/unibody-rust-repair-part-6/images/29.jpg"
 ---
 
