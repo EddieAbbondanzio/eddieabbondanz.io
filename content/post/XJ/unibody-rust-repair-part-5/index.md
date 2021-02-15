@@ -1,16 +1,16 @@
 ---
-title: "XJ - Ass Cancer Rehab Part 5: Designing A Custom Gas Tank Cradle"
+title: "XJ - Unibody Rust Repair Part 5: Designing A Custom Gas Tank Cradle"
 date: 2020-11-22
 type: post
-featuredImage: "/post/xj/ass-cancer-rehab-part-5/images/23.jpg"
+featuredImage: "/post/xj/unibody-rust-repair-part-5/images/23.jpg"
 ---
 
 Directly below the floor of the XJ in the cargo area sits the gas tank. Tucked tight between the frame rails it rests a mere 1/2" from the floor. The mount for the gas tank is also what braces the floor in the cargo area.
 ![](images/1.jpg)
 
-Well that's how the OEM set up is at least. In my case I had a large gaping hole with nothing there. 
+Well that's how the OEM set up is at least. In my case I had a large gaping hole with nothing there.
 
-Shortly after completing the rear crossmember and realizing how hard fabrication really is I began to dread having to build a new gas tank cradle. But thanks to the frame rails going smoothly I had a new found confidence that let me more forward and ignore those fears. 
+Shortly after completing the rear crossmember and realizing how hard fabrication really is I began to dread having to build a new gas tank cradle. But thanks to the frame rails going smoothly I had a new found confidence that let me more forward and ignore those fears.
 
 I didn't take many pictures during the initial design phase as I really wasn't sure what I was building until I got about halfway through. Several searches on the internet dug up no results so there's a slim chance this might be the first custom gas tank mount for the OEM tank in an XJ.
 ![](images/2.jpg)
@@ -77,6 +77,6 @@ It looks really cool against the new floor.
 When I say floor I mean patch panel.
 ![](images/25.jpg)
 
-It's a patch panel for the pre-face lift (96 and older) Cherokees at that. I couldn't get my hands on anything better so I'll be building it out into a full fledged floor. 
+It's a patch panel for the pre-face lift (96 and older) Cherokees at that. I couldn't get my hands on anything better so I'll be building it out into a full fledged floor.
 
-[Continue on to Part 6]({{< ref "ass-cancer-rehab-part-6" >}})
+[Continue on to Part 6]({{< ref "unibody-rust-repair-part-6" >}})

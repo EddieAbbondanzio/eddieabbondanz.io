@@ -1,17 +1,17 @@
 ---
-title: "XJ - Ass Cancer Rehab Part 8: Welding on Frame Stiffeners"
+title: "XJ - Unibody Rust Repair Part 8: Welding on Frame Stiffeners"
 date: 2020-12-19
 type: post
-featuredImage: "/post/xj/ass-cancer-rehab-part-8/images/26.jpg"
+featuredImage: "/post/xj/unibody-rust-repair-part-8/images/26.jpg"
 ---
 
-One of my biggest concerns about my custom fabricated frame rails was the vertical welds joining the frame sections. Vertical welds like those are a big no no when it comes to frames because they're especially prone to failing. The common fix for this is to weld on fishplates that help brace the welds but since I'd have to weld on 6 fish plates on each frame rail I figured it'd be simpler to just go with frame stiffeners. 
+One of my biggest concerns about my custom fabricated frame rails was the vertical welds joining the frame sections. Vertical welds like those are a big no no when it comes to frames because they're especially prone to failing. The common fix for this is to weld on fishplates that help brace the welds but since I'd have to weld on 6 fish plates on each frame rail I figured it'd be simpler to just go with frame stiffeners.
 
 ![](images/1.jpg)
 
-I ended up buying a set of rear frame stiffeners from DirtBound. They're made of 10 gauge  steel which is the max limit of what my little welder can do, and they were also one of the cheapest out there. Plus I have their battery tray in my XJ and I really like their products.
+I ended up buying a set of rear frame stiffeners from DirtBound. They're made of 10 gauge steel which is the max limit of what my little welder can do, and they were also one of the cheapest out there. Plus I have their battery tray in my XJ and I really like their products.
 
-For awhile I was on the fence about welding on frame stiffeners because I feared they'd give rust the perfect breeding ground to live in the space between the frame and the stiffeners. I've heard about weld thru primer being used in situations like these, but personally I've found it doesn't offer much protection against the road salt we use up here in the Northeast. 
+For awhile I was on the fence about welding on frame stiffeners because I feared they'd give rust the perfect breeding ground to live in the space between the frame and the stiffeners. I've heard about weld thru primer being used in situations like these, but personally I've found it doesn't offer much protection against the road salt we use up here in the Northeast.
 
 Because of that I decided to apply some SPI epoxy primer (my favorite paint) on the backsides of the frame rails.
 
@@ -39,7 +39,7 @@ I did some stich welding on the backside.
 The angle grinder was used with a flap disc to clean up the visible welds.
 ![](images/10.jpg)
 
-For some reason I thought welding on the straight portion of the frame rail would be the harder of the two. But it turns out the curved one actually took more time. Part of it is due to the seat belt bracket that you need to weld around, and the need to close up the gap between the two sections of the frame stiffener. 
+For some reason I thought welding on the straight portion of the frame rail would be the harder of the two. But it turns out the curved one actually took more time. Part of it is due to the seat belt bracket that you need to weld around, and the need to close up the gap between the two sections of the frame stiffener.
 
 When prepping for welding it felt odd grinding off the paint on the frame stiffener that I had carefully sprayed on it just a week prior.
 ![](images/12.jpg)
@@ -81,7 +81,3 @@ Not too shabby. Like I mentioned earlier, I was on the fence about installing fr
 
 After sanding the loose stuff off, I touched up the paint with a brush as I'm not worried about how the finish on the inside of the rails look. As long as they're black, and not rusted I'm happy.
 ![](images/28.jpg)
-
-
-
-

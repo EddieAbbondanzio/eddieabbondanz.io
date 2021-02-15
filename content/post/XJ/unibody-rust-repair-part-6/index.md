@@ -1,8 +1,8 @@
 ---
-title: "XJ - Ass Cancer Rehab Part 6: Turning A Patch Panel Into A New Cargo Floor Pan"
+title: "XJ - Unibody Rust Repair Part 6: Turning A Patch Panel Into A New Cargo Floor Pan"
 date: 2020-12-06
 type: post
-featuredImage: "/post/xj/ass-cancer-rehab-part-6/images/29.jpg"
+featuredImage: "/post/xj/unibody-rust-repair-part-6/images/29.jpg"
 ---
 
 # Building Out The Cargo Floor
@@ -47,7 +47,7 @@ The lip strengthens the floor and I need it there so I can finish up my quarter 
 On the driver side things were a little more complex as the gas tank filler neck passes through the floor.
 ![](images/9.jpg)
 
-Using the metal brake I extended out the floor panel and made another lip. 
+Using the metal brake I extended out the floor panel and made another lip.
 ![](images/10.jpg)
 ![](images/11.jpg)
 ![](images/12.jpg)
@@ -98,11 +98,12 @@ Atop my rear crossmember I had to add two little braces to support the floor. Th
 ![](images/30.jpg)
 
 # A Slight Detour For An Alignment
-I was a little uneasy about welding in the floor because I still wasn't 100% sure my work on the frame and suspension was squared up. I took as many measurements as I could, but I was a little in over my head on this repair. 
+
+I was a little uneasy about welding in the floor because I still wasn't 100% sure my work on the frame and suspension was squared up. I took as many measurements as I could, but I was a little in over my head on this repair.
 
 Before going any further I gave the local mechanic shop a ring to get an appointment for an alignment the next day. To prepare I simply had to weld in the tail pipe, mount up and re connect the gas tank, reinstall the tail lights + wiring, and flush the coolant. No big deal for one night right?
 
-Installing the gas tank wasn't too crazy. Just hook up the straps and connect two fuel lines. 
+Installing the gas tank wasn't too crazy. Just hook up the straps and connect two fuel lines.
 
 ![](images/31.jpg)
 ![](images/32.jpg)
@@ -173,14 +174,14 @@ As a quick fix to get the tank installed for the alignment trip the other day I 
 But not wanting to leave this as the final design I wanted to cut bigger openings.
 ![](images/51.jpg)
 
-It was actually pretty challenging to cut these without hitting the rear crossmember. 
+It was actually pretty challenging to cut these without hitting the rear crossmember.
 ![](images/52.jpg)
 ![](images/53.jpg)
 
 But with that issue addressed I could finally weld in the floor.
 ![](images/54.jpg)
 
-Welding in the floor was far more stressful than I thought it would be. Every weld has to be just about perfect and you can't leave any gaps between the floor and the parts it mates against. I ended up having to use some clamps to hold things close together when spot welding. 
+Welding in the floor was far more stressful than I thought it would be. Every weld has to be just about perfect and you can't leave any gaps between the floor and the parts it mates against. I ended up having to use some clamps to hold things close together when spot welding.
 
 I was kneeling on the floor as I was welding it in and foolishly created a ton of small dents in the floor from my knees. Don't kneel on the floor until it's mostly welded in.
 
@@ -238,8 +239,4 @@ Not bad!
 ![](images/74.jpg)
 ![](images/75.jpg)
 
-[Continue on to Part 7]({{< ref "ass-cancer-rehab-part-7" >}})
-
-
-
-
+[Continue on to Part 7]({{< ref "unibody-rust-repair-part-7" >}})

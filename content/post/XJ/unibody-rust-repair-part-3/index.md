@@ -1,13 +1,13 @@
 ---
-title: "XJ - Ass Cancer Rehab Part 3: Déjà Vu Replacing the Driver Frame Rail"
+title: "XJ - Unibody Rust Repair Part 3: Déjà Vu Replacing the Driver Frame Rail"
 date: 2020-11-19
 type: post
-featuredImage: "/post/xj/ass-cancer-rehab-part-3/images/1.jpg"
+featuredImage: "/post/xj/unibody-rust-repair-part-3/images/1.jpg"
 ---
 
 The driver side frame rail was in far worse shape than the passenger side on my XJ. I opted to replace the passenger side first since there's a little less going on on that side. On the driver side the fuel neck hoses pass through the frame, and all of the fuel lines, brake lines, and vacuum lines run parallel down the frame rail.
 
-I figured once I had a little experience under my belt, the driver side would be a lot easier to manage. 
+I figured once I had a little experience under my belt, the driver side would be a lot easier to manage.
 
 To prepare, I began by drilling out all of the spot welds holding the driver side frame rail in place, and then chopped out a good portion of the rear floor. This was surprisingly easy to do now that I knew where every spot weld was.
 ![](images/1.jpg)
@@ -27,12 +27,12 @@ Fully removed. The majority of my cuts are made with a 4 1/2" angle grinder. Occ
 I removed the driver side frame rail in one complete piece that I way I could compare my new frame rail to it.
 ![](images/6.jpg)
 
-The rusted out bracket below the remnants of the shock crossmember appears to be what was once a sway bar mount. Which is a little odd because my XJ came with the Up Country package which deletes the rear sway bar. 
+The rusted out bracket below the remnants of the shock crossmember appears to be what was once a sway bar mount. Which is a little odd because my XJ came with the Up Country package which deletes the rear sway bar.
 
-Test fitting of the new frame rail. I had the driver side frame rail pieces already laying around because I fabricated them back when I was doing the passenger side. 
+Test fitting of the new frame rail. I had the driver side frame rail pieces already laying around because I fabricated them back when I was doing the passenger side.
 ![](images/7.jpg)
 
-The new driver frame rail in all of it's glory. 
+The new driver frame rail in all of it's glory.
 ![](images/10.jpg)
 
 Then I added a hole for the gas neck to pass through. I made the hole from a 2x6 that I resized to 2 3/4"x5". It's 1/8 thick and pretty damn solid. Size wise it matches up with the OEM one on the original frame rail. It only looks larger because the corners are less rounded.
@@ -66,7 +66,7 @@ With the rust issues resolved on the wheel well I painted it up.
 ![](images/20.jpg)
 The half circle is the brace I made for the seat pivot bracket earlier on. To ensure no rust would form between the brace and the wheel well I poured paint down between them after spot welding it in place.
 
-At the same time as painting the wheel well I went ahead and sprayed up my frame tie in brackets and no lift shackle brackets. 
+At the same time as painting the wheel well I went ahead and sprayed up my frame tie in brackets and no lift shackle brackets.
 
 ![](images/21.jpg)
 
@@ -96,8 +96,8 @@ When I first welded the handles on the edges I angled them to prevent you from h
 
 ![](images/9.jpg)
 
-My workstation. Most of the fabrication was done with me kneeling on the floor and working on the ground. 
+My workstation. Most of the fabrication was done with me kneeling on the floor and working on the ground.
 
-Don't use plastic saw horses for metal work. They melt and catch fire. Also don't catch sparks with your shirt when grinding as they too will catch fire. I've lost 3 shirts now. The third time a shirt caught fire I had so much trouble trying to put the flames out I almost thought I was going to have to spray myself with the hose. 
+Don't use plastic saw horses for metal work. They melt and catch fire. Also don't catch sparks with your shirt when grinding as they too will catch fire. I've lost 3 shirts now. The third time a shirt caught fire I had so much trouble trying to put the flames out I almost thought I was going to have to spray myself with the hose.
 
-[Continue on to Part 4]({{< ref "ass-cancer-rehab-part-4" >}})
+[Continue on to Part 4]({{< ref "unibody-rust-repair-part-4" >}})

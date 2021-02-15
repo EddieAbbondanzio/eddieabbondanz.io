@@ -1,8 +1,8 @@
 ---
-title: "XJ - Ass Cancer Rehab Part 10: The Finishing Touches"
+title: "XJ - Unibody Rust Repair Part 10: The Finishing Touches"
 date: 2021-01-02
 type: post
-featuredImage: "/post/xj/ass-cancer-rehab-part-10/images/37.jpg"
+featuredImage: "/post/xj/unibody-rust-repair-part-10/images/37.jpg"
 ---
 
 The epoxy primer I used on the underside of my repairs is some pretty good stuff, but I wanted just a hair more protection down there. And after all can you really say you did a rust repair job on your Jeep if bedliner wasn't involved? Because of that I picked up some UPOL Raptor liner to spray. I bought the 4qt spray kit because I wanted some leftover bedliner to spray my new rear bumper later on but I'm getting ahead of myself.
@@ -15,11 +15,11 @@ Before I could spray it I needed to scuff up all my fresh paint. I used 180 grit
 
 Scuffing everything up wasn't very fun. You're laying on your back underneath the Jeep against the cold concrete slowing sanding each and every section. Your arms get tired and the dust continuously falls in your eyes even though you have safety glasses on. But you gotta get every inch to ensure the paint won't fail prematurely.
 
-Once all the scuffing was done I took the oppurtunity to seam seal all the cracks. 
+Once all the scuffing was done I took the oppurtunity to seam seal all the cracks.
 ![](images/4.jpg)
 ![](images/5.jpg)
 
-I ended up using 3 tubes of 3m urethane seam sealer. 
+I ended up using 3 tubes of 3m urethane seam sealer.
 ![](images/6.jpg)
 ![](images/7.jpg)
 ![](images/8.jpg)
@@ -30,9 +30,9 @@ And I got everywhere possible.
 ![](images/11.jpg)
 ![](images/12.jpg)
 
-At this point I was ready to spray bed line. The UPOL kit is pretty easy to use as they provide a measuring cup so you can pour out the proper amount of hardener and then dump it into each quart tube of the bedliner. Then you shake it for 2 minutes and it's ready to spray. 
+At this point I was ready to spray bed line. The UPOL kit is pretty easy to use as they provide a measuring cup so you can pour out the proper amount of hardener and then dump it into each quart tube of the bedliner. Then you shake it for 2 minutes and it's ready to spray.
 
-I didn't take many pictures because spraying bed liner is some pretty horrible stuff and it smells nasty. Make sure you wear a respirator. 
+I didn't take many pictures because spraying bed liner is some pretty horrible stuff and it smells nasty. Make sure you wear a respirator.
 
 Take your time and spray carefully. It's important to get a good even coat.
 ![](images/13.jpg)
@@ -59,7 +59,7 @@ After drilling each hole I re applied paint to ensure no bare metal was exposed.
 
 As the repair winded down I began to try spending less and less as I had blown through my budget by a long shot. But as the Cherokee would have it, it demanded more. The fuel filler neck was farely rusted, but I was going to keep using it for now. At least I was planning on that until I realized the rust had managed to eat all the way through it.
 
-At first glance it doesn't look too bad. 
+At first glance it doesn't look too bad.
 ![](images/26.jpg)
 
 But if you looked down the opening you could see it was done for.
@@ -82,7 +82,7 @@ I aplogize but I forgot to take a picture of the fuel tank mounted back up. But 
 With fuel squared away I mounted the exhaust hanger back up.
 ![](images/36.jpg)
 
-Then carefully re assembled the interior. 
+Then carefully re assembled the interior.
 ![](images/37.jpg)
 
 It nice to see that the rear seat went back into position perfectly after messing with the mounts.
@@ -90,7 +90,7 @@ It nice to see that the rear seat went back into position perfectly after messin
 ![](images/39.jpg)
 ![](images/40.jpg)
 
-And finally for the first time in two months, and one week the Jeep was done. 
+And finally for the first time in two months, and one week the Jeep was done.
 ![](images/41.jpg)
 
 Well until I turned on the Jeep and found it had three dash lights on. And no the hatch was no open.
@@ -99,6 +99,3 @@ Well until I turned on the Jeep and found it had three dash lights on. And no th
 Turns out the hatch light was on because the striker wasn't position properly.
 The ABS light was on because I left the passenger front sensor unplugged when I replaced the heater core.
 And the check engine light was on due to an evap emission leak.
-
-
-

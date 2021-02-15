@@ -1,8 +1,8 @@
 ---
-title: "XJ - Ass Cancer Rehab Part 9: Closing Up The Floor"
+title: "XJ - Unibody Rust Repair Part 9: Closing Up The Floor"
 date: 2020-12-27
 type: post
-featuredImage: "/post/xj/ass-cancer-rehab-part-9/images/34.jpg"
+featuredImage: "/post/xj/unibody-rust-repair-part-9/images/34.jpg"
 ---
 
 The least exciting portion of this project by far was closing up the two holes left in the floor directly below where the rear seat goes. I initally cut these holes in the floor way back at the beginning of the project because I needed to remove the original frame rails.
@@ -88,6 +88,3 @@ And two coats of paint later it was looking better.
 
 Well until it dried. The floor ended up with a lot of overspray unfortunately. This was my first time spraying in an enclosed area and I didn't realize the lack of airflow would cause a massive overspray issue. Live and learn I suppose. Least it'll be hidden underneath all the carpet and what not.
 ![](images/34.jpg)
-
-
-

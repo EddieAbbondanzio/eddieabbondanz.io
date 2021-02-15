@@ -1,16 +1,16 @@
 ---
-title: "XJ - Ass Cancer Rehab Part 4: Hooking Up The Suspension"
+title: "XJ - Unibody Rust Repair Part 4: Hooking Up The Suspension"
 date: 2020-11-20
 type: post
-featuredImage: "/post/xj/ass-cancer-rehab-part-4/images/24.jpg"
+featuredImage: "/post/xj/unibody-rust-repair-part-4/images/24.jpg"
 ---
 
 With the frame squared away I needed something that I could mount up the suspension to. The only thing holding in the rear axle at this point was the rear driveshaft and the front mounts of the leaf springs.
 ![](images/1.jpg)
 
-The OEM shock crossmember is nothing more than 2 pieces of 16ga steel stamped together and mine was far too rusted to save. 
+The OEM shock crossmember is nothing more than 2 pieces of 16ga steel stamped together and mine was far too rusted to save.
 
-I didn't want to see if I could hunt down an OEM replacement because it seems like just about every part is discontinued nowadays, thanks Mopar. So I decided to whip up a basic replacement. 
+I didn't want to see if I could hunt down an OEM replacement because it seems like just about every part is discontinued nowadays, thanks Mopar. So I decided to whip up a basic replacement.
 
 I found these handy shock mounts.
 ![](images/2.jpg)
@@ -35,7 +35,7 @@ With the shock crossmember looking promising I sprayed it with some more epoxy p
 
 The next day I poured the leftover paint into the tubing and tilted it all about to try to cover every last inch of bare metal. I don't want this Jeep to rust out (again) so I'm putting a lot of effort into protecting it.
 
-With the shock crossmember ready to go I started to prepare the mounting brackets for the shackles. I couldn't figure out why but my rear crossmember was interfering with the shackle brackets causing them to be crooked so I had to modify them. 
+With the shock crossmember ready to go I started to prepare the mounting brackets for the shackles. I couldn't figure out why but my rear crossmember was interfering with the shackle brackets causing them to be crooked so I had to modify them.
 ![](images/9.jpg)
 
 This is something I should have checked before painting them.
@@ -54,11 +54,11 @@ But the passenger side was 1/2" off.
 
 And I basically freaked out. Was my frame that I made incorrectly positioned? Relocating it wasn't really an option at this point because of how much I welded the frame to the rear crossmember. I had to walk away and do some research before I made any cuts.
 
-I eventually found out that the leaf springs are suppose to be 43 1/2" from center to center of each other. A quick measurement of mine showed them to be 44" apart. Odd. But this was the exact distance my passenger shackle was off by. 
+I eventually found out that the leaf springs are suppose to be 43 1/2" from center to center of each other. A quick measurement of mine showed them to be 44" apart. Odd. But this was the exact distance my passenger shackle was off by.
 
 I decided not to dig into it any further because I was just relieved to find that my custom fabrication work was still okay. And anyways I plan on lifting the Jeep come spring or so next year. I figured it'd be an issue for future me. My hunch is one of the centering pins of the leafs broke.
 
-And when it comes to mounting up shackle brackets, you should always make sure the nut that fits between the frame and the bracket before going ahead with drilling all the bolt holes. I totally did that. Right. 
+And when it comes to mounting up shackle brackets, you should always make sure the nut that fits between the frame and the bracket before going ahead with drilling all the bolt holes. I totally did that. Right.
 
 I didn't. I didn't discover the bad news until I was ready to bolt up the shackles so the leafs would be all done only to discover I couldn't fit the nut on the end of the shackle bolt since the gap between the bracket and the frame was 1/8" too narrow.
 
@@ -86,12 +86,12 @@ I regret buying Energy suspension bushings because these are just beater shocks.
 And with that I was able to hook up the suspension and get her back on all 4 wheels for the first time in over a month.
 ![](images/26.jpg)
 
-Don't mind the worn out leaf springs that are starting to bend. 
+Don't mind the worn out leaf springs that are starting to bend.
 ![](images/27.jpg)
 
-The Jeep actually sits about 1 1/2" higher now. I know the replacement shackles (Moog K150405) are 1" longer so that's some of it, and I suspect the rest is due to less weight in the rear still. 
+The Jeep actually sits about 1 1/2" higher now. I know the replacement shackles (Moog K150405) are 1" longer so that's some of it, and I suspect the rest is due to less weight in the rear still.
 
-I had to change the bolt location for the shackles. That was a real PITA. All the copper stuff around bolts is just anti-seize. 
+I had to change the bolt location for the shackles. That was a real PITA. All the copper stuff around bolts is just anti-seize.
 ![](images/28.jpg)
 
-[Continue on to Part 5]({{< ref "ass-cancer-rehab-part-5" >}})
+[Continue on to Part 5]({{< ref "unibody-rust-repair-part-5" >}})
