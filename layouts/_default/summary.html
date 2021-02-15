@@ -1,6 +1,8 @@
 <div class="columns has-padding-bottom-4">
     <div class="column is-one-third is-flex is-align-center is-justify-center">
-        {{ if isset .Params "featuredimage" }}
+        {{ if isset .Params "thumbnail" }}
+        <img style="max-height:240px" src="{{ .Site.BaseURL }}{{.Params.thumbnail }}" />
+        {{ else if isset .Params "featuredimage" }}
         <img style="max-height:240px" src="{{ .Site.BaseURL }}{{.Params.featuredimage }}" />
         {{ end }}
 
