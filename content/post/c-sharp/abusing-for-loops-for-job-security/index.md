@@ -154,14 +154,14 @@ new Action(() => Console.WriteLine("foo"))();
 Let's take our new found knowledge and replace the iterator of our loop. Because after all when all you've got is a hammer, everything looks like a nail.
 
 ```
-for (var (i, isEven) = (1, false); i switch { 14 * 4 => false, 69 * 250 / 84 => 8 / 2 == 4, 10 => false, 420 => 7 * 6 == 92, _ => true }; (i, isEven) = new Func<int, (int, bool)>((i) => (i + 1, (i + 1) % 2 == 0))(i)) {
+for (var (i, isEven) = (1, false); i switch { 14 * 4 => false, 69 * 250 / 84 => 8 / 2 == 4, 10 => false, 420 => 7 * 6 == 92, _ => true }; (i, isEven) = new Func<int, (int, bool)>((i) => (i + 1, !(i % 2 == 0)))(i)) {
     Console.WriteLine($"{i} is even: {isEven}");
 }
 ```
 
 This is the little bit we added. 
 ```
-new Func<int, (int, bool)>((i) => (i + 1, (i + 1) % 2 == 0))(i)
+new Func<int, (int, bool)>((i) => (i + 1, !(i % 2 == 0)))(i)
 ```
 A Func<> is the same thing as an Action except it can have parameters, and a return value. In our instance, the function takes an int parameter, and returns a value tuple containing an int, and bool. Make sure you name your function parameters the same as the variable being passed in.
 
@@ -169,12 +169,12 @@ The real reason why we added in the self invoking function isn't to make it more
 
 That my friends is how we can achieve our glorious one liner solution.
 ```
-for (var (i, isEven) = (1, false); i switch { 14 * 4 => false, 69 * 250 / 84 => 8 / 2 == 4, 10 => false, 420 => 7 * 6 == 92, _ => true }; (i, isEven) = new Func<int, (int, bool)>((i) => { Console.WriteLine($"{i} is even: {isEven}"); return (i + 1, (i + 1) % 2 == 0); })(i)) ;
+for (var (i, isEven) = (1, false); i switch { 14 * 4 => false, 69 * 250 / 84 => 8 / 2 == 4, 10 => false, 420 => 7 * 6 == 92, _ => true }; (i, isEven) = new Func<int, (int, bool)>((i) => { Console.WriteLine($"{i} is even: {isEven}"); return (i + 1, !(i % 2 == 0)); })(i)) ;
 
 ```
 Here's the self invoking function for those who somehow have trouble reading our work of art.
 ```
-new Func<int, (int, bool)>((i) => { Console.WriteLine($"{i} is even: {isEven}"); return (i + 1, (i + 1) % 2 == 0); }(i)
+new Func<int, (int, bool)>((i) => { Console.WriteLine($"{i} is even: {isEven}"); return (i + 1, !(i % 2 == 0); }(i)
 ```
 # Wrapping Up
 
@@ -184,3 +184,6 @@ With everything coded up, and testing good, it's time to commit your masterpiece
 
 PS: If anyone is hiring an entry level code obfuscator please let me know.
 
+# Acknowledgements
+
+Thank you Chris Cattano for pointing out I had a logic error in the code bits after switching to the self invoking function. The program was incorrectly reporting which numbers were odd. Turns out even I fell prey to the complexity.
