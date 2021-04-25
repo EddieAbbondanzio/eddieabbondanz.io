@@ -1,10 +1,10 @@
 ---
-title: "Abusing For Loops In C# For Job Security"
+title: 'Abusing For Loops In C# For Job Security'
 date: 2021-01-11
 type: post
-categories: ["C Sharp"]
-thumbnail: "/post/c-sharp/abusing-for-loops-for-job-security/images/hero-thumbnail.jpg"
-featuredImage: "/post/c-sharp/abusing-for-loops-for-job-security/images/hero.jpg"
+categories: ['C Sharp']
+thumbnail: '/post/c-sharp/abusing-for-loops-for-job-security/images/hero-thumbnail.jpg'
+featuredImage: '/post/c-sharp/abusing-for-loops-for-job-security/images/hero.jpg'
 ---
 
 Everyone knows good code is easy to maintain, but that also means anyone can maintain it. That's no bueno for the individual developer who wants a little job security. Writing overly complex code that nobody else can maintain let alone read, will ensure your company holds onto you, and will give you more bargaining power come raise time.
@@ -204,8 +204,6 @@ new Func<int, (int, bool)>((i) => { Console.WriteLine($"{i} is even: {isEven}");
 We could take things further, but before doing some I'd recommend assessing the rankings of your co-workers. If you work alongside a lot of junior devs, it's probably sufficient, but if you work with more senior developers we could always break out a few more tricks. I'll leave this as an exercise for the reader.
 
 With everything coded up, and testing good, it's time to commit your masterpiece and send off some requests for code reviews. Come to think of it it's probably about time to head on home as this likely took most the day. Go home and enjoy some brews. Because tomorrow when your boss calls you into his office it's gonna be for that promotion you've been wanting.
-
-PS: If anyone is hiring an entry level code obfuscator please let me know.
 
 # Acknowledgements
 
