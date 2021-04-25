@@ -4,6 +4,8 @@ date: 2021-04-24
 type: post
 category: 'Car Builds'
 series: 'Cherokee Build'
+thumbnail: '/post/xj/gentex-177-mirror-install/images/thumbnail.jpg'
+featuredImage: '/post/xj/gentex-177-mirror-install/images/19.jpg'
 ---
 
 It's hard to explain, but driving a car at night that has an auto dimming rear view mirror is a real treat. It's one of those things that you'll never notice when it's working, but as soon as you don't have it you'll notice its absence immediately.
