@@ -22,7 +22,7 @@ Part of the reason why I decided to swap the mirror was because I wanted an outs
 
 Why? Mostly because I'm not a dude who likes to wear sun glasses, and the prices of overhead consoles seems to be steadily climbing each year as the amount of XJs in junkyards begins to dwindle. I felt the mirror was a much more financially reasonable decision.
 
-**Note:** If you already have an overhead console installed this DIY will not work for you since it needs to use the same wires used by the overhead console.
+**Note:** If you already have an overhead console installed this DIY will not work for you since it uses the same wires as the overhead console.
 
 ## Preparing for Install
 
@@ -160,3 +160,9 @@ Close up of the mirror.
 ## Testing the Auto Dimming Feature
 
 To test the auto dimming feature of the mirror you'll want to shine a light into the sensor to the left of the COMP button. Make sure it's dark out as the mirror won't dim unless it thinks it's night time. The direction and temperature display should also dim a bit when it switches to night mode.
+
+## Calibrating the Compass
+
+If your compass is acting up, and not functioning properly (mine said every direction was SE) you may just need to calibrate it. To do so, find a large parking lot and press and hold the compass button on the mirror until it displays CAL. Once it does, drive in a small tight circle round and round until it begins to display cardinal directions again.
+
+This should just be a one time thing you may need to do, and once done the mirror should be totally functional.
