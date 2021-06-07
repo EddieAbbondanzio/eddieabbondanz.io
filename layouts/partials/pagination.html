@@ -1,19 +1,29 @@
 {{ if gt .Paginator.TotalPages 1 }}
-<div class="is-flex is-flex-row is-align-center has-margin-y-5 is-justify-center">
+<div class="is-flex is-flex-row is-align-items-center has-margin-y-5 is-justify-content-center">
     <div class="is-relative">
         {{ if .Paginator.HasPrev }}
-        <a class="button is-primary" style="display: inline-block; position: absolute; right: 96px;"
-            href="{{ .Paginator.Prev.URL }}">Previous Page</a>
+        <a
+            class="button is-primary"
+            style="display: inline-block; position: absolute; right: 96px"
+            href="{{ .Paginator.Prev.URL }}"
+            >Previous Page</a
+        >
         {{ end }}
 
-        <p class="has-margin-x-3 is-align-center is-justify-center" style="display: inline-flex; height: 40px;">
+        <p
+            class="has-margin-x-3 is-align-items-center is-justify-content-center"
+            style="display: inline-flex; height: 40px"
+        >
             {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
         </p>
 
         {{ if .Paginator.HasNext }}
-        <a class="button is-primary" style="display: inline-block; position: absolute; left: 96px;"
-            href="{{ .Paginator.Next.URL }}">Next
-            Page</a>
+        <a
+            class="button is-primary"
+            style="display: inline-block; position: absolute; left: 96px"
+            href="{{ .Paginator.Next.URL }}"
+            >Next Page</a
+        >
         {{ end }}
     </div>
 </div>
