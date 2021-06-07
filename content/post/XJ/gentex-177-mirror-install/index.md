@@ -1,9 +1,9 @@
 ---
-title: 'XJ - Gentex 177 Auto Dimming Rear View Mirror Install DIY'
+title: 'Installing a Gentex 177 Auto Dimming Rear View Mirror'
 date: 2021-04-24
 type: post
 category: 'Car Builds'
-series: 'Cherokee Build'
+series: 'XJ Build'
 thumbnail: '/post/xj/gentex-177-mirror-install/images/thumbnail.jpg'
 featuredImage: '/post/xj/gentex-177-mirror-install/images/19.jpg'
 ---
