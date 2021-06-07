@@ -1,9 +1,9 @@
 ---
-title: 'XJ - Replacing a Saggy Headliner'
+title: 'Replacing a Saggy Headliner'
 date: 2021-06-05
 type: post
 category: 'Car Builds'
-series: 'Cherokee Build'
+series: 'XJ Build'
 thumbnail: '/post/xj/replacing-a-saggy-headliner/images/thumbnail.jpg'
 featuredImage: '/post/xj/replacing-a-saggy-headliner/images/12.jpg'
 ---
@@ -127,10 +127,17 @@ I also replaced all of the cargo / dome lights with leds. Some of them were orde
 
 While the headliner was out, I took the opportunity to add Noico 80mil sound deading to the underside of the roof. I did this to help with highway wind noise as I like to have a roof rack.
 
-## In Summary
+# In Summary
 
 Overall, I'm very pleased with how things came out. Even though I messed up a couple tries and wasted some $$$, I'm glad I took the time to redo things as the quality of work severely improved with each attempt.
 
 The LED lights are an _excellent_ touch to the black suede.
 
 Replacing the headliner has also made the interior look substantially better. Once I wrap up a few leaks in the rear, and install new floor pans in the passenger area (oh the life of an XJ owner) I plan on splurging on a new carpet to replace the stained and beat up one currently in it.
+
+## Random Tips
+
+-   Be extra careful removing some of the interior panels in order to remove the headliner as they have clips that can break off easily
+-   4 yards of fabric is enough to do the headliner, and sun visors
+-   Stetchy fabric makes your life easier.
+-   I ordered the suede and adhesive from [YourAutoTrim](https://www.yourautotrim.com/suheobl.html)

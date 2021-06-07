@@ -1,25 +1,42 @@
 <nav class="navbar is-transparent is-spaced" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item title is-uppercase is-marginless has-text-white is-size-5" href="{{ .Site.BaseURL }}">
-      EddieAbbondanz.io
-    </a>
+    <div class="navbar-brand">
+        <a class="navbar-item title is-uppercase is-marginless has-text-white is-size-5" href="{{ .Site.BaseURL }}">
+            EddieAbbondanz.io
+        </a>
 
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="hamburger-menu">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="hamburger-menu" class="navbar-menu">
-    <div class="navbar-end">
-      {{ range .Site.Menus.main }}
-      <a class="navbar-item" href="{{ .URL | relURL }}" style="text-decoration: none!important;">{{ .Name }}</a>
-      {{ end }} {{ with .Site.Params.github }}
-      <a class="navbar-item" href="{{ . }}" target="_blank">
-        GitHub
-      </a>
-      {{ end }}
+        <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="hamburger-menu"
+        >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
     </div>
-  </div>
+
+    <div id="hamburger-menu" class="navbar-menu">
+        <div class="navbar-end">
+            {{ range .Site.Menus.main }} {{ if not .HasChildren }}
+            <a class="navbar-item" href="{{ .URL | relURL }}" style="text-decoration: none !important">{{ .Name }}</a>
+            {{ else }}
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link has-text-white"> {{ .Name }} </a>
+
+                <div class="navbar-dropdown">
+                    <a class="navbar-item has-text-dark" href="post"> All </a>
+
+                    {{ range .Children }}
+                    <a class="navbar-item has-text-dark" href="{{ .URL | relURL }}"> {{ .Name }} </a>
+                    {{ end }}
+                </div>
+            </div>
+
+            {{ end }} {{ end }} {{ with .Site.Params.github }}
+            <a class="navbar-item" href="{{ . }}" target="_blank"> GitHub </a>
+            {{ end }}
+        </div>
+    </div>
 </nav>

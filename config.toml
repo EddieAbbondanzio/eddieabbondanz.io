@@ -18,7 +18,6 @@ unsafe= true
 
 [taxonomies]
     series = "series"
-    category = "categories"
 
 [params]
     avatar = "/img/avatar.jpg" # Image should be square, and roughly 150px x 150px
@@ -34,6 +33,12 @@ unsafe= true
     name = "Posts"
     url = "post"
     weight = 1
+
+    [[menu.main]]
+    name = "XJ Build"
+    identifier = "xj-build"
+    parent = "posts"
+    url="series/xj-build"
 
     [[menu.main]]
     identifier = "about-me"
