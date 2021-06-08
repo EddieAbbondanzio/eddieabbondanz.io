@@ -6,7 +6,7 @@
 
         <a
             role="button"
-            class="navbar-burger burger"
+            class="navbar-burger burger has-text-white"
             aria-label="menu"
             aria-expanded="false"
             data-target="hamburger-menu"
@@ -17,10 +17,12 @@
         </a>
     </div>
 
-    <div id="hamburger-menu" class="navbar-menu">
+    <div class="navbar-menu has-text-white">
         <div class="navbar-end">
             {{ range .Site.Menus.main }} {{ if not .HasChildren }}
-            <a class="navbar-item" href="{{ .URL | relURL }}" style="text-decoration: none !important">{{ .Name }}</a>
+            <a class="navbar-item has-text-white" href="{{ .URL | relURL }}" style="text-decoration: none !important"
+                >{{ .Name }}</a
+            >
             {{ else }}
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link has-text-white"> {{ .Name }} </a>
@@ -35,7 +37,64 @@
             </div>
 
             {{ end }} {{ end }} {{ with .Site.Params.github }}
-            <a class="navbar-item" href="{{ . }}" target="_blank"> GitHub </a>
+            <a class="navbar-item has-text-white" href="{{ . }}" target="_blank">
+                <span class="icon is-medium">
+                    <i class="fab fa-github fa-lg"></i>
+                </span>
+            </a>
+            {{ end }} {{ with .Site.Params.twitter }}
+            <a class="navbar-item has-text-white" href="{{ . }}" target="_blank">
+                <span class="icon is-medium">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </span>
+            </a>
+            {{ end }}{{ with .Site.Params.linkedin }}
+            <a class="navbar-item has-text-white" href="{{ . }}" target="_blank">
+                <span class="icon is-medium">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </span>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+
+    <div id="hamburger-menu" class="navbar-menu is-hidden-desktop">
+        {{ range .Site.Menus.main }} {{ if not .HasChildren }}
+        <a class="navbar-item" href="{{ .URL | relURL }}" style="text-decoration: none !important">{{ .Name }}</a>
+        {{ else }}
+
+        <div class="has-dropdown is-hoverable">
+            <a class="navbar-link has-text-white is-arrowless"> {{ .Name }} </a>
+
+            <div class="navbar-dropdown">
+                <a class="navbar-item has-text-white" href="post"> All </a>
+
+                {{ range .Children }}
+                <a class="navbar-item has-text-white" href="{{ .URL | relURL }}"> {{ .Name }} </a>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}{{ end }}
+
+        <div class="is-flex is-flex-direction-row is-justify-content-space-evenly">
+            {{ with .Site.Params.github }}
+            <a class="navbar-item" href="{{ . }}" target="_blank">
+                <span class="icon is-medium">
+                    <i class="fab fa-github fa-lg"></i>
+                </span>
+            </a>
+            {{ end }} {{ with .Site.Params.twitter }}
+            <a class="navbar-item" href="{{ . }}" target="_blank">
+                <span class="icon is-medium">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </span>
+            </a>
+            {{ end }}{{ with .Site.Params.linkedin }}
+            <a class="navbar-item" href="{{ . }}" target="_blank">
+                <span class="icon is-medium">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </span>
+            </a>
             {{ end }}
         </div>
     </div>
