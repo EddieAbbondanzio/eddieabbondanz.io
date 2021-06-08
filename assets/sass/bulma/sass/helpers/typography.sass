@@ -1,5 +1,7 @@
 @import "../utilities/mixins"
 
+$alignments: ('centered': 'center', 'justified': 'justify', 'left': 'left', 'right': 'right')
+
 =typography-size($target:'')
   @each $size in $sizes
     $i: index($sizes, $size)
@@ -25,8 +27,6 @@
 
 +fullhd
   +typography-size('fullhd')
-
-$alignments: ('centered': 'center', 'justified': 'justify', 'left': 'left', 'right': 'right')
 
 @each $alignment, $text-align in $alignments
   .has-text-#{$alignment}
