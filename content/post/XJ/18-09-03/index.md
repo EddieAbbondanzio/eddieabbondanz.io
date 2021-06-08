@@ -1,9 +1,8 @@
 ---
-title: "XJ Build - 9/03/18"
+title: 'XJ Build - 9/03/18'
 date: 2018-09-02T12:57:42-04:00
 type: post
-category: "Car Builds"
-series: "Cherokee Build"
+series: 'XJ Build'
 ---
 
 # Repainting the Cherokee's roof

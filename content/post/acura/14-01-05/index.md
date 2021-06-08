@@ -1,8 +1,7 @@
 ---
-title: "Acura Build - 01/05/2014"
+title: 'Acura Build - 01/05/2014'
 date: 2014-01-05
-category: "Car Builds"
-series: "Acura Build"
+series: 'RL Build'
 type: post
 ---
 

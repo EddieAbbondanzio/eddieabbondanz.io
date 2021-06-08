@@ -1,8 +1,7 @@
 ---
-title: "Unity - How to Send Data With LiteNetLib"
+title: 'Unity - How to Send Data With LiteNetLib'
 date: 2019-11-13T19:04:00-00:00
-category: "Unity"
-featuredImage: "/post/unity/litenetlib-sending-data/images/hero.jpg"
+featuredImage: '/post/unity/litenetlib-sending-data/images/hero.jpg'
 type: post
 ---
 

@@ -1,7 +1,6 @@
 ---
-title: "Logging to Unity or Console"
+title: 'Logging to Unity or Console'
 date: 2018-03-31T15:56:01-04:00
-category: "Unity"
 type: post
 ---
 

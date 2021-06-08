@@ -2,7 +2,6 @@
 title: 'Replacing a Saggy Headliner'
 date: 2021-06-05
 type: post
-category: 'Car Builds'
 series: 'XJ Build'
 thumbnail: '/post/xj/replacing-a-saggy-headliner/images/thumbnail.jpg'
 featuredImage: '/post/xj/replacing-a-saggy-headliner/images/12.jpg'

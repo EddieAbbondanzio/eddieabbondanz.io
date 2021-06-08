@@ -1,9 +1,8 @@
 ---
-title: "Civic Build - 4/14/18"
+title: 'Civic Build - 4/14/18'
 date: 2018-04-14T20:40:42-04:00
 type: post
-category: "Car Builds"
-series: "Civic Build"
+series: 'EG Build'
 ---
 
 ## Getting Closer.

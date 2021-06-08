@@ -1,7 +1,7 @@
 ---
-title: "ASP.NET Core - Claims Based Authentication: Claims vs Identities vs Principals"
+title: 'ASP.NET Core - Claims Based Authentication: Claims vs Identities vs Principals'
 date: 2019-10-14T14:50:42-04:00
-category: "aspnet"
+series: 'Development'
 type: post
 ---
 
@@ -15,10 +15,10 @@ Claims are the foundation behind claims-based authentication (who would have gue
 
 Some examples of claims a subject may have are:
 
-- Username
-- Email
-- IP Address
-- Location
+-   Username
+-   Email
+-   IP Address
+-   Location
 
 Claims are name-key values and are represented via the [`System.Security.Claim`](https://docs.microsoft.com/en-us/dotnet/api/system.security.claims.claimsidentity?view=netcore-3.0) class.
 

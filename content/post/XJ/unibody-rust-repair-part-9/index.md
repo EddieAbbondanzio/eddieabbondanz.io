@@ -1,9 +1,10 @@
 ---
-title: "XJ - Unibody Rust Repair Part 9: Closing Up The Floor"
+title: 'Unibody Rust Repair Part 9: Closing Up The Floor'
 date: 2020-12-27
 type: post
-thumbnail: "/post/xj/unibody-rust-repair-part-9/images/thumbnail.jpg"
-featuredImage: "/post/xj/unibody-rust-repair-part-9/images/34.jpg"
+series: 'XJ Build'
+thumbnail: '/post/xj/unibody-rust-repair-part-9/images/thumbnail.jpg'
+featuredImage: '/post/xj/unibody-rust-repair-part-9/images/34.jpg'
 ---
 
 The least exciting portion of this project by far was closing up the two holes left in the floor directly below where the rear seat goes. I initally cut these holes in the floor way back at the beginning of the project because I needed to remove the original frame rails.

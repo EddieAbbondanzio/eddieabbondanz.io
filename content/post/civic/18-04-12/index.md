@@ -1,9 +1,8 @@
 ---
-title: "Civic Build - 4/12/18"
+title: 'Civic Build - 4/12/18'
 date: 2018-04-12T13:13:42-04:00
 type: post
-category: "Car Builds"
-series: "Civic Build"
+series: 'EG Build'
 ---
 
 ## Restoring the transmission
