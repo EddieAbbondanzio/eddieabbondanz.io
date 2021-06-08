@@ -1,40 +1,43 @@
 @import "bulma/bulma.sass"
-@import "hugo.sass"
-@import "spacing.sass"
-@import "alert.sass"
+@import "bulma/sass/helpers/_all"
+// If helpers is not imported, typography helpers stop working.
 
-.hero
-    background-size: cover//100% auto
-    background-repeat: no-repeat
-    background-attachment: fixed
+// @import "hugo.sass"
+// @import "spacing.sass"
+// @import "alert.sass"
 
-    .hero-foot
-        padding-bottom: 128px
+// .hero
+//     background-size: cover
+//     background-repeat: no-repeat
+//     background-attachment: fixed
 
-main
-    @extend .has-background-white
-    @extend .has-padding-all-5
-    position: relative
-    top: -128px
-    padding-bottom: 32px
+//     .hero-foot
+//         padding-bottom: 128px
 
-#hamburger-menu
-    +touch
-        background-color: $grey-darker
-        opacity: 0.75
+// main
+//     background: $white
+//     padding: 3rem
+//     position: relative
+//     top: -128px
+//     padding-bottom: 32px
 
-    .navbar-item
-        color: $white
+// #hamburger-menu
+//     +touch
+//         background-color: $grey-darker
+//         opacity: 0.75
 
-footer
-    background-color: $black-ter
-    height: 256px
-    display: flex
-    justify-content: center
-    align-items: center
+//     .navbar-item
+//         color: $white
 
-    p
-        color: $white
+// footer
+//     background-color: $black-ter
+//     height: 256px
+//     display: flex
+//     justify-content: center
+//     align-items: center
 
-        a
-            color: $white
+//     p
+//         color: $white
+
+//         a
+//             color: $white

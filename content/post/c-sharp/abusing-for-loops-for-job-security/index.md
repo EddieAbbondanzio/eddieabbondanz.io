@@ -2,7 +2,7 @@
 title: 'Abusing For Loops In C# For Job Security'
 date: 2021-01-11
 type: post
-categories: ['C Sharp']
+series: 'Development'
 thumbnail: '/post/c-sharp/abusing-for-loops-for-job-security/images/hero-thumbnail.jpg'
 featuredImage: '/post/c-sharp/abusing-for-loops-for-job-security/images/hero.jpg'
 ---

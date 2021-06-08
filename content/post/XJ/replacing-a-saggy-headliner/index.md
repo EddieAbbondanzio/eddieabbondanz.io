@@ -18,6 +18,8 @@ For my first two years of ownership the headliner was perfectly fine, and it was
 
 It wasn't until a week later I noticed the headliner was drooping down a bit in several spots that coincided with where the stains used to be. At first it was nothing major, as the largest of the sagging spots was only about 4 inches in diameter, but over the following weeks they slowly grew larger and larger.
 
+![](images/saggy.jpg)
+
 By the time the headliner was sagging enough to touch my head while driving I finally admitted to myself that I couldn't ignore the issue anymore. Unfortunately, I didn't really have a lot of spare time to fix the headliner correctly so I opted for a band-aid "fix".
 
 Using a utility knife I cut off all of the fabric I possibly could from the headliner. I'd estimate I was able to remove about 99% of the fabric, except for a few small patches around the sun visors, and dome lights. The headliner looked atrocious as it was nothing but brownish green foam on a fiberglass backing but at least it wouldn't tickle my head while driving
