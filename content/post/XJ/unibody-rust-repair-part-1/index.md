@@ -1,18 +1,15 @@
 ---
-title: "XJ - Unibody Rust Repair Part 1: Fabricating A New Rear Crossmember"
+title: 'Unibody Rust Repair Part 1: Fabricating A New Rear Crossmember'
 date: 2020-11-13
 type: post
-category: "Car Builds"
-series: "Cherokee Build"
-thumbnail: "/post/xj/unibody-rust-repair-part-1/images/thumbnail.jpg"
-featuredImage: "/post/xj/unibody-rust-repair-part-1/images/5.jpg"
+series: 'XJ Build'
+thumbnail: '/post/xj/unibody-rust-repair-part-1/images/thumbnail.jpg'
+featuredImage: '/post/xj/unibody-rust-repair-part-1/images/5.jpg'
 ---
 
 # Background
 
 I like to joke and say that anyone else would have sent my XJ to the junkyard.
-
-Somedays if I'm in an especially sour mood from working on it, I'll joke and say that anyone **smart** would have sent my XJ to the junkyard.
 
 My Cherokee is rusty, has a laundry list of issues, gets 17 MPG on the good days, and is literally a brick on wheels. But I love it.
 

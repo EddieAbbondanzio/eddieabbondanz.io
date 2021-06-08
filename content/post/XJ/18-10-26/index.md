@@ -1,9 +1,8 @@
 ---
-title: "XJ Build - 10/26/18"
+title: 'XJ Build - 10/26/18'
 date: 2018-10-26T16:51:42-04:00
 type: post
-category: "Car Builds"
-series: "Cherokee Build"
+series: 'XJ Build'
 ---
 
 # Finishing Up

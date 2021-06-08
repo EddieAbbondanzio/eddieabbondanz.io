@@ -1,9 +1,8 @@
 ---
-title: "XJ Build - 10/8/18"
+title: 'XJ Build - 10/8/18'
 date: 2018-10-08T17:22:42-04:00
 type: post
-category: "Car Builds"
-series: "Cherokee Build"
+series: 'XJ Build'
 ---
 
 # Passenger side rocker replacement

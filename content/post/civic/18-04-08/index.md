@@ -1,9 +1,8 @@
 ---
-title: "Civic Build - 4/8/18"
+title: 'Civic Build - 4/8/18'
 date: 2018-04-08T18:04:42-04:00
 type: post
-category: "Car Builds"
-series: "Civic Build"
+series: 'EG Build'
 ---
 
 ## New Transmission Mount Installed

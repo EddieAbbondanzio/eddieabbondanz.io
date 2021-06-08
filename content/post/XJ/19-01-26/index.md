@@ -1,9 +1,8 @@
 ---
-title: "XJ Build - 01/26/19"
+title: 'XJ Build - 01/26/19'
 date: 2019-01-26T16:51:42-04:00
 type: post
-category: "Car Builds"
-series: "Cherokee Build"
+series: 'XJ Build'
 ---
 
 I've honestly been very lucky with my Jeep. My previous daily driver was a 2009 Subaru Legacy, and while it may have been excellent in the snow it had a very high cost of ownership. I figured out that it was costing me on average \$100 in maintenance per 1000 miles travelled. It may sound silly to have sold the Subaru and bought a Jeep that was 9 years older but I have zero regrets doing so. The Jeep has never left me stranded, and never surprised me with an issues until recently.
