@@ -17,12 +17,20 @@
         </h1>
 
         <div class="is-flex is-flex-row has-margin-bottom-3">
-
+            {{ if .Date }}
             <div class="is-flex is-flex-row is-align-middle has-margin-right-3"
                 title="Posted on {{ .Date.Format "Jan 2, 2006" }}">
                 <i class="material-icons has-text-grey has-margin-right-1">today</i>
                 <time class="has-text-grey">{{ .Date.Format "Jan 2, 2006" }}</time>
             </div>
+            {{ end }}
+
+            {{ if .Params.Series }}
+            <a  class="is-flex is-flex-row is-align-middle has-text-grey"  href="series/{{ .Params.Series | urlize  }}">
+            <i class="material-icons has-text-grey has-margin-right-1">book</i>
+                {{ .Params.Series }}
+            </a>
+            {{ end }}
         </div>
 
         <p class="is-size-5">
