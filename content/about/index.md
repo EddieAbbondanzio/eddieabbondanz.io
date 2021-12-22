@@ -17,6 +17,6 @@ I can happily report my Jeep is currently back on the road, and running great.
 And before that I was restoring an old Honda Civic with a new paint job, rust repair, motor swap, and converting it from an automatic to manual transmission.
 ![](images/civic.jpg)
 
-If you'd like to chat feel free to shoot me an email: me@eddieabbondanz.io
+If you'd like to chat feel free to shoot me an email: hello@eddieabbondanzio.com
 
 [Cover photo by Safar Safarov](https://unsplash.com/photos/LKsHwgzyk7c)
