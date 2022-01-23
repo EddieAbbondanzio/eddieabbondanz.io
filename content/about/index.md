@@ -18,5 +18,3 @@ And before that I was restoring an old Honda Civic with a new paint job, rust re
 ![](images/civic.jpg)
 
 If you'd like to chat feel free to shoot me an email: hello@eddieabbondanzio.com
-
-[Cover photo by Safar Safarov](https://unsplash.com/photos/LKsHwgzyk7c)
