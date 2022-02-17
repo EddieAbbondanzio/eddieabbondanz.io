@@ -3,8 +3,8 @@ title: "Fixing The Brakes And More"
 date: 2022-01-22
 series: "88 Integra Build"
 type: post
-featuredImage: "/post/88-integra-build/fixing-the-brakes-and-more/images/47.jpg"
-thumbnail: "/post/88-integra-build/fixing-the-brakes-and-more/images/thumbnail.jpg"
+featuredImage: "/post/88-integra/fixing-the-brakes-and-more/images/47.jpg"
+thumbnail: "/post/88-integra/fixing-the-brakes-and-more/images/thumbnail.jpg"
 ---
 
 With February quickly approaching, I'm starting to feel like I'm running short on time to get my [recently acquired 1988 Acura Integra]({{< ref "first-start-in-8-years" >}}) road ready. My current goal is to have this vehicle on the road for spring and it's been harder to make progress on it than anticipated.
