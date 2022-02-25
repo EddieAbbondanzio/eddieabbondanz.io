@@ -13,7 +13,7 @@ Honestly, the most amazing part has been that I haven't snapped a single bolt.
 
 Even the lower bolts on the rear shocks came out with no issue. (They are notorious for rusting in their bushings and I had to cut them apart on my 1993 Civic when swapping in coilovers.)
 
-Almost every bolt or nut that I've reinstalled was given a healthy dab of anti-sieze. I don't anticipate ever replacing most of the components I've swapped in but I figured a little extra work now would pay off massively down the road for future me.
+Almost every bolt or nut that I've reinstalled was given a healthy dab of anti-seize. I don't anticipate ever replacing most of the components I've swapped in but I figured a little extra work now would pay off massively down the road for future me.
 
 The body has a bit of an AE86 vibe to it.
 ![](images/1.jpg)
@@ -83,7 +83,7 @@ Passenger side axle came out nice and easy.
 Old vs new. I'm pretty positive the axles in the car were original.
 ![](images/18.jpg)
 
-If you look closely at the boots you can see the cracks starting to form. I didn't think they last long once this thing hits the road.
+If you look closely at the boots you can see the cracks starting to form. I didn't think they'd last long once this thing hits the road.
 ![](images/19.jpg)
 ![](images/20.jpg)
 
@@ -111,7 +111,7 @@ I had a **hell** of a time removing the driver side axle. The axle was completel
 
 I almost thought it was going to take a press or torch to break it free.
 
-When re-installing the new axle I made sure to use some anti-sieze on it.
+When re-installing the new axle I made sure to use some anti-seize on it.
 ![](images/27.jpg)
 
 So many new parts
