@@ -1,5 +1,5 @@
 +++
-title = "Ed Abbondanzio"
+title = "Eddie Abbondanzio"
 description = "The man, the myth, the legend"
 featuredImage = "/about/images/hero-image.jpg"
 +++

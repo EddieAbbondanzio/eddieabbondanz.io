@@ -21,11 +21,10 @@ unsafe= true
 
 [params]
     avatar = "/img/avatar.jpg" # Image should be square, and roughly 150px x 150px
-    bio = "My name's Eddie Abbondanzio, and this is my blog. I mostly write about game dev / web dev, but I'll throw in the occasional car post."
     github = "http://github.com/EddieAbbondanzio"
     twitter = "https://twitter.com/EAbbondanzio"
     linkedin = "https://www.linkedin.com/in/ed-abbondanzio-5a7378208/"
-    description = "I build things. Sometimes good."
+    description = "I build things"
 
 
 [menu]
