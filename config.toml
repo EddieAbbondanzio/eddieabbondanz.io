@@ -53,13 +53,20 @@ unsafe= true
     url="series/88-integra-build"
 
     [[menu.main]]
+    identifier = "apps"
+    name = "Apps"
+    url = "app"
+    weight = 2
+    
+    [[menu.main]]
+    identifier = "project"
+    name = "Projects"
+    url = "project"
+    weight = 3
+
+    [[menu.main]]
     identifier = "about-me"
     name = "About Me"
     url = "about"
-    weight = 2
+    weight = 4
 
-    [[menu.main]]
-    identifier = "portfolio"
-    name = "Portfolio"
-    url = "portfolio"
-    weight = 3

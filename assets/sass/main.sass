@@ -11,37 +11,40 @@ $fa-font-path: "../webfonts"
 @import "font-awesome/solid.scss"
 
 .hero
-    background-size: cover
-    background-repeat: no-repeat
-    background-attachment: fixed
+  background-size: cover
+  background-repeat: no-repeat
+  background-attachment: fixed
 
-    .hero-foot
-        padding-bottom: 128px
+  .hero-foot
+    padding-bottom: 128px
+
+  &.is-colored
+    background-color: #12b886
 
 main
-    background: $white
-    padding: 3rem
-    position: relative
-    top: -128px
-    padding-bottom: 32px
+  background: $white
+  padding: 3rem
+  position: relative
+  top: -128px
+  padding-bottom: 32px
 
 #hamburger-menu
-    +touch
-        background-color: $grey-darker
-        opacity: 0.75
+  +touch
+    background-color: $grey-darker
+    opacity: 0.75
 
     .navbar-item
-        color: $white
+      color: $white
 
 footer
-    background-color: $black-ter
-    height: 256px
-    display: flex
-    justify-content: center
-    align-items: center
+  background-color: $black-ter
+  height: 256px
+  display: flex
+  justify-content: center
+  align-items: center
 
-    p
-        color: $white
+  p
+    color: $white
 
-        a
-            color: $white
+    a
+      color: $white
