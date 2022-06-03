@@ -30,7 +30,7 @@ unsafe= true
 [menu]
     [[menu.main]]
     identifier = "posts"
-    name = "Posts"
+    name = "Blog"
     url = "post"
     weight = 1
 
@@ -39,18 +39,21 @@ unsafe= true
     identifier = "development"
     parent = "posts"
     url="series/development"
+    weight = 1
 
     [[menu.main]]
-    name = "XJ Build"
+    name = "00 XJ Build"
     identifier = "xj-build"
     parent = "posts"
     url="series/xj-build"
+    weight = 2
 
     [[menu.main]]
     name = "88 Integra Build"
     identifier = "88-integra-build"
     parent = "posts"
     url="series/88-integra-build"
+    weight = 3
 
     [[menu.main]]
     identifier = "apps"
