@@ -30,6 +30,8 @@ html
 
 body
   max-width: $content-width
+  padding-left: 4rem
+  padding-right: 4rem
   margin-left: auto
   margin-right: auto
   font-size: 1.6rem
@@ -48,9 +50,13 @@ nav.navbar
     display: flex
     align-items: center
     flex-grow: 1
-    padding-left: 1.6rem
+
+    .avatar
+      height: 5rem
+      border-radius: 1rem
 
     a
+      margin-left: 1rem
       font-size: 2.8rem
       text-decoration: none
       color: $oc-gray-7
@@ -155,6 +161,52 @@ main
   flex-grow: 1
   margin-top: 8rem
   margin-bottom: 8rem
+
+  .summary
+    display: flex
+    flex-direction: row
+    padding-bottom: 4rem
+    border-bottom: 0.2rem solid $oc-gray-3
+
+    &:not(:first-child)
+      padding-top: 4rem
+
+    img
+      height: 20rem
+
+    .content
+      margin-left: 4rem
+
+      .title
+        margin-bottom: 1rem
+
+        a
+          text-decoration: none
+          color: $oc-black
+          font-size: 2rem
+
+          &.series
+            // font-size: 1.6rem
+            color: $oc-gray-7
+
+          &.post
+            font-weight: 500
+
+        .divider
+          color: $oc-gray-7
+
+      .date
+        font-size: 1.4rem
+        color: $oc-gray-8
+
+      .desc
+        margin-top: 2rem
+        color: $oc-gray-9
+        line-height: 2.2rem
+
+        a
+          color: $oc-blue-5
+          text-decoration: none
 
 footer
   height: $footer-height
