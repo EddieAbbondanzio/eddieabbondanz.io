@@ -1,39 +1,37 @@
 <header>
-    <div class="post-header has-text-white has-margin-all-4-touch has-margin-bottom-4-desktop">
-        <!-- Title and Description -->
-        <div class="has-margin-bottom-0">
-            {{ if or .IsHome (not .IsPage) }}
-            <h1 class="is-marginless is-size-3-touch is-size-1-desktop">{{ .Title }}</h1>
-            {{ else }}
-            <h1 class="has-margin-bottom-0 is-size-2 is-size-4-touch">{{ .Title }}</h1>
-            {{ end }} {{ if .IsHome }} {{ with .Site.Params.description }}
-            <h3 class="has-text-light is-size-5">{{ . }}</h3>
-            {{ end }} {{ else }} {{ with .Params.Description }}
-            <h3 class="has-text-grey-white-ter is-size-5">{{ . }}</h3>
-            {{ end }} {{ end }}
-        </div>
-
-        <!-- Details-->
-        {{ if .IsPage }}
-        <div class="is-flex is-flex-direction-row">
-            {{ if .Date }}
-            <div class="is-flex-desktop flex-row has-text-grey-lighter">
-                <div class="is-flex is-flex-row is-align-items-baseline has-margin-right-3" title="Date posted">
-                    <i class="fas fa-calendar-day has-text-grey-light has-margin-right-1"></i>
-                    <time class="has-text-grey-lighter">{{ .Date.Format "Jan 2, 2006" }}</time>
-                </div>
-            </div>
-            {{ end }} {{ if .Params.Series }}
-            <a
-                class="is-flex is-flex-row is-align-items-baseline has-text-grey-lighter"
-                href="/series/{{ .Params.Series | urlize  }}"
-            >
-                <i class="fas fa-book has-text-grey-lighter has-margin-right-1"></i>
-                {{ .Params.Series }}
-            </a>
-
-            {{ end }}
-        </div>
-        {{ end }}
+  <div class="post-header has-text-dark has-margin-all-4-touch has-margin-bottom-4-desktop">
+    <!-- Title and Description -->
+    <div class="has-margin-bottom-0">
+      {{ if or .IsHome (not .IsPage) }}
+      <h1 class="is-marginless is-size-3-touch is-size-1-desktop">{{ .Title }}</h1>
+      {{ else }}
+      <h1 class="has-margin-bottom-0 is-size-2 is-size-4-touch">{{ .Title }}</h1>
+      {{ end }} {{ if .IsHome }} {{ with .Site.Params.description }}
+      <h3 class="has-text-dark is-size-5">{{ . }}</h3>
+      {{ end }} {{ else }} {{ with .Params.Description }}
+      <h3 class="has-text-grey is-size-5">{{ . }}</h3>
+      {{ end }} {{ end }}
     </div>
+
+    <!-- Details-->
+    {{ if .IsPage }}
+    <div class="is-flex is-flex-direction-row">
+      {{ if .Date }}
+      <div class="is-flex-desktop flex-row has-text-grey">
+        <div class="is-flex is-flex-row is-align-items-baseline has-margin-right-3" title="Date posted">
+          <i class="fas fa-calendar-day has-text-grey has-margin-right-1"></i>
+          <time class="has-text-grey">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </div>
+      </div>
+      {{ end }} {{ if .Params.Series }}
+      <a class="is-flex is-flex-row is-align-items-baseline has-text-grey"
+        href="/series/{{ .Params.Series | urlize  }}">
+        <i class="fas fa-book has-text-grey has-margin-right-1"></i>
+        {{ .Params.Series }}
+      </a>
+
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
 </header>

@@ -1,23 +1,5 @@
-<!-- Home page -->
-{{ if .IsHome }}
-<section class="hero is-fullheight"
-  style="background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.15) ), url({{ .Site.BaseURL }}/img/banner.jpg); "
-  role="banner">
-  <!-- Blog post with image -->
-  {{ else if isset .Params "featuredimage" }}
-  <section class="hero is-halfheight"
-    style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ .Site.BaseURL }}{{.Params.featuredimage }}); "
-    role="banner">
-    <!-- Blog post with no image -->
-    {{ else}}
-    <section class="hero is-medium is-colored">
-      {{ end }}
+{{ partial "navbar.html" . }}
 
-      <div class="hero-head">{{ partial "navbar.html" . }}</div>
-
-      <div class="hero-foot">
-        <div class="container">{{ partial "title.html" . }}</div>
-      </div>
-    </section>
-  </section>
-</section>
+<div>
+  <div>{{ partial "title.html" . }}</div>
+</div>

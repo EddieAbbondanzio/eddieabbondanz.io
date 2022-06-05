@@ -1,0 +1,14 @@
+$spacer: 1rem
+$types: ('margin', 'padding')
+$sizes: (0: 0, 1: ($spacer * 0.25), 2: ($spacer * 0.5), 3: $spacer, 4: ($spacer * 1.5), 5: ($spacer * 3))
+$positions: ("all" : (""), "top" : ("-top"), "left": ("-left"), "bottom": ("-bottom"), "right": ("-right"), "x": ("-left", "-right"), "y": ("-top", "-bottom"))
+
+=spacings($target:'')
+  @each $pos, $props in $positions
+    @each $size, $value in $sizes
+      @each $type in $types
+        .#{$type}-#{$pos}-#{$size}#{if($target == '', '', '-' + $target)}
+          @each $prop in $props
+            #{$type}#{$prop}: $value
+
++spacings()
