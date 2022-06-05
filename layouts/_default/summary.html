@@ -1,41 +1,39 @@
-<div class="columns has-padding-bottom-4">
-    <div class="column is-one-third is-flex is-align-items-center is-justify-content-center">
-        <a href="{{ .Permalink }}">
-            {{ if isset .Params "thumbnail" }}
-            <img style="max-height:240px" src="{{ .Site.BaseURL }}{{.Params.thumbnail }}" />
-            {{ else if isset .Params "featuredimage" }}
-            <img style="max-height:240px" src="{{ .Site.BaseURL }}{{.Params.featuredimage }}" />
-            {{ end }}
-        </a>
+<div class="summary">
+  <a href="{{ .Permalink }}">
+    {{ if isset .Params "thumbnail" }}
+    <img style="max-height:240px" src="{{ .Site.BaseURL }}{{.Params.thumbnail }}" />
+    {{ else if isset .Params "featuredimage" }}
+    <img style="max-height:240px" src="{{ .Site.BaseURL }}{{.Params.featuredimage }}" />
+    {{ end }}
+  </a>
+
+  <div class="content">
+    <div class="title">
+      {{ if .Params.Series }}
+      <a class="series" href="/series/{{ .Params.Series | urlize  }}">
+        {{ .Params.Series }}
+      </a>
+
+      <span class="divider">
+        >>
+      </span>
+      {{ end }}
+
+      <a class="post" href="{{ .Permalink }}">{{ .Title }}</a>
     </div>
 
-    <div class="column">
-        <h1 class="is-size-4-desktop is-size-5-touch has-margin-bottom-0"><a class="has-text-dark"
-                href="{{ .Permalink }}">{{ .Title }}</a>
-        </h1>
-
-        <div class="is-flex is-flex-row has-margin-bottom-3">
-            {{ if .Date }}
-            <div class="is-flex is-flex-row is-align-items-baseline has-margin-right-3"
-                title="Posted on {{ .Date.Format "Jan 2, 2006" }}">
-                <i class="fas fa-calendar-day  has-text-grey has-margin-right-1"></i>
-                <time class="has-text-grey">{{ .Date.Format "Jan 2, 2006" }}</time>
-            </div>
-            {{ end }}
-
-            {{ if .Params.Series }}
-            <a  class="is-flex is-flex-row is-align-items-baseline has-text-grey"  href="series/{{ .Params.Series | urlize  }}">
-            <i class="fas fa-book has-text-grey has-margin-right-1"></i>
-                {{ .Params.Series }}
-            </a>
-            {{ end }}
-        </div>
-
-        <p class="is-size-5">
-            {{ .Summary }}
-            {{ if .Truncated }}
-            <a href="{{ .Permalink }}">Read more...</a>
-            {{ end }}
-        </p>
+    {{ if .Date }}
+    <div class="date" title="Posted on{{ .Date.Format " Jan 2, 2006" }}">
+      <i class="fas fa-calendar-day"></i>
+      <time>{{ .Date.Format "Jan 2, 2006" }}</time>
     </div>
+    {{ end }}
+
+    <p class="desc">
+      {{ .Summary }}
+      {{ if .Truncated }}
+      <a href="{{ .Permalink }}">Read more...</a>
+      {{ end }}
+    </p>
+  </div>
 </div>
