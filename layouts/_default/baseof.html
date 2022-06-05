@@ -19,7 +19,6 @@
   {{ $styles := resources.Get "sass/styles.sass" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 
-  <script src="{{" js/interactivity.js" | relURL}}"></script>
   {{ template "_internal/google_analytics_async.html" . }}
 </head>
 
@@ -27,6 +26,9 @@
   {{ partial "navbar" . }}
 
   <main>
+    {{ if not .IsHome }}
+    <h1>{{ .Title }}</h1>
+    {{ end }}
     {{ block "main" . }}{{ end }}
   </main>
 
