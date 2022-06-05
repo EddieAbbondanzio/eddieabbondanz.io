@@ -17,9 +17,7 @@ $navbar-border: 0.4rem
 $navbar-item-width: 12rem
 $navbar-item-colors: (($oc-blue-5, $oc-gray-3), ($oc-blue-6, $oc-gray-4), ($oc-blue-7, $oc-gray-5), ($oc-blue-8, $oc-gray-6), ($oc-blue-9, $oc-gray-7))
 
-$footer-height: 6rem
-$footer-border: 0.4rem
-$footer-color: nth($navbar-item-colors, 5)
+$footer-height: 10rem
 
 html
   // Make 1rem = 10px
@@ -221,14 +219,9 @@ main
 
 footer
   height: $footer-height
-  background-color: nth($footer-color, 1)
-  border-top: $footer-border solid nth($footer-color, 2)
-  border-top-left-radius: $border-radius
-  border-top-right-radius: $border-radius
-  width: 48rem
   display: flex
   align-items: center
   justify-content: center
 
   p
-    color: $oc-white
+    color: $oc-gray-7
