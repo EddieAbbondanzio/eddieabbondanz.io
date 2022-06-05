@@ -1,101 +1,48 @@
-<nav class="navbar is-transparent is-spaced" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        <a class="navbar-item title is-uppercase is-marginless has-text-white is-size-5" href="{{ .Site.BaseURL }}">
-            EddieAbbondanz.io
-        </a>
+<nav class="navbar">
+  <div class="title">
+    <a href="{{ .Site.BaseURL }}">
+      Eddie Abondanzio
+    </a>
+  </div>
 
-        <a
-            role="button"
-            class="navbar-burger burger has-text-white"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="hamburger-menu"
-        >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-        </a>
+  <div class="menu">
+    {{ range .Site.Menus.main }}
+    {{ if not .HasChildren }}
+    <a class="item single" href="{{ .URL | relURL }}">{{ .Name }}</a>
+    {{ else }}
+    <div class="item dropdown">
+      <a class="trigger" href="{{ .URL | relURL }}">{{ .Name }}
+        <span class="icon is-medium"><i class="fas fa-chevron-down"></i></span>
+      </a>
+
+      <div class="content">
+        <a href="{{ $.Site.Params.hostName }}/post/"> All </a>
+
+        {{ range .Children }}
+        <a href="{{ .URL | relURL }}"> {{ .Name }} </a>
+        {{ end }}
+      </div>
     </div>
-
-    <div class="navbar-menu has-text-white">
-        <div class="navbar-end">
-            {{ range .Site.Menus.main }} {{ if not .HasChildren }}
-            <a class="navbar-item has-text-white" href="{{ .URL | relURL }}" style="text-decoration: none !important"
-                >{{ .Name }}</a
-            >
-            {{ else }}
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link has-text-white"> {{ .Name }} </a>
-
-                <div class="navbar-dropdown">
-                    <a class="navbar-item has-text-dark" href="{{ $.Site.Params.hostName }}/post/"> All </a>
-
-                    {{ range .Children }}
-                    <a class="navbar-item has-text-dark" href="{{ .URL | relURL }}"> {{ .Name }} </a>
-                    {{ end }}
-                </div>
-            </div>
-
-            {{ end }} {{ end }} {{ with .Site.Params.github }}
-            <a class="navbar-item has-text-white" href="{{ . }}" target="_blank">
-                <span class="icon is-medium">
-                    <i class="fab fa-github fa-lg"></i>
-                </span>
-            </a>
-            {{ end }} {{ with .Site.Params.twitter }}
-            <a class="navbar-item has-text-white" href="{{ . }}" target="_blank">
-                <span class="icon is-medium">
-                    <i class="fab fa-twitter fa-lg"></i>
-                </span>
-            </a>
-            {{ end }}{{ with .Site.Params.linkedin }}
-            <a class="navbar-item has-text-white" href="{{ . }}" target="_blank">
-                <span class="icon is-medium">
-                    <i class="fab fa-linkedin fa-lg"></i>
-                </span>
-            </a>
-            {{ end }}
-        </div>
+    {{ end }}
+    {{ end }}
+    <div class="item social">
+      {{ with .Site.Params.github }}
+      <a href="{{ . }}" target="_blank" title="GitHub">
+        <span class="icon is-medium">
+          <i class="fab fa-github fa-lg"></i>
+        </span>
+      </a>
+      {{ end }}{{ with .Site.Params.twitter }}
+      <a href="{{ . }}" target="_blank" title="Twitter">
+        <span class="icon is-medium"><i class="fab fa-twitter fa-lg"></i></span>
+      </a>
+      {{ end }}{{ with .Site.Params.linkedin }}
+      <a href="{{ . }}" target="_blank" title="Linkedin">
+        <span class="icon is-medium">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </span>
+      </a>
+      {{ end }}
     </div>
-
-    <div id="hamburger-menu" class="navbar-menu is-hidden-desktop">
-        {{ range .Site.Menus.main }} {{ if not .HasChildren }}
-        <a class="navbar-item" href="{{ .URL | relURL }}" style="text-decoration: none !important">{{ .Name }}</a>
-        {{ else }}
-
-        <div class="has-dropdown is-hoverable">
-            <a class="navbar-link has-text-white is-arrowless"> {{ .Name }} </a>
-
-            <div class="navbar-dropdown">
-                <a class="navbar-item has-text-white" href="{{ $.Site.Params.hostName }}/post/"> All </a>
-
-                {{ range .Children }}
-                <a class="navbar-item has-text-white" href="{{ .URL | relURL }}"> {{ .Name }} </a>
-                {{ end }}
-            </div>
-        </div>
-        {{ end }}{{ end }}
-
-        <div class="is-flex is-flex-direction-row is-justify-content-space-evenly">
-            {{ with .Site.Params.github }}
-            <a class="navbar-item" href="{{ . }}" target="_blank">
-                <span class="icon is-medium">
-                    <i class="fab fa-github fa-lg"></i>
-                </span>
-            </a>
-            {{ end }} {{ with .Site.Params.twitter }}
-            <a class="navbar-item" href="{{ . }}" target="_blank">
-                <span class="icon is-medium">
-                    <i class="fab fa-twitter fa-lg"></i>
-                </span>
-            </a>
-            {{ end }}{{ with .Site.Params.linkedin }}
-            <a class="navbar-item" href="{{ . }}" target="_blank">
-                <span class="icon is-medium">
-                    <i class="fab fa-linkedin fa-lg"></i>
-                </span>
-            </a>
-            {{ end }}
-        </div>
-    </div>
+  </div>
 </nav>

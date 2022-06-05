@@ -1,0 +1,171 @@
+@import "reset.sass"
+@import "utils.sass"
+@import "open-color.scss"
+
+$fa-font-path: "../webfonts"
+@import "font-awesome/brands.scss"
+@import "font-awesome/fontawesome.scss"
+@import "font-awesome/solid.scss"
+
+$border-radius: 1rem
+$content-width: 1028px
+
+$navbar-height: 6rem
+$navbar-hover: $oc-gray-7
+$navbar-border: 0.4rem
+
+$navbar-item-width: 12rem
+$navbar-item-colors: (($oc-blue-5, $oc-gray-3), ($oc-blue-6, $oc-gray-4), ($oc-blue-7, $oc-gray-5), ($oc-blue-8, $oc-gray-6), ($oc-blue-9, $oc-gray-7))
+
+$footer-height: 6rem
+$footer-border: 0.4rem
+$footer-color: nth($navbar-item-colors, 5)
+
+html
+  // Make 1rem = 10px
+  font-size: 62.5%
+  background-color: $oc-gray-1
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif
+  min-height: 100vh
+
+body
+  max-width: $content-width
+  margin-left: auto
+  margin-right: auto
+  font-size: 1.6rem
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+
+nav.navbar
+  height: $navbar-height
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+  .title
+    height: 100%
+    display: flex
+    align-items: center
+    flex-grow: 1
+    padding-left: 1.6rem
+
+    a
+      font-size: 2.8rem
+      text-decoration: none
+      color: $oc-gray-7
+      font-weight: bold
+
+  .menu
+    height: 100%
+    display: flex
+    align-items: center
+
+    .item:first-child
+      border-bottom-left-radius: $border-radius
+
+    .item:last-child
+      border-bottom-right-radius: $border-radius
+
+    .item
+      height: 100%
+      width: $navbar-item-width
+      display: flex
+      align-items: center
+      justify-content: center
+      color: $oc-white
+      text-decoration: none
+      font-weight: bold
+
+      // Colorize them
+      @for $i from 1 through length($navbar-item-colors)
+        $colors: nth($navbar-item-colors, $i)
+
+        &:nth-child(#{$i})
+          background-color: nth($colors, 1)
+          border-bottom: $navbar-border solid nth($colors, 2)
+
+    .item:hover, .icon:hover
+      color: $navbar-hover
+
+    .item.dropdown
+      position: relative
+
+      .trigger
+        height: 100%
+        width: 100%
+        display: flex
+        align-items: center
+        justify-content: center
+        text-decoration: none
+        color: $oc-white
+
+        &:hover
+          color: $navbar-hover
+
+        .icon
+          padding-left: 0.4rem
+
+      .content
+        display: none
+
+      &:hover
+        .content
+          display: flex
+          flex-direction: column
+          position: absolute
+          top: 6.4rem
+          left: 0
+          width: 16rem
+          background-color: rgba($oc-gray-9, 0.8)
+          border-radius: $border-radius
+
+          a:first-child
+            border-top-left-radius: $border-radius
+            border-top-right-radius: $border-radius
+
+          a:last-child
+            border-bottom-left-radius: $border-radius
+            border-bottom-right-radius: $border-radius
+
+          a
+            color: $oc-white
+            text-decoration: none
+            padding: 1rem
+
+            &:hover
+              color: $oc-gray-5
+              background-color: rgba($oc-black, 0.2)
+
+    .item.social
+      height: 100%
+      display: flex
+      align-items: center
+      padding-left: 1.6rem
+      padding-right: 1.6rem
+
+      .icon
+        color: $oc-white
+        padding: 0.8rem
+
+        &:hover
+          color: $navbar-hover
+
+main
+  flex-grow: 1
+  margin-top: 8rem
+  margin-bottom: 8rem
+
+footer
+  height: $footer-height
+  background-color: nth($footer-color, 1)
+  border-top: $footer-border solid nth($footer-color, 2)
+  border-top-left-radius: $border-radius
+  border-top-right-radius: $border-radius
+  width: 48rem
+  display: flex
+  align-items: center
+  justify-content: center
+
+  p
+    color: $oc-white
