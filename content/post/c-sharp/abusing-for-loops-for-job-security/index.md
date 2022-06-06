@@ -1,17 +1,17 @@
 ---
-title: 'Abusing For Loops In C# For Job Security'
+title: "Abusing For Loops In C# For Job Security"
 date: 2021-01-11
 type: post
-series: 'Development'
-thumbnail: '/post/c-sharp/abusing-for-loops-for-job-security/images/hero-thumbnail.jpg'
-featuredImage: '/post/c-sharp/abusing-for-loops-for-job-security/images/hero.jpg'
+series: "Development"
+thumbnail: "/post/c-sharp/abusing-for-loops-for-job-security/images/hero-thumbnail.jpg"
+featuredImage: "/post/c-sharp/abusing-for-loops-for-job-security/images/hero.jpg"
 ---
 
 Everyone knows good code is easy to maintain, but that also means anyone can maintain it. That's no bueno for the individual developer who wants a little job security. Writing overly complex code that nobody else can maintain let alone read, will ensure your company holds onto you, and will give you more bargaining power come raise time.
 
 We're going to work with a simplified example for the rest of this article. Imagine your boss has asked you to write a program that will count from 1 to 9 and print out the number, along with if it is even. A valid output would be as follows:
 
-```
+```c#
 1 is even: False
 2 is even: True
 3 is even: False
@@ -27,7 +27,7 @@ Your boss might've said this would be part of the test suite for the NPM package
 
 Oh well, sounds easy enough right? Any developer worth their salt knows a simple for loop could solve this problem.
 
-```
+```c#
 for (int i = 1; i < 10; i++) {
   Console.WriteLine($"{i} is even: {i % 2 == 0}");
 }
@@ -43,7 +43,7 @@ Just so we're all on the same page, a for loop is comprised of a statement, and 
 
 The statement is the portion which sits atop the loop and is within parenthesis. It's divided into three parts. Each of which is separated by a semi-colon.
 
-```
+```c#
 for(initializer; condition; iterator) {}
 ```
 
@@ -63,19 +63,19 @@ First off we've got some domain logic operating inside the for loop body. The te
 
 We're going to need an extra variable to hold a `isEven` flag. But, there's a bit of a problem. C# only allows for defining multiple variables of the same type in one line. So while the following is perfectly valid:
 
-```
+```c#
 for(int a = 0, b = 0; i < 10; i++) {}
 ```
 
 This is not:
 
-```
+```c#
 for(int a = 0, bool isEven = false; i < 10; i++) {}
 ```
 
 But that's okay because we'll slap it in a value tuple and deconstruct it.
 
-```
+```c#
 for(var (i, isEven) = (1, false); i < 10; i++) {}
 ```
 
@@ -83,13 +83,13 @@ Now that's beautiful.
 
 With the bool instantiated we just need to recalculate it each time in the iterator. Thankfully C# is cool with assigning multiple variables of different types on the same line.
 
-```
+```c#
 for (var (i, isEven) = (1, false); i < 10; i++, isEven = i % 2 == 0) { }
 ```
 
 And now our for loop body has been devoided of any logic. It's clean and concise.
 
-```
+```c#
 for (var (i, isEven) = (1, false); i < 10; i++, isEven = i % 2 == 0) {
   Console.WriteLine($"{i} is even: {isEven}");
 }
@@ -99,7 +99,7 @@ for (var (i, isEven) = (1, false); i < 10; i++, isEven = i % 2 == 0) {
 
 I'd argue `i < 10` is too readable. Since the condition just needs to be a boolean we can substitute it with anything we please provided it evaluates to `true` or `false`. Which basically makes it a no-brainer to swap it out with a switch expression.
 
-```
+```c#
 for (var (i, isEven) = (1, false); i switch { 10 => false, _ => true }; i++, isEven = i % 2 == 0) {
   Console.WriteLine($"{i} is even: {isEven}");
 }
@@ -109,7 +109,7 @@ The switch expression will still run our loop from 1 to 9 as intended. Each iter
 
 But we can take this a step further and add erroneous cases. As long as the switch never hits said cases it doesn't mess with the logic.
 
-```
+```c#
 for (var (i, isEven) = (1, false); i switch { 10 => false, 14 => true, 69 => false, 420 => true,_ => true }; i++, isEven = i % 2 == 0) {
   Console.WriteLine($"{i} is even: {isEven}");
 }
@@ -117,7 +117,7 @@ for (var (i, isEven) = (1, false); i switch { 10 => false, 14 => true, 69 => fal
 
 And on top of that they don't even have to be in order. Also note that erroneous cases can return `true` or `false`. This is extra important to add another layer of confusion.
 
-```
+```c#
 for (var (i, isEven) = (1, false); i switch { 14 => false, 69 => true, 10 => false, 420 => true, _ => true }; i++, isEven = i % 2 == 0) {
   Console.WriteLine($"{i} is even: {isEven}");
 }
@@ -125,7 +125,7 @@ for (var (i, isEven) = (1, false); i switch { 14 => false, 69 => true, 10 => fal
 
 For the finishing touch let's kick it up a notch. A switch case has to be a literal or constant, which removes the usages of methods, and the such but still leaves math on the table.
 
-```
+```c#
 for (var (i, isEven) = (1, false); i switch { 14 * 4 => false, 69 * 250 / 84 => true, 10 => false, 420 => true, _ => true }; i++, isEven = i % 2 == 0) {
   Console.WriteLine($"{i} is even: {isEven}");
 }
@@ -135,7 +135,7 @@ I recommend leaving the math a fifth grade level. We want to give the reader a f
 
 Oh and did I mention we can add some math and more to the return values? After all they just need to be booleans.
 
-```
+```c#
 for (var (i, isEven) = (1, false); i switch { 14 * 4 => false, 69 * 250 / 84 => 8 / 2 == 4, 10 => false, 420 => 7 * 6 == 92, _ => true }; i++, isEven = i % 2 == 0) {
   Console.WriteLine($"{i} is even: {isEven}");
 }
@@ -145,7 +145,7 @@ for (var (i, isEven) = (1, false); i switch { 14 * 4 => false, 69 * 250 / 84 => 
 
 We're not done yet. Our solution is optimal, but everyone knows that a 1 line solution is **always** better. Right now you're either begging for mercy or thinking there's no way it's possible. Even if we removed the brackets it's still 2 lines.
 
-```
+```c#
 for (var (i, isEven) = (1, false); i switch { 14 * 4 => false, 69 * 250 / 84 => 8 / 2 == 4, 10 => false, 420 => 7 * 6 == 92, _ => true }; i++, isEven = i % 2 == 0)
   Console.WriteLine($"{i} is even: {isEven}");
 ```
@@ -154,7 +154,7 @@ But if there's a will there's a way.
 
 Our next magic trick is going to involve a little inspiration from JavaScript. Have you ever heard of a self invoking function? It's basically a function declaration that immediately executes itself.
 
-```
+```c#
 (function () {
   console.log("foo");
 })();
@@ -163,14 +163,14 @@ Our next magic trick is going to involve a little inspiration from JavaScript. H
 
 And while we may be in the .NET world, who's to say we can't borrow a little inspiration?
 
-```
+```c#
 new Action(() => Console.WriteLine("foo"))();
 // prints "foo" to the console
 ```
 
 Let's take our new found knowledge and replace the iterator of our loop. Because after all when all you've got is a hammer, everything looks like a nail.
 
-```
+```c#
 for (var (i, isEven) = (1, false); i switch { 14 * 4 => false, 69 * 250 / 84 => 8 / 2 == 4, 10 => false, 420 => 7 * 6 == 92, _ => true }; (i, isEven) = new Func<int, (int, bool)>((i) => (i + 1, !(i % 2 == 0)))(i)) {
     Console.WriteLine($"{i} is even: {isEven}");
 }
@@ -178,7 +178,7 @@ for (var (i, isEven) = (1, false); i switch { 14 * 4 => false, 69 * 250 / 84 => 
 
 This is the little bit we added.
 
-```
+```c#
 new Func<int, (int, bool)>((i) => (i + 1, !(i % 2 == 0)))(i)
 ```
 
@@ -188,14 +188,14 @@ The real reason why we added in the self invoking function isn't to make it more
 
 That my friends is how we can achieve our glorious one liner solution.
 
-```
+```c#
 for (var (i, isEven) = (1, false); i switch { 14 * 4 => false, 69 * 250 / 84 => 8 / 2 == 4, 10 => false, 420 => 7 * 6 == 92, _ => true }; (i, isEven) = new Func<int, (int, bool)>((i) => { Console.WriteLine($"{i} is even: {isEven}"); return (i + 1, !(i % 2 == 0)); })(i));
 
 ```
 
 Here's the self invoking function for those who somehow have trouble reading our work of art.
 
-```
+```c#
 new Func<int, (int, bool)>((i) => { Console.WriteLine($"{i} is even: {isEven}"); return (i + 1, !(i % 2 == 0); }(i)
 ```
 
