@@ -48,17 +48,15 @@ nav.navbar
     display: flex
     align-items: center
     flex-grow: 1
+    font-size: 2.8rem
+    text-decoration: none
+    color: $oc-gray-7
+    font-weight: bold
 
     .avatar
       height: 5rem
       border-radius: 1rem
-
-    a
-      margin-left: 1rem
-      font-size: 2.8rem
-      text-decoration: none
-      color: $oc-gray-7
-      font-weight: bold
+      margin-right: 1rem
 
   .menu
     height: 100%
@@ -194,19 +192,20 @@ main
           color: $oc-black
           font-size: 2rem
 
-          &.series
-            // font-size: 1.6rem
-            color: $oc-gray-7
-
           &.post
             font-weight: 500
 
-        .divider
-          color: $oc-gray-7
-
-      .date
+      .meta
+        display: flex
         font-size: 1.4rem
-        color: $oc-gray-8
+        color: $oc-gray-7
+
+        .series
+          margin-right: 1ch
+
+        a
+          text-decoration: none
+          color: $oc-gray-7
 
       .desc
         margin-top: 2rem

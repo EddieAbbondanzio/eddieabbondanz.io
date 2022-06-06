@@ -1,5 +1,5 @@
 ---
-title: "Dana 30 Rebuild"
+title: "Dana 30 Front Axle Rebuild"
 date: 2020-09-15
 type: post
 series: "XJ Build"
