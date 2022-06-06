@@ -1,11 +1,9 @@
 <nav class="navbar">
-  <div class="title">
+  <a class="title" href="{{ .Site.BaseURL }}">
     <img class="avatar" src="{{ .Site.Params.avatar }}" />
 
-    <a href="{{ .Site.BaseURL }}">
-      Eddie Abbondanzio
-    </a>
-  </div>
+    Eddie Abbondanzio
+  </a>
 
   <div class="menu">
     {{ range .Site.Menus.main }}
