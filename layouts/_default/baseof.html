@@ -27,7 +27,7 @@
 
   <main>
     {{ if not .IsHome }}
-    <h1>{{ .Title }}</h1>
+    <h1 class="title">{{ .Title }}</h1>
     {{ end }}
     {{ block "main" . }}{{ end }}
   </main>
