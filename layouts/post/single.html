@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article>
+  <div class="meta">
+    {{ if .Params.Series }}
+    <a class="series" href="/series/{{ .Params.Series | urlize  }}" title="More {{ .Params.Series }} posts">
+      <i class="fas fa-th-list"></i>
+      {{ .Params.Series }}
+    </a>
+    {{ end }}
+
+    {{ if .Date }}
+    <div class="date" title="Posted on{{ .Date.Format " Jan 2, 2006" }}">
+      <i class="fas fa-calendar-day"></i>
+      <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+    </div>
+    {{ end }}
+  </div>
+
+  {{ .Content }}
+</article>
+{{ end }}
