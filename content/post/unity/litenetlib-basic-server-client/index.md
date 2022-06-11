@@ -1,7 +1,7 @@
 ---
-title: 'Unity - How to Create a Basic Server / Client With LiteNetLib'
+title: "Unity - How to Create a Basic Server / Client With LiteNetLib"
 date: 2019-11-13T06:10:00-00:00
-featuredImage: '/post/unity/litenetlib-basic-server-client/images/hero.jpg'
+featuredImage: "/post/unity/litenetlib-basic-server-client/images/hero.jpg"
 type: post
 ---
 
@@ -195,9 +195,7 @@ Also ensure that the "Development Build" checkbox is checked otherwise we wont s
 
 Close out of the Build Settings window and switch Unity back to the client scene. We're ready to test things out. We've set things up so anytime we build and run the app Unity will fire up a server instance for us. Then once that's running we can simply hit play in the editor to start our client.
 
-{{% alert type="info" %}}
 It comes down to user preference if the client or server should run within the editor, or the standalone build. I personally find that until a menu is added to control when the client connects to a server that it's better to have the server running in the build since we need it active first.
-{{%/ alert %}}
 
 Build and run the server by hitting `Ctrl+B`. Unity will popup a loading bar and after a few seconds our server will appear. Now hit play in the editor.
 

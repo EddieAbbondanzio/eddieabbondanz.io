@@ -1,11 +1,10 @@
-<nav class="navbar">
-  <a class="title" href="{{ .Site.BaseURL }}">
-    <img class="avatar" src="{{ .Site.Params.avatar }}" />
-
+<nav class="navbar fr jcsb aic">
+  <a class="title h100 fr aic tdn fwb" href="{{ .Site.BaseURL }}">
+    <img class="avatar mr2" src="{{ .Site.Params.avatar }}" />
     Eddie Abbondanzio
   </a>
 
-  <div class="menu">
+  <div class="menu h100 aic fr-tablet dn-phone">
     {{ range .Site.Menus.main }}
     {{ if not .HasChildren }}
     <a class="item single" href="{{ .URL | relURL }}">{{ .Name }}</a>
@@ -25,7 +24,7 @@
     </div>
     {{ end }}
     {{ end }}
-    <div class="item social">
+    <div class="item social h100 fr aic px3">
       {{ with .Site.Params.github }}
       <a href="{{ . }}" target="_blank" title="GitHub">
         <span class="icon is-medium">

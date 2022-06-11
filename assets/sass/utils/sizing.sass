@@ -1,0 +1,36 @@
+@import "responsiveness.sass"
+
+@mixin sizing($append: '')
+  $postfix: if($append == '', '', -#{$append})
+
+  .h100#{$postfix}
+    height: 100%
+
+  .w100#{$postfix}
+    width: 100%
+
+  .mw100#{$postfix}
+    max-width: 100%
+
++sizing()
+
++phone
+  +sizing('phone')
+
++tablet
+  +sizing('tablet')
+
++tablet-only
+  +sizing('tablet-only')
+
++laptop
+  +sizing('laptop')
+
++laptop-only
+  +sizing('laptop-only')
+
++desktop
+  +sizing('desktop')
+
++touch
+  +sizing('touch')

@@ -59,11 +59,7 @@ unsafe= true
     url = "app"
     weight = 2
     
-    [[menu.main]]
-    identifier = "project"
-    name = "Projects"
-    url = "project"
-    weight = 3
+
 
     [[menu.main]]
     identifier = "about-me"

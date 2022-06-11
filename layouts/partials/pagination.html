@@ -20,7 +20,7 @@
 <!-- If there's more than one page. -->
 {{ if gt $paginator.TotalPages 1 }}
 
-<div class="pagination">
+<div class="pagination fr jcc aic">
 
   <!-- First page. -->
   {{ if ne $paginator.PageNumber 1 }}
@@ -86,7 +86,7 @@
 
   <!-- Output page numbers. -->
   {{ if eq ($.Scratch.Get "page_number_flag") true }}
-  <a class="{{ cond (eq .PageNumber $paginator.PageNumber) " active" "" }}" href="{{ .URL }}">
+  <a class="{{ cond (eq .PageNumber $paginator.PageNumber) " tdu" "" }}" href="{{ .URL }}">
     {{ .PageNumber }}
   </a>
   {{ end }}

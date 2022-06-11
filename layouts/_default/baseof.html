@@ -16,7 +16,7 @@
   {{- end }}
 
   {{/* Compile SCSS */}}
-  {{ $styles := resources.Get "sass/styles.sass" | toCSS | minify | fingerprint }}
+  {{ $styles := resources.Get "sass/index.sass" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 
   {{ template "_internal/google_analytics_async.html" . }}
