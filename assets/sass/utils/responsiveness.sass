@@ -1,0 +1,43 @@
+$sm: 768px
+$md: 1024px
+$lg: 1280px
+
+// Phone -> up to sm
+// Tablet -> sm to md
+// Laptop -> md to lg
+// Desktop -> lg and up
+
+// Up to phone
+@mixin phone
+  @media (max-width: $sm - 1)
+    @content
+
+// Tablet and up
+@mixin tablet
+  @media (min-width: $sm)
+    @content
+
+// Only tablet
+@mixin tablet-only
+  @media (min-width: $sm) and (max-width: $md - 1)
+    @content
+
+// Laptop and up
+@mixin laptop
+  @media (min-width: $md)
+    @content
+
+// Only laptop
+@mixin laptop-only
+  @media (min-width: $md) and (max-width: $lg - 1)
+    @content
+
+// Desktop and up
+@mixin desktop
+  @media (min-width: $lg)
+    @content
+
+// Phone and Tablet
+@mixin touch
+  @media (max-width: $md - 1)
+    @content

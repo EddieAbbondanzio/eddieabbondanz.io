@@ -1,0 +1,44 @@
+@import "responsiveness.sass"
+
+.mr1ch
+  margin-right: 1ch
+
+@mixin spacing($append: '')
+  $postfix: if($append == '', '', -#{$append})
+
+  $types: (('m', 'margin'), ('p','padding'))
+  $sizes: (0: 0, 1: 0.5rem, 2: 1rem, 3: 2rem, 4: 4rem)
+  $positions: ("a" : (""), "t" : ("-top"), "l": ("-left"), "b": ("-bottom"), "r": ("-right"), "x": ("-left", "-right"), "y": ("-top", "-bottom"))
+
+  @each $pos, $props in $positions
+    @each $size, $value in $sizes
+      @each $type in $types
+        $label: nth($type, 1)
+        $spacing: nth($type, 2)
+
+        .#{$label}#{$pos}#{$size}#{$postfix}
+          @each $prop in $props
+            #{$spacing}#{$prop}: $value
+
++spacing()
+
++phone
+  +spacing('phone')
+
++tablet
+  +spacing('tablet')
+
++tablet-only
+  +spacing('tablet-only')
+
++laptop
+  +spacing('laptop')
+
++laptop-only
+  +spacing('laptop-only')
+
++desktop
+  +spacing('desktop')
+
++touch
+  +spacing('touch')

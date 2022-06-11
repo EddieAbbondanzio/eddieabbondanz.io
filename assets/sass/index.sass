@@ -1,5 +1,4 @@
 @import "reset.sass"
-@import "utils.sass"
 @import "open-color.scss"
 @import "markdown.sass"
 
@@ -7,6 +6,12 @@ $fa-font-path: "../webfonts"
 @import "font-awesome/brands.scss"
 @import "font-awesome/fontawesome.scss"
 @import "font-awesome/solid.scss"
+@import "utils/responsiveness.sass"
+@import "utils/flex.sass"
+@import "utils/spacing.sass"
+@import "utils/sizing.sass"
+@import "utils/text.sass"
+@import "utils/display.sass"
 
 $body-background: $oc-gray-1
 $body-width: 1028px
@@ -27,6 +32,7 @@ html
   min-height: 100vh
   background-color: $body-background
   font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif
+  font-size: 62.5%
 
 body
   min-height: 100vh
@@ -41,30 +47,24 @@ body
 
 nav.navbar
   height: $navbar-height
-  display: flex
-  justify-content: space-between
-  align-items: center
 
   .title
-    height: 100%
-    display: flex
-    align-items: center
-    flex-grow: 1
-    font-size: 2.8rem
-    text-decoration: none
     color: $navbar-title-color
-    font-weight: bold
+    font-size: 1.6rem
+    width: 33%
+
+    +phone
+      flex-grow: 1
+      font-size: 2rem
+
+    +tablet
+      font-size: 2.8rem
 
     .avatar
       height: 5rem
       border-radius: $border-radius
-      margin-right: 1rem
 
   .menu
-    height: 100%
-    display: flex
-    align-items: center
-
     .item:first-child
       border-bottom-left-radius: $border-radius
 
@@ -78,7 +78,6 @@ nav.navbar
       align-items: center
       justify-content: center
       color: $navbar-text
-      text-decoration: none
       font-weight: bold
 
       // Colorize them
@@ -141,12 +140,6 @@ nav.navbar
               background-color: rgba($oc-black, 0.2)
 
     .item.social
-      height: 100%
-      display: flex
-      align-items: center
-      padding-left: 1.6rem
-      padding-right: 1.6rem
-
       .icon
         color: $navbar-text
         padding: 0.8rem
@@ -161,72 +154,68 @@ main
 
   h1.title
     font-weight: bold
-    font-size: 3rem
     color: $oc-gray-8
 
-  .summary
-    display: flex
-    flex-direction: row
-    padding-bottom: 4rem
+    +phone
+    font-size: 2.4rem
+
+    +tablet
+      font-size: 3rem
+
+  .post
     border-bottom: 0.2rem solid $oc-gray-3
-    padding-top: 4rem
+    display: flex
+    flex-direction: column
 
-    .image
-      height: 18rem
-      width: 32rem
-      display: flex
-      justify-content: center
-      flex-shrink: 0
+    +tablet
+      flex-direction: row
 
-      img
-        max-height: 18rem
-        max-width: 32rem
+    img
+      max-height: 18rem
+      max-width: 32rem
 
-    .content
-      margin-left: 4rem
+    .title
+      color: $oc-black
+      font-size: 1.4rem
 
-      .title
-        margin-bottom: 1rem
+      +tablet
+        font-size: 2rem
 
-        a
-          color: $oc-black
-          font-size: 2rem
+    .meta
+      font-size: 1.4rem
+      color: $oc-gray-7
 
-          &.post
-            font-weight: 500
-
-      .meta
-        display: flex
-        font-size: 1.4rem
+      a
         color: $oc-gray-7
 
-        .series
-          margin-right: 1ch
+    .desc
+      color: $oc-gray-9
+      line-height: 2.4rem
 
-        a
-          color: $oc-gray-7
+      a
+        color: $oc-blue-5
 
-      .desc
-        margin-top: 2rem
-        color: $oc-gray-9
-        line-height: 2.4rem
+  .app
+    border-bottom: 0.2rem solid $oc-gray-3
 
-        a
-          color: $oc-blue-5
+    h1
+      font-size: 3rem
+      color: $oc-gray-8
+
+  .desc
+    line-height: 2.4rem
+    color: $oc-gray-9
+
+    a
+      color: $oc-blue-5
 
   .pagination
     height: 12rem
-    display: flex
-    justify-content: center
-    align-items: center
 
     a
       color: $oc-gray-7
       margin-right: 1ch
       margin-left: 1ch
-
-    a.active
-      text-decoration: underline
 
 footer
   height: $footer-height

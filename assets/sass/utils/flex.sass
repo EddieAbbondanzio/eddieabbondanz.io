@@ -1,0 +1,58 @@
+@import "responsiveness.sass"
+
+@mixin flex($append: '')
+  $postfix: if($append == '', '', -#{$append})
+
+  .fc#{$postfix}
+    flex-direction: column
+
+  .fr#{$postfix}
+    display: flex
+    flex-direction: row
+
+  .jcc#{$postfix}
+    justify-content: center
+
+  .jcsb#{$postfix}
+    justify-content: space-between
+
+  .aic#{$postfix}
+    align-items: center
+
+  .fs0#{$postfix}
+    flex-shrink: 0
+
+  .fs1#{$postfix}
+    flex-shrink: 1
+
+  .fg1#{$postfix}
+    flex-grow: 1
+
+  .fw500#{$postfix}
+    font-weight: 500
+
+  .fwb#{$postfix}
+    font-weight: bold
+
++flex()
+
++phone
+  +flex('phone')
+
++tablet
+  +flex('tablet')
+
++tablet-only
+  +flex('tablet-only')
+
++laptop
+  +flex('laptop')
+
++laptop-only
+  +flex('laptop-only')
+
++desktop
+  +flex('desktop')
+
++touch
+  +flex('touch')

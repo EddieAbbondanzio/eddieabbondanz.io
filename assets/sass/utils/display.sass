@@ -1,0 +1,37 @@
+
+@import "responsiveness.sass"
+
+@mixin display($append: '')
+  $postfix: if($append == '', '', -#{$append})
+
+  .db#{$postfix}
+    display: block
+
+  .dib#{$postfix}
+    display: inline-block
+
+  .dn#{$postfix}
+    display: none
+
++display()
+
++phone
+  +display('phone')
+
++tablet
+  +display('tablet')
+
++tablet-only
+  +display('tablet-only')
+
++laptop
+  +display('laptop')
+
++laptop-only
+  +display('laptop-only')
+
++desktop
+  +display('desktop')
+
++touch
+  +display('touch')

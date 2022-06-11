@@ -1,13 +1,11 @@
 ---
-title: 'Unity - How to Set Up LiteNetLib'
+title: "Unity - How to Set Up LiteNetLib"
 date: 2019-11-12T21:01:01-04:00
-featuredImage: '/post/unity/litenetlib-setup/images/hero.jpg'
+featuredImage: "/post/unity/litenetlib-setup/images/hero.jpg"
 type: post
 ---
 
-{{% alert type="secondary" %}}
 **TL;DR** Download the most recent stable release source code zip and copy the `/LiteNetLib` folder to the `Plugins` folder in your Unity project.
-{{%/ alert  %}}
 
 [LiteNetLib](https://github.com/RevenantX/LiteNetLib) is an UDP networking library that can be used for building multiplayer games with Unity. If you have any experience working with [Lidgren](https://github.com/lidgren/lidgren-network-gen3) you'll feel right at home with LiteNetLib. LiteNetLib is not Unity specific, but it's a popular choice.
 
@@ -30,9 +28,7 @@ Swing over to the [LiteNetLib GitHub repo](https://github.com/RevenantX/LiteNetL
 
 At the time of writing this [0.8.3](https://github.com/RevenantX/LiteNetLib/releases/tag/v0.8.3) is the most recent stable release. Go ahead and download the source code zip, or tar.
 
-{{% alert type="info" %}}
 It's best not to use the DLL as there are some platform specific #ifdefs for Unity in the source code. That's why we extract
-{{%/ alert  %}}
 
 ![](images/2.png)
 

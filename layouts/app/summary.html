@@ -1,0 +1,18 @@
+<!-- App Summary -->
+<div class="app my4">
+  <a href="{{ .Permalink }}">
+    <div class="mb3">
+      <h1 class="fw500 mb1">{{ .Title }}</h1>
+      <p>{{ .Description }}</p>
+    </div>
+
+    <img class="mw100 mb3" src="{{ .Site.BaseURL }}{{.Params.featuredimage }}" />
+  </a>
+
+  <p class="desc my3">
+    {{ .Summary }}
+    {{ if .Truncated }}
+    <a href="{{ .Permalink }}">Read more...</a>
+    {{ end }}
+  </p>
+</div>

@@ -1,7 +1,7 @@
 ---
-title: 'Unity - How to Send Data With LiteNetLib'
+title: "Unity - How to Send Data With LiteNetLib"
 date: 2019-11-13T19:04:00-00:00
-featuredImage: '/post/unity/litenetlib-sending-data/images/hero.jpg'
+featuredImage: "/post/unity/litenetlib-sending-data/images/hero.jpg"
 type: post
 ---
 
@@ -55,9 +55,7 @@ public class FooPacket {
 }
 ```
 
-{{% alert type="info" %}}
 [`Client.cs`](https://gist.github.com/EddieAbbondanzio/81eb3675f8cb8b51acbdc8888f9ab1a3#file-client-cs) and [`Server.cs`](https://gist.github.com/EddieAbbondanzio/81eb3675f8cb8b51acbdc8888f9ab1a3#file-server-cs) from the previous section will be reused to reduce redundancy.
-{{%/ alert %}}
 
 First up, we're going to modify the server to send a `FooPacket` to the newly connected client in `PeerConnectedEvent`. To do this we'll need to add a `NetPacketProcessor` as a field on the server.
 
