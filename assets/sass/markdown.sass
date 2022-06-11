@@ -1,3 +1,4 @@
+@import "utils/responsiveness.sass"
 // Rendered Markdown Styling
 
 $font-color: $oc-gray-8
@@ -5,11 +6,11 @@ $font-size: 1.8rem
 
 article
   .meta
+    color: $oc-gray-7
     display: flex
     flex-direction: row
     margin-left: .2rem
     margin-top: 0.5rem
-    color: $oc-gray-7
 
     .series
       margin-right: 1ch
@@ -44,7 +45,11 @@ article
   p
     color: $font-color
     font-size: $font-size
-    line-height: 3.2rem
+
+    line-height: 2.8rem
+
+    +tablet
+      line-height: 3.2rem
 
   img
     max-width: 100%
