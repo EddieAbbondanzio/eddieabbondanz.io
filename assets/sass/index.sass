@@ -70,9 +70,12 @@ nav.navbar
     border-radius: $border-radius
     height: 4.8rem
     width: 4.8rem
-    display: flex
     align-items: center
     justify-content: center
+    display: none
+
+    +phone
+      display: flex
 
   .menu
     .item:first-child
