@@ -1,4 +1,4 @@
-<nav class="navbar fr jcsb aic">
+<nav class="navbar fr jcsb aic mt2-phone">
   <a class="title h100 fr aic tdn fwb" href="{{ .Site.BaseURL }}">
     <img class="avatar mr2" src="{{ .Site.Params.avatar }}" />
     Eddie Abbondanzio
@@ -11,7 +11,7 @@
     {{ else }}
     <div class="item dropdown">
       <a class="trigger" href="{{ .URL | relURL }}">{{ .Name }}
-        <span class="icon is-medium"><i class="fas fa-chevron-down"></i></span>
+        <span class="icon"><i class="fas fa-chevron-down"></i></span>
       </a>
 
       <div class="content">
@@ -27,21 +27,28 @@
     <div class="item social h100 fr aic px3">
       {{ with .Site.Params.github }}
       <a href="{{ . }}" target="_blank" title="GitHub">
-        <span class="icon is-medium">
+        <span class="icon">
           <i class="fab fa-github fa-lg"></i>
         </span>
       </a>
       {{ end }}{{ with .Site.Params.twitter }}
       <a href="{{ . }}" target="_blank" title="Twitter">
-        <span class="icon is-medium"><i class="fab fa-twitter fa-lg"></i></span>
+        <span class="icon"><i class="fab fa-twitter fa-lg"></i></span>
       </a>
       {{ end }}{{ with .Site.Params.linkedin }}
       <a href="{{ . }}" target="_blank" title="Linkedin">
-        <span class="icon is-medium">
+        <span class="icon">
           <i class="fab fa-linkedin fa-lg"></i>
         </span>
       </a>
       {{ end }}
     </div>
   </div>
+
+  <a id="hamburger" class="hamburger dn-tablet" href="#" title="Linkedin">
+    <span class="icon">
+      <i class="fa fa-bars fa-lg"></i>
+    </span>
+  </a>
+
 </nav>
