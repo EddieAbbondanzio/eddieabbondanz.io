@@ -1,10 +1,10 @@
 ---
-title: 'Unibody Rust Repair Part 7: A New Fuel Neck Housing And Making Cut N Fold Panels'
+title: "Rust Repair Part 7: A New Fuel Neck Housing And Making Cut N Fold Panels"
 date: 2020-12-13
 type: post
-series: 'XJ Build'
-thumbnail: '/post/xj/unibody-rust-repair-part-7/images/thumbnail.jpg'
-featuredImage: '/post/xj/unibody-rust-repair-part-7/images/28.jpg'
+series: "XJ Build"
+thumbnail: "/post/xj/unibody-rust-repair-part-7/images/thumbnail.jpg"
+featuredImage: "/post/xj/unibody-rust-repair-part-7/images/28.jpg"
 ---
 
 # The Fuel Neck Housing

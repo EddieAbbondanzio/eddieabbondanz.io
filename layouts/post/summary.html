@@ -2,7 +2,9 @@
 <div class="post pb4 pt4">
   <a class="fr jcc fs0" href="{{ .Permalink }}">
     {{ if isset .Params "thumbnail" }}
-    <img src="{{ .Site.BaseURL }}{{.Params.thumbnail }}" />
+    <div class="image">
+      <img src="{{ .Site.BaseURL }}{{.Params.thumbnail }}" />
+    </div>
     {{ end }}
   </a>
 

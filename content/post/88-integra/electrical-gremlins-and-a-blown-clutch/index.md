@@ -32,7 +32,7 @@ OEM ignitor on the left, cheap aftermarket unit on the right that I removed from
 ![](images/2.jpg)
 ![](images/3.jpg)
 
-Well as fate would have it, none of those parts fixed the issue because as soon as I took off on a test drive the issue re-appeared. Thinking about the issue a bit more I realized it was more likely to be something cutting fuel because when the issue occured the car would never backfire afterwards or smell like it was running rich.
+Well as fate would have it, none of those parts fixed the issue because as soon as I took off on a test drive the issue re-appeared. Thinking about the issue a bit more I realized it was more likely to be something cutting fuel because when the issue occurred the car would never backfire afterwards or smell like it was running rich.
 
 Thinking back I remembered that a few month's earlier while doing the headgasket I had accidentally kinked the O2 sensor wire while removing the exhaust header. The wire looked fine on the outside but I opted on the side of caution and ordered a spare O2 sensor since I figured it'd be good to have. I never installed it though because again the wire looked okay and I figured I'd only bother to replace it if the check engine light came on.
 
@@ -57,12 +57,12 @@ Before going to deep into it I popped off the inspection plate to see if I could
 That's not good, I wasn't expecting to see chunks in there.
 ![](images/6.jpg)
 
-A few hours later and after having dissassembled most of the front end to drop the transmission I discovered the issue. One of the rubber dampeners on the clutch disc had completely disintegrated! There was pieces of it and some metal jammed up in the pressure plate which is why the clutch wouldn't disengage.
+A few hours later and after having disassembled most of the front end to drop the transmission I discovered the issue. One of the rubber dampeners on the clutch disc had completely disintegrated! There was pieces of it and some metal jammed up in the pressure plate which is why the clutch wouldn't disengage.
 
 That clunk I heard earlier when making clutch cable adjustments was the dampener exploding.
 ![](images/8.jpg)
 
-Not much meat left to the clutch disc so maybe it was a good thing afterall.
+Not much meat left to the clutch disc so maybe it was a good thing after all.
 ![](images/9.jpg)
 ![](images/10.jpg)
 
@@ -81,7 +81,7 @@ The engine is held up with the jack but I didn't trust leaving it overnight so I
 I always leave a wheel under the rocker panel when I put a car on jackstands as a safe guard in case the car fell. It'd scuff up the rim pretty good but I'd prefer that over injuries had I been under the car.
 ![](images/15.jpg)
 
-I try to work neat when possible. Most bolts get baggied and labeled, but sometimes I leave them in piles next to the parts they belong to.
+I try to work neat when possible. Most bolts get bagged and labeled, but sometimes I leave them in piles next to the parts they belong to.
 ![](images/16.jpg)
 
 Gave the flywheel a quick wipe down before dropping it off at a local machine shop the same day.
@@ -116,7 +116,7 @@ Two days after dropping off my flywheel at a machine shop they gave me a ring to
 New rear main seal installed.
 ![](images/26.jpg)
 
-I don't have one of those fancy flywheel holders to help with torqueing down the flywheel bolts so I ended up using a neat trick I learnt off the internet during my last motor swap about how to hold it in place with just a wrench and one of the bellhousing bolts.
+I don't have one of those fancy flywheel holders to help with torquing down the flywheel bolts so I ended up using a neat trick I learnt off the internet during my last motor swap about how to hold it in place with just a wrench and one of the bellhousing bolts.
 ![](images/27.jpg)
 
 Old clutch vs new clutch. Hard to tell the difference!
@@ -164,7 +164,7 @@ It's hard to see but it was in the bottom right corner.
 
 The leak was so bad that the car lost 1/2 quart of oil in under a week. The oil was even dripping on the exhaust causing it to smoke and burn off on the catalytic converter.
 
-Not wanting to fail tech inspection for an autocross event that was the very next day (I didn't realize the severity of the oil leak until the night before) I stayed up till 1AM pulling the oil pan. Nothing went smooth during the tear down (probably from being so tired) and even included me getting drenched with transmission fluid while laying underneath it when I removed the half shaft from the transmission becaused I forgot to drain the transmission fluid first.
+Not wanting to fail tech inspection for an autocross event that was the very next day (I didn't realize the severity of the oil leak until the night before) I stayed up till 1AM pulling the oil pan. Nothing went smooth during the tear down (probably from being so tired) and even included me getting drenched with transmission fluid while laying underneath it when I removed the half shaft from the transmission because I forgot to drain the transmission fluid first.
 
 In the morning I shot out to the parts store and picked up a replacement gasket. I was even able to reassembly everything before starting work.
 
