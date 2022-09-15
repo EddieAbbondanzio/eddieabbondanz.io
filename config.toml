@@ -1,10 +1,8 @@
-# baseURL = "https://EddieAbbondanzio.github.io/"
 baseURL = "https://eddieabbondanz.io"
 languageCode = "en-us"
 title = "Eddie Abbondanzio"
 theme = "blank"
 author = "Eddie Abbondanzio"
-copyright = "&copy; 2019. All rights reserved."
 canonifyurls = true
 paginate = 10
 googleAnalytics = "UA-128571017-1"

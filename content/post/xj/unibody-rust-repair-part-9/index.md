@@ -90,3 +90,5 @@ And two coats of paint later it was looking better.
 
 Well until it dried. The floor ended up with a lot of overspray unfortunately. This was my first time spraying in an enclosed area and I didn't realize the lack of airflow would cause a massive overspray issue. Live and learn I suppose. Least it'll be hidden underneath all the carpet and what not.
 ![](images/34.jpg)
+
+[Continue on to Part 10]({{< ref "unibody-rust-repair-part-10" >}})
