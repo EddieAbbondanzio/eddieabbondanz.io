@@ -66,7 +66,7 @@
   </div>
 
   <main>
-    {{ if not .IsHome }}
+    {{ if and (not .IsHome) (ne .RelPermalink "/404.html") }}
     <h1 class="title">{{ .Title }}</h1>
     {{ end }}
     {{ block "main" . }}{{ end }}
