@@ -257,6 +257,8 @@ Yet another coat of epoxy was sprayed to cover up the exposed metal from the wel
 ![](images/90.jpg)
 ![](images/91.jpg)
 
+[Continue on to Part 14]({{< ref "unibody-rust-repair-part-14" >}})
+
 # Resources
 
 These threads were super helpful when planning out how I wanted to tackle the 2x6 rocker mod:
