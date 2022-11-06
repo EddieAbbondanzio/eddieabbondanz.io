@@ -238,3 +238,5 @@ While working on the passenger rocker I took the time to build the custom parts 
 ![](images/86.jpg)
 
 Next steps are to finish the outer layer of the B pillar and repair the metal at the bottom of the C pillar (aka dog leg).
+
+[Continue on to Part 15]({{< ref "unibody-rust-repair-part-15" >}})
