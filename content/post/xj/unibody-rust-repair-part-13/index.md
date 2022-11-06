@@ -9,7 +9,7 @@ thumbnail: "/post/xj/unibody-rust-repair-part-13/images/thumbnail.jpg"
 With all this metal laying around it was about time I started putting it to use.
 ![](images/1.jpg)
 
-While the 2x6 rocker mod for XJ isn't uncommon by any means, I'm planning on taking a slightly different approach in how I tie them into the unibody. My goal is to hide the welds, and also leave some hidden access holes that'll let me spray fluid film down into the rockers each year before winter.
+While the 2x6 rocker mod (aka rock sliders) for XJ isn't uncommon by any means, I'm planning on taking a slightly different approach in how I tie them into the unibody. My goal is to hide the welds, and also leave some hidden access holes that'll let me spray fluid film down into the rockers each year before winter.
 
 The materials I'll be using are:
 
