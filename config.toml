@@ -20,7 +20,6 @@ unsafe= true
 [params]
     avatar = "/img/avatar.jpg" 
     github = "http://github.com/EddieAbbondanzio"
-    twitter = "https://twitter.com/EAbbondanzio"
     linkedin = "https://www.linkedin.com/in/ed-abbondanzio-5a7378208/"
 
 [menu]
