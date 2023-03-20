@@ -1,6 +1,6 @@
 ---
 title: "Building My Ultimate Mig Cart"
-date: 2023-03-01
+date: 2023-03-01cd
 type: post
 thumbnail: "/post/tools/mig-cart/images/thumbnail.jpg"
 ---
