@@ -168,3 +168,5 @@ The sizing of the wheels is already looking pretty good to me even though it's j
 The current rims are TJ canyons from a wrangler and they've got a lot of backspacing which is why they sit so far in.
 
 I plan on switching back to the dark gray icons I've got laying around and will be using wheel spacers to bump them out just a tad.
+
+[Continue on to Part 17]({{< ref "unibody-rust-repair-part-17" >}})
