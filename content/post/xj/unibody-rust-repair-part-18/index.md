@@ -169,3 +169,5 @@ And lastly, two coats of epoxy were sprayed over everything.
 ![](images/54.jpg)
 
 Next up will be replacing the inner rocker.
+
+[Continue on to Part 19]({{< ref "unibody-rust-repair-part-19" >}})
