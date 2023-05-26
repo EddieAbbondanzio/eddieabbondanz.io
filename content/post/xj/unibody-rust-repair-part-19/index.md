@@ -183,7 +183,7 @@ I was super pumped to see how well the C pillar cleaned up. Not having to rebuil
 ![](images/55.jpg)
 ![](images/56.jpg)
 
-While the blater was out I cleaned up some pieces of the front door hinges that I had been meaning to address for awhile.
+While the blaster was out I cleaned up some pieces of the front door hinges that I had been meaning to address for awhile.
 ![](images/57.jpg)
 
 ## Fresh Epoxy To Protect Everything
