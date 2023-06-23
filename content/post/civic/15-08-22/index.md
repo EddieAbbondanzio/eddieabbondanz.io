@@ -1,8 +1,9 @@
 ---
-title: 'Civic Build - 08/22/15'
+title: "Civic Build - 08/22/15"
 date: 2015-08-22T20:44:42-04:00
 type: post
-series: 'EG Build'
+series: "93 EG Hatch Build"
+thumbnail: "/post/civic/15-08-22/images/thumbnail.jpg"
 ---
 
 I've been quite busy working on the Civic in the past month. I'm verfy excited to shared the journey I'm embarking on, and can't wait to see how the finished product looks.
