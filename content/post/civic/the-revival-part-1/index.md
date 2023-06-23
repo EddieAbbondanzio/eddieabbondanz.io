@@ -1,7 +1,7 @@
 ---
-title: "EG Hatch Revival Part 1: Restarting a Forgotten Project"
+title: "Revival of the Hatch Part 1: Restarting a Forgotten Project"
 date: 2023-06-03
-series: "EG Build"
+series: "93 EG Hatch Build"
 type: "post"
 thumbnail: "/post/civic/the-revival-part-1/images/thumbnail.jpg"
 ---

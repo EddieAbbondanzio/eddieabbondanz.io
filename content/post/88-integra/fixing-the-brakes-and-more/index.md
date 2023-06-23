@@ -1,5 +1,5 @@
 ---
-title: "Fixing the Brakes"
+title: "Fixing the Completely Seized Brakes"
 date: 2022-01-22
 series: "88 Integra Build"
 type: post

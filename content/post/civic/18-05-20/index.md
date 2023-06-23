@@ -1,8 +1,9 @@
 ---
-title: 'Civic Build - 5/20/18'
+title: "Civic Build - 5/20/18"
 date: 2018-05-20T12:57:42-04:00
 type: post
-series: 'EG Build'
+series: "93 EG Hatch Build"
+thumbnail: "/post/civic/18-05-20/images/thumbnail.jpg"
 ---
 
 ## Finishing things up

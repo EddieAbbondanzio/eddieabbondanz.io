@@ -5,7 +5,6 @@ theme = "blank"
 author = "Eddie Abbondanzio"
 canonifyurls = true
 paginate = 10
-googleAnalytics = "UA-128571017-1"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsStyle = "monokai"
@@ -49,6 +48,13 @@ unsafe= true
     parent = "posts"
     url="series/88-integra-build"
     weight = 3
+
+    [[menu.main]]
+    name = "93 EG Hatch Build"
+    identifier = "93-eg-hatch-build"
+    parent = "posts"
+    url="series/93-eg-hatch-build"
+    weight = 4
 
     [[menu.main]]
     identifier = "apps"
