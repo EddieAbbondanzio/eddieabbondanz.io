@@ -138,4 +138,4 @@ Using just compressed air I was able to knock almost all the paint of the transm
 I already fixed up the mount bolt holes by helicoiling all 3 of them.
 ![](images/37.jpg)
 
-Stay tuned!
+[Continue on to Part 2]({{< ref "the-revival-part-2" >}})
