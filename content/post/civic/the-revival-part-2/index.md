@@ -113,7 +113,9 @@ All buttoned up and new axle seals + shift rod boot installed.
 It looks so much better.
 ![](images/37.jpg)
 
-That's it for now. I still need to plan out my clutch + fylwheel along with prep the motor.
+That's it for now. I still need to plan out my clutch + flywheel along with prep the motor.
 
 Sneak peak of the new shift linkage.
 ![](images/38.jpg)
+
+[Continue on to Part 3]({{< ref "the-revival-part-3" >}})
