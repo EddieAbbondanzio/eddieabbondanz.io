@@ -14,7 +14,7 @@ The ever growing parts pile.
 
 # Undoing the Battery Tuck
 
-The battery tuck I did years ago hasn't held up well. Back then no-one sold a tuck kit for the stock sized battery so I DIYed my own solution using some 1/8 angle. It used to be painted but it seems all the paint has rusted off at this point.
+The battery tuck I did years ago hasn't held up well. Back then no one sold a tuck kit for the stock sized battery so I DIYed my own solution using some 1/8 angle. It used to be painted but it seems all the paint has rusted off at this point.
 ![](images/3.jpg)
 ![](images/4.jpg)
 
@@ -75,3 +75,5 @@ The subframe was also dropped. This was surprisingly easy as all of the bolts ca
 
 The engine bay's looking super empty now.
 ![](images/24.jpg)
+
+[Continue on to Part 5]({{< ref "the-revival-part-5" >}})
