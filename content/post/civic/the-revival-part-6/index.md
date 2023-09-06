@@ -8,7 +8,7 @@ thumbnail: "/post/civic/the-revival-part-6/images/thumbnail.jpg"
 
 The suspension on my hatch was in rough shape. Nearly every bushings was ripped, the ball joints were original and questionable at best, and all of the various suspension arms were covered in rust and some still had over spray on them from when we painted the car years ago.
 
-I wanted to go throw and sandblast / paint everything but the main thing holding me back was that my sandblasting cabinet wasn't operational. A couple years ago my Dad upgraded his blasting cabinet and gave me his old one. I've been meaning to fix it ever since I got it, but I never got around to it.
+I wanted to go through and sandblast / paint everything but the main thing holding me back was that my sandblasting cabinet wasn't operational. A couple years ago my Dad upgraded his blasting cabinet and gave me his old one. I've been meaning to fix it ever since I got it, but I never got around to it.
 
 The cabinet was in reasonable shape but needed a bunch of new parts (nozzle, dust extractor, lens, and more) and was known for leaking a bunch of blasting media due to all the holes in it.
 
