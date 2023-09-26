@@ -1,6 +1,6 @@
 ---
 title: "Revival of the Hatch Part 7: Re-Adding Power Steering, a Full-Sized Radiator and More"
-date: 2023-09-14
+date: 2023-09-16
 series: "93 EG Hatch Build"
 type: "post"
 thumbnail: "/post/civic/the-revival-part-7/images/thumbnail.jpg"
@@ -15,7 +15,7 @@ The front tow hooks have definitely seen better days. They were both bent from s
 
 Using my sandblaster and bench vise I was able to clean them up and get them as straight as possible.
 
-Not wanting the bends to come back I tried welding on some extra bracing to beef them up a tad.
+Not wanting the bends to come back I tried welding on some extra bracing to beef them up.
 ![](images/3.jpg)
 
 The welds ended up being too close to the bolt holes though and had to be ground back.
@@ -136,7 +136,7 @@ I had to drill out the upper nuts that I had previously welded up and weld in ne
 
 ![](images/45.jpg)
 
-Past me did me a solid and saved off the original OEM bracket that I powder coated way back when. Truth be told I didn't even realize I still had it and found it while digging through an old parts bin I hadn't touched in years.
+Past me did me a solid and saved off the original OEM bracket that I powder coated way back when. Truth be told I didn't even realize I still had it. I found it while digging through an old parts bin I hadn't touched in years.
 
 ![](images/46.jpg)
 
@@ -212,3 +212,5 @@ Good enough for now.
 
 At this point I'd wager I'm basically ready to start the bodywork.
 ![](images/71.jpg)
+
+[Continue on to Part 8]({{< ref "the-revival-part-8" >}})
