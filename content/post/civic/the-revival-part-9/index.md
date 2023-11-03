@@ -195,3 +195,5 @@ All in all I'm pretty happy with it came out. It ended up being a fun learning e
 ![](images/67.jpg)
 
 It really feels like I've hit the turning point on this project now.
+
+[Continue on to Part 10]({{< ref "the-revival-part-10" >}})
