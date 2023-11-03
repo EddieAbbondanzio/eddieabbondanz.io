@@ -2,7 +2,7 @@
 {{ $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
 <div class="image">
   <a href="{{ .Destination | safeURL }}" target="_blank">
-    <img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" title="{{ .Title }}" {{ if $image }}
-      max-width="{{ $image.Width }}" max-height="{{ $image.Height }}" {{ end }} />
+    <img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text | safeHTML }}" title="{{ .Title | safeHTML }}"
+      {{ if $image }} max-width="{{ $image.Width }}" max-height="{{ $image.Height }}" {{ end }} />
   </a>
 </div>
