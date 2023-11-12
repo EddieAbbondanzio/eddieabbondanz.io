@@ -3,6 +3,7 @@ title: "B-Series Bolt Sizes"
 date: 2018-04-06T15:22:42-04:00
 type: post
 featuredImage: "/post/honda/b-series-bolts/images/featured.jpg"
+series: "Honda Info and DIYs"
 ---
 
 I'm in the middle of swapping a B20B into my 1993 civic, and I had to buy (just about) every bolt / nut on the engine and transmission since I was missing so many. I also had the pleasure of tracking down all this information from various forums and sources. To try and help any others who are partaking in a similar project I've compiled a list of what I found below.
@@ -25,7 +26,7 @@ For more info please see: https://www.boltdepot.com/fastener-information/measuri
 
 If you've ever had to replace a bolt or nut on your Honda with one from a hardware store you may have noticed that the head on the new hardware requires a larger socket than the original one from your car.
 
-This is because Honda bolts are JIS spec, and most hardware stores don't carry this. It's perfectly fine to use either, but if you'd prefer to keep them all the same head size I'd recommend sticking with JIS.
+This is because Honda bolts are JIS spec, and most hardware stores don't carry this. It's perfectly fine to use either, but if you'd prefer to keep them all the same head size I'd recommend sticking with JIS but that may require ordering them online.
 
 ## Intake and Exhaust
 
@@ -41,13 +42,11 @@ Or if you deleted the studs:
 
 ### MAP Sensor
 
-- (2) m4x0.70x12 bolts
+- (2) m4x0.70x12 bolts (15mm works too)
 
 ### FITV
 
-- (3) M6x1.0x38
-
-Most hardware stores won't carry a 38mm bolt so a 40mm bolt with washer works too.
+- (3) M6x1.0x38 bolts (40mm works too)
 
 ### Throttle Body:
 
