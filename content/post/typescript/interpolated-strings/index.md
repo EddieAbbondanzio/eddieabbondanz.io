@@ -1,6 +1,6 @@
 ---
 title: "TypeScript - Interpolated Strings"
-date: 2019-02-01T16:52:42-04:00
+date: 2019-02-01
 type: post
 thumbnail: "/post/typescript/interpolated-strings/images/1.jpg"
 series: "Development"

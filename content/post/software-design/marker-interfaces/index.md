@@ -1,6 +1,6 @@
 ---
 title: "Software Design - Marker Interfaces"
-date: 2018-11-02T05:12:42-04:00
+date: 2018-11-02
 type: post
 series: "Development"
 ---

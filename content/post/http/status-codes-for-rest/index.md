@@ -1,6 +1,6 @@
 ---
 title: "HTTP Status Codes For a RESTful API"
-date: 2019-01-29T18:29:29-04:00
+date: 2019-01-29
 type: post
 thumbnail: "/post/http/status-codes-for-rest/images/1.jpg"
 series: "Development"

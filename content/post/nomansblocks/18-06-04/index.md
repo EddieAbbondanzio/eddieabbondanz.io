@@ -1,6 +1,6 @@
 ---
 title: "No Mans Blocks - 6/4/18"
-date: 2018-06-04T20:05:42-04:00
+date: 2018-06-04
 type: post
 series: "Development"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "WorkStation - More RAM"
-date: 2019-02-15T21:17:42-04:00
+date: 2019-02-15
 type: post
 series: "Laptop"
 ---

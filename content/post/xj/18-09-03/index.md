@@ -1,6 +1,6 @@
 ---
 title: "XJ Build - 9/03/18"
-date: 2018-09-02T12:57:42-04:00
+date: 2018-09-02
 type: post
 series: "XJ Build"
 thumbnail: "post/xj/18-09-03/images/7.jpg"

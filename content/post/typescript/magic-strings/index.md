@@ -1,6 +1,6 @@
 ---
 title: "TypeScript - Taking The Magic Out of Magic Strings"
-date: 2019-01-05T09:53:42-04:00
+date: 2019-01-05
 type: post
 thumbnail: "/post/typescript/magic-strings/images/1.jpg"
 series: "Development"

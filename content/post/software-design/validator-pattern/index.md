@@ -1,11 +1,8 @@
 ---
 title: "Software Design - Validator Pattern"
-date: 2018-10-10T05:16:42-04:00
-categories: ["Software Design"]
+date: 2018-10-10
 type: post
----
-
-Validating Objects Based on Context
+series: "Development"
 ---
 
 It's quite typical for a Domain Driven Design (DDD) project to need validation for it's domain models. While it may be sufficient to solve this by adding an IsValid() method to each model, this can cause confusion for the developer by cluttering the model class, and/or by requiring the IsValid() method to be generalized that it covers a large range of validation rules for any situation that may arise. Let's work with an example.

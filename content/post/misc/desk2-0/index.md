@@ -1,6 +1,6 @@
 ---
 title: "My Work Station 2.0"
-date: 2018-10-08T15:22:42-04:00
+date: 2018-10-08
 type: post
 series: "Workstation"
 ---
