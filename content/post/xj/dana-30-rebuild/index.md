@@ -4,7 +4,6 @@ date: 2020-09-15
 type: post
 series: "XJ Build"
 thumbnail: "/post/xj/dana-30-rebuild/images/thumbnail.jpg"
-featuredImage: "/post/xj/dana-30-rebuild/images/6.jpg"
 ---
 
 The front axle of my Cherokee has been in desperate need of some attention for quite awhile. Just about every component on it was worn to the point of needing to be replaced and the axle housing itself had built up some pretty intense rust.

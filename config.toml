@@ -59,6 +59,13 @@ unsafe= true
     url="series/93-eg-hatch-build"
     weight = 4
 
+        [[menu.main]]
+    name = "Honda Info and DIYs"
+    identifier = "honda-info-and-diys"
+    parent = "posts"
+    url="series/honda-info-and-diys"
+    weight = 5
+
     [[menu.main]]
     identifier = "apps"
     name = "Apps"

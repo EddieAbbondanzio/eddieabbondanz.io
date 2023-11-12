@@ -2,7 +2,6 @@
 title: "WorkStation - Goodbye Windows"
 date: 2019-02-18
 type: post
-categories: ["Laptop"]
 series: "Laptop"
 ---
 

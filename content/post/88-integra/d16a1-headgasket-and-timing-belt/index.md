@@ -3,7 +3,6 @@ title: "Replacing a D16A1 Headgasket and Timing Belt"
 date: 2022-02-17
 series: "88 Integra Build"
 type: post
-featuredImage: "/post/88-integra/d16a1-headgasket-and-timing-belt/images/28.jpg"
 thumbnail: "/post/88-integra/d16a1-headgasket-and-timing-belt/images/thumbnail.jpg"
 ---
 

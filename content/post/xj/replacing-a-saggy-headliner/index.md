@@ -1,10 +1,9 @@
 ---
-title: 'Replacing a Saggy Headliner'
+title: "Replacing a Saggy Headliner"
 date: 2021-06-05
 type: post
-series: 'XJ Build'
-thumbnail: '/post/xj/replacing-a-saggy-headliner/images/thumbnail.jpg'
-featuredImage: '/post/xj/replacing-a-saggy-headliner/images/12.jpg'
+series: "XJ Build"
+thumbnail: "/post/xj/replacing-a-saggy-headliner/images/thumbnail.jpg"
 ---
 
 # Delaying the Inevitable
@@ -138,7 +137,7 @@ Replacing the headliner has also made the interior look substantially better. On
 
 ## Random Tips
 
--   Be extra careful removing some of the interior panels in order to remove the headliner as they have clips that can break off easily
--   4 yards of fabric is enough to do the headliner, and sun visors
--   Stetchy fabric makes your life easier.
--   I ordered the suede and adhesive from [YourAutoTrim](https://www.yourautotrim.com/suheobl.html)
+- Be extra careful removing some of the interior panels in order to remove the headliner as they have clips that can break off easily
+- 4 yards of fabric is enough to do the headliner, and sun visors
+- Stetchy fabric makes your life easier.
+- I ordered the suede and adhesive from [YourAutoTrim](https://www.yourautotrim.com/suheobl.html)

@@ -1,8 +1,9 @@
 ---
-title: 'Acura Build - 03/14/2014'
+title: "Acura Build - 03/14/2014"
 date: 2014-03-14
-series: 'RL Build'
+series: "RL Build"
 type: post
+thumbnail: "/post/acura/14-03-14/images/1.jpg"
 ---
 
 Made a little more progress on the tablet. I'm using a Nexus 7 Gen 2 tablet.

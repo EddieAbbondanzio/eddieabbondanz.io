@@ -4,7 +4,6 @@ date: 2020-12-13
 type: post
 series: "XJ Build"
 thumbnail: "/post/xj/unibody-rust-repair-part-7/images/thumbnail.jpg"
-featuredImage: "/post/xj/unibody-rust-repair-part-7/images/28.jpg"
 ---
 
 # The Fuel Neck Housing

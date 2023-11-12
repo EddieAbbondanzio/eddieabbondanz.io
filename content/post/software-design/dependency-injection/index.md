@@ -1,37 +1,31 @@
 ---
 title: "Software Design - Dependency Injection and Inversion"
 date: 2018-10-18T06:34:42-04:00
-categories: ["Software Design"]
 type: post
+series: "Development"
 ---
 
-What are they?
----
+## What are they?
 
 While it may seem like nothing more than buzz words, dependency injection is a well known principle. In fact, you've likely used it yourself in the past and just didn't know the technique had a name. Dependency injection can be thought of as passing a resource required by a class to the class through one of several means. While the class could instantiate a new instance of the resource itself, by using dependency injection we introduce an easier way to take advantage of dependency inversion.
 
 Dependency inversion sounds similar but is a slightly different principle. In simple terms, dependency inversion prevents high level modules from relying upon low level modules through the use of an abstraction. This inverts the dependency such that the higher level class no longer relies upon a concrete implementation, and can utilize any resource that complies with the dependency contract defined through the abstraction.
 
-Dependency injection comes in three different flavors: 
+Dependency injection comes in three different flavors:
 
-* Constructor injection
-* Method injection
-* Property injection
+- Constructor injection
+- Method injection
+- Property injection
 
-Constructor injection
----
+## Constructor injection
 
 Constructor injection is where the dependency is passed to the dependent class directly through it's constructor. This method should be used when the dependent is reliant upon the dependency in such a way that the dependent cannot function without it.
 
-Method / Property injection
----
+## Method / Property injection
 
 Since these two are similar in nature we'll combine them. Method injection is when the dependency is passed to the dependent class via a method. Property injection on the other hand, is where the dependency is injected via a setter property on the dependent. These should be used when a class has a dependency but isn't fully reliant upon it. The dependent class should be able to still function in some manner without it.
 
-
-
-A Working Example
----
+## A Working Example
 
 Imagine we are designing an `EmailInbox` that needs to be able to send and receive emails. The `EmailInbox` will depend on an `EmailService` for communicating with the network.
 

@@ -1,8 +1,9 @@
 ---
-title: 'Acura Build - 05/10/2014'
+title: "Acura Build - 05/10/2014"
 date: 2014-05-10
-series: 'RL Build'
+series: "RL Build"
 type: post
+thumbnail: "/post/acura/14-05-10/images/1.jpg"
 ---
 
 With a stock exhaust the car was fairly quiet. I decided it was time to let the 3.5 V6 under the hood make some noise and ordered a Borla exhaust.

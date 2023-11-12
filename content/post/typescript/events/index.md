@@ -1,12 +1,10 @@
 ---
 title: "TypeScript - Events"
 date: 2019-01-21T18:37:24-04:00
-categories: ["TypeScript"]
 type: post
-featuredImage: "/post/typescript/events/images/1.jpg"
+thumbnail: "/post/typescript/events/images/1.jpg"
+series: "Development"
 ---
-
-# Intro
 
 If you were expecting a phone call from a friend, you (hopefully) wouldn't sit by the phone and continuously pick it up to see if your friend was on the other end. Instead, you'd wait to be notified of an incoming call when the phone started ringing or vibrating. Sitting by the phone and picking it up over and over again is a form of what's known as polling.
 
@@ -148,7 +146,7 @@ By making use of a getter property to publicize `onLogin` we prevent the chance 
 ```js
 this._onLoginDispatcher.dispatch({
   email: "john.smith@mail.com",
-  password: "hunter2"
+  password: "hunter2",
 });
 ```
 

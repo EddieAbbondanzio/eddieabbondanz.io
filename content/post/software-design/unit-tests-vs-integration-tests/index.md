@@ -1,17 +1,15 @@
 ---
 title: "Software Design - Unit Tests vs Integration Tests"
 date: 2018-10-15T05:16:42-04:00
-categories: ["Software Design"]
 type: post
+series: "Development"
 ---
 
-Preface
----
+## Preface
 
 Unit tests and integration tests are designed to serve two different purposes. They are not meant to substitute each other, and each type has a specific focus. However, developers tend to struggle to determine the border that seperates unit tests and integration tests as there is no set hard limit on either one.
 
-What is a Unit Test?
----
+## What is a Unit Test?
 
 Unit is somewhat of an ambiguous term, but in this situation it can be thought of as the smallest piece of code that can be isolated from the rest of the program. Typically, units are a method, or class, but in the end it comes down to your personal definition of a unit. The only thing to keep in mind is that while there's no size limit on a unit test the smaller, the better.
 
@@ -24,8 +22,7 @@ Once a unit has been isolated from the program it is then subjected to some kind
     });
 ```
 
-What is an Integration Test?
----
+## What is an Integration Test?
 
 Integration tests can be thought of as larger tests that check to verify how components of a system interact with each other. This could be a business logic service communicating with the database, or checking for a specific http status code returned by the server when processing a http request.
 
@@ -40,15 +37,13 @@ Integration tests are ran less frequently, and therefore are permitted to take l
     });
 ```
 
-How to tell them apart?
----
+## How to tell them apart?
 
 Distinguishing the difference between a unit test and integration test can be difficult. In the end it comes down to the nature of the test. Unit tests fall under the 'white box testing' category. A white box test (also known as a 'clear box test') is a test where the underlying implementation of the subject is known, and is being checked for a consistent behaviour. Unit tests typically only serve a useful purpose to the developer who needs to verify a minor implementation detail.
 
-Integration tests reside in the 'black box testing' category. A black box test is one where the underlying implementation of the subject is unknown. These tests verify the external functionality of a subject, and check to verify features are working as intended. 
+Integration tests reside in the 'black box testing' category. A black box test is one where the underlying implementation of the subject is unknown. These tests verify the external functionality of a subject, and check to verify features are working as intended.
 
-When to use them?
----
+## When to use them?
 
 Unit tests need to be quick, as the faster they are, the more often the developer will be willing to run them. This is one of the primary reasons why unit tests should be kept as small as possible. No developer wants to constantly pause their work to kick off a unit test cycle that could take several minutes to complete.
 

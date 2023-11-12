@@ -1,8 +1,9 @@
 ---
-title: 'Acura Build - 03/04/2014'
+title: "Acura Build - 03/04/2014"
 date: 2014-03-04
-series: 'RL Build'
+series: "RL Build"
 type: post
+thumbnail: "/post/acura/14-03-04/images/1.jpg"
 ---
 
 In 2002 the RL came with clear corner tail lights. I've been envious of the since my 1999 features amber corners but tail lights on Ebay are too expensive.

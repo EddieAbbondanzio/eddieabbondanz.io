@@ -1,9 +1,9 @@
 ---
 title: "Greedy Meshing for Vertex Colored Voxels In Unity"
-date: 2018-03-25T10:06:59-04:00
+date: 2018-03-25
 type: post
-categories: ["Voxel"]
-featuredImage: "/post/voxel/greedy-mesh/images/hero.png"
+thumbnail: "/post/voxel/greedy-mesh/images/hero.png"
+series: "Development"
 ---
 
 **TL;DR** Full algorithm is at the bottom. Classes for `Block`, `Chunk`, and `MeshData` are defined below the intro.
