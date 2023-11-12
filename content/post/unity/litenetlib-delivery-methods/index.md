@@ -1,10 +1,10 @@
 ---
 title: "Unity - LiteNetLib's Delivery Methods"
 description: "Understanding the differences."
-date: 2019-11-14T21:31:00-00:00
-lastmod: 2019-11-17T12:12:00-00:00
+date: 2019-11-14
 type: post
 thumbnail: "/post/unity/litenetlib-delivery-methods/images/hero.jpg"
+series: "Development"
 ---
 
 While LiteNetLib may run on [UDP (User Datagram Protocol)](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/) which is an unreliable network protocol, LiteNetLib offers multiple delivery methods, some of which even offer "reliability". Reliability is in quotes because when latency is high the chance of a packet being dropped is greater than 0 (although still fairly rare).

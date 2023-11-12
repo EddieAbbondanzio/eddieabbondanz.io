@@ -1,12 +1,11 @@
 ---
 title: "No Mans Blocks - 4/8/18"
 date: 2018-04-08T18:25:42-04:00
-categories: ["NoMansBlocks"]
 type: post
+series: "Development"
 ---
 
-Building Up the Network Logic
----
+## Building Up the Network Logic
 
 While this week may not have much to show for it has built a solid foundation for networking. I spent some time refactoring the pre-existing network logic to try to clean things up. I really didn't like how the NetServerManager and NetClientManager derived from a base class of NetManager that had a NetMessageProcessor component. It was gross having to call that and subscribe to it's message events. I also didn't care for how each message had it's own event. To try to curtail this redundancy I came up with the following solution.
 
@@ -122,7 +121,7 @@ private static NetMessage DecodeConnectionMessage(NetIncomingMessage inMsg) {
 
 This method handles a few different tasks. It's responsible for processing ConnectionRequest, Connected, and Disconnect messages. A ConnectionRequestMessage occurs when a new client wants to join the server. This allows the server to get the player's desired name, and check if they are a known banned connection. Connection messages are nothing more than an acknowledgement that the client has joined in, but perhaps in the future they'll have some data attached to them. A Disconnect message is also nothing more than a courtesy to server instead of having the client time out.
 
-Rebuilding data messages is simpler. It's nothing more than a switch statement that reads the first byte of each message to get the NetMessageType. 
+Rebuilding data messages is simpler. It's nothing more than a switch statement that reads the first byte of each message to get the NetMessageType.
 
 ```c#
 /// <summary>
@@ -154,6 +153,3 @@ private static NetMessage DecodeDataMessage(NetIncomingMessage inMsg) {
 ```
 
 In the near future once the network is solidified I plan on writing up a nice networking tutorial with Lidgren and Unity to help out others.
-
-
-

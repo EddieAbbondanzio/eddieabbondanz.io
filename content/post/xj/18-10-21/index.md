@@ -1,8 +1,9 @@
 ---
-title: 'XJ Build - 10/21/18'
+title: "XJ Build - 10/21/18"
 date: 2018-10-21T16:51:42-04:00
 type: post
-series: 'XJ Build'
+series: "XJ Build"
+thumbnail: "post/xj/18-10-21/images/2.jpg"
 ---
 
 # Patching Holes

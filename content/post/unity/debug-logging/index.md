@@ -1,12 +1,11 @@
 ---
-title: 'Logging to Unity or Console'
+title: "Logging to Unity or Console"
 date: 2018-03-31T15:56:01-04:00
 type: post
+series: "Development"
 ---
 
-## Sometimes we want code that can run outside of Unity
-
-And that can make things tricky when it comes to writing text to console. Unity has it's own set of methods for writing to it's command console via the Debug class with the most commonly used one being Debug.Log(). However in the event you want to create a library of code that can be run within Unity or in the command console (say a game server for example) you'll need a way to differentiate between the running environments. Instead of wrapping all our Debug.Log() calls in preprocessor directives such as #IF UNITY_EDITOR we can write a simple logging class to handle it for us. While we're at it well add the ability to write log files since they can be quite useful.
+Sometimes we want code that can run outside of Unity and that can make things tricky when it comes to writing text to console. Unity has it's own set of methods for writing to it's command console via the Debug class with the most commonly used one being Debug.Log(). However in the event you want to create a library of code that can be run within Unity or in the command console (say a game server for example) you'll need a way to differentiate between the running environments. Instead of wrapping all our Debug.Log() calls in preprocessor directives such as #IF UNITY_EDITOR we can write a simple logging class to handle it for us. While we're at it well add the ability to write log files since they can be quite useful.
 
 Before we go ahead and dive into creating the new logger we'll need to add a few helpers first.
 

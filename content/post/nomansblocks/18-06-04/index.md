@@ -1,31 +1,30 @@
 ---
 title: "No Mans Blocks - 6/4/18"
 date: 2018-06-04T20:05:42-04:00
-categories: ["NoMansBlocks"]
 type: post
+series: "Development"
 ---
 
-Creating Time (literally!)
----
+## Creating Time (literally!)
 
 I have a knack for forgetting what I've managed to accomplish on the game during the week. To try to overcome this
-so I have updates I can post on it, I've started writing down each accomplishment on a sticky note. 
+so I have updates I can post on it, I've started writing down each accomplishment on a sticky note.
 
-Every Friday I hope to write a small blurb, and post some code showing off the current state of No Mans Blocks. While 
+Every Friday I hope to write a small blurb, and post some code showing off the current state of No Mans Blocks. While
 the networking implementation is still early, I've managed to get a sever-authoratative set up running that handles
 syncing up lobby of players together. Players can specify their own nicknames, which will be ensured to be unique. Chat with
 each other through text based messages, and some moderator functions such as kicking players are included.
 
 Changelog:
 
-* Switched to LiteNetLib from Lidgren. (Very happy).
-* Added custom kick message that is sent to players when kicked from a lobby.
-* Changed lobby settings to allow for picking of the next map via voting
-or randomly.
-* Fixed a bug in the byte buffer that was writing a bool as a byte instead of just a bit.
-* Moved Name + description of the server to server settings instead of lobby. (The client
-recieves these when their connection is accepted.)
-* Added game modes (Team Deathmatch, Deathmatch, Capture the Flag, and Demolition) more on these soon...
+- Switched to LiteNetLib from Lidgren. (Very happy).
+- Added custom kick message that is sent to players when kicked from a lobby.
+- Changed lobby settings to allow for picking of the next map via voting
+  or randomly.
+- Fixed a bug in the byte buffer that was writing a bool as a byte instead of just a bit.
+- Moved Name + description of the server to server settings instead of lobby. (The client
+  recieves these when their connection is accepted.)
+- Added game modes (Team Deathmatch, Deathmatch, Capture the Flag, and Demolition) more on these soon...
 
 Lastly while the switch to LiteNetLib was pretty hassle free I did have to implement my own
 network synchronized time system, which is actually quite a bit easier than it sounds!
@@ -35,9 +34,10 @@ game has been running for in seconds. To generate a synchronized time across the
 network the following steps need to be taken.
 
 1. When a client connects have them send a time sync request and track when it was sent
-+ The server then responds back with it's current time.
-+ On the return of the sync request to the client calculate the offset from server time to
-local time by subtracting the round trip time from the recieved value.
+
+- The server then responds back with it's current time.
+- On the return of the sync request to the client calculate the offset from server time to
+  local time by subtracting the round trip time from the recieved value.
 
 These code snippets are from my TimeSynchronizer class. They are the message handlers that
 process incoming messages from over the network.
