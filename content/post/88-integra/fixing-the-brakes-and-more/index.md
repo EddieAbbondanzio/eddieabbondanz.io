@@ -3,7 +3,6 @@ title: "Fixing the Completely Seized Brakes"
 date: 2022-01-22
 series: "88 Integra Build"
 type: post
-featuredImage: "/post/88-integra/fixing-the-brakes-and-more/images/47.jpg"
 thumbnail: "/post/88-integra/fixing-the-brakes-and-more/images/thumbnail.jpg"
 ---
 

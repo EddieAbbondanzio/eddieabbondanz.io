@@ -1,8 +1,9 @@
 ---
-title: 'Acura Build - 12/30/2013'
+title: "Acura Build - 12/30/2013"
 date: 2013-12-30
-series: 'RL Build'
+series: "RL Build"
 type: post
+thumbnail: "/post/acura/13-12-30/images/3.jpg"
 ---
 
 I like doing little things to fix things up. The speaker grills on the car are showing their age so I decided to re upholster them to look new again. Left is original, right is new.

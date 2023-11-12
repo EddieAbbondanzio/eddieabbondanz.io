@@ -1,8 +1,9 @@
 ---
-title: 'Acura Build - 05/25/2014'
+title: "Acura Build - 05/25/2014"
 date: 2014-05-25
-series: 'RL Build'
+series: "RL Build"
 type: post
+thumbnail: "/post/acura/14-05-25/images/1.jpg"
 ---
 
 The fog lights were a little too squarish for my taste so I made some custom overlays to give them a slight "curve". The grill is also the custom debadged one I made a couple months back.

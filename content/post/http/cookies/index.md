@@ -1,12 +1,10 @@
 ---
 title: "HTTP Cookies"
 date: 2019-01-24T18:37:24-04:00
-categories: ["HTTP"]
 type: post
-FeaturedImage: "post/http/cookies/images/1.jpg"
+thumbnail: "post/http/cookies/images/1.jpg"
+series: "Development"
 ---
-
-# What Are They?
 
 HTTP cookies are small bits of text that are included with each HTTP request made from a user's web browser to web servers. HTTP is a stateless protocol which means each requests is treated as a unique command, and no state data is maintained. Cookies were designed to fill this gap, and allow servers to associate data with user's as they traverse sites. Cookies are commonly used by sites to hold authentication tokens, tracking ids, or save user preferences.
 

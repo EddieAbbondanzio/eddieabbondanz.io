@@ -2,8 +2,8 @@
 title: "TypeScript - Interpolated Strings"
 date: 2019-02-01T16:52:42-04:00
 type: post
-categories: ["TypeScript"]
-FeaturedImage: "/post/typescript/interpolated-strings/images/1.jpg"
+thumbnail: "/post/typescript/interpolated-strings/images/1.jpg"
+series: "Development"
 ---
 
 Coming from the .NET world `String.Format()` was by far my most used function for generating user readable error / log messages. After jumping over to TypeScript, I was bummed to learn that no similar function existed. However, it wasn't so bad, after all `console.log()` allows us to pass multiple parameters and has no trouble logging them.

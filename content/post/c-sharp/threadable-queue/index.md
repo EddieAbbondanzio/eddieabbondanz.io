@@ -1,8 +1,8 @@
 ---
-title: 'C# Threadable Queue'
+title: "C# Threadable Queue"
 date: 2018-05-09T19:04:42-04:00
 type: post
-categories: ['C Sharp']
+series: "Development"
 ---
 
 ## Implementing a Thread-Safe Queue

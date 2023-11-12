@@ -3,7 +3,6 @@ title: "Refreshing the Suspension"
 date: 2022-02-13
 series: "88 Integra Build"
 type: post
-featuredImage: "/post/88-integra/refreshing-the-suspension/images/28.jpg"
 thumbnail: "/post/88-integra/refreshing-the-suspension/images/thumbnail.jpg"
 ---
 

@@ -1,11 +1,9 @@
 ---
 title: "TypeScript - How To Set Up A New Project"
-date: 2018-11-26T06:57:42-04:00
+date: 2018-11-26
 type: post
-categories: ["TypeScript"]
+series: "Development"
 ---
-
-# Summary
 
 For beginners TypeScript is like the carrot on the end of the stick, always just out of reach no matter how hard you try. Everyone touts how it's ["JavaScript that scales"](https://www.typescriptlang.org/), and once you use it you'll never go back. But finding a decent tutorial on how to set up a new TypeScript project is quite the challenge. Many tutorials are out-dated and want you to install other packages such as gulp, jump through hoops, or even sacrifice your first born child (okay maybe not but still).
 

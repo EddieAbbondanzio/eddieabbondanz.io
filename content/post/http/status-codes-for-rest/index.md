@@ -1,12 +1,10 @@
 ---
 title: "HTTP Status Codes For a RESTful API"
 date: 2019-01-29T18:29:29-04:00
-categories: ["HTTP"]
 type: post
-FeaturedImage: "/post/http/status-codes-for-rest/images/1.jpg"
+thumbnail: "/post/http/status-codes-for-rest/images/1.jpg"
+series: "Development"
 ---
-
-# Intro
 
 Hyper Text Transfer Protocol (HTTP) powers the web. It's the silent work horse used to carry data between servers and clients, and is the reason why all URLs start with HTTP, or HTTPS. For those new to HTTP, it can be though of as clients (users) making _requests_ that are sent to servers which then reply back with _responses_. Only servers can make responses, and only clients can make requests.
 

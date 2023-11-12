@@ -1,12 +1,12 @@
 ---
-title: 'TypeScript - Await Promise.All() And Get The Results'
+title: "TypeScript - Await Promise.All() And Get The Results"
 date: 2020-03-15
-categories: ['TypeScript']
 type: post
-featuredImage: '/post/typescript/await-promise-all/images/featured.jpg'
+thumbnail: "/post/typescript/await-promise-all/images/featured.jpg"
+series: "Development"
 ---
 
-I'm a big fan of the `async` `await` syntax in ES2017. In my opionion it just feels a lot more natural than [and then and then and then...](https://www.youtube.com/watch?v=CkdyU_eUm1U). I digress. I'll keep this one short.
+I'm a big fan of the `async` `await` syntax in ES2017. In my opinion it just feels a lot more natural than [and then and then and then...](https://www.youtube.com/watch?v=CkdyU_eUm1U). I digress. I'll keep this one short.
 
 `Promise.all()` allows us to run multiple async operations in parallel instead of running them in series. This is great for times when we need to make multiple API calls that are independent of each other.
 

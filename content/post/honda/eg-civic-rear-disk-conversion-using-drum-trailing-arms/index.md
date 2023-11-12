@@ -3,7 +3,7 @@ title: "How To: 92-95 Civic Rear Disk Conversion using Drum Trailing Arms"
 date: 2023-10-21
 type: post
 thumbnail: "/post/honda/eg-civic-rear-disk-conversion-using-drum-trailing-arms/images/thumbnail.jpg"
-series: "Honda"
+series: "Honda Info and DIYs"
 ---
 
 Tired of looking at the rusty rear drums of your 92 - 95 Civic but don't want to dish out the cash for disk trailing arms because of how expensive they are? Depending on which style rear spindles your Civic has, you may be able to convert them to disk on the cheap by repurposing brackets made by Wilwood.

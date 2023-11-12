@@ -1,10 +1,9 @@
 ---
-title: 'Installing a Gentex 177 Auto Dimming Rear View Mirror'
+title: "Installing a Gentex 177 Auto Dimming Rear View Mirror"
 date: 2021-04-24
 type: post
-series: 'XJ Build'
-thumbnail: '/post/xj/gentex-177-mirror-install/images/thumbnail.jpg'
-featuredImage: '/post/xj/gentex-177-mirror-install/images/19.jpg'
+series: "XJ Build"
+thumbnail: "/post/xj/gentex-177-mirror-install/images/thumbnail.jpg"
 ---
 
 It's hard to explain, but driving a car at night that has an auto dimming rear view mirror is a real treat. It's one of those things that you'll never notice when it's working, but as soon as you don't have it you'll notice its absence immediately.
@@ -35,12 +34,12 @@ I'd recommend the following tools for the job.
 
 ### Tools
 
--   T15 torx screw driver
--   Small flat head screw driver
--   Phillips screw driver
--   Soldering iron + solder (could be substituted with crimp connectors)
--   Wire strippers
--   Pliers
+- T15 torx screw driver
+- Small flat head screw driver
+- Phillips screw driver
+- Soldering iron + solder (could be substituted with crimp connectors)
+- Wire strippers
+- Pliers
 
 **Note:** the tool list is not exhaustive as I'm not going to cover how to remove the headliner since there's already an abundance of great tutorials out there.
 
@@ -48,11 +47,11 @@ Here's a few supplies you should have handy as well.
 
 ### Supplies
 
--   Heat shrink
--   18 - 20 awg wire
--   Electrical tape
--   Zip ties
--   Oem Mopar connector C301, or (4) wire terminal pins\*\*
+- Heat shrink
+- 18 - 20 awg wire
+- Electrical tape
+- Zip ties
+- Oem Mopar connector C301, or (4) wire terminal pins\*\*
 
 \*\*Depending on if your XJ has vanity lights in the visors (mine does), you may already have something plugged into the connector we'll be tapping into. If that's the case, all you'll need is some additional wire terminals as we can just push them into the open spots on the plug.
 
@@ -110,10 +109,10 @@ The wires with the two squares next to it are the 4 wires we'll be connecting to
 
 ### Wires
 
--   F87 WT/BK -> White / black stripe: 12v when ignition is on
--   Z2 BK/LG -> Black / light green stripe: ground
--   G31 VT/LG -> Violet / light green stripe: ambient temperature sensor signal
--   G32 BK/LB -> Black / light brown stripe: ambient temperature sensor ground
+- F87 WT/BK -> White / black stripe: 12v when ignition is on
+- Z2 BK/LG -> Black / light green stripe: ground
+- G31 VT/LG -> Violet / light green stripe: ambient temperature sensor signal
+- G32 BK/LB -> Black / light brown stripe: ambient temperature sensor ground
 
 At this point you'll want to carefully run the mirror wires down between the dash and pillar so they pop out by the glove box opening.
 

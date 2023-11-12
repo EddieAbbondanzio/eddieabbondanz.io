@@ -4,7 +4,6 @@ date: 2021-06-20
 type: post
 series: "XJ Build"
 thumbnail: "/post/xj/fabricating-a-rear-bumper/images/thumbnail.jpg"
-featuredImage: "/post/xj/fabricating-a-rear-bumper/images/42.jpg"
 ---
 
 # Preface

@@ -1,22 +1,21 @@
 ---
 title: "Unity - LiteNetLib's Delivery Methods"
-description: 'Understanding the differences.'
+description: "Understanding the differences."
 date: 2019-11-14T21:31:00-00:00
 lastmod: 2019-11-17T12:12:00-00:00
-author: 'Eddie Abbondanzio'
 type: post
-featuredImage: '/post/unity/litenetlib-delivery-methods/images/hero.jpg'
+thumbnail: "/post/unity/litenetlib-delivery-methods/images/hero.jpg"
 ---
 
 While LiteNetLib may run on [UDP (User Datagram Protocol)](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/) which is an unreliable network protocol, LiteNetLib offers multiple delivery methods, some of which even offer "reliability". Reliability is in quotes because when latency is high the chance of a packet being dropped is greater than 0 (although still fairly rare).
 
 In total, LiteNetLib offers 5 different delivery methods for sending packets to peers. They are as follows:
 
--   Unreliable
--   ReliableUnOrdered
--   Sequenced
--   ReliableOrdered
--   ReliableSequenced
+- Unreliable
+- ReliableUnOrdered
+- Sequenced
+- ReliableOrdered
+- ReliableSequenced
 
 # Unreliable
 

@@ -2,7 +2,6 @@
 title: "My Work Station"
 date: 2018-04-01T15:22:42-04:00
 type: post
-categories: ["Meta"]
 series: ["Desk"]
 ---
 

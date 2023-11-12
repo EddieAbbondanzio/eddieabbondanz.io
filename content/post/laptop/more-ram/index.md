@@ -2,7 +2,6 @@
 title: "WorkStation - More RAM"
 date: 2019-02-15T21:17:42-04:00
 type: post
-categories: ["Laptop"]
 series: "Laptop"
 ---
 

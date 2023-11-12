@@ -3,7 +3,6 @@ title: "Back on the Road After a Decade"
 date: 2022-05-23
 series: "88 Integra Build"
 type: post
-featuredImage: "/post/88-integra/back-on-the-road-after-a-decade/images/14.jpg"
 thumbnail: "/post/88-integra/back-on-the-road-after-a-decade/images/thumbnail.jpg"
 ---
 

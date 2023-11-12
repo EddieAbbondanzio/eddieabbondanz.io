@@ -4,7 +4,6 @@ date: 2021-01-11
 type: post
 series: "Development"
 thumbnail: "/post/c-sharp/abusing-for-loops-for-job-security/images/hero-thumbnail.jpg"
-featuredImage: "/post/c-sharp/abusing-for-loops-for-job-security/images/hero.jpg"
 ---
 
 Everyone knows good code is easy to maintain, but that also means anyone can maintain it. That's no bueno for the individual developer who wants a little job security. Writing overly complex code that nobody else can maintain let alone read, will ensure your company holds onto you, and will give you more bargaining power come raise time.

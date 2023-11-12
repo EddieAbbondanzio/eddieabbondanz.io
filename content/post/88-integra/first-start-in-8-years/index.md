@@ -3,7 +3,6 @@ title: "The First Start"
 date: 2021-12-03
 series: "88 Integra Build"
 type: post
-featuredImage: "/post/88-integra/first-start-in-8-years/images/21.jpg"
 thumbnail: "/post/88-integra/first-start-in-8-years/images/thumbnail.jpg"
 ---
 
