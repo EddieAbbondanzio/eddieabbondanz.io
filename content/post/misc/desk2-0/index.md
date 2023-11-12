@@ -3,6 +3,7 @@ title: "My Work Station 2.0"
 date: 2018-10-08
 type: post
 series: "Workstation"
+thumbnail: "/post/misc/desk2-0/images/9.jpg"
 ---
 
 This post is a successor to my first attempt at [building a standing desk] ( {{< relref "desk" >}}). Back during college when I built my first desk I didn't have much of a budget since it was a spur of the moment decision. Because of this the solution I came up with ended up being a permanent standing desk built using misc. parts from Lowe's. Ever since graduating from college however, I've found it less than thrilling to come home and stand at my desk after standing all day at work. I finally decided to bite the bullet and build a custom adjustable desk.
