@@ -1,118 +1,163 @@
 ---
-title: 'B-Series Bolt Sizes'
+title: "B-Series Bolt Sizes"
 date: 2018-04-06T15:22:42-04:00
 type: post
-featuredImage: '/post/honda/b-series-bolts/images/featured.jpg'
+featuredImage: "/post/honda/b-series-bolts/images/featured.jpg"
 ---
 
-## Trying to find the size of a missing bolt?
+I'm in the middle of swapping a B20B into my 1993 civic, and I had to buy (just about) every bolt / nut on the engine and transmission since I was missing so many. I also had the pleasure of tracking down all this information from various forums and sources. To try and help any others who are partaking in a similar project I've compiled a list of what I found below.
 
-I'm in the middle of swapping a B20B into my 1993 civic, and I had to buy (just about) every bolt / nut on the engine and transmission since I was missing so many. I also had the pleasure of tracking down all this information from various forums and sources. To try to help any others who are partaking in a similar project I've compiled a list of what I found below. I apologize if there are any errors, these specs are for a B20B with a B18B1 (ls) intake so in theory it should cover most B-Series stuff. It also applies to some D-Series stuff (throttle body, etc).
+These specs are for a B20B with a B18B1 (ls) intake so in theory it should cover most B-Series stuff. It also applies to some D-Series stuff (throttle body, etc).
 
-How to read the info:
+## Understanding Metric Bolt Sizes
 
--   The number in parenthesis is the quantity.
--   M8, M10, etc are the size of the bolt / washer / nut.
--   The middle number (1.00, 1.25, etc) is the thread pitch.
--   The last number is the length of the bolt.
+Metric bolts are measured in "M" sizes.
 
-## Intake Manifold
+Ex: m6x1.0x16
 
----
+- m6 indicates that the bolt has metric threads, and has a shaft diameter of 6mm.
+- 1.0 is the thread pitch.
+- And lastly 16 is the length of the bolt (16mm). (The head is not included in the bolt length)
 
-Manifold:
+For more info please see: https://www.boltdepot.com/fastener-information/measuring/notation.aspx
 
--   (9) M8 x 1.25 x 30mm
+### Regular and JIS Bolts / Nuts
 
-MAP Sensor:
+If you've ever had to replace a bolt or nut on your Honda with one from a hardware store you may have noticed that the head on the new hardware requires a larger socket than the original one from your car.
 
--   (2) M4 x 0.70 x 12mm
+This is because Honda bolts are JIS spec, and most hardware stores don't carry this. It's perfectly fine to use either, but if you'd prefer to keep them all the same head size I'd recommend sticking with JIS.
 
-FITV:
-
--   (3) M6 x 1.00 x 38mm
-
-Throttle Body:
-
--   (4) M8 x 1.25 x 25mm
--   (4) M8 Washers
-
-IAT Sensor:
-
--   (2) M6 x 1.00 x 16mm
-
-Fuel Pressure Regulator
-
--   (2) M6 x 1.00 x 16mm
-
-## Exhaust
+## Intake and Exhaust
 
 ---
 
-Header:
+### Manifold Studs
 
--   (9) M8 x 1.25 x 30mm
--   (9) M8 Washers
+- (9) m8x1.25 flange nuts
 
-## Engine Head
+Or if you deleted the studs:
+
+- (9) m8x1.25x30 flange bolts
+
+### MAP Sensor
+
+- (2) m4x0.70x12 bolts
+
+### FITV
+
+- (3) M6x1.0x38
+
+Most hardware stores won't carry a 38mm bolt so a 40mm bolt with washer works too.
+
+### Throttle Body:
+
+If you still have the OEM studs:
+
+- (2) m8x1.25 flange nuts
+- (2) m8x1.25x30 flange bolts
+
+Or if you deleted the studs:
+
+- (4) m8x1.25x30 flange nuts
+
+### IAT Sensor:
+
+- (2) m6x1.0x16 bolts
+
+### Fuel Pressure Regulator
+
+- (2) m6x1.0x16 bolts
+
+### Exhaust Header
+
+If you have the OEM studs:
+
+- (9) m8x1.25 flange nuts
+
+If you removed the studs:
+
+- (9) m8x1.25x30 flange bolts
+
+## Engine
 
 ---
 
-Distributor:
+### Valve cover:
 
--   (3) M8 x 1.25 x 28mm
--   (3) M8 Washers
+- (~8) m6x1.0 acorn nuts (amount varies by valve cover!)
 
-## Engine Block
+### Distributor:
 
----
+- (3) M8x1.25x28 flange bolts (30mm works too)
 
-(2 Bolt) Post Side Mount:
+I'd recommend flange bolts over hex heads unless you make sure to run washers with the hex heads.
 
--   (2) M12 x 1.25 Nuts
--   (2) M12 Washers
+### (2 Bolt) Engine Mount:
+
+If you still have the OEM studs:
+
+- (2) m12x1.25 flange nuts
+
+If you deleted the studs:
+
+- (2) m12x1.25x30 flange bolts
 
 ## Transmission
 
 ---
 
-Bell Housing:
+### Bell Housing
 
--   (5) M12 x 1.25 x 55mm
--   (5) M12 Washers
+- (5) m12x1.25x55 flange bolts
 
-Starter:
+### Starter
 
--   (1) M10 x 1.25 x 110mm
--   (1) M10 x 1.25 x 45mm
+- (1) m10x1.25x110 flange bolts
+- (1) m10x1.25x45 flange bolts
 
-Rear Bracket:
+### Rear Mount / Bracket
 
--   (2) M14 x 1.5 x 67mm
--   (2) M14 Washers
+- (2) m14x1.25x67 flange bolts (70mm works too)
+- (3) m10x1.25x35 flange bolts
+- (1) m12x1.25x97 flange bolts (100mm works too)
 
-Rear Mount:
+### Top Mount
 
--   (3) M10 x 1.25 x 32mm
--   (3) M10 Washers
--   (1) M12 x 1.25 x 97mm
+If you're running the OEM mount with the studs:
 
-Top Mount:
+- (3) m12x1.25x20mm flange nuts
 
--   (3) M12 x 1.25 x 20mm
+If you're running a billet aluminum mount and removed the studs:
 
-Clutch Slave Cylinder:
+- (3) m12x1.25x35mm flange bolts
 
--   (2) M8 x 1.25 x 25mm
+The billet aluminum mounts are thicker and require longer bolts to compensate.
 
-Speed Sensor:
+### Clutch Slave Cylinder
 
--   (1) M6 x 1.00 x 30mm
+- (2) m8x1.25x25 flange bolts
 
-Torque Mount:
+### Speed Sensor
 
--   (3) M12 x 1.25 x 20mm
+- (1) m6x1.0x30 flange bolt
 
-Ground:
+### Front Torque Mount
 
--   (1) M8 x 1.25 x 16mm
+- (3) m12x1.25x20 flange bolts
+
+### Ground Strap
+
+- (2) m6x1.0x16 flange bolts
+
+# Not listed above?
+
+There's too many bolts and nuts to cover them all, but given Honda doesn't use many different sizes / thread pitches it's not too hard to figure out what a bolt is.
+
+The most common sizes and pitches are:
+
+- m5x0.8 (Tiny bolts / screws typically found in small places like sensors)
+- m6x1.0 (The 10mm bolts all over the car)
+- m8x1.25 (Slightly larger common bolt size. Found on the bumper braces, battery tray, suspension, and more)
+- m10x1.25 (Starter, suspension, etc...)
+- m12x1.25 (Larger suspension bolts, bell housing, side engine mounts)
+- m14x1.5 (Big bolts on rear engine mount, suspension, etc)
