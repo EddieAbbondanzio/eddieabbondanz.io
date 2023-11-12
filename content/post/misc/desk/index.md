@@ -2,10 +2,8 @@
 title: "My Work Station"
 date: 2018-04-01T15:22:42-04:00
 type: post
-series: ["Desk"]
+series: "Workstation"
 ---
-
-## My Budget Build
 
 At my work, I'm fortunate enough to have one of those adjustable desks that allow for you to stand or sit while you work. Since I almost always have it in the standing mode I decided to build my own standing desk at home. However I'm on a college student budget, and don't want to spend an arm and a leg right now. In the end I came up with this solution that's left me pretty happy.
 

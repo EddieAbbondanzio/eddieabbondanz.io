@@ -1,8 +1,9 @@
 ---
-title: 'XJ Build - 02/03/19'
-date: 2019-02-03T17:28:42-04:00
+title: "XJ Build - 02/03/19"
+date: 2019-02-03
 type: post
-series: 'XJ Build'
+series: "XJ Build"
+thumbnail: "post/xj/19-02-03/images/9.jpg"
 ---
 
 The Cherokee strikes again. A couple weeks back when my exhaust snapped just before the catalytic converter I noticed my muffler had a minor leak. It wasn't anything major and wasn't loud so I figured I could probably just run it till spring and deal with it when it was warmer out.
@@ -15,10 +16,10 @@ At first I thought about purchasing a cat-back exhaust set up but the prices wer
 
 ## Parts Ordered
 
--   Borla ProXS Muffler (40351) ~\$90
--   Dynomax Tail Pipe (55014) \$96.78
--   2.25" Generic Exhaust Clamp \$3.15
--   1.5' of 2.25" piping with a 90\* bend. \$16
+- Borla ProXS Muffler (40351) ~\$90
+- Dynomax Tail Pipe (55014) \$96.78
+- 2.25" Generic Exhaust Clamp \$3.15
+- 1.5' of 2.25" piping with a 90\* bend. \$16
 
 ![](images/1.jpg)
 ![](images/2.jpg)

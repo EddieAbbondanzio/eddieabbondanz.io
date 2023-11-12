@@ -1,8 +1,8 @@
 ---
 title: "No Mans Blocks - 3/31/18"
 date: 2018-03-31T15:22:42-04:00
-categories: ["NoMansBlocks"]
 type: post
+series: "Development"
 ---
 
 ## Stepping back into Networking

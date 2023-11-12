@@ -1,12 +1,11 @@
 ---
 title: "No Mans Blocks - 4/20/18"
 date: 2018-04-20T23:05:42-04:00
-categories: ["NoMansBlocks"]
 type: post
+series: "Development"
 ---
 
-Playing Around at the Bit Level
----
+## Playing Around at the Bit Level
 
 This weeks adventure has been exploring object serialization. Initially I was using the serializable attribute to convert my objects into byte arrays but for some objects such as the voxel chunks this is far from ideal. Since I don't want to handle serialization with 2 different methods I've decided to bite the bullet and roll my own set up.
 

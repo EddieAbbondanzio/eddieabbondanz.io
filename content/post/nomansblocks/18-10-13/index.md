@@ -1,8 +1,8 @@
 ---
 title: "No Mans Blocks - 10/13/2018"
-date: 2018-10-13T15:05:42-04:00
-categories: ["NoMansBlocks"]
+date: 2018-10-13
 type: post
+series: "Development"
 ---
 
 # Where I've Been, and Where I'm Heading

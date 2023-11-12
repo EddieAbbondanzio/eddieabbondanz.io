@@ -1,11 +1,10 @@
 ---
-title: 'XJ Build - 10/26/18'
-date: 2018-10-26T16:51:42-04:00
+title: "XJ Build - 10/26/18"
+date: 2018-10-26
 type: post
-series: 'XJ Build'
+series: "XJ Build"
+thumbnail: "post/xj/18-10-26/images/3.jpg"
 ---
-
-# Finishing Up
 
 With winter approaching fast, and my Civic only having summer tires I needed to hurry up and finish the Cherokee. The Civic was also suffering from a stuck open thermostat that ensured the engine temperature never reached operating temp, and my heat was always cold.
 

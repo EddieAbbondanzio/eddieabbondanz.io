@@ -1,11 +1,10 @@
 ---
-title: 'XJ Build - 10/8/18'
+title: "XJ Build - 10/8/18"
 date: 2018-10-08T17:22:42-04:00
 type: post
-series: 'XJ Build'
+series: "XJ Build"
+thumbnail: "post/xj/18-10-08/images/6.jpg"
 ---
-
-# Passenger side rocker replacement
 
 This post is the second part in my mini-series of restoring my old xj cherokee. If your interested, check out my attempt at saving the [rusty roof]( {{< relref "18-09-03" >}}).
 
