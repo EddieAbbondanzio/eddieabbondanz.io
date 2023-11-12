@@ -3,7 +3,7 @@ title: "XJ Build - 02/03/19"
 date: 2019-02-03
 type: post
 series: "XJ Build"
-thumbnail: "post/xj/19-02-03/images/9.jpg"
+thumbnail: "/post/xj/19-02-03/images/9.jpg"
 ---
 
 The Cherokee strikes again. A couple weeks back when my exhaust snapped just before the catalytic converter I noticed my muffler had a minor leak. It wasn't anything major and wasn't loud so I figured I could probably just run it till spring and deal with it when it was warmer out.

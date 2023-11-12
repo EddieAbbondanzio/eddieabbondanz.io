@@ -3,7 +3,7 @@ title: "XJ Build - 9/03/18"
 date: 2018-09-02
 type: post
 series: "XJ Build"
-thumbnail: "post/xj/18-09-03/images/7.jpg"
+thumbnail: "/post/xj/18-09-03/images/7.jpg"
 ---
 
 I'm a big fan of older vehicles. I just love the simplicity of them and how easy they are to work on them. Plus the cost of
