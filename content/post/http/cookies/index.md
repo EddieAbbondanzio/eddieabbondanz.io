@@ -2,7 +2,7 @@
 title: "HTTP Cookies"
 date: 2019-01-24
 type: post
-thumbnail: "post/http/cookies/images/1.jpg"
+thumbnail: "/post/http/cookies/images/1.jpg"
 series: "Development"
 ---
 

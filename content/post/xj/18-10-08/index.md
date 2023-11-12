@@ -3,7 +3,7 @@ title: "XJ Build - 10/8/18"
 date: 2018-10-08
 type: post
 series: "XJ Build"
-thumbnail: "post/xj/18-10-08/images/6.jpg"
+thumbnail: "/post/xj/18-10-08/images/6.jpg"
 ---
 
 This post is the second part in my mini-series of restoring my old xj cherokee. If your interested, check out my attempt at saving the [rusty roof]( {{< relref "18-09-03" >}}).
