@@ -1,6 +1,6 @@
 ---
 title: "Civic Build - 07/03/15"
-date: 2015-07-15T19:43:42-04:00
+date: 2015-07-15
 type: post
 series: "93 EG Hatch Build"
 thumbnail: "/post/civic/15-07-03/images/thumbnail.jpg"

@@ -1,6 +1,6 @@
 ---
 title: "Software Design - Dependency Injection and Inversion"
-date: 2018-10-18T06:34:42-04:00
+date: 2018-10-18
 type: post
 series: "Development"
 ---

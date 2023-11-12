@@ -1,7 +1,7 @@
 ---
-title: 'ASP.NET Core - Inversion of Control Container'
-date: 2019-06-29T14:50:42-04:00
-series: 'Development'
+title: "ASP.NET Core - Inversion of Control Container"
+date: 2019-06-29
+series: "Development"
 type: post
 ---
 
@@ -159,10 +159,10 @@ And now the IoC container will correctly resolve our `UserService` dependency an
 
 While the IoC container provided by ASP.NET should suffice for most uses, it does have some drawbacks. As noted by the [official documentation](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2#default-service-container-replacement) it lacks the following features:
 
--   Property injection
--   Injection based on name
--   Child containers
--   Custom lifetime management
--   `Func<T>` support for lazy initialization
+- Property injection
+- Injection based on name
+- Child containers
+- Custom lifetime management
+- `Func<T>` support for lazy initialization
 
 If any of these missing features are deal breakers for you, the default IoC container can be swapped out with an external library such as [AutoFac](https://www.nuget.org/packages/Autofac/) and following the instructions available [here](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2#default-service-container-replacement).

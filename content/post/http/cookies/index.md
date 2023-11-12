@@ -1,6 +1,6 @@
 ---
 title: "HTTP Cookies"
-date: 2019-01-24T18:37:24-04:00
+date: 2019-01-24
 type: post
 thumbnail: "post/http/cookies/images/1.jpg"
 series: "Development"

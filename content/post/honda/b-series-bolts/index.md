@@ -1,6 +1,6 @@
 ---
 title: "B-Series Bolt Sizes"
-date: 2018-04-06T15:22:42-04:00
+date: 2018-04-06
 type: post
 thumbnail: "/post/honda/b-series-bolts/images/featured.jpg"
 series: "Honda Info and DIYs"

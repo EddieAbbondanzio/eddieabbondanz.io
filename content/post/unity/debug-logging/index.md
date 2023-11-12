@@ -1,6 +1,6 @@
 ---
 title: "Logging to Unity or Console"
-date: 2018-03-31T15:56:01-04:00
+date: 2018-03-31
 type: post
 series: "Development"
 ---

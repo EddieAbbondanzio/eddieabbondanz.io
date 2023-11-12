@@ -1,6 +1,6 @@
 ---
 title: "C# Threadable Queue"
-date: 2018-05-09T19:04:42-04:00
+date: 2018-05-09
 type: post
 series: "Development"
 ---

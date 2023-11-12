@@ -1,6 +1,6 @@
 ---
 title: "Software Design - Magic Numbers"
-date: 2018-10-29T19:16:42-04:00
+date: 2018-10-29
 type: post
 series: "Development"
 ---

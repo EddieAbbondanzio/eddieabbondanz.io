@@ -1,6 +1,6 @@
 ---
 title: "TypeScript - Events"
-date: 2019-01-21T18:37:24-04:00
+date: 2019-01-21
 type: post
 thumbnail: "/post/typescript/events/images/1.jpg"
 series: "Development"
