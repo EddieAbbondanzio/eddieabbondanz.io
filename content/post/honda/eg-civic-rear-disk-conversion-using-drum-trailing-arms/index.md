@@ -9,7 +9,11 @@ series: "Honda Info and DIYs"
 Tired of looking at the rusty rear drums of your 92 - 95 Civic but don't want to dish out the cash for disk trailing arms because of how expensive they are? Depending on which style rear spindles your Civic has, you may be able to convert them to disk on the cheap by repurposing brackets made by Wilwood.
 ![](images/1.jpg)
 
+There are companies out there such as Scarebird that used to sell custom conversion brackets for converting rear drum brakes to disks. As far as I can tell though Scarebird is no longer selling these brackets. The companie was sold to and the new management team is working on getting production going for their products but it's unclear when/if they'll produce them again.
+
 # CIV vs HON Spindles
+
+I'm borrowing the CIV / HON terminology from Scarebird as there's no OEM part numbers available for the spindles since Honda never sold these parts separately.
 
 All rear trailing arms for 92-95 Civics are the same. The only actual difference between a disk and drum trailing arm is the spindle bolted up to it.
 
