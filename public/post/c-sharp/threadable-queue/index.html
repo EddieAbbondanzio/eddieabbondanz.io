@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>C# Threadable Queue</title>
+  
+  
+  
+
+  
+  
+  <link rel="stylesheet" href="https://eddieabbondanz.io/sass/index.min.b1521db57baf3e5cb3575dbda9da74620aaa391fe45c8ffe3b45e1fb62a26fbf.css" integrity="sha256-sVIdtXuvPlyzV129qdp0YgqqOR/kXI/&#43;O0Xh&#43;2Kib78=" media="screen">
+
+</head>
+
+<body>
+  <nav class="navbar fr jcsb aic mt2-phone">
+  <a class="title h100 fr aic tdn fwb" href="https://eddieabbondanz.io">
+    <img class="avatar mr2" src="https://eddieabbondanz.io/img/avatar.jpg" />
+    Eddie Abbondanzio
+  </a>
+
+  <div class="menu h100 aic fr-tablet dn-phone">
+    
+    
+    <div class="item dropdown">
+      <a class="trigger" href="https://eddieabbondanz.io/post">Blog
+        <span class="icon"><i class="fas fa-chevron-down"></i></span>
+      </a>
+
+      <div class="content">
+        <a href="https://eddieabbondanz.io/post/"> All </a>
+
+        
+        <a href="https://eddieabbondanz.io/series/development"> Development </a>
+        
+        <a href="https://eddieabbondanz.io/series/xj-build"> 00 XJ Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/88-integra-build"> 88 Integra Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/93-eg-hatch-build"> 93 EG Hatch Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/honda-info-and-diys"> Honda Info and DIYs </a>
+        
+      </div>
+    </div>
+    
+    
+    
+    <a class="item single" href="https://eddieabbondanz.io/app">Apps</a>
+    
+    
+    
+    <a class="item single" href="https://eddieabbondanz.io/about">About</a>
+    
+    
+    <div class="item social h100 fr aic px3">
+      
+      <a href="http://github.com/EddieAbbondanzio" target="_blank" title="GitHub">
+        <span class="icon">
+          <i class="fab fa-github fa-lg"></i>
+        </span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/ed-abbondanzio-5a7378208/" target="_blank" title="Linkedin">
+        <span class="icon">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </span>
+      </a>
+      
+    </div>
+  </div>
+
+  <a id="hamburger" class="hamburger " href="#" title="Linkedin">
+    <span class="icon">
+      <i class="fa fa-bars fa-lg"></i>
+    </span>
+  </a>
+
+</nav>
+  <div id="hamburger-menu" class="hamburger-menu">
+     
+
+    <div>
+      <a> Blog </a>
+
+      <div class="ml2">
+        <a href="https://eddieabbondanz.io/post/"> All </a>
+
+        
+        <a href="https://eddieabbondanz.io/series/development"> Development </a>
+        
+        <a href="https://eddieabbondanz.io/series/xj-build"> 00 XJ Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/88-integra-build"> 88 Integra Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/93-eg-hatch-build"> 93 EG Hatch Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/honda-info-and-diys"> Honda Info and DIYs </a>
+        
+      </div>
+    </div>
+     
+    <a href="https://eddieabbondanz.io/app">Apps</a>
+     
+    <a href="https://eddieabbondanz.io/about">About</a>
+    
+
+    <div class="fr jcse">
+      
+      <a href="http://github.com/EddieAbbondanzio" target="_blank">
+        <span class="icon is-medium">
+          <i class="fab fa-github fa-lg"></i>
+        </span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/ed-abbondanzio-5a7378208/" target="_blank">
+        <span class="icon is-medium">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </span>
+      </a>
+      
+    </div>
+  </div>
+
+  <main>
+    
+    <h1 class="title">C# Threadable Queue</h1>
+    
+    
+<article>
+  <div class="meta pb3-phone">
+    
+    <a class="series" href="https://eddieabbondanz.io/series/development" title="More Development posts">
+      <i class="fas fa-th-list"></i>
+      Development
+    </a>
+    
+
+    
+    <div class="date" title="Posted on May 9, 2018">
+      <i class="fas fa-calendar-day"></i>
+      <time>May 9, 2018</time>
+    </div>
+    
+  </div>
+
+  <div class="anchor-heading">
+  <a href="#implementing-a-thread-safe-queue" id="implementing-a-thread-safe-queue">#</a>
+  <h2>Implementing a Thread-Safe Queue</h2>
+</div><p>One of the most useful data structures when it comes to multi-threading is the queue. However, queues in c# aren&rsquo;t thread-safe by default. Thankfully it&rsquo;s easy enough to implement your own as we will do today. Let&rsquo;s start by defining our class.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ThreadableQueue</span>&lt;T&gt; {
+
+}
+</code></pre></div><p>If your unfamiliar with generics check out this <a href="https://www.dotnetperls.com/generic">link.</a> Within the class we need to define two members.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">private</span> Queue&lt;T&gt; queue;
+
+privare <span style="color:#66d9ef">readonly</span> <span style="color:#66d9ef">object</span> lockObj;
+</code></pre></div><p>The queue needs to be kept private so we can control access to it. Anytime it&rsquo;s modified we need to ensure we lock the semaphore object (lockObj) first.</p>
+<p>Now lets define two constructors. The second one is optional but provides an easy way to convert a regular queue into a threadable one.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> ThreadableQueue&lt;T&gt;() {
+    queue = <span style="color:#66d9ef">new</span> Queue&lt;T&gt;;
+    lockObj = <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">object</span>();
+}
+
+<span style="color:#66d9ef">public</span> ThreadableQueue&lt;T&gt;(Queue&lt;T&gt; queue){
+    <span style="color:#66d9ef">this</span>.queue = queue;
+    lockObj = <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">object</span>();
+}
+</code></pre></div><p>Next up lets add a way to add, and remove items from the queue. We call lock() around the queue actions as a way to ensure only one thread can access it at once.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Enqueue(T <span style="color:#66d9ef">value</span>){
+    <span style="color:#66d9ef">lock</span>(lockObj){
+        queue.Enqueue(<span style="color:#66d9ef">value</span>);
+    }
+}
+
+<span style="color:#66d9ef">public</span> T Dequeue(){
+    <span style="color:#66d9ef">lock</span>(lockObj){
+        <span style="color:#66d9ef">return</span> queue.Dequeue();
+    }
+}
+</code></pre></div><p>When it comes to locking you want to call it as little as possible. This is because it can cause performance issues, especially when it&rsquo;s not needed.</p>
+<p>Let&rsquo;s wrap things up by adding a few more functions that are expected of any queue.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Clear() {
+    <span style="color:#66d9ef">lock</span> (lockObj) {
+        queue.Clear();
+    }
+}
+
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">bool</span> Contains(T <span style="color:#66d9ef">value</span>){
+    <span style="color:#66d9ef">lock</span> (lockObj) {
+        <span style="color:#66d9ef">return</span> queue.Contains(<span style="color:#66d9ef">value</span>);
+    }
+}
+
+
+<span style="color:#66d9ef">public</span> T[] ToArray() {
+    <span style="color:#66d9ef">lock</span> (lockObj) {
+        <span style="color:#66d9ef">return</span> queue.ToArray();
+    }
+}
+</code></pre></div><p>And how can we forget .count?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> Count {
+    <span style="color:#66d9ef">get</span> {
+        <span style="color:#66d9ef">lock</span> (lockObj) {
+            <span style="color:#66d9ef">return</span> queue.Count;
+        }
+    }
+}
+</code></pre></div><p>It&rsquo;s easy enough to expand the class if desired. Just ensure your calling lock() first before modifying the underlying queue.</p>
+
+</article>
+
+  </main>
+
+  <footer>
+  <p>&copy; 2013 - 2023 Eddie Abbondanzio</p>
+</footer>
+  <script src="https://eddieabbondanz.io/js/lol.js"></script>
+</body>
+
+
+</html>
