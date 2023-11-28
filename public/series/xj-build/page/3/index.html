@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>XJ Build</title>
+  
+  
+  
+  <link rel="alternate" type="application/rss+xml" href="https://eddieabbondanz.io/series/xj-build/index.xml" title="Eddie Abbondanzio">
+
+  
+  
+  <link rel="stylesheet" href="https://eddieabbondanz.io/sass/index.min.b1521db57baf3e5cb3575dbda9da74620aaa391fe45c8ffe3b45e1fb62a26fbf.css" integrity="sha256-sVIdtXuvPlyzV129qdp0YgqqOR/kXI/&#43;O0Xh&#43;2Kib78=" media="screen">
+
+</head>
+
+<body>
+  <nav class="navbar fr jcsb aic mt2-phone">
+  <a class="title h100 fr aic tdn fwb" href="https://eddieabbondanz.io">
+    <img class="avatar mr2" src="https://eddieabbondanz.io/img/avatar.jpg" />
+    Eddie Abbondanzio
+  </a>
+
+  <div class="menu h100 aic fr-tablet dn-phone">
+    
+    
+    <div class="item dropdown">
+      <a class="trigger" href="https://eddieabbondanz.io/post">Blog
+        <span class="icon"><i class="fas fa-chevron-down"></i></span>
+      </a>
+
+      <div class="content">
+        <a href="https://eddieabbondanz.io/post/"> All </a>
+
+        
+        <a href="https://eddieabbondanz.io/series/development"> Development </a>
+        
+        <a href="https://eddieabbondanz.io/series/xj-build"> 00 XJ Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/88-integra-build"> 88 Integra Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/93-eg-hatch-build"> 93 EG Hatch Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/honda-info-and-diys"> Honda Info and DIYs </a>
+        
+      </div>
+    </div>
+    
+    
+    
+    <a class="item single" href="https://eddieabbondanz.io/app">Apps</a>
+    
+    
+    
+    <a class="item single" href="https://eddieabbondanz.io/about">About</a>
+    
+    
+    <div class="item social h100 fr aic px3">
+      
+      <a href="http://github.com/EddieAbbondanzio" target="_blank" title="GitHub">
+        <span class="icon">
+          <i class="fab fa-github fa-lg"></i>
+        </span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/ed-abbondanzio-5a7378208/" target="_blank" title="Linkedin">
+        <span class="icon">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </span>
+      </a>
+      
+    </div>
+  </div>
+
+  <a id="hamburger" class="hamburger " href="#" title="Linkedin">
+    <span class="icon">
+      <i class="fa fa-bars fa-lg"></i>
+    </span>
+  </a>
+
+</nav>
+  <div id="hamburger-menu" class="hamburger-menu">
+     
+
+    <div>
+      <a> Blog </a>
+
+      <div class="ml2">
+        <a href="https://eddieabbondanz.io/post/"> All </a>
+
+        
+        <a href="https://eddieabbondanz.io/series/development"> Development </a>
+        
+        <a href="https://eddieabbondanz.io/series/xj-build"> 00 XJ Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/88-integra-build"> 88 Integra Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/93-eg-hatch-build"> 93 EG Hatch Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/honda-info-and-diys"> Honda Info and DIYs </a>
+        
+      </div>
+    </div>
+     
+    <a href="https://eddieabbondanz.io/app">Apps</a>
+     
+    <a href="https://eddieabbondanz.io/about">About</a>
+    
+
+    <div class="fr jcse">
+      
+      <a href="http://github.com/EddieAbbondanzio" target="_blank">
+        <span class="icon is-medium">
+          <i class="fab fa-github fa-lg"></i>
+        </span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/ed-abbondanzio-5a7378208/" target="_blank">
+        <span class="icon is-medium">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </span>
+      </a>
+      
+    </div>
+  </div>
+
+  <main>
+    
+    <h1 class="title">XJ Build</h1>
+    
+      
+<div class="post pb4 pt4">
+  <a class="fr jcc fs0" href="https://eddieabbondanz.io/post/xj/unibody-rust-repair-part-3/">
+    
+    <div class="image">
+      <img src="https://eddieabbondanz.io/post/xj/unibody-rust-repair-part-3/images/thumbnail.jpg" />
+    </div>
+    
+  </a>
+
+  <div class="ml4-tablet mt3-phone">
+    <a class="title db mb1 fw500" href="https://eddieabbondanz.io/post/xj/unibody-rust-repair-part-3/">Rust Repair Part 3: Déjà Vu Replacing the Driver Frame Rail</a>
+
+    <div class="meta fr">
+      
+      <a class="mr1ch" href="https://eddieabbondanz.io/series/xj-build" title="More XJ Build posts">
+        <i class="fas fa-th-list"></i>
+        XJ Build
+      </a>
+      
+
+      
+      <div class="date" title="Posted on Nov 19, 2020">
+        <i class="fas fa-calendar-day"></i>
+        <time>Nov 19, 2020</time>
+      </div>
+      
+    </div>
+
+    <p class="desc mt3">
+      The driver side frame rail was in far worse shape than the passenger side on my XJ. I opted to replace the passenger side first since there&rsquo;s a little less going on on that side.
+      
+      <a href="https://eddieabbondanz.io/post/xj/unibody-rust-repair-part-3/">Read more...</a>
+      
+    </p>
+  </div>
+</div>  
+<div class="post pb4 pt4">
+  <a class="fr jcc fs0" href="https://eddieabbondanz.io/post/xj/unibody-rust-repair-part-2/">
+    
+    <div class="image">
+      <img src="https://eddieabbondanz.io/post/xj/unibody-rust-repair-part-2/images/thumbnail.jpg" />
+    </div>
+    
+  </a>
+
+  <div class="ml4-tablet mt3-phone">
+    <a class="title db mb1 fw500" href="https://eddieabbondanz.io/post/xj/unibody-rust-repair-part-2/">Rust Repair Part 2: Bending a New Passenger Frame Rail</a>
+
+    <div class="meta fr">
+      
+      <a class="mr1ch" href="https://eddieabbondanz.io/series/xj-build" title="More XJ Build posts">
+        <i class="fas fa-th-list"></i>
+        XJ Build
+      </a>
+      
+
+      
+      <div class="date" title="Posted on Nov 14, 2020">
+        <i class="fas fa-calendar-day"></i>
+        <time>Nov 14, 2020</time>
+      </div>
+      
+    </div>
+
+    <p class="desc mt3">
+      Using a metal brake to bend up new frame rails wasn&rsquo;t my plan A. Nor was it plan B. It was actually plan C. I was trying to fix my Jeep on the cheap because this repair wasn&rsquo;t suppose to happen till spring.
+      
+      <a href="https://eddieabbondanz.io/post/xj/unibody-rust-repair-part-2/">Read more...</a>
+      
+    </p>
+  </div>
+</div>  
+<div class="post pb4 pt4">
+  <a class="fr jcc fs0" href="https://eddieabbondanz.io/post/xj/unibody-rust-repair-part-1/">
+    
+    <div class="image">
+      <img src="https://eddieabbondanz.io/post/xj/unibody-rust-repair-part-1/images/thumbnail.jpg" />
+    </div>
+    
+  </a>
+
+  <div class="ml4-tablet mt3-phone">
+    <a class="title db mb1 fw500" href="https://eddieabbondanz.io/post/xj/unibody-rust-repair-part-1/">Rust Repair Part 1: Fabricating A New Rear Crossmember</a>
+
+    <div class="meta fr">
+      
+      <a class="mr1ch" href="https://eddieabbondanz.io/series/xj-build" title="More XJ Build posts">
+        <i class="fas fa-th-list"></i>
+        XJ Build
+      </a>
+      
+
+      
+      <div class="date" title="Posted on Nov 13, 2020">
+        <i class="fas fa-calendar-day"></i>
+        <time>Nov 13, 2020</time>
+      </div>
+      
+    </div>
+
+    <p class="desc mt3">
+      # Background I like to joke and say that anyone else would have sent my XJ to the junkyard.
+My Cherokee is rusty, has a laundry list of issues, gets 17 MPG on the good days, and is literally a brick on wheels.
+      
+      <a href="https://eddieabbondanz.io/post/xj/unibody-rust-repair-part-1/">Read more...</a>
+      
+    </p>
+  </div>
+</div>  
+<div class="post pb4 pt4">
+  <a class="fr jcc fs0" href="https://eddieabbondanz.io/post/xj/dana-30-rebuild/">
+    
+    <div class="image">
+      <img src="https://eddieabbondanz.io/post/xj/dana-30-rebuild/images/thumbnail.jpg" />
+    </div>
+    
+  </a>
+
+  <div class="ml4-tablet mt3-phone">
+    <a class="title db mb1 fw500" href="https://eddieabbondanz.io/post/xj/dana-30-rebuild/">Dana 30 Front Axle Rebuild</a>
+
+    <div class="meta fr">
+      
+      <a class="mr1ch" href="https://eddieabbondanz.io/series/xj-build" title="More XJ Build posts">
+        <i class="fas fa-th-list"></i>
+        XJ Build
+      </a>
+      
+
+      
+      <div class="date" title="Posted on Sep 15, 2020">
+        <i class="fas fa-calendar-day"></i>
+        <time>Sep 15, 2020</time>
+      </div>
+      
+    </div>
+
+    <p class="desc mt3">
+      The front axle of my Cherokee has been in desperate need of some attention for quite awhile. Just about every component on it was worn to the point of needing to be replaced and the axle housing itself had built up some pretty intense rust.
+      
+      <a href="https://eddieabbondanz.io/post/xj/dana-30-rebuild/">Read more...</a>
+      
+    </p>
+  </div>
+</div>  
+<div class="post pb4 pt4">
+  <a class="fr jcc fs0" href="https://eddieabbondanz.io/post/xj/19-02-03/">
+    
+    <div class="image">
+      <img src="https://eddieabbondanz.io/post/xj/19-02-03/images/9.jpg" />
+    </div>
+    
+  </a>
+
+  <div class="ml4-tablet mt3-phone">
+    <a class="title db mb1 fw500" href="https://eddieabbondanz.io/post/xj/19-02-03/">XJ Build - 02/03/19</a>
+
+    <div class="meta fr">
+      
+      <a class="mr1ch" href="https://eddieabbondanz.io/series/xj-build" title="More XJ Build posts">
+        <i class="fas fa-th-list"></i>
+        XJ Build
+      </a>
+      
+
+      
+      <div class="date" title="Posted on Feb 3, 2019">
+        <i class="fas fa-calendar-day"></i>
+        <time>Feb 3, 2019</time>
+      </div>
+      
+    </div>
+
+    <p class="desc mt3">
+      The Cherokee strikes again. A couple weeks back when my exhaust snapped just before the catalytic converter I noticed my muffler had a minor leak. It wasn&rsquo;t anything major and wasn&rsquo;t loud so I figured I could probably just run it till spring and deal with it when it was warmer out.
+      
+      <a href="https://eddieabbondanz.io/post/xj/19-02-03/">Read more...</a>
+      
+    </p>
+  </div>
+</div>  
+<div class="post pb4 pt4">
+  <a class="fr jcc fs0" href="https://eddieabbondanz.io/post/xj/19-01-26/">
+    
+    <div class="image">
+      <img src="https://eddieabbondanz.io/post/xj/19-01-26/images/1.jpg" />
+    </div>
+    
+  </a>
+
+  <div class="ml4-tablet mt3-phone">
+    <a class="title db mb1 fw500" href="https://eddieabbondanz.io/post/xj/19-01-26/">XJ Build - 01/26/19</a>
+
+    <div class="meta fr">
+      
+      <a class="mr1ch" href="https://eddieabbondanz.io/series/xj-build" title="More XJ Build posts">
+        <i class="fas fa-th-list"></i>
+        XJ Build
+      </a>
+      
+
+      
+      <div class="date" title="Posted on Jan 26, 2019">
+        <i class="fas fa-calendar-day"></i>
+        <time>Jan 26, 2019</time>
+      </div>
+      
+    </div>
+
+    <p class="desc mt3">
+      I&rsquo;ve honestly been very lucky with my Jeep. My previous daily driver was a 2009 Subaru Legacy, and while it may have been excellent in the snow it had a very high cost of ownership.
+      
+      <a href="https://eddieabbondanz.io/post/xj/19-01-26/">Read more...</a>
+      
+    </p>
+  </div>
+</div>  
+<div class="post pb4 pt4">
+  <a class="fr jcc fs0" href="https://eddieabbondanz.io/post/xj/18-10-26/">
+    
+    <div class="image">
+      <img src="https://eddieabbondanz.io/post/xj/18-10-26/images/3.jpg" />
+    </div>
+    
+  </a>
+
+  <div class="ml4-tablet mt3-phone">
+    <a class="title db mb1 fw500" href="https://eddieabbondanz.io/post/xj/18-10-26/">XJ Build - 10/26/18</a>
+
+    <div class="meta fr">
+      
+      <a class="mr1ch" href="https://eddieabbondanz.io/series/xj-build" title="More XJ Build posts">
+        <i class="fas fa-th-list"></i>
+        XJ Build
+      </a>
+      
+
+      
+      <div class="date" title="Posted on Oct 26, 2018">
+        <i class="fas fa-calendar-day"></i>
+        <time>Oct 26, 2018</time>
+      </div>
+      
+    </div>
+
+    <p class="desc mt3">
+      With winter approaching fast, and my Civic only having summer tires I needed to hurry up and finish the Cherokee. The Civic was also suffering from a stuck open thermostat that ensured the engine temperature never reached operating temp, and my heat was always cold.
+      
+      <a href="https://eddieabbondanz.io/post/xj/18-10-26/">Read more...</a>
+      
+    </p>
+  </div>
+</div>  
+<div class="post pb4 pt4">
+  <a class="fr jcc fs0" href="https://eddieabbondanz.io/post/xj/18-10-21/">
+    
+    <div class="image">
+      <img src="https://eddieabbondanz.io/post/xj/18-10-21/images/2.jpg" />
+    </div>
+    
+  </a>
+
+  <div class="ml4-tablet mt3-phone">
+    <a class="title db mb1 fw500" href="https://eddieabbondanz.io/post/xj/18-10-21/">XJ Build - 10/21/18</a>
+
+    <div class="meta fr">
+      
+      <a class="mr1ch" href="https://eddieabbondanz.io/series/xj-build" title="More XJ Build posts">
+        <i class="fas fa-th-list"></i>
+        XJ Build
+      </a>
+      
+
+      
+      <div class="date" title="Posted on Oct 21, 2018">
+        <i class="fas fa-calendar-day"></i>
+        <time>Oct 21, 2018</time>
+      </div>
+      
+    </div>
+
+    <p class="desc mt3">
+      # Patching Holes This post is a continuation of the mini series about restoring my old XJ cherokee. In the previous post I talked about cutting out and welding in a new rocker panel.
+      
+      <a href="https://eddieabbondanz.io/post/xj/18-10-21/">Read more...</a>
+      
+    </p>
+  </div>
+</div>  
+<div class="post pb4 pt4">
+  <a class="fr jcc fs0" href="https://eddieabbondanz.io/post/xj/18-10-08/">
+    
+    <div class="image">
+      <img src="https://eddieabbondanz.io/post/xj/18-10-08/images/6.jpg" />
+    </div>
+    
+  </a>
+
+  <div class="ml4-tablet mt3-phone">
+    <a class="title db mb1 fw500" href="https://eddieabbondanz.io/post/xj/18-10-08/">XJ Build - 10/8/18</a>
+
+    <div class="meta fr">
+      
+      <a class="mr1ch" href="https://eddieabbondanz.io/series/xj-build" title="More XJ Build posts">
+        <i class="fas fa-th-list"></i>
+        XJ Build
+      </a>
+      
+
+      
+      <div class="date" title="Posted on Oct 8, 2018">
+        <i class="fas fa-calendar-day"></i>
+        <time>Oct 8, 2018</time>
+      </div>
+      
+    </div>
+
+    <p class="desc mt3">
+      This post is the second part in my mini-series of restoring my old xj cherokee. If your interested, check out my attempt at saving the rusty roof.
+      
+      <a href="https://eddieabbondanz.io/post/xj/18-10-08/">Read more...</a>
+      
+    </p>
+  </div>
+</div>  
+<div class="post pb4 pt4">
+  <a class="fr jcc fs0" href="https://eddieabbondanz.io/post/xj/18-09-03/">
+    
+    <div class="image">
+      <img src="https://eddieabbondanz.io/post/xj/18-09-03/images/7.jpg" />
+    </div>
+    
+  </a>
+
+  <div class="ml4-tablet mt3-phone">
+    <a class="title db mb1 fw500" href="https://eddieabbondanz.io/post/xj/18-09-03/">XJ Build - 9/03/18</a>
+
+    <div class="meta fr">
+      
+      <a class="mr1ch" href="https://eddieabbondanz.io/series/xj-build" title="More XJ Build posts">
+        <i class="fas fa-th-list"></i>
+        XJ Build
+      </a>
+      
+
+      
+      <div class="date" title="Posted on Sep 2, 2018">
+        <i class="fas fa-calendar-day"></i>
+        <time>Sep 2, 2018</time>
+      </div>
+      
+    </div>
+
+    <p class="desc mt3">
+      I&rsquo;m a big fan of older vehicles. I just love the simplicity of them and how easy they are to work on them. Plus the cost of parts really can&rsquo;t be beat.
+      
+      <a href="https://eddieabbondanz.io/post/xj/18-09-03/">Read more...</a>
+      
+    </p>
+  </div>
+</div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagination fr jcc aic">
+
+  
+  
+  <a href="https://eddieabbondanz.io/series/xj-build/" title="First page">
+    <i class="fas fa-angle-double-left"></i>
+  </a>
+  
+
+  
+  
+  <a href="https://eddieabbondanz.io/series/xj-build/page/2/" title="Previous page">
+    <i class="fas fa-angle-left"></i>
+  </a>
+  
+
+  
+  
+
+  
+
+
+  
+  
+
+  
+
+  
+
+  
+  
+  <a class="" href="https://eddieabbondanz.io/series/xj-build/">
+    1
+  </a>
+  
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  
+
+  
+  
+  <a class="" href="https://eddieabbondanz.io/series/xj-build/page/2/">
+    2
+  </a>
+  
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  
+
+  
+  
+  <a class=" tdu" href="https://eddieabbondanz.io/series/xj-build/page/3/">
+    3
+  </a>
+  
+
+  
+
+  
+  
+
+  
+  
+
+</div>
+ 
+  </main>
+
+  <footer>
+  <p>&copy; 2013 - 2023 Eddie Abbondanzio</p>
+</footer>
+  <script src="https://eddieabbondanz.io/js/lol.js"></script>
+</body>
+
+
+</html>

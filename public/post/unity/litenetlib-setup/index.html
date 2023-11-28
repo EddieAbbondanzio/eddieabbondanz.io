@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Unity - How to Set Up LiteNetLib</title>
+  
+  
+  
+
+  
+  
+  <link rel="stylesheet" href="https://eddieabbondanz.io/sass/index.min.b1521db57baf3e5cb3575dbda9da74620aaa391fe45c8ffe3b45e1fb62a26fbf.css" integrity="sha256-sVIdtXuvPlyzV129qdp0YgqqOR/kXI/&#43;O0Xh&#43;2Kib78=" media="screen">
+
+</head>
+
+<body>
+  <nav class="navbar fr jcsb aic mt2-phone">
+  <a class="title h100 fr aic tdn fwb" href="https://eddieabbondanz.io">
+    <img class="avatar mr2" src="https://eddieabbondanz.io/img/avatar.jpg" />
+    Eddie Abbondanzio
+  </a>
+
+  <div class="menu h100 aic fr-tablet dn-phone">
+    
+    
+    <div class="item dropdown">
+      <a class="trigger" href="https://eddieabbondanz.io/post">Blog
+        <span class="icon"><i class="fas fa-chevron-down"></i></span>
+      </a>
+
+      <div class="content">
+        <a href="https://eddieabbondanz.io/post/"> All </a>
+
+        
+        <a href="https://eddieabbondanz.io/series/development"> Development </a>
+        
+        <a href="https://eddieabbondanz.io/series/xj-build"> 00 XJ Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/88-integra-build"> 88 Integra Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/93-eg-hatch-build"> 93 EG Hatch Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/honda-info-and-diys"> Honda Info and DIYs </a>
+        
+      </div>
+    </div>
+    
+    
+    
+    <a class="item single" href="https://eddieabbondanz.io/app">Apps</a>
+    
+    
+    
+    <a class="item single" href="https://eddieabbondanz.io/about">About</a>
+    
+    
+    <div class="item social h100 fr aic px3">
+      
+      <a href="http://github.com/EddieAbbondanzio" target="_blank" title="GitHub">
+        <span class="icon">
+          <i class="fab fa-github fa-lg"></i>
+        </span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/ed-abbondanzio-5a7378208/" target="_blank" title="Linkedin">
+        <span class="icon">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </span>
+      </a>
+      
+    </div>
+  </div>
+
+  <a id="hamburger" class="hamburger " href="#" title="Linkedin">
+    <span class="icon">
+      <i class="fa fa-bars fa-lg"></i>
+    </span>
+  </a>
+
+</nav>
+  <div id="hamburger-menu" class="hamburger-menu">
+     
+
+    <div>
+      <a> Blog </a>
+
+      <div class="ml2">
+        <a href="https://eddieabbondanz.io/post/"> All </a>
+
+        
+        <a href="https://eddieabbondanz.io/series/development"> Development </a>
+        
+        <a href="https://eddieabbondanz.io/series/xj-build"> 00 XJ Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/88-integra-build"> 88 Integra Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/93-eg-hatch-build"> 93 EG Hatch Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/honda-info-and-diys"> Honda Info and DIYs </a>
+        
+      </div>
+    </div>
+     
+    <a href="https://eddieabbondanz.io/app">Apps</a>
+     
+    <a href="https://eddieabbondanz.io/about">About</a>
+    
+
+    <div class="fr jcse">
+      
+      <a href="http://github.com/EddieAbbondanzio" target="_blank">
+        <span class="icon is-medium">
+          <i class="fab fa-github fa-lg"></i>
+        </span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/ed-abbondanzio-5a7378208/" target="_blank">
+        <span class="icon is-medium">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </span>
+      </a>
+      
+    </div>
+  </div>
+
+  <main>
+    
+    <h1 class="title">Unity - How to Set Up LiteNetLib</h1>
+    
+    
+<article>
+  <div class="meta pb3-phone">
+    
+    <a class="series" href="https://eddieabbondanz.io/series/development" title="More Development posts">
+      <i class="fas fa-th-list"></i>
+      Development
+    </a>
+    
+
+    
+    <div class="date" title="Posted on Nov 12, 2019">
+      <i class="fas fa-calendar-day"></i>
+      <time>Nov 12, 2019</time>
+    </div>
+    
+  </div>
+
+  <p><strong>TL;DR</strong> Download the most recent stable release source code zip and copy the <code>/LiteNetLib</code> folder to the <code>Plugins</code> folder in your Unity project.</p>
+<p><a href="https://github.com/RevenantX/LiteNetLib">LiteNetLib</a> is an UDP networking library that can be used for building multiplayer games with Unity. If you have any experience working with <a href="https://github.com/lidgren/lidgren-network-gen3">Lidgren</a> you&rsquo;ll feel right at home with LiteNetLib. LiteNetLib is not Unity specific, but it&rsquo;s a popular choice.</p>
+<div class="anchor-heading">
+  <a href="#create-a-plugins-folder" id="create-a-plugins-folder">#</a>
+  <h1>Create a <code>Plugins</code> Folder</h1>
+</div><p>Open up your Unity project. If you haven&rsquo;t already, create a <code>Plugins</code> folder directly under your <code>Assets</code> folder. The <code>Plugins</code> folder is one of several <a href="https://docs.unity3d.com/Manual/SpecialFolders.html">special folders</a> Unity supports. <code>Plugins</code> is a bit of an odd name, but Unity will check here for any 3rd party libraries you may want to use. These can be in the form of DLLs, or raw source files (Unity will compile .cs files).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Assets
+└───Scenes
+└───Scripts
+└───Plugins &lt;-- Create This
+</code></pre></div><div class="anchor-heading">
+  <a href="#download-a-stable-release-of-litenetlib" id="download-a-stable-release-of-litenetlib">#</a>
+  <h1>Download a Stable Release of LiteNetLib</h1>
+</div><p>Swing over to the <a href="https://github.com/RevenantX/LiteNetLib">LiteNetLib GitHub repo</a>. We need to navigate to the release page and find the most recent stable release.</p>
+<p>
+
+<div class="image">
+  <a href="images/1.png" target="_blank">
+    <img loading="lazy" src="images/1.png" alt="" title=""
+       max-width="1920" max-height="1007"  />
+  </a>
+</div></p>
+<p>At the time of writing this <a href="https://github.com/RevenantX/LiteNetLib/releases/tag/v0.8.3">0.8.3</a> is the most recent stable release. Go ahead and download the source code zip, or tar.</p>
+<p>It&rsquo;s best not to use the DLL as there are some platform specific #ifdefs for Unity in the source code. That&rsquo;s why we extract</p>
+<p>
+
+<div class="image">
+  <a href="images/2.png" target="_blank">
+    <img loading="lazy" src="images/2.png" alt="" title=""
+       max-width="1920" max-height="1007"  />
+  </a>
+</div></p>
+<div class="anchor-heading">
+  <a href="#extract-litenetlib-to-your-plugins-folder" id="extract-litenetlib-to-your-plugins-folder">#</a>
+  <h1>Extract <code>/LiteNetLib</code> to Your <code>Plugins</code> Folder</h1>
+</div><p>Once the download completes, extract the <code>LiteNetLib</code> folder from the zip into your <code>Plugins</code> folder. Your project directory should be as follows.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Assets
+└───Scenes
+└───Scripts
+└───Plugins
+│   └───LiteNetLib
+</code></pre></div><p>Switch back into Unity, and it should pop up with a loading window as it processes the new files. Once complete, your project should now have LiteNetLib ready to use. Visual Studio, or VS Code will recognize LiteNetLib classes and Unity will be able to compile your project error free.</p>
+<p>
+
+<div class="image">
+  <a href="images/3.png" target="_blank">
+    <img loading="lazy" src="images/3.png" alt="" title=""
+       max-width="1920" max-height="1044"  />
+  </a>
+</div></p>
+<p>Have fun!</p>
+
+</article>
+
+  </main>
+
+  <footer>
+  <p>&copy; 2013 - 2023 Eddie Abbondanzio</p>
+</footer>
+  <script src="https://eddieabbondanz.io/js/lol.js"></script>
+</body>
+
+
+</html>

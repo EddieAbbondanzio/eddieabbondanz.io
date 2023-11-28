@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Software Design - Marker Interfaces</title>
+  
+  
+  
+
+  
+  
+  <link rel="stylesheet" href="https://eddieabbondanz.io/sass/index.min.b1521db57baf3e5cb3575dbda9da74620aaa391fe45c8ffe3b45e1fb62a26fbf.css" integrity="sha256-sVIdtXuvPlyzV129qdp0YgqqOR/kXI/&#43;O0Xh&#43;2Kib78=" media="screen">
+
+</head>
+
+<body>
+  <nav class="navbar fr jcsb aic mt2-phone">
+  <a class="title h100 fr aic tdn fwb" href="https://eddieabbondanz.io">
+    <img class="avatar mr2" src="https://eddieabbondanz.io/img/avatar.jpg" />
+    Eddie Abbondanzio
+  </a>
+
+  <div class="menu h100 aic fr-tablet dn-phone">
+    
+    
+    <div class="item dropdown">
+      <a class="trigger" href="https://eddieabbondanz.io/post">Blog
+        <span class="icon"><i class="fas fa-chevron-down"></i></span>
+      </a>
+
+      <div class="content">
+        <a href="https://eddieabbondanz.io/post/"> All </a>
+
+        
+        <a href="https://eddieabbondanz.io/series/development"> Development </a>
+        
+        <a href="https://eddieabbondanz.io/series/xj-build"> 00 XJ Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/88-integra-build"> 88 Integra Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/93-eg-hatch-build"> 93 EG Hatch Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/honda-info-and-diys"> Honda Info and DIYs </a>
+        
+      </div>
+    </div>
+    
+    
+    
+    <a class="item single" href="https://eddieabbondanz.io/app">Apps</a>
+    
+    
+    
+    <a class="item single" href="https://eddieabbondanz.io/about">About</a>
+    
+    
+    <div class="item social h100 fr aic px3">
+      
+      <a href="http://github.com/EddieAbbondanzio" target="_blank" title="GitHub">
+        <span class="icon">
+          <i class="fab fa-github fa-lg"></i>
+        </span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/ed-abbondanzio-5a7378208/" target="_blank" title="Linkedin">
+        <span class="icon">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </span>
+      </a>
+      
+    </div>
+  </div>
+
+  <a id="hamburger" class="hamburger " href="#" title="Linkedin">
+    <span class="icon">
+      <i class="fa fa-bars fa-lg"></i>
+    </span>
+  </a>
+
+</nav>
+  <div id="hamburger-menu" class="hamburger-menu">
+     
+
+    <div>
+      <a> Blog </a>
+
+      <div class="ml2">
+        <a href="https://eddieabbondanz.io/post/"> All </a>
+
+        
+        <a href="https://eddieabbondanz.io/series/development"> Development </a>
+        
+        <a href="https://eddieabbondanz.io/series/xj-build"> 00 XJ Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/88-integra-build"> 88 Integra Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/93-eg-hatch-build"> 93 EG Hatch Build </a>
+        
+        <a href="https://eddieabbondanz.io/series/honda-info-and-diys"> Honda Info and DIYs </a>
+        
+      </div>
+    </div>
+     
+    <a href="https://eddieabbondanz.io/app">Apps</a>
+     
+    <a href="https://eddieabbondanz.io/about">About</a>
+    
+
+    <div class="fr jcse">
+      
+      <a href="http://github.com/EddieAbbondanzio" target="_blank">
+        <span class="icon is-medium">
+          <i class="fab fa-github fa-lg"></i>
+        </span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/ed-abbondanzio-5a7378208/" target="_blank">
+        <span class="icon is-medium">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </span>
+      </a>
+      
+    </div>
+  </div>
+
+  <main>
+    
+    <h1 class="title">Software Design - Marker Interfaces</h1>
+    
+    
+<article>
+  <div class="meta pb3-phone">
+    
+    <a class="series" href="https://eddieabbondanz.io/series/development" title="More Development posts">
+      <i class="fas fa-th-list"></i>
+      Development
+    </a>
+    
+
+    
+    <div class="date" title="Posted on Nov 2, 2018">
+      <i class="fas fa-calendar-day"></i>
+      <time>Nov 2, 2018</time>
+    </div>
+    
+  </div>
+
+  <div class="anchor-heading">
+  <a href="#what-are-they" id="what-are-they">#</a>
+  <h1>What Are They?</h1>
+</div><p>A marker interface is an empty interface (no methods or properties) that is used to identify classes that implement it belong to a special group. Some might argue that this is a code smell, but in certain situations they can be the best solution for constraining types.</p>
+<p>It should be noted that the purpose of marker interfaces is a perfect job for the decorator pattern. However, in some languages (C# for example) attributes lack the support we need to implement a quick solution. For now, in order to keep things simple it seems best to stick with marker interfaces.</p>
+<div class="anchor-heading">
+  <a href="#example" id="example">#</a>
+  <h1>Example</h1>
+</div><p>Your tasked with writing a <code>ServiceLocator</code> that will be used to register, and retrieve various business logic services for a web server.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ServiceLocator</span> {
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Register&lt;???&gt;() {
+        <span style="color:#75715e">//Implementation details...
+</span><span style="color:#75715e"></span>    }
+
+    <span style="color:#66d9ef">public</span> ??? Retrieve&lt;???&gt;() {
+        <span style="color:#75715e">//Implementation details...
+</span><span style="color:#75715e"></span>    }
+}
+</code></pre></div><p>While we could create a <code>ServiceAttribute</code> to indicate which classes are services, this would require additional work and the use of reflection to determine which classes have the attribute at runtime. This is unnecessary overhead that could introduce bugs, and will take longer to develop.</p>
+<p>On the other hand we could leave the <code>ServiceLocator</code> wide open and allow any object to be registered and retrieved, but this could lead to abuse, and doesn&rsquo;t feel quite right. This is where marker interfaces can be taken advantage of.</p>
+<p>Our marker interface would look like so:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#75715e">//The marker interface
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> IService {
+
+}
+</code></pre></div><p>Now we can update the generic type on the <code>ServiceLocator</code> as such:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ServiceLocator</span> {
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Register&lt;IService&gt;() {
+        <span style="color:#75715e">//Implementation details...
+</span><span style="color:#75715e"></span>    }
+
+    <span style="color:#66d9ef">public</span> IService Retrieve&lt;IService&gt;() {
+        <span style="color:#75715e">//Implementation details...
+</span><span style="color:#75715e"></span>    }
+}
+</code></pre></div><p>Using marker interfaces may not be the best approach in every language, but in certain situations it satisfies the need for a quick, and elegant solution.</p>
+
+</article>
+
+  </main>
+
+  <footer>
+  <p>&copy; 2013 - 2023 Eddie Abbondanzio</p>
+</footer>
+  <script src="https://eddieabbondanz.io/js/lol.js"></script>
+</body>
+
+
+</html>
