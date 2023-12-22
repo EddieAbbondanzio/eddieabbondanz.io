@@ -231,3 +231,5 @@ That's it for now.
 
 Here's a sneak peak of some of the updates to come.
 ![](images/69.jpg)
+
+[Continue on to Part 13]({{< ref "the-revival-part-13" >}})
