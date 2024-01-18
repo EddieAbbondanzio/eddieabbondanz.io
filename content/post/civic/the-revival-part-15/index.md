@@ -133,3 +133,5 @@ Windshield trim re-installed and all nice and secure.
 
 Pro tip: Get the bottom of the trim in position before the top otherwise you risk scratching your fender.
 ![](images/30.jpg)
+
+[Continue on to Part 16]({{< ref "the-revival-part-16" >}})
