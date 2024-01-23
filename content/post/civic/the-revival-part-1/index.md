@@ -6,7 +6,7 @@ type: "post"
 thumbnail: "/post/civic/the-revival-part-1/images/thumbnail.jpg"
 ---
 
-I've owned my 1993 Civic Hatch for about 8 years now but it's sat neglected in my shop for the last 3. It was my first real project car, and the car I learned how to do almost everything on.
+I've owned my 1993 Civic Hatch for about 10 years now but it's sat neglected in my shop for the last 3. It was my first real project car, and the car I learned how to do almost everything on.
 
 ![](images/1.jpg)
 
