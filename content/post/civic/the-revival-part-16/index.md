@@ -6,7 +6,7 @@ type: "post"
 thumbnail: "/post/civic/the-revival-part-16/images/thumbnail.jpg"
 ---
 
-Digging into the smaller details of the car has been pretty enjoyable. Most of the small things I'm working on aren't necessary for getting the car back on the road, but it's given me a chance to address all the smaller issues the car has had for years.
+Digging into the smaller details of the car has been pretty enjoyable. Most of the small things I'm working on aren't necessary for getting the car back on the road, but it's given me a chance to address all the minor issues the car has had for years.
 
 My ultimate goal isn't to make the Civic a show car, but instead get it back into solid shape where it won't have any of the common issues that plague older cars such as cabin water leaks, electrical gremlins, etc...
 
@@ -14,7 +14,7 @@ It's also very likely I'm going to need to make this car my daily over the summe
 
 # Rejuvenating the Hatch Grommets
 
-All of the rubber bits on the car are really starting to show their age. Given how hard some of these parts are to source now I wanted to try to prolong the life of the rear hatch wiring grommets so I opted to strip the rear harnesses down and soak the grommets in 303 aerospace for a few days.
+All of the rubber bits on the car are really starting to show their age. Given how hard some of these parts are to source now I wanted to try to prolong the life of the rear hatch wiring grommets so I opted to strip the rear harnesses down and soak the grommets in 303 Aerospace for a few days.
 
 ![](images/1.jpg)
 ![](images/2.jpg)
@@ -31,7 +31,7 @@ A couple days later after soaking them and reassembling everything they looked g
 I'm still working out the details for my new fuel setup but I was able to install a new OEM filter (16010-SM4-K52) and fuel rail line.
 ![](images/7.jpg)
 
-I had previously bought an aftermarket fuel filter but it didn't fit so I caved and bought the more expensive OEM unit since I didn't want to risk buying another filter that didn't fit.
+I had previously bought an aftermarket fuel filter but it didn't fit so I caved and bought the more expensive OEM unit since I didn't want to risk buying another filter that didn't work.
 
 The fuel pressure gauge was something I found laying around in an old bin from back when I ran a d15 / y8 mini me. I don't know if it'll prove to be useful, but I don't have the original plug that closes up the top of the banjo bolt so I had to use the gauge to close up the hole.
 ![](images/8.jpg)
@@ -49,10 +49,10 @@ It's also CARB compliant too, not that it's relevant for my needs lol.
 The last bits of the interior were in the way so I figured it was time to pull out the seats and carpet.
 ![](images/11.jpg)
 
-I love the look of the confetti seats but these are starting to show their age so I may upgrade them. This likely won't happen for a few years so I plan on sand blasting the frame rails and maybe dying some of the cloth.
+I love the look of the confetti seats but these are starting to show their age so I may upgrade them. This likely won't happen for a few years so I plan on sand blasting the frame rails and maybe dying some of the cloth for now.
 ![](images/12.jpg)
 
-The carpet is going to be dyed dark gray soon too. I had daydreamed about buying a new carpet but I don't think it's worth the cost right now.
+The carpet is going to be dyed dark gray soon too. I had explored buying a new carpet but I don't think it's worth the cost.
 ![](images/13.jpg)
 
 Overall the floor pans are holding up pretty decent for being 31 years old. There's a couple rust spots that are something I'll need to keep an eye on, but I'm not overly concerned about them yet.
@@ -95,7 +95,7 @@ I traced the outline of the holes from underneath the car so I could do some cut
 Test fitting the panel after bead rolling. I bead rolled the cover around the front hole because it has a raised lip and this will let the patch panel sit flush against the body.
 ![](images/25.jpg)
 
-Prepping my new shifter for install. It's a Megan racing dual bend. I made sure to use lots of grease on it.
+Prepping my new shifter for install. It's a Megan Racing dual bend. I made sure to use lots of grease on it.
 ![](images/26.jpg)
 
 Test fitting the shifter after cutting a hole for it and welding some nuts to secure the shifter rods with. I traced the hole using a roll of duct tape since it was basically the perfect diameter.
@@ -138,7 +138,7 @@ And as a finishing touch I switched over my gray parking brake lever to a black 
 
 # Dusting Out the Interior and Cleaning up the Wiring
 
-The backhalf of the interior has been super dusty for some years due to previously living on a dirt road and having no AC which meant I had to drive with the windows open a lot. The dust always drove me crazy because it got everywhere and was super hard to keep up with.
+The back half of the interior has been super dusty for some years due to previously living on a dirt road and having no AC which meant I had to drive with the windows open a lot. The dust always drove me crazy because it got everywhere and was super hard to keep up with.
 
 Not wanting to leave all that dust in there I went through and wiped everything down with degreaser and also took the time to relocate all the wiring back to it's OEM position with new clips.
 
@@ -153,3 +153,5 @@ All done!
 ![](images/48.jpg)
 
 All in all I think it's a huge improvement for the interior.
+
+[Continue on to Part 17]({{< ref "the-revival-part-17" >}})
