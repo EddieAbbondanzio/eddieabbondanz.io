@@ -1,6 +1,6 @@
 ---
 title: "Revival of the Hatch Part 18: Finalizing the New Brakes"
-date: 2024-01-27
+date: 2024-01-26
 series: "93 EG Hatch Build"
 type: "post"
 thumbnail: "/post/civic/the-revival-part-18/images/thumbnail.jpg"
@@ -119,3 +119,5 @@ Bleeding the brakes was actually pretty straight forward. I started off by bench
 ![](./images/29.jpg)
 
 I did have a couple of leaks to resolve as one of the fittings was only finger tight, and I also had a leaky banjo bolt on the rear passenger caliper but that just turned out to be a dirty mating surface that was easy to take care of.
+
+[Continue on to Part 19]({{< ref "the-revival-part-19" >}})
