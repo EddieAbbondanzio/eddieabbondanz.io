@@ -124,4 +124,4 @@ On top of that I popped the upper interior back in too. The pictures don't do it
 ![](./images/28.jpg)
 ![](./images/29.jpg)
 
-That's it for now.
+[Continue on to Part 20]({{< ref "the-revival-part-20" >}})
