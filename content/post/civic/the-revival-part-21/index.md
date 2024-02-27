@@ -25,7 +25,7 @@ After.
 Moving on to the ECU jumper harness I decided I wanted to repin the connectors on the ECU side. It had a massive 16 pin connector and a 2 pin connector I added on, but this didn't work for my needs anymore because I needed to add some wiring for the wideband 02, PS pressure switch sensor, and evap solenoid.
 ![](images/3.jpg)
 
-Tucked engine harnesses have to add a jumper harness that runs from C101 on the driver side because the OEM engine harness connects to the cabin on both sides of the engine bay but tuck harnesses don't so they run a jumper harness across the cabin so all the wiring can be routed through a single hole in the firewall.
+Tucked engine harnesses have to add a jumper harness that runs from C302 on the driver side because the OEM engine harness connects to the cabin on both sides of the engine bay but tuck harnesses don't so they run a jumper harness across the cabin so all the wiring can be routed through a single hole in the firewall.
 
 Unfortunately this one is custom and I don't have a wiring diagram for it so I had to trace each and every wire with my multimeter to figure out what they were connecting to. But once I figured out that, I cut off the old connector and wired up a smaller 14 pin connector.
 ![](images/4.jpg)
