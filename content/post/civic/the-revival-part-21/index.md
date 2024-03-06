@@ -269,3 +269,5 @@ Swapping them over was actually pretty easy at it's 3 bolts per rail and once th
 
 Both seats installed.
 ![](images/69.jpg)
+
+[Continue on to Part 21]({{< ref "the-revival-part-21" >}})
