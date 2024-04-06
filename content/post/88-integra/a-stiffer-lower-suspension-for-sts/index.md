@@ -10,11 +10,11 @@ Last year I ran the Integra in almost 20 events and had a great time. Plus with 
 
 While I've still got a lot more to learn and practice, I feel the Integra is ready to graduate from H street and move on up to STS as it won 1st place in H Street for the local club I race with last season, and has begun to raw time some of the Miatas in STS.
 
-Everyone loves seeing the Integra on the course because of how much bodyroll it has.
+Everyone loves seeing the Integra on the course because of how much body roll it has.
 ![](images/1.jpg)
 ![](images/2.jpg)
 
-It almost always has atleast one rear wheel up in the air and I've been told while weaving through slaloms it's constantly switching which wheel is airborne.
+It almost always has at least one rear wheel up in the air and I've been told while weaving through slaloms it's constantly switching which wheel is airborne.
 ![](images/3.jpg)
 
 # The Current State and Future Plans
@@ -66,7 +66,7 @@ The Integra also has a lingering hard start when warm issue that I haven't been 
 
 # Planning out the new Suspension
 
-My main goals for the new suspension setup is to reduce how much bodyroll the Integra has, and also introduce some camber to help with turning and keep the tires lasting a little longer.
+My main goals for the new suspension setup is to reduce how much body roll the Integra has, and also introduce some camber to help with turning and keep the tires lasting a little longer.
 
 Like I mentioned above there isn't strong aftermarket support for the 1st gen Integra, but [Tein does offer torsion bars and rear coilovers](https://www.heeltoeauto.com/suspension-combo-package/medieval-pro-v2-suspension-combo-1984-87-honda-civic-coilovers-torsion-bars-panhard-bar-med.sp-as1.html) for these cars that'll work if you swap out the front torsion tubes with 1st gen CRX ones.
 
@@ -146,7 +146,7 @@ It can be a little tricky to get the bar to slip into position at first. I found
 
 ### Custom Torsion Bar Caps
 
-While the 1st gen CRX torsion tubes bolt right up on the Integra they don't work with the Integra torsion tube caps due to being significantly shorter. In order to work around this you can use the Integrat tube ends and drill new mounting holes into the car, or extend the caps to work with the existing mounting holes.
+While the 1st gen CRX torsion tubes bolt right up on the Integra they don't work with the Integra torsion tube caps due to being significantly shorter. In order to work around this you can use the Integra tube ends and drill new mounting holes into the car, or extend the caps to work with the existing mounting holes.
 
 I opted to try and extend the caps so I wouldn't need to drill any new holes into the car. (plus this keeps me STS legal since the suspension mounting points haven't changed)
 
@@ -168,7 +168,7 @@ Front suspension all done.
 
 ## Moving on to the Rear Coils and Panhard Bar
 
-With the front good to go I was ready to move on to the rear. The rear suspension of the 1st gen Integra is closer to that of the golden era Hondas since it uses coil springs but it does have a solid axle in the rear instead of indepedent suspension so it requires an adjustable panhard bar to keep the axle centered.
+With the front good to go I was ready to move on to the rear. The rear suspension of the 1st gen Integra is closer to that of the golden era Hondas since it uses coil springs but it does have a solid axle in the rear instead of independent suspension so it requires an adjustable panhard bar to keep the axle centered.
 ![](images/42.jpg)
 
 OG suspension removed.
