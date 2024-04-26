@@ -23,6 +23,7 @@ The ultimate list of torque specs for B18A1, B18B1, B20B, B20Z2 engines. I made 
 - IACV: 16 lb-ft
 - FITV: 17 lb-ft
 - Fuel rail: 9 lb-ft
+- Distributor: 17 lb-ft
 
 ## Block
 
@@ -73,7 +74,6 @@ The ultimate list of torque specs for B18A1, B18B1, B20B, B20Z2 engines. I made 
 
 - 5-18 (Engine accessories)
 - 6-14 (Cam caps, cam gears)
-- 7-7 (Flywheel)
 - 7-23 (Crankshaft and rod bearing caps)
 - 7-24 (Rear main seal)
 - 8-3 (Oil pan, oil pump, pickup tube, baffle plate)
@@ -81,3 +81,5 @@ The ultimate list of torque specs for B18A1, B18B1, B20B, B20Z2 engines. I made 
 - 10-5 (Thermostat)
 - 10-9 (Water pump)
 - 11-105 (Fuel rail)
+- 12-3 (Flywheel, pressure plate)
+- 23-92 (Distributor)
