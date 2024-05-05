@@ -6,7 +6,7 @@ thumbnail: "/post/honda/b18-b20-torque-specs/images/featured.jpg"
 series: "Honda Info and DIYs"
 ---
 
-The ultimate list of torque specs for B18A1, B18B1, B20B, B20Z2 engines. I made this list because I was tired of digging through the 94-01 Integra factory service manual to find them all.
+The ultimate list of torque specs for B18A1, B18B1, B20B, B20Z2 engines. I made this list because I was tired of digging through the 94-01 Integra and 97 - 02 CRV factory service manuals to find them all.
 
 **Note**: VTEC engines (B16A, B18C1, B18C5, etc...) have different specs and shouldn't use this list!
 
