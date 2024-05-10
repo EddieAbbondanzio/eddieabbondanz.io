@@ -276,3 +276,5 @@ The lower portion of the C pillar still needs to be cleaned up a bit more before
 Once it's ready for paint I'll give it a couple coats of epoxy and also spray the inner rocker at the same time.
 
 From there I'll likely work on installing the outer rocker.
+
+[Continue on to Part 20]({{< ref "unibody-rust-repair-part-20" >}})
