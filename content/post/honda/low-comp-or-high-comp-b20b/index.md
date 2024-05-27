@@ -28,7 +28,7 @@ High compression B20Bs will have "PHK" stamped on the pistons.
 
 ![](images/piston.jpg)
 
-Low compression B20Bs will have have "P3F" stamped on the pistons.
+Low compression B20Bs will have "P3F" stamped on the pistons.
 
 # References
 
