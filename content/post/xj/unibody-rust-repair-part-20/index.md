@@ -107,7 +107,7 @@ New driver door mounted up, rear hinges tacked into place for testing.
 A bit of repositioning later and the new hinges were welded in.
 ![](images/32.jpg)
 
-I had to make some new door hinge shims since I was missing some. Bottom two are 3/16" thick and top two are 1/16" thick.
+I had to make some new door hinge shims since I was missing some. Bottom two are 3/16" thick and top two are 1/8" thick.
 
 Bottom left one is the original.
 ![](images/33.jpg)
@@ -118,4 +118,4 @@ New rear door mounted up.
 I couldn't resist popping the quarter panel on to get a sneak peak of the new driver side.
 ![](images/34.jpg)
 
-Up next is to weld in the 2x6
+Up next is to weld in the 2x6.
