@@ -14,7 +14,7 @@ The AW4 transmission has an output line and an input line. The output line is th
 
 On XJs without the tow package your output line will run from the transmission to the radiator, and then the return line will go from the radiator back to the transmission.
 
-XJs with the tow package have a tranmission cooler that sits in the middle of the return line like so:
+XJs with the tow package have a transmission cooler that sits in the middle of the return line like so:
 ![](./images/0_lines-with-cooler-colored.png)
 
 **Note**: On 96 and older XJs the radiator lines are swapped with the output line of the trans going to the top port on the radiator, and the return line from the radiator coming out the bottom. (This is irrelevant though since we are making custom lines)
