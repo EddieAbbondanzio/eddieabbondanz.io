@@ -1,5 +1,5 @@
 ---
-title: "AN Transmission Lines Upgrade with Cooler"
+title: "AN Transmission Lines Upgrade with Aftermarket Trans Cooler"
 date: 2024-08-03
 type: post
 series: "XJ Info and DIYs"
