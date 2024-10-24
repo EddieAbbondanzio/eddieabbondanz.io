@@ -12,61 +12,61 @@ The ultimate list of torque specs for B18A1, B18B1, B20B, B20Z2 engines. I made 
 
 ## Head
 
-- Head bolts: 61 lb-ft (Torque in 2 steps, with proper sequence)
-- Cam gears: 27 lb-ft
-- Cam caps: 7.2 lb-ft
-- Valve lash nuts: 18 lb-ft
-- Valve cover nuts: 7.2 lb-ft
-- Intake manifold nuts: 17 lb-ft
-- Exhaust manifold nuts: 23 lb-ft
-- Throttle body: 14 lb-ft
-- IACV: 16 lb-ft
-- FITV: 17 lb-ft
-- Fuel rail: 9 lb-ft
-- Distributor: 17 lb-ft
+- Head bolts: 61 ft-lbs (Torque in 2 steps, with proper sequence)
+- Cam gears: 27 ft-lbs
+- Cam caps: 7.2 ft-lbs
+- Valve lash nuts: 18 ft-lbs
+- Valve cover nuts: 7.2 ft-lbs
+- Intake manifold nuts: 17 ft-lbs
+- Exhaust manifold nuts: 23 ft-lbs
+- Throttle body: 14 ft-lbs
+- IACV: 16 ft-lbs
+- FITV: 17 ft-lbs
+- Fuel rail: 9 ft-lbs
+- Distributor: 17 ft-lbs
 
 ## Block
 
-- Timing belt tensioner: 40 lb-ft
-- Crank pulley: 130 lb-ft
-- Timing belt cover bolts: 7.2 lb-ft
-- Water pump bolts: 8.7 lb-ft
-- Oil pickup: 8 lb-ft
-- Oil baffle plate: 8 lb-ft
-- Oil pan: 9 lb-ft
-- Oil pump m8x1.25 bolts: 17 lb-ft
-- Oil pump m6x1.0 bolts: 8 lb-ft
-- Rear main seal: 8 lb-ft
-- Thermostat housing: 8.7 lb-ft
-- Thermostat cover: 8 lb-ft
-- Upper radiator outlet: 8 lb-ft
-- Half shaft: 28 lb-ft
-- Crankshaft bearing caps: 56 lb-ft
-- Rod bearing caps: 23 lb-ft
+- Timing belt tensioner: 40 ft-lbs
+- Crank pulley: 130 ft-lbs
+- Timing belt cover bolts: 7.2 ft-lbs
+- Water pump bolts: 8.7 ft-lbs
+- Oil pickup: 8 ft-lbs
+- Oil baffle plate: 8 ft-lbs
+- Oil pan: 9 ft-lbs
+- Oil pump m8x1.25 bolts: 17 ft-lbs
+- Oil pump m6x1.0 bolts: 8 ft-lbs
+- Rear main seal: 8 ft-lbs
+- Thermostat housing: 8.7 ft-lbs
+- Thermostat cover: 8 ft-lbs
+- Upper radiator outlet: 8 ft-lbs
+- Half shaft: 28 ft-lbs
+- Crankshaft bearing caps: 56 ft-lbs
+- Rod bearing caps: 23 ft-lbs
 
 ## Accessories
 
-- PS pump: 17 lb-ft
-- PS pump bracket: 33 lb-ft
-- Alternator bracket: 33 lb-ft
-- Alternator top bolt: 17 lb-ft
-- Alternator bottom bolt: 33 lb-ft
-- AC compressor: 17 lb-ft
-- AC compressor bracket bolts: 33 lb-ft
+- PS pump: 17 ft-lbs
+- PS pump bracket: 33 ft-lbs
+- Alternator bracket: 33 ft-lbs
+- Alternator top bolt: 17 ft-lbs
+- Alternator bottom bolt: 33 ft-lbs
+- AC compressor: 17 ft-lbs
+- AC compressor bracket bolts: 33 ft-lbs
 
 ## Transmission
 
-- Bell housing bolts: 47 lb-ft
-- Shift linkage bolt: 16 lb-ft
-- Flywheel: 76 lb-ft (Don't use this if you have ARP bolts)
-- Pressure plate: 19 lb-ft (Don't use this if you have ARP bolts)
-- Slave cylinder: 16 lb-ft
-- Starter: 33 lb-ft
+- Bell housing bolts: 47 ft-lbs
+- Shift linkage bolt: 16 ft-lbs
+- Flywheel: 76 ft-lbs (Don't use this if you have ARP bolts)
+- Pressure plate: 19 ft-lbs (Don't use this if you have ARP bolts)
+- Slave cylinder: 16 ft-lbs
+- Starter: 33 ft-lb
 
 ## ARP Bolts
 
-- Flywheel: 95 lb-ft https://tech.arp-bolts.com/instructions/208-2802.pdf
-- Pressure plate: 25 lb-ft https://tech.arp-bolts.com/instructions/108-2202.pdf
+- Flywheel: 95 ft-lbs https://tech.arp-bolts.com/instructions/208-2802.pdf
+- Pressure plate: 25 ft-lbs https://tech.arp-bolts.com/instructions/108-2202.pdf
 
 ## References
 
