@@ -46,25 +46,18 @@ unsafe= true
     weight = 2
 
     [[menu.main]]
-    name = "XJ Info and DIYs"
-    identifier = "xj-info-and-diys"
-    parent = "posts"
-    url="series/xj-info-and-diys"
-    weight = 3
-
-    [[menu.main]]
     name = "93 EG Hatch Build"
     identifier = "93-eg-hatch-build"
     parent = "posts"
     url="series/93-eg-hatch-build"
-    weight = 4
+    weight = 3
 
     [[menu.main]]
     name = "88 Integra Build"
     identifier = "88-integra-build"
     parent = "posts"
     url="series/88-integra-build"
-    weight = 5
+    weight = 4
 
     [[menu.main]]
     name = "Honda Info and DIYs"
@@ -72,6 +65,13 @@ unsafe= true
     parent = "posts"
     url="series/honda-info-and-diys"
     weight = 5
+
+    [[menu.main]]
+    name = "XJ Info and DIYs"
+    identifier = "xj-info-and-diys"
+    parent = "posts"
+    url="series/xj-info-and-diys"
+    weight = 6
 
     [[menu.main]]
     identifier = "apps"

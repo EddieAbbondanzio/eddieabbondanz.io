@@ -21,7 +21,7 @@ There's only 6 capacitors in the 1988 - 1989 Integra ECU but getting to them can
 I'm by no means an expert when it comes to electrical components but here's some tips:
 - They should be aluminum-electrolytic, surface mount, radial cap.
 - Try to find ones that are AEC-Q200 rated with a long life span (2,000+ hours)
-- Try to find replacements that match the OEM diameter or are small to avoid fitment issues.
+- Try to find replacements that match the OEM diameter or are smaller to avoid fitment issues.
 - Voltage can be higher, but uF should always be the same.
 
 # Notes
