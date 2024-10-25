@@ -13,7 +13,7 @@ Mechanic Log was a web app where users could log repairs and maintenance perform
 - Track maintenance and repairs including receipts and invoices
 - Track fuel mileage and fill-ups
 
-{{< figure src="/app/mechaniclog/images/hero.png" >}}
+![](./images/hero.png)
 
 # Why I Built It
 
@@ -24,7 +24,3 @@ Mechanic Log was an attempt to solve this problem of mine, and I wanted to help 
 # Tech Stack
 
 The front end was written in Vue.js, and the backend was powered by Node.js and Express. Both the front-end and backend were written in TypeScript. A MySQL database was used for persistence and everything was ran on a Linux server (Ubuntu 18.04).
-
-# What Happened To It?
-
-After working on Mechanic Log for awhile I realized how much more work would be required to make it commercially viable and decided I didn't want to continue supporting it. In order to make the website more useful it would require a mobile app to let users track their fuel mileage easier. It seems no one wanted to bring their laptop with them each time they wanted to fill up a vehicle.

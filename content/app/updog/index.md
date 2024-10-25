@@ -5,7 +5,7 @@ featuredImage: "/app/updog/images/hero.png"
 weight: 2
 ---
 
-Updog was a Reddit clone where users could share links, and create text posts. Users could submit comments to posts, or reply to other comments. A voting system was implemented to allow users to upvote or downvote posts they liked or disliked. Posts could be shared to any of the sub spaces that were topic specific. The home page of the site aggregated all posts into a list ordered by most recent.
+[Updog](https://github.com/EddieAbbondanzio/Updog.in) was a Reddit clone where users could share links, and create text posts. Users could submit comments to posts, or reply to other comments. A voting system was implemented to allow users to upvote or downvote posts they liked or disliked. Posts could be shared to any of the sub spaces that were topic specific. The home page of the site aggregated all posts into a list ordered by most recent.
 
 ## Features
 
@@ -14,7 +14,7 @@ Updog was a Reddit clone where users could share links, and create text posts. U
 - Users could upvote / downvote posts they liked / disliked
 - Sub-forums for niche topics
 
-{{< figure src="/app/updog/images/hero.png" >}}
+![](./images/hero.png)
 
 # Why I Built It
 
@@ -23,7 +23,3 @@ This project started as a fun challenge to see what it takes to create a Reddit 
 # Tech Stack
 
 The frontend was written in Vue.js and used Vuex for state management. The backend was written in ASP.NET Core, and used a PostgreSQL database for persistance. Dapper was used as an ORM. Everything was deployed to a Linux server running Ubuntu 18.04.
-
-# What Happened To It?
-
-Updog was never meant to live long and was killed off after a couple of months. I left the site live for a few months as I shared the source code on GitHub and wanted to let people test it out. The site was well received with the <a href="https://www.reddit.com/r/vuejs/comments/daur6s/reddit_clone_built_for_fun_using_typescript_vuex/" target="_blank">/r/vuejs community</a> and received over 40 stars on GitHub.
