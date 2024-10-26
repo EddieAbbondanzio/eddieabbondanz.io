@@ -2,6 +2,7 @@
 title: "Beefing up a Budget Bead Roller"
 date: 2023-02-25
 type: post
+series: "Shop and Tools"
 thumbnail: "/post/tools/bead-roller/images/thumbnail.jpg"
 ---
 

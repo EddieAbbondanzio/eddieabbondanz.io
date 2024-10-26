@@ -2,6 +2,7 @@
 title: "Building My Ultimate Mig Cart"
 date: 2023-03-01
 type: post
+series: "Shop and Tools"
 thumbnail: "/post/tools/mig-cart/images/thumbnail.jpg"
 ---
 
