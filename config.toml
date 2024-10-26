@@ -74,6 +74,13 @@ unsafe= true
     weight = 6
 
     [[menu.main]]
+    name = "Shop and Tools"
+    identifier = "shop-and-tools"
+    parent = "posts"
+    url="series/shop-and-tools"
+    weight = 7
+
+    [[menu.main]]
     identifier = "apps"
     name = "Apps"
     url = "app"
