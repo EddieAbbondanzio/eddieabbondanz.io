@@ -10,7 +10,7 @@ thumbnail: "/post/honda/88-89-integra-ecu-capacitors/images/thumbnail.jpg"
 There's only 6 capacitors in the 1988 - 1989 Integra ECU but getting to them can be a pain since the ECU is hidden underneath the passenger seat. The parts list required is as follows:
 
 - (3x) 35v 33uf capacitors. OEM is .175" diameter
-- (1x) 35v 30uf capacitor. OEM is .360" diameter
+- (1x) 35v 330uf capacitor. OEM is .360" diameter
 - (1x) 10v 470uf capacitor. OEM is .280" diameter
 - (1x) 16v 100uf capacitor. OEM is .225" diameter
 
