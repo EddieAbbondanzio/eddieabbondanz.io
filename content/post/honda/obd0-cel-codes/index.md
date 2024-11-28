@@ -14,7 +14,7 @@ Long blinks are 10, and short blinks are 1.
 
 For example, code 14 (Idle air control) would look like: long blink - short blink - short blink - short blink - short blink
 
-| Code | Description                             |
+| Code | Description                             | 
 | ---- | --------------------------------------- |
 | 0    | Engine Control Module (ECM)             |
 | 1    | Oxygen Content (02 sensor)              |
