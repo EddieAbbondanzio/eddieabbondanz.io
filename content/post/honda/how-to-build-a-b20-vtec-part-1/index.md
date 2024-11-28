@@ -2,7 +2,7 @@
 title: "How To: Build a B20 VTEC Part 1: Planning Your Goals and Budget"
 date: 2024-11-26
 type: post
-thumbnail: "/post/honda/how-to-build-a-b20-vtec/images/thumbnail.jpg"
+thumbnail: "/post/honda/how-to-build-a-b20-vtec-part-1/images/thumbnail.jpg"
 series: "Honda Info and DIYs"
 ---
 
