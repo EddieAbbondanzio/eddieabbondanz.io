@@ -6,7 +6,7 @@ series: "Shop and Tools"
 thumbnail: "/post/tools/hf-15-20-storage-bin-case-replacement-bins/images/thumbnail.jpg"
 ---
 
-I've got a growing collection of nuts and bolts and started using the [20 bin storage cases](https://www.harborfreight.com/20-bin-medium-portable-parts-storage-case-93928.html) that Harbor Freight sells to keep them all organized.
+I've got a growing collection of nuts and bolts and started using the [20 bin storage cases (SKU: 93928)](https://www.harborfreight.com/20-bin-medium-portable-parts-storage-case-93928.html) that Harbor Freight sells to keep them all organized.
 ![](./images/stack.jpg)
 
 The bins work great for all my larger hardware such as some of my Honda bolts:
