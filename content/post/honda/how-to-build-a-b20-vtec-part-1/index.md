@@ -1,12 +1,12 @@
 ---
-title: "How To: Build a B20 VTEC Part 1: Planning Your Goals and Budget"
+title: "How to Build a B20 VTEC Part 1: Planning Your Goals and Budget"
 date: 2024-11-26
 type: post
 thumbnail: "/post/honda/how-to-build-a-b20-vtec-part-1/images/thumbnail.jpg"
 series: "Honda Info and DIYs"
 ---
 
-Building a B20 VTEC (aka B20V) isn't much more difficult than building a normal B20 but it can be daunting to figure out what you'll need for parts with so many different options out there. You can do anything from slapping a VTEC head on a stock B20 and sending it, to going all out with high comp pistons, big cams, and a bunch of headwork.
+Building a B20 VTEC (aka B20V) isn't much more difficult than building a normal B20 but it can be daunting to figure out what you'll need for parts with so many different options out there. You can do anything from slapping a VTEC head on a stock B20 block and sending it, to going all out with high comp pistons, big cams, and a bunch of headwork.
 
 I figured I'd write up a blog series on building my B20V and the reasoning behind all of the decisions to try and help out others with building their own B20V.
 
@@ -62,7 +62,8 @@ I'll have to keep the compression to a max of 11.5:1 since 91 octane is the best
 
 In terms of cams I'll aim to find a set of cams that focuses on low end power since I'm interested in as much area under the curve as possible.
 
-(Part two in the works)
+[Continue on to part 2]({{< ref "how-to-build-a-b20-vtec-part-2" >}})
+
 
 # Resources
 - [High compression daily driven?](https://honda-tech.com/forums/all-motor-naturally-aspirated-44/high-compression-daily-driven-2804592/#post43014749)

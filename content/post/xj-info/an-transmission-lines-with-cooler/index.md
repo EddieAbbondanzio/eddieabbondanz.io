@@ -102,7 +102,7 @@ The transmission lines will see fairly high pressure (~220psi) so they need to b
 
 **Can I use a different brand hose with different brand fittings?**
 
-Potentially, but compatibility isn't guaranteed. The diameter of PTFE hose tends to vary between brands so it's best to stick with the same brand when picking out hose and fittings.
+Potentially, but compatibility isn't guaranteed. The outer diameter of PTFE hose tends to vary between brands so it's best to stick with the same brand when picking out hose and fittings.
 
 **Why do the input lines for the radiator and cooler go in the bottom?**
 
@@ -111,6 +111,6 @@ This is done to help with getting air out of the system. Air bubbles that are tr
 This is also likely the reason why the cooler lines were flipped when they run into the radiator on 97 and up Cherokees. 
 
   # References
-  - https://there4.io/2019/07/17/Jeep-XJ-Transmission-Cooler-Line-Ugrade
+  - https://there4.io/2019/07/17/Jeep-XJ-Transmission-Cooler-Line-Ugrade/
   - https://www.cherokeeforum.com/f2/1998-aw4-cooler-lines-orientation-266757/
   - https://www.roadrunnerperformance.com/ptfe-hose-what-is-it-why-is-ptfe-hose-better-than-rubber/
