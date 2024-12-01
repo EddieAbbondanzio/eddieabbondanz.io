@@ -33,6 +33,7 @@ I'll go over the reasoning behind some of the parts picked below, but here's the
 - **Oil pump**: ACL OPHD1194HP
 - **Intake manifold**: Skunk2 pro series 307-05-0270
 - **Throttle body**: Blox 68mm tuner series
+- **Timing belt covers**: 11820-P72-000, 11840-P72-010, 11832-P72-000
 
 I also had to order the following for seals, gaskets, and hardware:
 - **Cam seals**: (2) Timken 1989
@@ -42,7 +43,8 @@ I also had to order the following for seals, gaskets, and hardware:
 - **Crank seal**: Fel-Pro TCS45904
 - **Oil pan gasket**: Fel-Pro OS30630R
 - **Water pump tube o-rings**: (2) OEM 91314-PH7-003
-- **Valve cover nuts**: (8) m6x1.0 acorn nuts
+- **Valve cover nuts**: (4) m6x1.0 acorn nuts, (4) m6x1.0 hex nuts
+- **Spark plugs**: (4) NGK BKR7E-11
 
 ## Cams
 
@@ -192,6 +194,17 @@ Since I don't have a GSR ECU I opted to go with an aftermarket option and settle
 **Links**
 - [Skunk2 Intake vs. B18C Stock Intake](https://www.ek9.org/index.php?threads/skunk2-intake-vs-b18c-stock-intake.38067/)
 - [Type R intake manifold vs SKUNK2](https://www.team-integra.net/threads/type-r-intake-manifold-vs-skunk2.31104/)
+
+## Timing Belt Cover
+
+If you don't want to leave your cam gears / timing belt exposed then you'll need to pick up both halves of the GSR upper timing belt covers. The B20, LS, and GSR all share the same lower timing belt cover so you can re-use the lower one off your B20 block.
+
+Part #s:
+- GSR upper outer cover: 11820-P72-000
+- GSR upper inner cover: 11840-P72-010
+- GSR upper cover seal 11832-P72-000
+
+The B20 and GSR use the same timing cover bolts so there's no need to buy new ones.
 
 ## Seals, Gaskets, and More
 
