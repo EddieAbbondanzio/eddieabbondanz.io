@@ -34,14 +34,16 @@ It's up to you on which trans cooler to use, but I picked the Hayden Rapid-Cool 
 | 1 | Transmission cooler | Hayden Rapid-Cool 687 | |
 | 20' | 6AN PTFE hose | Vibrant 18976 | |
 | 2 | 6AN to m14x1.5 adapter | Vibrant 10229 | Transmission port adapters |
-| 1 | 6AN to 5/8-18 inverted flare | Vibrant 16436 | Top of radiator port adapter |
+| 1 | 6AN to 5/8-18 inverted flare | Russell 640380 | Top of radiator port adapter |
 | 1 | 6AN to 3/8" EFI quick disconnect adapter | Vibrant 16886 | Bottom of radiator quick disconnect adapter |
 | 1 | 6an 45* PTFE fittings | Vibrant 28406 | Transmission output (front port) |
 | 3 | 6an 90* PTFE fittings | Vibrant 28906 | Transmission return (rear port) / cooler input / cooler output |
 | 1 | 10 pack of 6an P clamps | Vibrant 17192 | Secures lines to the oil pan |
-| 1 | 8 pack of 4AN hose separator clamps** | Any generic ones work |
+| 1 | 8 pack of 4AN hose separator clamps | Any generic ones work |
 
-**4AN separators are used because PTFE hose is thinner in diameter than regular AN hose.
+**Notes**:
+- 4AN separators are used because PTFE hose is thinner in diameter than regular AN hose.
+- Vibrant sells a 6AN to 5/8-18 inverted flare adapter but you should avoid it. It's threads are too short and it'll leak no matter how tight you secure it.
 
 # Mounting the Cooler
 

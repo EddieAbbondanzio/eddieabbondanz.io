@@ -34,6 +34,9 @@ I'll go over the reasoning behind some of the parts picked below, but here's the
 - **Intake manifold**: Skunk2 pro series 307-05-0270
 - **Throttle body**: Blox 68mm tuner series
 - **Timing belt covers**: 11820-P72-000, 11840-P72-010, 11832-P72-000
+- **Power steering**: P73 upper bracket, LS bottom bracket, LS pump
+- **Alternator**: B20 alternator brackets with B20 alternator
+- **Thermostat housing**: OEM B20
 
 I also had to order the following for seals, gaskets, and hardware:
 - **Cam seals**: (2) Timken 1989
@@ -206,6 +209,31 @@ Part #s:
 
 The B20 and GSR use the same timing cover bolts so there's no need to buy new ones.
 
+## Power Steering
+
+I've found mixed info on how to retain power steering. Assuming you already have a B series power steering pump you should be able to use any lower power steering bracket (LS, GSR, B16, Type R) as they are all the same. The upper bracket is the tricky bit.
+
+The safest option is to match the upper bracket to the head you're using but I've also read that the upper Type R bracket can be used on a GSR head even though the Type R bracket matches the B16 bracket. I've also seen companies selling generic billet ones that work on B16 / GSR / Type R heads so I wager they're probably all swappable.
+
+Part #s:
+- GSR upper: 56997-P72-000 
+- B16 upper: 56997-P30-010 
+- Type R upper: 56997-p73-000 
+
+**Links**
+- [FAQ retaining power steering EK B series Swap](https://honda-tech.com/forums/honda-civic-del-sol-1992-2000-1/faq-retaining-power-steering-ek-b-series-swap-1822781/)
+- [P73 upper power steering bracket](https://honda-tech.com/forums/honda-civic-del-sol-1992-2000-1/p73-upper-power-steering-bracket-3341740/)
+
+## Alternator
+
+You can use the stock B20 alternator without having to change anything. 
+
+## Thermostat Housing
+
+The OEM B20 thermostat housing should work fine as long as you're not running an OEM GSR intake. If you are planning on running a GSR head with an OEM GSR intake then you'll need to swap the thermostat housing with a GSR one otherwise the intake manifold will hit the housing.
+
+The B20 and LS share the same thermostat housing so either can be used.
+
 ## Seals, Gaskets, and More
 
 It's not necessary for me to go into detail on all of the seals and gaskets needed since you match them to the head or block your using. Please refer to the parts list above for all of the ones I used.
@@ -213,6 +241,7 @@ It's not necessary for me to go into detail on all of the seals and gaskets need
 ## Fuel Injectors
 
 I haven't settled on the injectors I plan on using yet but am currently exploring RDX or K series injectors. All I'm certain of so far is that I can't use the stock 240cc B20 injectors because they'll start the motor for fuel at higher RPM.
+
 
 # Assembly Time
 
