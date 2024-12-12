@@ -1,5 +1,7 @@
 {{ define "main" }}
 <article>
+  <h1 class="title">{{ .Title }}</h1>
+
   <div class="meta pb3-phone">
     {{ if .Params.Series }}
     <a class="series" href="/series/{{ .Params.Series | urlize  }}" title="More {{ .Params.Series }} posts">

@@ -62,15 +62,11 @@
   </div>
 
   <main>
-    {{ if and (not .IsHome) (ne .RelPermalink "/404.html") }}
-    <h1 class="title">{{ .Title }}</h1>
-    {{ end }}
     {{ block "main" . }}{{ end }}
   </main>
 
   {{ partial "footer" . }}
   <script src="/js/lol.js"></script>
 </body>
-
 
 </html>
