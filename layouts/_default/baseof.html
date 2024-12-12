@@ -19,10 +19,6 @@
   {{ $styles := resources.Get "sass/index.sass" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 
-  {{ $markdownStyles := resources.Get "css/github-markdown.css" | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $markdownStyles.Permalink }}" integrity="{{ $markdownStyles.Data.Integrity }}" media="screen">
-
-
   <script data-goatcounter="https://tgpo.eddieabbondanz.io/count" async
     src="//tgpo.eddieabbondanz.io/count.js"></script>
 

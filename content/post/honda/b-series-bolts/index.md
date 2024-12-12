@@ -28,16 +28,12 @@ If you've ever had to replace a bolt or nut on your Honda with one from a hardwa
 
 This is because Honda bolts are JIS spec, and most hardware stores don't carry this. It's perfectly fine to use either, but if you'd prefer to keep them all the same head size I'd recommend sticking with JIS but that may require ordering them online.
 
-## Intake and Exhaust
+### Intake Manifold Studs
 
----
-
-### Manifold Studs
-
+If you have the OEM studs:
 - (9) m8x1.25 flange nuts
 
 Or if you deleted the studs:
-
 - (9) m8x1.25x30 flange bolts
 
 ### MAP Sensor
@@ -77,10 +73,6 @@ If you removed the studs:
 
 - (9) m8x1.25x30 flange bolts
 
-## Engine
-
----
-
 ### Valve cover:
 
 - (~8) m6x1.0 acorn nuts (amount varies by valve cover!)
@@ -100,10 +92,6 @@ If you still have the OEM studs:
 If you deleted the studs:
 
 - (2) m12x1.25x30 flange bolts
-
-## Transmission
-
----
 
 ### Bell Housing
 
