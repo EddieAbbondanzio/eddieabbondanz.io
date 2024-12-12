@@ -83,7 +83,7 @@ If you removed the studs:
 
 I'd recommend flange bolts over hex heads unless you make sure to run washers with the hex heads.
 
-### (2 Bolt) Engine Mount:
+### (2 Bolt) Driver Side Engine Mount:
 
 If you still have the OEM studs:
 
@@ -102,13 +102,13 @@ If you deleted the studs:
 - (1) m10x1.25x110 flange bolts
 - (1) m10x1.25x45 flange bolts
 
-### Rear Mount / Bracket
+### Transmission Rear Mount / Bracket
 
 - (2) m14x1.25x67 flange bolts (70mm works too)
 - (3) m10x1.25x35 flange bolts
 - (1) m12x1.25x97 flange bolts (100mm works too)
 
-### Top Mount
+### Transmission Top Mount
 
 If you're running the OEM mount with the studs:
 
@@ -116,9 +116,9 @@ If you're running the OEM mount with the studs:
 
 If you're running a billet aluminum mount and removed the studs:
 
-- (3) m12x1.25x35mm flange bolts
+- (3) m12x1.25x35mm flange bolts**
 
-The billet aluminum mounts are thicker and require longer bolts to compensate.
+**Billet aluminum mounts are thicker and require longer than stock bolts to compensate.
 
 ### Clutch Slave Cylinder
 
@@ -142,9 +142,9 @@ There's too many bolts and nuts to cover them all, but given Honda doesn't use m
 
 The most common sizes and pitches are:
 
-- m5x0.8 (Tiny bolts / screws typically found in small places like sensors)
-- m6x1.0 (The 10mm bolts all over the car)
-- m8x1.25 (Slightly larger common bolt size. Found on the bumper braces, battery tray, suspension, and more)
-- m10x1.25 (Starter, suspension, etc...)
-- m12x1.25 (Larger suspension bolts, bell housing, side engine mounts)
-- m14x1.5 (Big bolts on rear engine mount, suspension, etc)
+- **m5x0.8** (Tiny bolts / screws typically found in small places like sensors)
+- **m6x1.0** (The 10mm bolts all over the car)
+- **m8x1.25** (Slightly larger common bolt size. Found on the bumper braces, battery tray, suspension, and more)
+- **m10x1.25** (Starter, suspension, etc...)
+- **m12x1.25** (Larger suspension bolts, bell housing, side engine mounts)
+- **m14x1.5** (Big bolts on rear engine mount, suspension, etc)

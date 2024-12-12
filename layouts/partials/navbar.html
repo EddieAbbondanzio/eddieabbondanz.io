@@ -9,8 +9,8 @@
     {{ if not .HasChildren }}
     <a class="item single" href="{{ .URL | relURL }}">{{ .Name }}</a>
     {{ else }}
-    <div class="item dropdown">
-      <a class="trigger" href="{{ .URL | relURL }}">{{ .Name }}
+    <div id="{{ .Name | lower }}" class="item dropdown">
+      <a class="trigger">{{ .Name }}
         <span class="icon"><i class="fas fa-chevron-down"></i></span>
       </a>
 
@@ -18,7 +18,7 @@
         <a href="{{ $.Site.Params.hostName }}/post/"> All </a>
 
         {{ range .Children }}
-        <a href="{{ .URL | relURL }}"> {{ .Name }} </a>
+        <a href="{{ .URL | relURL }}">{{ .Name }}</a>
         {{ end }}
       </div>
     </div>
@@ -41,7 +41,7 @@
     </div>
   </div>
 
-  <a id="hamburger" class="hamburger " href="#" title="Linkedin">
+  <a id="hamburger" class="hamburger" href="#">
     <span class="icon">
       <i class="fa fa-bars fa-lg"></i>
     </span>
