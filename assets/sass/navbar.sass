@@ -1,0 +1,142 @@
+$navbar-height: 6rem
+$navbar-hover: $oc-gray-7
+$navbar-border: 0.6rem
+$navbar-border-radius: 0.5rem
+
+$navbar-item-width: 12rem
+$navbar-item-colors: (($oc-blue-5, $oc-gray-3), ($oc-blue-6, $oc-gray-4), ($oc-blue-7, $oc-gray-5), ($oc-blue-8, $oc-gray-6), ($oc-blue-9, $oc-gray-7))
+$navbar-title-color: $oc-gray-7
+$navbar-text: $oc-white
+
+nav.navbar
+  height: $navbar-height
+
+  .title
+    color: $navbar-title-color
+    font-size: 1.6rem
+    width: 33%
+
+    +phone
+      flex-grow: 1
+      font-size: 2rem
+
+    +tablet
+      font-size: 2.8rem
+
+    .avatar
+      height: 5rem
+      border-radius: $navbar-border-radius
+
+  .hamburger
+    border: 1px solid $oc-gray-5
+    color: $oc-gray-7
+    border-radius: $navbar-border-radius
+    height: 4.8rem
+    width: 4.8rem
+    align-items: center
+    justify-content: center
+    display: none
+
+    +phone
+      display: flex
+
+  .menu
+    .item:first-child
+      border-bottom-left-radius: $navbar-border-radius
+
+    .item:last-child
+      border-bottom-right-radius: $navbar-border-radius
+
+    .item
+      height: 100%
+      width: $navbar-item-width
+      display: flex
+      align-items: center
+      justify-content: center
+      color: $navbar-text
+      font-weight: bold
+      text-decoration: none
+
+      // Colorize them
+      @for $i from 1 through length($navbar-item-colors)
+        $colors: nth($navbar-item-colors, $i)
+
+        &:nth-child(#{$i})
+          background-color: nth($colors, 1)
+          border-bottom: $navbar-border solid nth($colors, 2)
+
+    .item:hover
+      color: $navbar-hover
+
+    .item.dropdown
+      position: relative
+
+      .trigger
+        height: 100%
+        width: 100%
+        display: flex
+        align-items: center
+        justify-content: center
+        color: $navbar-text
+        text-decoration: none
+
+        &:hover
+          color: $navbar-hover
+
+        .icon
+          padding-left: 0.4rem
+
+      .content
+        display: none
+
+      &:hover, &.active
+        .content
+          display: flex
+          flex-direction: column
+          position: absolute
+          top: 6.4rem
+          left: 0
+          width: 16rem
+          background-color: rgba($oc-gray-9, 0.8)
+          border-radius: $navbar-border-radius
+
+          a:first-child
+            border-top-left-radius: $navbar-border-radius
+            border-top-right-radius: $navbar-border-radius
+
+          a:last-child
+            border-bottom-left-radius: $navbar-border-radius
+            border-bottom-right-radius: $navbar-border-radius
+
+          a
+            font-weight: normal
+            color: $navbar-text
+            padding: 1rem
+            text-decoration: none
+
+            &:hover
+              color: $oc-gray-5
+              background-color: rgba($oc-black, 0.2)
+
+    .item.social
+      .icon
+        color: $navbar-text
+        padding: 0.8rem
+
+        &:hover
+          color: $navbar-hover
+
+
+.hamburger-menu
+  display: none
+
+  &.active
+    display: block
+    border-bottom: 0.2rem solid $oc-gray-3
+
+  a
+    display: flex
+    height: 4rem
+    align-items: center
+    text-decoration: none
+    color: inherit

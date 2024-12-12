@@ -2,7 +2,6 @@ baseURL = "https://eddieabbondanz.io"
 languageCode = "en-us"
 title = "Eddie Abbondanzio"
 theme = "blank"
-author = "Eddie Abbondanzio"
 canonifyurls = true
 paginate = 10
 pygmentsCodefences = true
@@ -20,6 +19,9 @@ unsafe= true
     series = "series"
 
 [params]
+    author = "Eddie Abbondanzio"
+    description = "My blog about my project cars and other contraptions"
+    creationYear = 2013
     avatar = "/img/avatar.jpg" 
     github = "http://github.com/EddieAbbondanzio"
     linkedin = "https://www.linkedin.com/in/ed-abbondanzio-5a7378208/"

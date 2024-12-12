@@ -1,6 +1,4 @@
-@import "reset.sass"
 @import "open-color.scss"
-@import "markdown.sass"
 
 $fa-font-path: "../webfonts"
 @import "font-awesome/brands.scss"
@@ -10,23 +8,15 @@ $fa-font-path: "../webfonts"
 @import "utils/flex.sass"
 @import "utils/spacing.sass"
 @import "utils/sizing.sass"
-@import "utils/text.sass"
+@import "utils/typography.sass"
 @import "utils/display.sass"
+@import "markdown.sass"
+@import "navbar.sass"
+@import "footer.sass"
 
 $body-background: $oc-gray-1
 $body-width: 1028px
-$border-radius: 1rem
-
-$navbar-height: 6rem
-$navbar-hover: $oc-gray-7
-$navbar-border: 0.4rem
-
-$navbar-item-width: 12rem
-$navbar-item-colors: (($oc-blue-5, $oc-gray-3), ($oc-blue-6, $oc-gray-4), ($oc-blue-7, $oc-gray-5), ($oc-blue-8, $oc-gray-6), ($oc-blue-9, $oc-gray-7))
-$navbar-title-color: $oc-gray-7
-$navbar-text: $oc-white
-
-$footer-height: 12rem
+$font-color: $oc-gray-9
 
 html
   min-height: 100vh
@@ -39,225 +29,20 @@ body
   max-width: $body-width
   display: flex
   flex-direction: column
-  padding-left: 4rem
-  padding-right: 4rem
+  padding-left: 2rem
+  padding-right: 2rem
+  margin-top: 0
   margin-left: auto
   margin-right: auto
   font-size: 1.6rem
-
-nav.navbar
-  height: $navbar-height
-
-  .title
-    color: $navbar-title-color
-    font-size: 1.6rem
-    width: 33%
-
-    +phone
-      flex-grow: 1
-      font-size: 2rem
-
-    +tablet
-      font-size: 2.8rem
-
-    .avatar
-      height: 5rem
-      border-radius: $border-radius
-
-  .hamburger
-    border: 1px solid $oc-gray-5
-    color: $oc-gray-7
-    border-radius: $border-radius
-    height: 4.8rem
-    width: 4.8rem
-    align-items: center
-    justify-content: center
-    display: none
-
-    +phone
-      display: flex
-
-  .menu
-    .item:first-child
-      border-bottom-left-radius: $border-radius
-
-    .item:last-child
-      border-bottom-right-radius: $border-radius
-
-    .item
-      height: 100%
-      width: $navbar-item-width
-      display: flex
-      align-items: center
-      justify-content: center
-      color: $navbar-text
-      font-weight: bold
-
-      // Colorize them
-      @for $i from 1 through length($navbar-item-colors)
-        $colors: nth($navbar-item-colors, $i)
-
-        &:nth-child(#{$i})
-          background-color: nth($colors, 1)
-          border-bottom: $navbar-border solid nth($colors, 2)
-
-    .item:hover
-      color: $navbar-hover
-
-    .item.dropdown
-      position: relative
-
-      .trigger
-        height: 100%
-        width: 100%
-        display: flex
-        align-items: center
-        justify-content: center
-        text-decoration: none
-        color: $navbar-text
-
-        &:hover
-          color: $navbar-hover
-
-        .icon
-          padding-left: 0.4rem
-
-      .content
-        display: none
-
-      &:hover
-        .content
-          display: flex
-          flex-direction: column
-          position: absolute
-          top: 6.4rem
-          left: 0
-          width: 16rem
-          background-color: rgba($oc-gray-9, 0.8)
-          border-radius: $border-radius
-
-          a:first-child
-            border-top-left-radius: $border-radius
-            border-top-right-radius: $border-radius
-
-          a:last-child
-            border-bottom-left-radius: $border-radius
-            border-bottom-right-radius: $border-radius
-
-          a
-            font-weight: normal
-            color: $navbar-text
-            padding: 1rem
-
-            &:hover
-              color: $oc-gray-5
-              background-color: rgba($oc-black, 0.2)
-
-    .item.social
-      .icon
-        color: $navbar-text
-        padding: 0.8rem
-
-        &:hover
-          color: $navbar-hover
-
-.hamburger-menu
-  display: none
-
-  &.active
-    display: block
-    border-bottom: 0.2rem solid $oc-gray-3
-
-  a
-    display: flex
-    height: 4rem
-    align-items: center
+  color: $font-color
+  line-height: 2.4rem
 
 main
   display: flex
   flex-direction: column
   flex-grow: 1
   margin-top: 4rem
-
-  h1.title
-    font-weight: bold
-    color: $oc-gray-8
-
-    +phone
-    font-size: 2.4rem
-
-    +tablet
-      font-size: 3rem
-
-  .post
-    border-bottom: 0.2rem solid $oc-gray-3
-    display: flex
-    flex-direction: column
-
-    +tablet
-      flex-direction: row
-
-    .image
-      width: 32rem
-      display: flex
-      align-items: center
-      justify-content: center
-
-      img
-        max-height: 18rem
-        max-width: 32rem
-
-    .title
-      color: $oc-black
-      font-size: 1.8rem
-
-      +tablet
-        font-size: 2rem
-
-    .meta
-      font-size: 1.4rem
-      color: $oc-gray-7
-
-      a
-        color: $oc-gray-7
-
-    .desc
-      color: $oc-gray-9
-      line-height: 2.4rem
-
-      a
-        color: $oc-blue-5
-
-  .app
-    border-bottom: 0.2rem solid $oc-gray-3
-
-    h1
-      font-size: 3rem
-      color: $oc-gray-8
-
-  .desc
-    line-height: 2.4rem
-    color: $oc-gray-9
-
-    a
-      color: $oc-blue-5
-
-  .pagination
-    height: 12rem
-
-    a
-      color: $oc-gray-7
-      margin-right: 1ch
-      margin-left: 1ch
-
-footer
-  height: $footer-height
-  display: flex
-  align-items: center
-  justify-content: center
-
-  p
-    color: $oc-gray-7
 
 #logo-404
   cursor: pointer
@@ -273,7 +58,39 @@ footer
   -ms-user-select: none
   user-select: none
 
-.anchor-heading
-  display: flex
-  flex-direction: row
-  align-items: center
+.post-summary
+  .thumbnail
+    max-height: 18rem
+    max-width: 32rem
+
+  .meta
+    color: $oc-gray-7
+
+    a
+      color: $oc-gray-7
+
+  border-bottom: 2px solid $oc-gray-3
+
+.pagination
+  padding-top: 2rem
+
+  a
+    text-decoration: none
+    color: initial
+
+  a.curr-page
+    text-decoration: underline
+
+  a:not(:first-child)
+    padding-left: 1ch
+
+.post
+  .meta
+    color: $oc-gray-7
+
+    a
+      color: $oc-gray-7
+
+.app-summary
+  a
+    color: $oc-gray-7

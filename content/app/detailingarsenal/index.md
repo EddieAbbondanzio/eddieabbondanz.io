@@ -17,11 +17,11 @@ weight: 2
 
 ![](./images/hero.png)
 
-# Why I Built It
+## Why I Built It
 
 Like Mechanic Log I built this to scratch my own itch. When running an auto detailing business as a one man show it can be difficult to track my schedule so I created a web app that could fulfill my needs. The app also has basic CRM (customer relationship management) features.
 
-# Tech Stack
+## Tech Stack
 
 The site is built using Vue.js and the backend is an ASP.NET Core Web API. PostgreSQL is used for data persistence. Auth0 is used for user authentication.
 

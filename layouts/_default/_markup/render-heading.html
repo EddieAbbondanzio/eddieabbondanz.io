@@ -1,4 +1,4 @@
-<div class="anchor-heading">
-  <a href="#{{ .Anchor }}" id="{{ .Anchor }}">#</a>
-  <h{{ .Level }}>{{ .Text | safeHTML }}</h{{ .Level }}>
-</div>
+<h{{ .Level }}>
+  {{ .Text | safeHTML }}
+  <a href="#{{ .Anchor }}" id="{{ .Anchor }}" class="anchor" aria-hidden="true"><i class="fa fa-link"></i></a>
+</h{{ .Level }}>

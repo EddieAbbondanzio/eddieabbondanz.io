@@ -1,6 +1,6 @@
-+++
-title = "Eddie Abbondanzio"
-+++
+---
+title: "About Me"
+---
 
 My name's Eddie Abbondanzio, and as you've probably already figured out this is my personal blog. I enjoy writing up posts on the various projects I work on in my spare time.
 

@@ -1,0 +1,35 @@
+<!-- Only shown on mobile -->
+<div id="hamburger-menu" class="hamburger-menu">
+  {{ range .Site.Menus.main }} {{ if not .HasChildren }}
+  <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+  {{ else }}
+
+  <div>
+    <a> {{ .Name }} </a>
+
+    <div class="ml2">
+      <a href="{{ $.Site.Params.hostName }}/post/"> All </a>
+
+      {{ range .Children }}
+      <a href="{{ .URL | relURL }}"> {{ .Name }} </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}{{ end }}
+
+  <div class="fr jcse">
+    {{ with .Site.Params.github }}
+    <a href="{{ . }}" target="_blank">
+      <span class="icon is-medium">
+        <i class="fab fa-github fa-lg"></i>
+      </span>
+    </a>
+    {{ end }}{{ with .Site.Params.linkedin }}
+    <a href="{{ . }}" target="_blank">
+      <span class="icon is-medium">
+        <i class="fab fa-linkedin fa-lg"></i>
+      </span>
+    </a>
+    {{ end }}
+  </div>
+</div>

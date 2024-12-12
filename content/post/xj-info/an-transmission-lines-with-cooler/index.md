@@ -32,7 +32,7 @@ It's up to you on which trans cooler to use, but I picked the Hayden Rapid-Cool 
 | Quantity | Part | Part # | Description |
 |----------|------|--------|-------------|
 | 1 | Transmission cooler | Hayden Rapid-Cool 687 | |
-| 20' | 6AN PTFE hose | Vibrant 18976 | |
+| 20 | 6AN PTFE hose | Vibrant 18976 | |
 | 2 | 6AN to m14x1.5 adapter | Vibrant 10229 | Transmission port adapters |
 | 1 | 6AN to 5/8-18 inverted flare | Russell 640380 | Top of radiator port adapter |
 | 1 | 6AN to 3/8" EFI quick disconnect adapter | Vibrant 16886 | Bottom of radiator quick disconnect adapter |
