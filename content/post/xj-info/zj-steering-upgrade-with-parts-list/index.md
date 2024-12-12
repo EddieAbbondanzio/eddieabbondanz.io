@@ -42,12 +42,12 @@ The install isn't too complicated since you only need to remove the old drag lin
 
 Torque specs are as follows:
 
-- Drag Link to Pitman Arm Nut - 81 Nm / 60 ft.lbs.
-- Drag Link to Knuckle Nut - 47 Nm / 35 ft.lbs.
-- Drag Link Clamp Bolts - 49 Nm / 36 ft.lbs.
-- Tie Rod Clamp Bolts - 49 Nm / 35 ft.lbs
-- Tie Rod Knuckle - 47 Nm / 35 ft.lbs
-- Tie Rod to Drag Link - 75 Nm / 55 ft.lbs.
+- **Drag Link to Pitman Arm Nut** - 81 Nm / 60 ft.lbs.
+- **Drag Link to Knuckle Nut** - 47 Nm / 35 ft.lbs.
+- **Drag Link Clamp Bolts** - 49 Nm / 36 ft.lbs.
+- **Tie Rod Clamp Bolts** - 49 Nm / 35 ft.lbs
+- **Tie Rod to Knuckle** - 47 Nm / 35 ft.lbs
+- **Tie Rod to Drag Link** - 75 Nm / 55 ft.lbs.
 
 [Source](https://wranglertjforum.com/threads/zj-tie-rod-conversion.2373/page-3#post-94101)
 
