@@ -16,10 +16,10 @@ weight: 2
 
 ![](./images/hero.png)
 
-# Why I Built It
+## Why I Built It
 
 This project started as a fun challenge to see what it takes to create a Reddit clone. It took 3 months to accomplish, and I had to learn a few new technologies along the way. This project helped me learn about caching in the front end, and recursive database queries (nested comments are difficult).
 
-# Tech Stack
+## Tech Stack
 
 The frontend was written in Vue.js and used Vuex for state management. The backend was written in ASP.NET Core, and used a PostgreSQL database for persistance. Dapper was used as an ORM. Everything was deployed to a Linux server running Ubuntu 18.04.
