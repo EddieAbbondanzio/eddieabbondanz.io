@@ -1,19 +1,17 @@
 <!-- Post Summary -->
-<div class="post pb4 pt4">
+<div class="py4 fr-tablet post-summary">
   <a class="fr jcc fs0" href="{{ .Permalink }}">
     {{ if isset .Params "thumbnail" }}
-    <div class="image">
-      <img src="{{ .Site.BaseURL }}{{.Params.thumbnail }}" />
-    </div>
+    <img class="thumbnail" src="{{ .Site.BaseURL }}{{.Params.thumbnail }}" />
     {{ end }}
   </a>
 
   <div class="ml4-tablet mt3-phone">
-    <a class="title db mb1 fw500" href="{{ .Permalink }}">{{ .Title }}</a>
+    <a class="db mb1 fw500 tdn h4" href="{{ .Permalink }}">{{ .Title }}</a>
 
-    <div class="meta fr">
+    <div class="fr meta">
       {{ if .Params.Series }}
-      <a class="mr1ch" href="/series/{{ .Params.Series | urlize  }}" title="More {{ .Params.Series }} posts">
+      <a class="mr1ch tdn" href="/series/{{ .Params.Series | urlize  }}" title="More {{ .Params.Series }} posts">
         <i class="fas fa-th-list"></i>
         {{ .Params.Series }}
       </a>
@@ -27,7 +25,7 @@
       {{ end }}
     </div>
 
-    <p class="desc mt3">
+    <p class="mt2">
       {{ .Summary }}
       {{ if .Truncated }}
       <a href="{{ .Permalink }}">Read more...</a>

@@ -1,0 +1,34 @@
+@import "open-color.scss"
+@import "responsiveness.sass"
+
+$header-font-color: $oc-gray-9
+
+.tdn
+  text-decoration: none
+
+.tdu
+  text-decoration: underline
+
+.fwb
+  font-weight: bold
+
+.h1,.h2,.h3,.h4,.h5,.h6
+  color: $header-font-color
+  font-weight: bold
+
++desktop
+  .h1
+    font-size: 2.25em
+  .h2
+    font-size: 1.75em
+  .h3
+    font-size: 1.5em
+  .h4
+    font-size: 1.25em
+  .h5
+    font-size: 1em
+  .h6
+    font-size: .875em
+
+.fc-inherit
+  color: inherit

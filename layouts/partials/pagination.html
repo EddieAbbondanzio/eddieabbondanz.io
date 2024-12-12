@@ -86,7 +86,7 @@
 
   <!-- Output page numbers. -->
   {{ if eq ($.Scratch.Get "page_number_flag") true }}
-  <a class="{{ cond (eq .PageNumber $paginator.PageNumber) " tdu" "" }}" href="{{ .URL }}">
+  <a class="{{ cond (eq .PageNumber $paginator.PageNumber) " curr-page" "" }}" href="{{ .URL }}">
     {{ .PageNumber }}
   </a>
   {{ end }}

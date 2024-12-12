@@ -37,7 +37,7 @@ This mod also makes it possible for you to open the lower drawers without having
 ![](./images/8.jpg)
 6. Plop the new plugs into place. I noticed there was some variations in the locking mechanism between both of my carts (I have an early gen 2 and a late gen 2) so this may not work for gen 1 or gen 3 carts. The rear plugs were designed for the late gen 2 cart where the locking mechanism brace is trapezoid like but the plugs can still be used in early gen 2 carts by flipping them 180*.
 ![](./images/9.jpg)
-7. (Optional) Cut out a new drawer liner to cover the plugs, and also install the lock cylinder delete if desired.
+7. **(Optional)** Cut out a new drawer liner to cover the plugs, and also install the lock cylinder delete if desired.
 ![](./images/10.jpg)
 
 That's it! Now you just need to put all the tools you removed back.

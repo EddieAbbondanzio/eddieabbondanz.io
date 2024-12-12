@@ -1,5 +1,9 @@
 {{ define "main" }}
-<article>
-  {{ .Content }}
+<article class="post">
+  <h1 class="h1 mb2 pb3">{{ .Title }}</h1>
+
+  <div class="markdown-body">
+    {{ .Content }}
+  </div>
 </article>
 {{ end }}

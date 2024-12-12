@@ -1,9 +1,9 @@
 <!-- App Summary -->
-<div class="app my4">
-  <a href="{{ .Permalink }}">
-    <div class="mb3">
-      <h1 class="fw500 mb1">{{ .Title }}</h1>
-      <p>{{ .Description }}</p>
+<div class="app-summary my4">
+  <a class="tdn py2" href="{{ .Permalink }}">
+    <div class="my3 fr aic">
+      <h1 class="fw500 my0 h2 mr1">{{ .Title }}</h1>
+      <span class="fc-inherit">- {{ .Description }}</span>
     </div>
 
     <img class="mw100 mb3" src="{{ .Site.BaseURL }}{{.Params.featuredimage }}" />
