@@ -1,6 +1,4 @@
 <h{{ .Level }}>
-  <a href="#{{ .Anchor }}" id="{{ .Anchor }}" class="anchor" aria-hidden="true">
-    <span class="octicon octicon-link"></span>
-  </a>
   {{ .Text | safeHTML }}
+  <a href="#{{ .Anchor }}" id="{{ .Anchor }}" class="anchor" aria-hidden="true"><i class="fa fa-link"></i></a>
 </h{{ .Level }}>
