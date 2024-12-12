@@ -9,7 +9,7 @@
     {{ if not .HasChildren }}
     <a class="item single" href="{{ .URL | relURL }}">{{ .Name }}</a>
     {{ else }}
-    <div id="{{ .Name | lower }}" class="item dropdown">
+    <div class="item dropdown">
       <a class="trigger">{{ .Name }}
         <span class="icon"><i class="fas fa-chevron-down"></i></span>
       </a>
