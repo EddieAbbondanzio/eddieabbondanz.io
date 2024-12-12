@@ -20,6 +20,7 @@ unsafe= true
     series = "series"
 
 [params]
+    creationYear = 2013
     avatar = "/img/avatar.jpg" 
     github = "http://github.com/EddieAbbondanzio"
     linkedin = "https://www.linkedin.com/in/ed-abbondanzio-5a7378208/"
