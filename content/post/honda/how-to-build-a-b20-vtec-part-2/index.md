@@ -203,9 +203,9 @@ Since I don't have a GSR ECU I opted to go with an aftermarket option and settle
 If you don't want to leave your cam gears / timing belt exposed then you'll need to pick up both halves of the GSR upper timing belt covers. The B20, LS, and GSR all share the same lower timing belt cover so you can re-use the lower one off your B20 block.
 
 Part #s:
-- GSR upper outer cover: 11820-P72-000
-- GSR upper inner cover: 11840-P72-010
-- GSR upper cover seal 11832-P72-000
+- **GSR upper outer cover**: 11820-P72-000
+- **GSR upper inner cover**: 11840-P72-010
+- **GSR upper cover seal**: 11832-P72-000
 
 The B20 and GSR use the same timing cover bolts so there's no need to buy new ones.
 
@@ -216,9 +216,9 @@ I've found mixed info on how to retain power steering. Assuming you already have
 The safest option is to match the upper bracket to the head you're using but I've also read that the upper Type R bracket can be used on a GSR head even though the Type R bracket matches the B16 bracket. I've also seen companies selling generic billet ones that work on B16 / GSR / Type R heads so I wager they're probably all swappable.
 
 Part #s:
-- GSR upper: 56997-P72-000 
-- B16 upper: 56997-P30-010 
-- Type R upper: 56997-p73-000 
+- **GSR upper**: 56997-P72-000 
+- **B16 upper**: 56997-P30-010 
+- **Type R upper**: 56997-p73-000 
 
 **Links**
 - [FAQ retaining power steering EK B series Swap](https://honda-tech.com/forums/honda-civic-del-sol-1992-2000-1/faq-retaining-power-steering-ek-b-series-swap-1822781/)
