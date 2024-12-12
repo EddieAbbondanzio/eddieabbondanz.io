@@ -8,12 +8,15 @@ $fa-font-path: "../webfonts"
 @import "utils/flex.sass"
 @import "utils/spacing.sass"
 @import "utils/sizing.sass"
-@import "utils/text.sass"
+@import "utils/typography.sass"
 @import "utils/display.sass"
 @import "markdown.sass"
 @import "navbar.sass"
 @import "footer.sass"
 
+$body-background: $oc-gray-1
+$body-width: 1028px
+$font-color: $oc-gray-9
 
 html
   min-height: 100vh
@@ -32,6 +35,8 @@ body
   margin-left: auto
   margin-right: auto
   font-size: 1.6rem
+  color: $font-color
+  line-height: 2.4rem
 
 main
   display: flex
@@ -52,3 +57,15 @@ main
   -moz-user-select: none
   -ms-user-select: none
   user-select: none
+
+.post-summary
+  .thumbnail
+    max-width: 32rem
+
+  .details
+    color: $oc-gray-7
+
+    a
+      color: $oc-gray-7
+
+  border-bottom: 2px solid $oc-gray-3
