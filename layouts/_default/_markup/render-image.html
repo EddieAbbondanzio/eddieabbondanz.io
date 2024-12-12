@@ -1,8 +1,3 @@
-{{/* Load image so we can set a max-width / max-height to prevent layout change when loading the page. */}}
-{{ $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
-<div class="image">
-  <a href="{{ .Destination | safeURL }}" target="_blank">
-    <img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text | safeHTML }}" title="{{ .Title | safeHTML }}"
-      {{ if $image }} max-width="{{ $image.Width }}" max-height="{{ $image.Height }}" {{ end }} />
-  </a>
-</div>
+<a href="{{ .Destination | safeURL }}" target="_blank">
+  <img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text | safeHTML }}" title="{{ .Title | safeHTML }}" />
+</a>

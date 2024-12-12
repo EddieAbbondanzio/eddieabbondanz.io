@@ -1,4 +1,6 @@
-<div class="anchor-heading">
-  <a href="#{{ .Anchor }}" id="{{ .Anchor }}">#</a>
-  <h{{ .Level }}>{{ .Text | safeHTML }}</h{{ .Level }}>
-</div>
+<h{{ .Level }}>
+  <a href="#{{ .Anchor }}" id="{{ .Anchor }}" class="anchor" aria-hidden="true">
+    <span class="octicon octicon-link"></span>
+  </a>
+  {{ .Text | safeHTML }}
+</h{{ .Level }}>
