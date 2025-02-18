@@ -1,25 +1,24 @@
 ---
 title: "Repairing the Quarter Panels and Rusty Roof"
-date: 2025-02-16
+date: 2025-02-17
 type: post
 series: "OEM+ XJ Build"
 thumbnail: "/post/oemplus-xj-build/3-repairing-the-roof-and-quarters/images/thumbnail.jpg"
-draft: true
 ---
 
 At this point the XJ was mechanically solid but in desperate need of some cosmetic work.
 ![](./images/42.jpg)
 
-It was hard deciding where to draw the line in terms of what I'd work on the exterior vs what I'd leave as-is but I settled on repairing both quarter panels, and the roof as they were the worst. 
+It was hard deciding where to draw the line in terms of what I'd work on vs what I'd leave as-is but I settled on repairing both quarter panels, and the roof as they were the worst. 
 
-All the other panels have damage (hood has flaking paint, front doors are starting to rust on the lower edge, rear doors are dented, fenders are dented, hatch is dented) but I wasn't confident I had the motivation or desire to do a full paint job.
+All the other panels have damage (hood paint is flaking off, front doors are starting to rust on the lower edge, rear doors are dented, fenders are dented, hatch is dented) but I wasn't confident I had the motivation or desire to do a full paint job.
 
 ## Rebuilding the Passenger Quarter Panel
 
 Since the passenger quarter panel had the most damage I figured I'd start there.
 ![](./images/43.jpg)
 
-I started off by cutting off the crumpled metal and figuring out where I start rebuilding from.
+I started by cutting off the crumpled metal and figuring out where I could rebuild from.
 ![](./images/44.jpg)
 
 While working on the pillar I noticed some rust down at the bottom of the quarter panel.
@@ -28,7 +27,7 @@ While working on the pillar I noticed some rust down at the bottom of the quarte
 Rusted metal removed, new metal welded in.
 ![](./images/46.jpg)
 
-Then I sprayed two coats of epoxy on the inside of the quarter to protect everything.
+Then I sprayed two coats of epoxy on the inside to protect everything.
 ![](./images/47.jpg)
 
 New lower patch panel welded in.
@@ -36,14 +35,14 @@ New lower patch panel welded in.
 ![](./images/47c.jpg)
 
 
-From there I started working on building a replacement skin for the pillar. This was a pretty slow process and I ended up building it out of a few patches welded together.
+From there I worked on building a replacement skin for the pillar. This was a slow process and I ended up building it out of a few patches welded together.
 ![](./images/48b.jpg)
 ![](./images/48c.jpg)
 
 Passenger quarter panel metal work "done".
 ![](./images/48d.jpg)
 
-I was really starting to worry I was gonna end up with a second unfinished XJ at this point.
+I was really worried I'd end up with a second unfinished XJ at this point.
 ![](./images/49.jpg)
 
 ## Goodbye Windshield and Rusty Roof
@@ -56,10 +55,10 @@ I used one of those cheap piano wire tools to remove it.
 
 ![](images/50.jpg)
 
-The rust ended up being worse than I expected though as some of the metal was going to have to be replaced. 
+The rust ended up being worse than expected and some of the metal up top would need to be replaced. 
 ![](images/51.jpg)
 
-I cleaned up the salvageable metal via a mix of grinding / sandblasting and coated it with some epoxy to protect it.
+I cleaned up everything salvageable via a mix of grinding / sandblasting and coated it with some epoxy to protect it.
 ![](images/52.jpg)
 
 Just to make sure I'd be welding to good metal on the roof I decided to do a test spot with the sandblaster. 
@@ -75,9 +74,7 @@ It took roughly 2 hours to sandblast that spot.
 
 ### Patching the upper windshield channel
 
-Making patches for the rust spots wasn't actually that bad. I could out the old metal using an air saw and drilled out 2 - 3 spot welds on each section.
-
-From there I bent two L shaped pieces of metal using my brake and then curved them to match the profile of the roof via my shrinker / stretcher.
+Making patches for the windshield channel wasn't that bad. After cutting out the old metal I bent up two L shaped pieces of metal in my brake and curved them to match the profile of the roof via my shrinker / stretcher.
 
 Then it was just a matter of welding the new metal back in.
 
@@ -89,13 +86,13 @@ Then it was just a matter of welding the new metal back in.
 
 ### Sandblasting the Roof
 
-With the windshield channel taken care of all I had to do now was sandblast the roof. This was my second least favorite thing to do as it took roughly 9 hours of blasting to get rid of the rust. 
+With the windshield channel taken care of all I had left for metalwork was to sandblast the roof. This ended up being a pretty miserable experience that took 9 hours. 
 
 ![](images/62.jpg)
 
-It was pretty hot that day and the sand blasting hood I was wearing kept fogging up so I'd have to pause every 15 minutes or so to clear the lens otherwise I could see at all.
+It was hot that day and the blasting hood I was wearing kept fogging up so I'd have to pause every 15 minutes or so to clear the lens otherwise I could see at all.
 
-Plus by the time I finished I was just covered in media since I didn't wear a jump suit.
+Plus by the time I finished I was completely covered in media since I didn't wear a jump suit.
 
 In terms of media I used coal slag and went through 6 bags.
 
@@ -106,22 +103,25 @@ Although a little lumpy, the roof looked a lot better in some fresh epoxy.
 
 ## Rebuilding the Passenger Quarter Panel AGAIN
 
-Once the roof was sealed in epoxy I shifted focus back to the passenger quarter panel to start the filler work.
+Once the roof was sealed in epoxy I shifted focus back to the passenger quarter panel to start filler work.
 
 Body filler is fairly boring to photograph, so skipping ahead a few rounds of filler / primer I finally got the panel to a point where I felt like it was ready to move on to 2k primer.
 ![](images/63b.jpg)
 
-On a whim I popped in the quarter panel window gasket to see how everything looked and while standing behind the XJ I realized that I had never checked the measurements for the front half of the pillar because I could too much of the windshield grommet.
+On a whim I popped in the quarter panel window gasket to see how it looked and while standing behind the XJ I realized that I had never checked the body measurements for how thick the pillar was relative to the rear window.
 
-It turns out what had happened was that I never fully pulled the large dent out just below the rear pillar so when I build my patch it was left the quarter window pocket "too shallow" so the window glass would almost be flat with the pillar instead of it being recessed.
+When looking at the XJ from the rear I could see too much of the gasket sticking out because I had built my pillar too shallow. This meant there wasn't enough of a "pocket" for the window to sit in.
 
-This was a massive set back by a few weeks worth of work because it meant I'd have to remake part of the pillar and redo all the filler work I had spent hours on. I was fairly upset by the mistake and ended up stepping away from XJ for 4 weeks before I was ready to try again.
+This was a massive set back by a few weeks worth of work as it meant I'd have to remake most of the pillar and redo all the filler work I had spent hours on. 
 
-Taking a break was fruitful though because it gave me some time to think about the best way to solve the issue, and eventually I settled on cutting out the pillar and welding in a new patch.
+I was reasonably upset by the mistake and ended up stepping away from XJ for 4 weeks before I was ready to try again.
 
+Taking a break was fruitful though because it gave me time to think about how I'd properly rebuild the panel.
+
+New patch shaped and tack welded in.
 ![](images/64.jpg)
 
-Bottom of the pillar was pulled outwards by another 1/8" or so via my stud welder dent puller.
+Bottom of the pillar was pulled outwards by another 1/8" or so via my stud welder dent puller to match the driver side measurements.
 ![](images/64b.jpg)
 
 From there it was a game of welding in some thin patches on the inner edge.
@@ -132,7 +132,7 @@ From there it was a game of welding in some thin patches on the inner edge.
 Welded back up.
 ![](images/66b.jpg)
 
-Filler work again.
+Filler work again. (Epoxy was sprayed prior to filler)
 ![](images/67.jpg)
 
 Quick touch up with some epoxy.
@@ -144,10 +144,9 @@ It wasn't until a few weeks later when I was ready to spray the panel in 2k so I
 2k primer.
 ![](images/76.jpg)
 
-
 ## A Little Work on the Driver Quarter Panel
 
-The driver quarter panel wasn't in bad shape other than a small crack in the top corner, a dent or two, and a tiny bit of rust on the bottom.
+Compared to the passenger side, the driver quarter panel was in good shape. It only had a small crack in the top corner, a few dents, and a tiny bit of rust on the bottom.
 
 Drilled out the crack to stop it from spreading.
 ![](images/69.jpg)
@@ -187,7 +186,7 @@ Final coat of epoxy.
 
 ## 3 Weeks of Block Sanding
 
-With all of the panels in 2k primer I thought I was super close to being ready for paint because all that was left at this point was some block sanding. That was a huge understatement that I didn't realize until I actually started block sanding
+With all of the panels in 2k primer I thought I was super close to being ready for paint because all that was left at this point was some block sanding. That was a huge understatement that I didn't realize until I actually started sanding
 
 Block sanding panels flat takes forever and even though I wasn't going for a show car finish, I still spent about 3 weeks block sanding everything. 
 
@@ -202,3 +201,91 @@ Couple of spots I burnt through to bare metal were touched up with epoxy.
 ![](images/80b.jpg)
 
 ## Paint Time
+
+I was ready for paint but needed a paint booth first.
+
+Since I can't afford a real paint booth I cobbled one together using a Harbor Freight 10x20 canopy and thick plastic sheeting for walls.
+![](images/81.jpg)
+
+On the inside I hooked up a couple spare LED lights I had laying around to make it nice and bright.
+
+Once the booth was all set I sprayed my sealer coat of reduced epoxy on the XJ.
+
+All in all this coat came out alright but I did drip it in a few spots that had to be wet sanded out.
+![](images/82.jpg)
+![](images/83.jpg)
+
+A couple coats of color and clear later and the XJ was looking fresh.
+![](images/84.jpg)
+
+## Reassembly
+
+I was super excited to see the XJ back in one color because it really felt like the project was almost done. 
+
+It also felt great seeing the parts pile get smaller and smaller as I re installed each piece.
+
+Rear windows back in.
+![](images/85.jpg)
+
+Hatch back on, along with rear interior.
+![](images/86.jpg)
+![](images/87.jpg)
+
+Rear bumper installed.
+![](images/88.jpg)
+
+The roof looks so much better.
+![](images/89.jpg)
+
+Reminder of how the roof used to look:
+![](images/89b.jpg)
+
+A week later I had a new windshield popped in and was finally able to drive the XJ on the road again for the first time in 6 months.
+![](images/90.jpg)
+
+## Intermittent No Starts
+
+After the XJ was fully reassembled I started taking it on a couple short test drives to make sure all the gremlins had been worked out and for the most part everything was solid. 
+
+The first and only major issue to pop up during the test drives was an intermittent no start. The first time this happened the XJ was trying to start like normal but the starter was super weak.
+
+I traced the issue back to a bad power wire connection on the starter and after cleaning up the connection with a wire brush the XJ started up fine.
+
+A day later though the no start issue was back but this time the XJ was completely unresponsive as if the battery was dead.
+
+Thinking I had just left an interior light on I grabbed my boost box to give it a jump but still wasn't able to start it.
+
+A bit of fiddling around later I discovered the positive terminal had a bad connection that would cut power when jiggled.
+![](images/91.jpg)
+
+Since this was the second electrical issue related to the power cables in a few days I decided to do the big 7 mod and upgrade all the cables as a precautionary measure.
+
+Normally it's a pretty easy mod but I ran into trouble with the fender ground bolt snapping off.
+![](images/92.jpg)
+
+At least it wasn't hard to weld a patch in.
+![](images/93.jpg)
+![](images/94.jpg)
+
+New wires and battery terminals installed.
+![](images/95.jpg)
+
+And just like that the no start issue was fixed.
+
+## Buffing Out the Old Paint
+
+The XJ was looking kinda silly with a shiny rear and faded from so I broke out my buffer and did a quick pass with HD speed on a white Lake Country pad to give the old paint some new life.
+![](images/96.jpg)
+
+## New Tires
+
+With all the major issues worked out of the Jeep all that was left was to pop some new tires on it and get it inspected.
+
+The Jeep used to have 235/70/16s on it but the tires were worn out and at the legal limit so I decided to upgrade to 245/75/16s as they're about equal to a 31" and would pair nicely with the 2" lift.
+![](images/98.jpg)
+![](images/99.jpg)
+
+It sits a little taller than my other Jeep.
+![](images/100.jpg)
+
+That's it for now.
