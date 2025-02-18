@@ -3,7 +3,7 @@ title: "Repairing the Quarter Panels and Rusty Roof"
 date: 2025-02-16
 type: post
 series: "OEM+ XJ Build"
-thumbnail: "/post/oemplus-xj-build/3-bodywork/images/thumbnail.jpg"
+thumbnail: "/post/oemplus-xj-build/3-repairing-the-roof-and-quarters/images/thumbnail.jpg"
 draft: true
 ---
 
