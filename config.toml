@@ -41,46 +41,53 @@ unsafe= true
     weight = 1
 
     [[menu.main]]
-    name = "00 XJ Build"
+    name = "OG XJ Build"
     identifier = "xj-build"
     parent = "posts"
     url="series/xj-build"
     weight = 2
 
     [[menu.main]]
+    name = "OEM+ XJ Build"
+    identifier = "oem+-xj-build"
+    parent = "posts"
+    url="series/oem+-xj-build"
+    weight = 3
+
+    [[menu.main]]
     name = "93 EG Hatch Build"
     identifier = "93-eg-hatch-build"
     parent = "posts"
     url="series/93-eg-hatch-build"
-    weight = 3
+    weight = 4
 
     [[menu.main]]
     name = "88 Integra Build"
     identifier = "88-integra-build"
     parent = "posts"
     url="series/88-integra-build"
-    weight = 4
+    weight = 5
 
     [[menu.main]]
     name = "Honda Info and DIYs"
     identifier = "honda-info-and-diys"
     parent = "posts"
     url="series/honda-info-and-diys"
-    weight = 5
+    weight = 6
 
     [[menu.main]]
     name = "XJ Info and DIYs"
     identifier = "xj-info-and-diys"
     parent = "posts"
     url="series/xj-info-and-diys"
-    weight = 6
+    weight = 7
 
     [[menu.main]]
     name = "Shop and Tools"
     identifier = "shop-and-tools"
     parent = "posts"
     url="series/shop-and-tools"
-    weight = 7
+    weight = 8
 
     [[menu.main]]
     identifier = "apps"
