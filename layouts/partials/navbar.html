@@ -1,8 +1,13 @@
 <nav class="navbar fr jcsb aic mt2-phone">
-  <a class="title h100 fr aic tdn fwb" href="{{ .Site.BaseURL }}">
-    <img class="avatar mr2" src="{{ .Site.Params.avatar }}" />
-    Eddie Abbondanzio
-  </a>
+  <div class="title h100 fr aic">
+    <a href="{{ .Site.BaseURL }}">
+      <img class="avatar mr2" src="{{ .Site.Params.avatar }}" />
+    </a>
+
+    <a class="tdn fwb" href="{{ .Site.BaseURL }}">
+      <span>Eddie Abbondanzio</span>
+    </a>
+  </div>  
 
   <div id="desktop-search" class="pr2 hidden-phone" >
     <!-- Gets populated by pagefind -->
