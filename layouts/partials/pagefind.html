@@ -2,7 +2,19 @@
 <script src="/pagefind/pagefind-ui.js"></script>
 
 <script>
+  // Docs: https://pagefind.app/docs/ui/
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
+        const pageFind = new PagefindUI({
+           element: "#site-search", showSubResults: false, pageSize: 10 });
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('q');
+
+        if (query) {
+            document.querySelector("#site-search input").value = query;
+            document.querySelector("#site-search input").dispatchEvent(new Event('input'));
+        }
+
+        pageFind.cl
     });
 </script>
