@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# When running in dev we publish the files to `/static` so Hugo can load them.
+# This does have a draw-back that we have to restart the serve script each time
+# we want to regenerate the index file though.
+npx pagefind --site "public" --output-subdir ../static/pagefind
+
+hugo serve -D

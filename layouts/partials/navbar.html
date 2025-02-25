@@ -4,11 +4,9 @@
     Eddie Abbondanzio
   </a>
 
-  <div class="site-search">
-    <input id="search" type="text" placeholder="Search"></input>
-    <span class="icon"><i class="fas fa-search"></i></span>
-  </div>
-
+  <form id="site-search" class="pr2" action="/search/" method="get" role="search">
+    <!-- Gets populated by pagefind -->
+  </form>
 
   <div class="menu h100 aic fr-tablet dn-phone">
     {{ range .Site.Menus.main }}

@@ -1,6 +1,6 @@
 {{ define "main" }}
-<article class="post">
-  <h1 class="h1 mb2">{{ .Title }}</h1>
+<article class="post" data-pagefind-body data-pagefind-meta="image:{{.Params.thumbnail }}">
+  <h1 class="h1 mb2" data-pagefind-meta="title">{{ .Title }}</h1>
 
   <div class="fr meta pb3">
     {{ if .Params.Series }}
