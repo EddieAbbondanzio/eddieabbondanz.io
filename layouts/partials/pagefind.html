@@ -2,19 +2,32 @@
 <script src="/pagefind/pagefind-ui.js"></script>
 
 <script>
+  const DRAWER_ID = "pagefind-ui__drawer"
+
   // Docs: https://pagefind.app/docs/ui/
-    window.addEventListener('DOMContentLoaded', (event) => {
-        const pageFind = new PagefindUI({
-           element: "#site-search", showSubResults: false, pageSize: 10 });
+  window.addEventListener('DOMContentLoaded', (event) => {
+    const pageFind = new PagefindUI({
+        element: "#site-search", showSubResults: false, pageSize: 10, translations: {
+          placeholder: "Search posts"
+        } });
 
-        const urlParams = new URLSearchParams(window.location.search);
-        const query = urlParams.get('q');
+    const input = document.querySelector("#site-search input")
+    input.addEventListener("focus", () => {
 
-        if (query) {
-            document.querySelector("#site-search input").value = query;
-            document.querySelector("#site-search input").dispatchEvent(new Event('input'));
-        }
+      const drawer = document.querySelector(`.${DRAWER_ID}`)
+      if(drawer) {
+        drawer.classList.remove("hidden")
+      }
+    })
 
-        pageFind.cl
-    });
+    window.addEventListener("click", (ev) => {
+      const target = ev.target
+      const drawer = document.querySelector(`.${DRAWER_ID}`)
+      
+      if(!target.closest(`.${DRAWER_ID}`) && !target.closest("#site-search input")) {
+        drawer.classList.add("hidden")
+      }
+    })
+
+  });
 </script>
