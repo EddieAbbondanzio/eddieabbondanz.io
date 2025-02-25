@@ -12,9 +12,11 @@ nav.navbar
   height: $navbar-height
 
   .title
-    color: $navbar-title-color
     font-size: 1.6rem
     width: 33%
+
+    a
+      color: $navbar-title-color
 
     +phone
       flex-grow: 1
@@ -39,6 +41,11 @@ nav.navbar
 
     +phone
       display: flex
+
+    .pagefind-ui__result-title
+      font-size: 14px
+      overflow: hidden
+      text-overflow: ellipsis
 
   #desktop-search
     display: flex
