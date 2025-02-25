@@ -3,7 +3,7 @@ $navbar-hover: $oc-gray-7
 $navbar-border: 0.6rem
 $navbar-border-radius: 0.5rem
 
-$navbar-item-width: 12rem
+$navbar-item-width: 10rem
 $navbar-item-colors: (($oc-blue-5, $oc-gray-3), ($oc-blue-6, $oc-gray-4), ($oc-blue-7, $oc-gray-5), ($oc-blue-8, $oc-gray-6), ($oc-blue-9, $oc-gray-7))
 $navbar-title-color: $oc-gray-7
 $navbar-text: $oc-white
@@ -40,6 +40,45 @@ nav.navbar
     +phone
       display: flex
 
+  #desktop-search
+    display: flex
+    flex-direction: row
+    flex-grow: 1
+    justify-content: end
+
+    // Wrapper form added by pagefind
+    .pagefind-ui__form
+      display: flex
+      flex-direction: row
+      align-items: center
+      position: relative
+
+      // Search icon
+      &:before
+        top: inherit
+        height 14px
+        width: 14px
+
+      input
+        height: 32px
+
+      button
+        height: 32px
+
+      .pagefind-ui__search-clear
+        height: 24px
+
+    .pagefind-ui__drawer
+      background-color: $oc-white
+      position: absolute
+      top: 50px
+      width: 600px
+      padding-left: 1rem
+      padding-right: 1rem
+      padding-bottom: 1rem
+      max-height: calc(100vh - 100px)
+      overflow-y: scroll
+
   .menu
     .item:first-child
       border-bottom-left-radius: $navbar-border-radius
@@ -48,7 +87,7 @@ nav.navbar
       border-bottom-right-radius: $navbar-border-radius
 
     .item
-      height: 100%
+      height: 90%
       width: $navbar-item-width
       display: flex
       align-items: center
