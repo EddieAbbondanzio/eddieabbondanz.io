@@ -3,7 +3,7 @@ $navbar-hover: $oc-gray-7
 $navbar-border: 0.6rem
 $navbar-border-radius: 0.5rem
 
-$navbar-item-width: 12rem
+$navbar-item-width: 10rem
 $navbar-item-colors: (($oc-blue-5, $oc-gray-3), ($oc-blue-6, $oc-gray-4), ($oc-blue-7, $oc-gray-5), ($oc-blue-8, $oc-gray-6), ($oc-blue-9, $oc-gray-7))
 $navbar-title-color: $oc-gray-7
 $navbar-text: $oc-white
@@ -39,6 +39,28 @@ nav.navbar
 
     +phone
       display: flex
+
+  .site-search
+    display: flex
+    flex-direction: row
+    flex-grow: 1
+    justify-content: end
+    align-items: center
+
+    input
+      height: 24px
+      border: 1px solid $oc-gray-5
+      color: $oc-gray-7
+      border-radius: 0.5rem
+      padding: 4px
+      max-width: 240px
+      width: 100%
+
+    .icon
+      position: relative
+      left: -24px
+      color: $oc-gray-6
+
 
   .menu
     .item:first-child

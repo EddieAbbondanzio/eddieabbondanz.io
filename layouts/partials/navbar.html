@@ -4,6 +4,12 @@
     Eddie Abbondanzio
   </a>
 
+  <div class="site-search">
+    <input id="search" type="text" placeholder="Search"></input>
+    <span class="icon"><i class="fas fa-search"></i></span>
+  </div>
+
+
   <div class="menu h100 aic fr-tablet dn-phone">
     {{ range .Site.Menus.main }}
     {{ if not .HasChildren }}
