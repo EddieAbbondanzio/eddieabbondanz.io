@@ -6,14 +6,22 @@
 
   // Docs: https://pagefind.app/docs/ui/
   window.addEventListener('DOMContentLoaded', (event) => {
-    const pageFind = new PagefindUI({
-    element: "#site-search", showSubResults: false, pageSize: 10, translations: {
-      placeholder: "Search posts"
-    } });
+    initDesktopSearchBar();
+    initPhoneSearchBar();
+  });
 
+  function initDesktopSearchBar() {
+    new PagefindUI({
+      element: "#desktop-search", 
+      showSubResults: false, 
+      pageSize: 10, 
+      translations: {
+        placeholder: "Search posts"
+      } 
+    });
 
     // Show if click was inside search bar
-    const input = document.querySelector("#site-search input")
+    const input = document.querySelector("#desktop-search input")
     input.addEventListener("focus", () => {
       const drawer = document.querySelector(DRAWER_QUERY)
       if(drawer) {
@@ -23,10 +31,39 @@
 
     // Hide if click was outside of search
     window.addEventListener("click", (ev) => {
-      if(!ev.target.closest("#site-search")) {
+      if(!ev.target.closest("#desktop-search")) {
         const drawer = document.querySelector(DRAWER_QUERY)
         drawer.classList.add("hidden")
       }
     })
-  });
+  }
+
+  function initPhoneSearchBar() {
+    new PagefindUI({
+      element: "#phone-search", 
+      showSubResults: false, 
+      pageSize: 10, 
+      translations: {
+        placeholder: "Search posts"
+      } 
+    });
+
+        // Show if click was inside search bar
+    const input = document.querySelector("#desktop-search input")
+    input.addEventListener("focus", () => {
+      const drawer = document.querySelector(DRAWER_QUERY)
+      if(drawer) {
+        drawer.classList.remove("hidden")
+      }
+    })
+
+    // Hide if click was outside of search
+    window.addEventListener("click", (ev) => {
+      if(!ev.target.closest("#desktop-search")) {
+        const drawer = document.querySelector(DRAWER_QUERY)
+        drawer.classList.add("hidden")
+      }
+    })
+
+  }
 </script>
