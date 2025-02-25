@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Build site
+hugo
+
+# Generate index
+npx pagefind --site "public"
