@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="post" data-pagefind-body data-pagefind-meta="image:{{.Params.thumbnail }}">
+<article class="post" data-pagefind-meta="image:{{.Params.thumbnail }}">
   <h1 class="h1 mb2" data-pagefind-meta="title">{{ .Title }}</h1>
 
   <div class="fr meta pb3">
@@ -18,7 +18,7 @@
     {{ end }}
   </div>
 
-  <div class="markdown-body">
+  <div class="markdown-body" data-pagefind-body>
     {{ .Content }}
   </div>
 </article>
