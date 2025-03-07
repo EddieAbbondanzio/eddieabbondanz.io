@@ -6,7 +6,7 @@ series: "XJ Info and DIYs"
 thumbnail: "/post/xj-info/zj-steering-upgrade-with-parts-list/images/thumbnail.jpg"
 ---
 
-The ZJ steering upgrade is a cheap and easy bolt-on mod that'll beef up your XJ's steering. The upgrade shouldn't take more than a few hours of labor, and parts are super easy to source since they're from a 92 - 98 Grand Cherokee, and can be purchased from sites like RockAuto, or your local auto parts store.
+The ZJ steering upgrade is a cheap and easy bolt-on mod that'll beef up your XJ's steering. The upgrade shouldn't take more than a few hours of labor, and parts are super easy to source since they're from a 93 - 98 Grand Cherokee, and can be purchased from sites like RockAuto, or your local auto parts store.
 
 I recently upgraded my XJ to the ZJ steering setup and have been pretty impressed with it. I was already working on the frontend due to it having death wobble (wallowed out axle side track bar bolt holes) and figured I may as well replace the rest while I was down there.
 ![](./images/3.jpg)
