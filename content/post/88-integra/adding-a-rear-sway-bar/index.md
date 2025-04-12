@@ -104,3 +104,5 @@ All in all I'm excited to see how the car handles with the new bar. I wished the
 
 And of course I installed the sticker it came with.
 ![](images/20.jpg)
+
+[Next post]({{< ref "a-stiffer-lower-suspension-for-sts" >}})

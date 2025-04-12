@@ -83,3 +83,6 @@ Above was taken by Cooper Boardman
 Overall it felt like my times were better and I managed to beat a few higher classed cars but I still need to work on my driving skills. I'm not going to mod the car any further until I get more seat time in and feel confident I'm maxing out what the car's capable of.
 
 When I reach that point I plan on adding a rear sway bar to try to tame some of the body roll and help keep the front wheels planted.
+
+
+[Next post]({{< ref "adding-a-rear-sway-bar" >}})

@@ -222,4 +222,4 @@ While giving the engine bay a good once over I noticed the head gasket is weepin
 ![](images/54.jpg)
 The leaks are big enough though that I feel it needs to be addressed and since I already need to do the timing belt I may as well do both at the same time.
 
-Stay tuned!
+[Next post]({{< ref "refreshing-the-suspension" >}})

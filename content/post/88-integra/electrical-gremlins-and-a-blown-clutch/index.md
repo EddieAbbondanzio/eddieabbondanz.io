@@ -177,3 +177,5 @@ Of course I never remember to take pictures of the completed job.
 # The Current State of Affairs
 
 Since fixing all of these issues the Integra's been running smooth. It's pretty common for some issues to pop up after completing any large project so overall I'm pretty pleased with how it's holding up. I've got one more autocross event for the year lined up and I'm looking forward to it!
+
+[Next post]({{< ref "stepping-up-my-auto-x-game" >}})
