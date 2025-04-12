@@ -206,3 +206,5 @@ I won't be able to really test things out until it's ready for an Auto X event b
 # Looking Ahead
 
 In terms of next steps, there's still a lot of maintenance needed to be done on the Integra. I suspect the next big project I'll be tackling on the Integra is rebuilding the PS rack with new seals and after that I may go after the other oil leaks or start some rust repair.
+
+[Next post]({{< ref "the-end" >}})

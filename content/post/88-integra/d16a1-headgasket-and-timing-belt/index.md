@@ -156,3 +156,5 @@ Hey you can actually read the engine code.
 
 Now if only I had an exhaust I could really finish this thing.
 ![](images/42.jpg)
+
+[Next post]({{< ref "304-stainless-catback" >}})

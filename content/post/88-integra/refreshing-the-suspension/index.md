@@ -122,3 +122,5 @@ The only components still original on each side are the knuckles and the wheel b
 Fun fact: There's no coil springs on the front of this vehicle because it uses torsion bars.
 
 Next up is the timing belt and head gasket!
+
+[Next post]({{< ref "d16a1-headgasket-and-timing-belt" >}})

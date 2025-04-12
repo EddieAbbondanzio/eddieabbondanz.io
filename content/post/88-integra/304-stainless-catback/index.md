@@ -104,3 +104,5 @@ My work setup. If I could do things over I'd get more jackstands or some kind of
 Engine bay looking fresh. Even still has the OG heatshield on the exhaust manifold.
 ![](images/25.jpg)
 ![](images/26.jpg)
+
+[Next post]({{< ref "back-on-the-road-after-a-decade" >}})

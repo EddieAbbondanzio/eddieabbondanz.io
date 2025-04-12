@@ -107,3 +107,5 @@ I've noticed the e-brake doesn't stop the wheels from spinning but I suspect it 
 Next steps will be to replace the rotors and pads all around and continue to look for any potential safety concerns.
 
 With the new battery installed I started playing around with testing the electrical features. So far the only odd quirk I’ve found is that the hazard switch does not work. The blinkers work but if you flip the hazard switch on and off all the blinkers stop working until the key is removed and reinserted.
+
+[Next post]({{< ref "fixing-the-brakes-and-more" >}})

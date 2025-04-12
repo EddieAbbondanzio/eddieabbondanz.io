@@ -104,3 +104,5 @@ Honestly my plans for this car are just about done. I built it to be my daily an
 I'll continue to do some small mods like better speakers for the stereo, and fix the AC, but it'll always just be things to improve the overall driving experience. Nothing cosmetic.
 
 If the D16A1 under the hood ever gives up I _may_ yoink the B20B out of my Civic and swap it into this but that's just a pipe dream at the moment.
+
+[Next post]({{< ref "electrical-gremlins-and-a-blown-clutch" >}})
