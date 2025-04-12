@@ -6,25 +6,22 @@ series: "Shop and Tools"
 thumbnail: "/post/tools/hf-30-5-lid-lock-delete-mod/images/thumbnail.jpg"
 ---
 
-I don't need to lock my tool carts and wanted to free up some of the space used by the locking mechanism at the back of the toolbox so I decided to delete them. This was a fairly easy mod to do and only takes about 15 mins of labor once I had designed and 3d printed out the plugs.
+I don't use the locks on my HF 5 drawer carts since and wanted to free up some extra space so I decided to delete them. This was a fairly easy mod to do since the parts are held in by small rivets that can be drilled out.
 
-Before:
+**Before**
 ![](./images/2.jpg)
 
-After:
+**After**
 ![](./images/1.jpg)
 
-This mod also makes it possible for you to open the lower drawers without having the lid open which is a cool plus.
+Removing the locking mechanism also allows you to open the lower drawers while the lid is closed which is cool.
 
-# Parts List
-- [3d printed plugs and lock cylinder cover](https://github.com/EddieAbbondanzio/3d-prints/tree/main/hf-30-5-cart-lid-lock-delete-mod/stls)
-- (1) m3x10mm button head screw
-- (1) m3 hex nut
 
 # Steps
 
-1. [Print out the 3d printed parts](https://github.com/EddieAbbondanzio/3d-prints/tree/main/hf-30-5-cart-lid-lock-delete-mod/stls). This will take about ~2h depending on your printer. I used PLA with 40% infill and 2.0mm walls.
+1. [Print out the 3d printed parts](https://www.printables.com/model/1215916-harbor-freight-4-5-drawer-lock-delete). This will take about ~2h depending on your printer. I used PLA with 40% infill and 2.0mm walls. (**Update**: The picture below won't match because the lock cover was updated to look like an OEM lock)
 ![](./images/3a.png)
+
 2. Empty out the top of your toolbox. This is also probably a good time to give it a small clean up.
 ![](./images/3b.jpg)
 3. Drill out the rivets holding the locking mechanisms in place with a 3/16 drill bit. There's 4 rivets per side to remove. If you drill slowly you should be able to remove them without much damage to the box itself.
@@ -42,7 +39,7 @@ This mod also makes it possible for you to open the lower drawers without having
 
 That's it! Now you just need to put all the tools you removed back.
 
-This mod should also be reversible if you do decide to re-add the locks later on. You'll just need some small bolts to replace the drilled out rivets.
+This mod should also be reversible if you do decide to re-add the locks later on. You'll just need some small m3 bolts and nuts to replace the drilled out rivets.
 
 # References
 - [I was inspired by some of the posts in the infamous Garage Journal thread of HF cart mods](https://www.garagejournal.com/forum/threads/modifications-to-the-hf-4-and-5-drawer-service-carts-what-changes-have-you-made.137365/page-79#post-7699557)
