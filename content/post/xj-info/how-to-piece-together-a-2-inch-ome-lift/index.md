@@ -95,6 +95,16 @@ There's an abundance of options and styles out there for track bars and for my b
 |----------|------|--------|
 | 1 | Track bar | BDS 124423 |
 
+# Sway Bar Links
+
+Last but not least you'll need some longer sway bar links. Longer links are required because the body of the XJ will be sitting higher above the axle once the new springs are installed. 
+
+There's plenty of options on the market but JKS makes a nice detachable set.
+
+| Quantity | Part | Part # |
+|----------|------|--------|
+| 1 | JKS sway bar links | JSK2000 |
+
 
 At this point you should have everything needed to lift your XJ.
 
@@ -102,7 +112,7 @@ At this point you should have everything needed to lift your XJ.
 
 **Why does a leaf need to be removed from the leaf springs?**
 
-If left untouched, the CS2033B springs will lift the rear of an XJ about 3.5" which is signifcantly taller than the front spring + spacer and will give the XJ a ton of rake. The CS2033B leaf springs are actually the same leafs used for 3.5" OME lift kits.
+If left untouched, the CS2033B springs will lift the rear of an XJ about 3.5" which is significantly taller than the front spring + spacer and will give the XJ a ton of rake. The CS2033B leaf springs are actually the same leafs used for 3.5" OME lift kits.
 
 **Which leaf is the extra leaf?**
 
@@ -121,3 +131,7 @@ The OME 2930 front springs will have one spring that is slightly taller than the
 **Does the OME JGF10 spacer go on top or below the spring isolator?**
 
 The coil spacer sits below the isolator.
+
+**Can I keep my OEM sway bar links?**
+
+No, they are too short and the bushings will wear out quickly. If you're in a pinch you can run them but they won't last more than a month or two.
