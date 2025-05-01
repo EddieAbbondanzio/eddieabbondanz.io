@@ -6,7 +6,7 @@ series: "Shop and Tools"
 thumbnail: "/post/tools/hf-30-5-lid-lock-delete-mod/images/thumbnail.jpg"
 ---
 
-I don't use the locks on my HF 5 drawer carts since and wanted to free up some extra space so I decided to delete them. This was a fairly easy mod to do since the parts are held in by small rivets that can be drilled out.
+I don't use the locks on my HF 5 drawer carts and wanted to free up some extra space so I decided to delete them. This was a fairly easy mod to do since the parts are held in by small rivets that can be drilled out.
 
 **Before**
 ![](./images/2.jpg)
