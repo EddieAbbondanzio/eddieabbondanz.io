@@ -288,4 +288,4 @@ The Jeep used to have 235/70/16s on it but the tires were worn out and at the le
 It sits a little taller than my other Jeep.
 ![](images/100.jpg)
 
-That's it for now.
+[Continue on to part 4]({{< relref "4-swapping-another-dana-30-in" >}})
