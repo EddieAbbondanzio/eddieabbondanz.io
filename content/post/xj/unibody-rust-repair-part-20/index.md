@@ -1,5 +1,5 @@
 ---
-title: "Rust Repair Part 20: Blowing off the dust a year later"
+title: "Rust Repair Part 20: Blowing Off the Dust a Year Later"
 date: 2024-05-10
 type: post
 series: "XJ Build"
@@ -119,3 +119,5 @@ I couldn't resist popping the quarter panel on to get a sneak peak of the new dr
 ![](images/34.jpg)
 
 Up next is to weld in the 2x6.
+
+[Continue on to Part 21]({{< ref "unibody-rust-repair-part-21" >}})

@@ -1,5 +1,5 @@
 ---
-title: "Engine stand bolts for the 84-01 XJ 4.0"
+title: "Engine Stand Bolts For The 84-01 XJ 4.0"
 date: 2025-05-16
 type: post
 series: "XJ Info and DIYs"
