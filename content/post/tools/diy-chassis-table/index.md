@@ -78,11 +78,10 @@ Inner crossmembers were tacked in and then welded up.
 I decided to try something new and designed some brackets in CAD to have SendCutSend make for me. The price was reasonable and it saved me a lot of fabrication time.
 ![](./images/12.jpg)
 
-Plates were mounted up to the casters using m10x1.25x25 bolts / nuts.
+Plates were mounted up to the casters using m10x1.25x25 bolts / nuts. The casters are Vestil 5" swivels (part #: CST-VE-5X2CI-S)
 ![](./images/13.jpg)
 
 The other brackets were welded to the table legs and then the wheels were bolted up.
-
 ![](./images/14.jpg)
 
 For the leveling feet I made them out of some 3x4 tube, 1" threaded rod and nuts. 1" bolts are pretty expensive so I figured by cutting down threaded rod and welding a nut to the end would be cheaper.
@@ -102,3 +101,5 @@ A bit of pulling later and the XJ was up on the table.
 ![](./images/20.jpg)
 
 I still need to make proper jigs for holding up the XJ and I'm also likely going to weld some hooks on the table to make for attaching straps to as needed but the table is mostly done for now.
+
+All in all I'm pretty happy with the table. Total cost came in around $1300 which was $200 less than my goal of $1500 and the table is nice and beefy.
