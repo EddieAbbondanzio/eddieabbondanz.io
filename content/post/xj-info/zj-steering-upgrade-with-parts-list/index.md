@@ -19,7 +19,7 @@ There's several good options out there for OE part brands so it's really up to y
 |----------|------|--------|
 | 1 | Drag link** | Mevotech MDS1238, Moog DS1238 |
 | 1 | Tie rod bar | Mevotech MDS1312, Moog DS1312 |
-| 2 | Tie rod end | Mevotech MES2079S, Moog ES3096L |
+| 2 | Tie rod end | Mevotech MES3096L, Moog ES3096L |
 | 2 | Adjuster sleeves | Mevotech MES2079S, Moog ES2079S |
 
 **The XJ and ZJ share the same drag link so if your existing one is already in good shape you can re-use it.
