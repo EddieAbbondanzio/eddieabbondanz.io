@@ -197,7 +197,7 @@ Some epoxy primer was dripped down into the seam to help reduce the chances of i
 
 ![](images/70.jpg)
 
-I made a small mistake here. Turns out my plan of sliding in the 2x6 from the rear wouldn't work because of the passenger seat belt nut. I thought I could get around the issue by grinding the nut down a bit but that did work. I realized my only option if I wanted to continue with my plan of sliding the 2x6 into position from the rear was to raise the seat belt mount.
+I made a small mistake here. Turns out my plan of sliding in the 2x6 from the rear wouldn't work because of the passenger seat belt nut. I thought I could get around the issue by grinding the nut down a bit but that didn't work. I realized my only option if I wanted to continue with my plan of sliding the 2x6 into position from the rear was to raise the seat belt mount.
 ![](images/71.jpg)
 
 With some test fitting I worked out that I could raise it by 1/4" of an inch to get it out of the way, and I'm about 95% certain this won't cause any downstream issues.
