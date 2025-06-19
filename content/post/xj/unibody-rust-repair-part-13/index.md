@@ -147,7 +147,7 @@ But thankfully this is pretty hidden within the wheel well and will be covered u
 Much better.
 ![](images/42.jpg)
 
-I've been making these small patches using my mini bandsaw I made from a Milwaukee Portaband.
+I've been making these small patches using my mini bandsaw I made from a Milwaukee portaband.
 ![](images/38.jpg)
 
 ## Rebuilding the Front Pillar
