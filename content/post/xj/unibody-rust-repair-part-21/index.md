@@ -88,3 +88,5 @@ Bunch of new bins on my shelf full of XJ parts.
 ![](images/18.jpg)
 
 Next up is to build a chassis table.
+
+[Continue on to Part 22]({{< ref "unibody-rust-repair-part-22" >}})
