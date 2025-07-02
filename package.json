@@ -1,0 +1,14 @@
+{
+  "name": "eddieabbondanz.io",
+  "version": "1.0.0",
+  "description": "My personal blog that I make an attempt to post to on a regular basis. Topics will include anything from software architecture, patterns, tutorials, and more. Occasionally I like to post updates on my vehicles as I work on them as well.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pagefind": "^1.3.0"
+  }
+}
