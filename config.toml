@@ -95,11 +95,17 @@ unsafe= true
     url = "app"
     weight = 2
     
-
-
     [[menu.main]]
     identifier = "about-me"
     name = "About"
     url = "about"
     weight = 4
 
+[module]
+  [[module.mounts]]
+    source = "./node_modules/open-color/"
+    target = "assets/sass/open-color/"
+
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
