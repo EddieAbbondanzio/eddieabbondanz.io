@@ -107,5 +107,13 @@ unsafe= true
     target = "assets/sass/open-color/"
 
   [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+  [[module.mounts]]
     source = "layouts"
     target = "layouts"
