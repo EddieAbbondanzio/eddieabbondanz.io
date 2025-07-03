@@ -4,4 +4,4 @@
 hugo
 
 # Generate index
-npx pagefind --site "public"
+yarn -s pagefind --site "public"
