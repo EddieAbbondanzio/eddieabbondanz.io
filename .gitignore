@@ -4,3 +4,5 @@ resources/_gen/
 
 # Don't commit the dev copy of page find.
 static/pagefind/
+
+node_modules/

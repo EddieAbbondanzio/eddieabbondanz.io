@@ -14,7 +14,7 @@ By running your own blog you have full control. No one is siphoning off any data
 
 ## How Do I Start?
 
-It doesn't take much work to get a blog up and running. For a basic set up of a static site (which is more than sufficient for a blog) you'll just need a domain. If you host the files on GithHub Pages like this one is, then you won't have to pay anything in hosting fees. 
+It doesn't take much work to get a blog up and running. For a basic set up of a static site (which is more than sufficient for a blog) you'll just need a domain. If you host the files on GitHub Pages like this one is, then you won't have to pay anything in hosting fees. 
 
 ## Registering a Domain
 
