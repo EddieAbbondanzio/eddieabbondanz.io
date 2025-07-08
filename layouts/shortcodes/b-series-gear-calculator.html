@@ -318,34 +318,4 @@
   // Tell Vue about Shoelace web comps.
   app.config.compilerOptions.isCustomElement = (tag) => tag.startsWith("sl-");
   app.mount('#b-series-gear-calculator');
-
-
-  //   const transmissionCodeDropdown = document.getElementById("transmission-code");
-  //   for (let [label, code] of Object.entries(TRANSMISSION_CODE)) {
-  //     let option = document.createElement("sl-option");
-  //     option.value = code;
-  //     option.innerText = label;
-  //     transmissionCodeDropdown.appendChild(option);
-
-  //     // Default it to first value
-  //     transmissionCodeDropdown.value ??= code;
-  //   }
-
-  //   updateAvailableChassisOptions();
-
-  //   // TODO:
-  //   // - Populate chassis via JS depending on trans code selected
-  //   // - Change gears when chassis code or trans code is changed
-  //   // - Show graph of gears on side
-  // }
-
-  // function updateAvailableChassisOptions() {
-  //   const transmissionCodeDropdown = document.getElementById("transmission-code");
-  //   const opts = TRANSMISSION_CHASSIS_SPECS[transmissionCodeDropdown.value];
-  //   console.log("AVAIL: ", opts);
-  // }
-
-
-
-  // init();
 </script>
