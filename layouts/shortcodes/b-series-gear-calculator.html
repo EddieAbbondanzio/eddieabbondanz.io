@@ -222,6 +222,10 @@
       }
       const onChassisCodeChange = (v) => chassisCode.value = v.target.value;
 
+      const gearRatios = computed(() => {
+        return structuredClone(TRANSMISSION_CHASSIS_SPECS[transmissionCode.value][chassisCode.value])
+      })
+
       return {
         availableTireWidths,
         availableTireRatios,
@@ -238,7 +242,8 @@
         availableChassisCodes,
         chassisCode,
         onTransmissionCodeChange,
-        onChassisCodeChange
+        onChassisCodeChange,
+        gearRatios
       };
     },
     template: `
@@ -280,32 +285,32 @@
           <strong>Gears</strong>
           <div class="fr jcsb">
             <span>1st</span>
-            <sl-input value="3.2"></sl-input>
+            <sl-input :value="gearRatios.gears[0]"></sl-input>
           </div>
 
           <div class="fr jcsb">
             <span>2nd</span>
-            <sl-input value="3.2"></sl-input>
+            <sl-input :value="gearRatios.gears[1]"></sl-input>
           </div>
 
           <div class="fr jcsb">
             <span>3rd</span>
-            <sl-input value="3.2"></sl-input>
+            <sl-input :value="gearRatios.gears[2]"></sl-input>
           </div>
 
           <div class="fr jcsb">
             <span>4th</span>
-            <sl-input value="3.2"></sl-input>
+            <sl-input :value="gearRatios.gears[3]"></sl-input>
           </div>
 
           <div class="fr jcsb">
             <span>5th</span>
-            <sl-input value="3.2"></sl-input>
+            <sl-input :value="gearRatios.gears[4]"></sl-input>
           </div>
 
           <div class="fr jcsb">
             <span>Final drive</span>
-            <sl-input value="3.2"></sl-input>
+            <sl-input  :value="gearRatios.finalDrive"></sl-input>
           </div>
 
 
