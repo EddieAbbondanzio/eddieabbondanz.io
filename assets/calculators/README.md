@@ -1,45 +1,14 @@
 # calculators
 
-This template should help get you started developing with Vue 3 in Vite.
+A collection of custom calculators.
 
-## Recommended IDE Setup
+The calculators are implemented in Vue and exported as web components so they can be used by Hugo.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+# Dev
 
-## Type Support for `.vue` Imports in TS
+- Start dev script via `yarn run dev`
+- Open `http://localhost:5173` and calculator will be on demo page
+- When done run `yarn run build` so Hugo will have the latest code.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+# References
+- https://johnfraney.ca/blog/vue-static-site-web-component-custom-elements/
