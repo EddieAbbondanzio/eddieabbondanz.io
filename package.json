@@ -1,14 +1,17 @@
 {
   "name": "eddieabbondanz.io",
+  "description": "My personal blog.",
   "version": "1.0.0",
-  "description": "My personal blog that I make an attempt to post to on a regular basis. Topics will include anything from software architecture, patterns, tutorials, and more. Occasionally I like to post updates on my vehicles as I work on them as well.",
-  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "assets/calculators"
+  ],
   "scripts": {
     "build": "./bin/build",
     "serve": "./bin/serve"
   },
-  "author": "",
-  "license": "MIT",
+  "author": "Ed Abbondanzio",
+  "license": "GPL-3.0-only",
   "dependencies": {
     "install": "^0.13.0",
     "open-color": "^1.6.3",
