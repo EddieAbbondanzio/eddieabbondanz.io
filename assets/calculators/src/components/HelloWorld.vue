@@ -2,6 +2,9 @@
 defineProps<{
   msg: string
 }>()
+
+console.log("HELLO WORLD!");
+
 </script>
 
 <template>

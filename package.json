@@ -11,7 +11,7 @@
     "serve": "./bin/serve"
   },
   "author": "Ed Abbondanzio",
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "dependencies": {
     "install": "^0.13.0",
     "open-color": "^1.6.3",
