@@ -306,8 +306,6 @@ const TRANSMISSION_CODE = {
 //             <span>Final drive</span>
 //             <sl-input  :value="gearRatios.finalDrive"></sl-input>
 //           </div>
-
-
 //           <sl-divider></sl-divider>
 //         </div>
 //       </div>
@@ -321,6 +319,7 @@ const TRANSMISSION_CODE = {
 
 <template>
 <h1>B-Series Gear Calculator Thingy</h1>
+
 </template>
 
 <style scoped>

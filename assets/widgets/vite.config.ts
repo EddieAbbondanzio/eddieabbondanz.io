@@ -4,15 +4,16 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
-import { resolve } from 'node:path'
+import path from 'node:path'
 import { readdirSync } from 'node:fs'
 
-const elements = readdirSync(resolve(__dirname, "src/elements")).map(fileName => ({
+const elementDirPath = path.resolve(__dirname, "src/elements")
+const elements = readdirSync(elementDirPath).map(fileName => ({
   fileName,
   compiledFileName: fileName.split(".")[0]
 }))
 const rollupInputs: Record<string, string> = {}
-elements.forEach(el => rollupInputs[el.compiledFileName] = el.fileName)
+elements.forEach(el => rollupInputs[el.compiledFileName] = path.join(elementDirPath, el.fileName))
 
 // https://vite.dev/config/
 export default defineConfig({
