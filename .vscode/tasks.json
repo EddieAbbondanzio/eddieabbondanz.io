@@ -5,13 +5,19 @@
       "type": "shell",
       "command": "yarn run build",
       "problemMatcher": ["$tsc"],
-      "label": "Build",
+      "label": "Build blog",
     },
     {
         "type": "shell",
         "command": "yarn run serve",
         "problemMatcher": ["$tsc"],
-        "label": "Serve"
+        "label": "Serve blog"
+    },
+    {
+      "type": "shell",
+      "command": "source ~/.nvm/nvm.sh && nvm use && yarn workspace calculators run dev",
+      "problemMatcher": ["$tsc"],
+      "label": "Serve calculator demo"
     }
   ]
 }
