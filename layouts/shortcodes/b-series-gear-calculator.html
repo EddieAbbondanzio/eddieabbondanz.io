@@ -1,4 +1,8 @@
-<script type="text/javascript" src="/js/b-series-gear-calculator.js"></script>
-<div class="b-series-gear-calculator">
-  <!-- Inputs go here! -->
-</div>
+<!-- Import vue in the calc instead of page header to avoid loading it on every page. -->
+{{- if not ($.Page.Scratch.Get "bSeriesGearCalculator") }}
+  {{ $widget := resources.Get "widgets/dist/elements/b-series-gear-calculator.js" }}
+  <script type="module" src="{{ $widget.Permalink }}"></script>
+{{ end }}
+{{- $.Page.Scratch.Add "bSeriesGearCalculator" 1 -}}
+
+<b-series-gear-calculator></b-series-gear-calculator>

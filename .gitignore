@@ -1,6 +1,5 @@
 public/
 resources/_gen/
-.vscode
 
 # Don't commit the dev copy of page find.
 static/pagefind/
