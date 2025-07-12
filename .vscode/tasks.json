@@ -15,9 +15,9 @@
     },
     {
       "type": "shell",
-      "command": "source ~/.nvm/nvm.sh && nvm use && yarn workspace calculators run dev",
+      "command": "source ~/.nvm/nvm.sh && nvm use && yarn workspace widgets run dev",
       "problemMatcher": ["$tsc"],
-      "label": "Serve calculator demo"
+      "label": "Serve widget demo"
     }
   ]
 }
