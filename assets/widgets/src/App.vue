@@ -5,7 +5,7 @@ import BSeriesGearCalculator from './components/BSeriesGearCalculator.vue';
 
 <template>
   <header>
-    Calculator Demo Page
+    Widget Demo Page
   </header>
 
   <main>

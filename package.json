@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "workspaces": [
-    "assets/calculators"
+    "assets/widgets"
   ],
   "scripts": {
     "build": "./bin/build",

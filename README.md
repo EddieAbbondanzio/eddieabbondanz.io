@@ -7,5 +7,5 @@ My personal blog that I like to write up posts about various projects I'm workin
 - Install nvm and run `nvm use`
 - Install yarn `npm install -g yarn`
 - Run `yarn` on the root dir
-- `cd assets/calculators` and run `yarn`
+- `cd assets/widgets` and run `yarn`
 - Start app via `yarn run serve` (`cd` back to root dir)

@@ -23,7 +23,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         // TODO: Make this automatic
-        'foo': resolve(__dirname, "src/elements/foo.ts")
+        'b-series-gear-calculator': resolve(__dirname, "src/elements/b-series-gear-calculator.ts")
       },
       output: {
         entryFileNames(chunkInfo) {
