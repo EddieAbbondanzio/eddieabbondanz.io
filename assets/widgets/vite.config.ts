@@ -18,7 +18,7 @@ const rollupInputs: Record<string, string> = {}
 elements.forEach(el => rollupInputs[el.compiledFileName] = path.join(elementDirPath, el.fileName))
 
 // Shoelace - Ref: https://github.com/shoelace-style/shoelace/discussions/1240
-const iconsPath = '../../node_modules/@shoelace-style/shoelace/dist/assets/icons/*.svg';
+const iconsPath = '../../node_modules/@shoelace-style/shoelace/dist/assets/icons';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -36,7 +36,7 @@ export default defineConfig({
       targets: [
         {
           src: iconsPath,
-          dest: 'assets',
+          dest: 'assets/icons',
         },
       ],
     }),

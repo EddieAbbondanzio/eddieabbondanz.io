@@ -18,6 +18,12 @@
       "command": "source ~/.nvm/nvm.sh && nvm use && yarn workspace widgets run dev",
       "problemMatcher": ["$tsc"],
       "label": "Serve widget demo"
+    },
+        {
+      "type": "shell",
+      "command": "source ~/.nvm/nvm.sh && nvm use && yarn workspace widgets run build",
+      "problemMatcher": ["$tsc"],
+      "label": "Build widget demo"
     }
   ]
 }
