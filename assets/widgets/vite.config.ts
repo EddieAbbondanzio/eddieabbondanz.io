@@ -36,7 +36,7 @@ export default defineConfig({
       targets: [
         {
           src: iconsPath,
-          dest: 'assets/icons',
+          dest: 'assets',
         },
       ],
     }),
