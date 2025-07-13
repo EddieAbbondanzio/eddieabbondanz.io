@@ -320,7 +320,13 @@ const TRANSMISSION_CODE = {
 <template>
 <h1>B-Series Gear Calculator Thingy</h1>
 
+SL!
+<div style="color: #4a90e2;">
+  <sl-icon name="exclamation-triangle"></sl-icon>
+  <sl-icon name="archive"></sl-icon>
+  <sl-icon name="battery-charging"></sl-icon>
+  <sl-icon name="bell"></sl-icon>
+</div>
+
 </template>
 
-<style scoped>
-</style>

@@ -1,6 +1,6 @@
 <!-- Import vue in the calc instead of page header to avoid loading it on every page. -->
 {{- if not ($.Page.Scratch.Get "bSeriesGearCalculator") }}
-  {{ $widget := resources.Get "widgets/dist/elements/b-series-gear-calculator.js" }}
+  {{ $widget := resources.Get "widgets/elements/b-series-gear-calculator.js" }}
   <script type="module" src="{{ $widget.Permalink }}"></script>
 {{ end }}
 {{- $.Page.Scratch.Add "bSeriesGearCalculator" 1 -}}

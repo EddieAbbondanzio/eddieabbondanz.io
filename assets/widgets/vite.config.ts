@@ -6,7 +6,9 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import path from 'node:path'
 import { readdirSync } from 'node:fs'
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 
+// Webcomponents
 const elementDirPath = path.resolve(__dirname, "src/elements")
 const elements = readdirSync(elementDirPath).map(fileName => ({
   fileName,
@@ -15,27 +17,52 @@ const elements = readdirSync(elementDirPath).map(fileName => ({
 const rollupInputs: Record<string, string> = {}
 elements.forEach(el => rollupInputs[el.compiledFileName] = path.join(elementDirPath, el.fileName))
 
+// Shoelace - Ref: https://github.com/shoelace-style/shoelace/discussions/1240
+const iconsPath = '../../node_modules/@shoelace-style/shoelace/dist/assets/icons/*.svg';
+
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
-    vue({ features: { customElement: true }}),
+    // Enable export SFCs as custom elements
+    vue({ features: { customElement: true }, template: {
+      compilerOptions: {
+        // Shoelace components
+        isCustomElement: tag => tag.startsWith("sl-")
+      }
+    }}),
     vueJsx(),
     vueDevTools(),
+    viteStaticCopy({
+      targets: [
+        {
+          src: iconsPath,
+          dest: 'assets',
+        },
+      ],
+    }),
   ],
   resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    },
+    alias: [
+      { 
+        find: '@', 
+        replacement: fileURLToPath(new URL('./src', import.meta.url)) 
+      },
+      {
+        find: /\/assets\/icons\/(.+)/,
+        replacement: `${iconsPath}/$1`,
+      }
+    ],
   },
   build: {
-    outDir: "dist/elements",
+    outDir: "dist",
     rollupOptions: {
       input: rollupInputs,
       output: {
         entryFileNames(chunkInfo) {
           return `${chunkInfo.name}.js`
         }
-      }
-    }
-  }
+      },
+    },
+  },
+
 })

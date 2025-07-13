@@ -20,7 +20,7 @@ They're implemented in Vue and exported as web components so they can be used by
 - Add the following code:
     ```html
         {{- if not ($.Page.Scratch.Get "widgetName") }}
-        {{ $widget := resources.Get "widgets/dist/elements/widget.js" }}
+        {{ $widget := resources.Get "widgets/elements/widget.js" }}
         <script type="module" src="{{ $widget.Permalink }}"></script>
         {{ end }}
         {{- $.Page.Scratch.Add "widgetName" 1 -}}
