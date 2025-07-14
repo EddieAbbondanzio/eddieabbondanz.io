@@ -1,5 +1,12 @@
 
 <script setup lang="ts">
+// Shoelace must be imported / setBasePathed in every web component since we use 
+// them as root files to compile.
+import '@shoelace-style/shoelace';
+import '@shoelace-style/shoelace/dist/themes/light.css';
+import { setBasePath } from '@shoelace-style/shoelace';
+setBasePath("static/shoelace")
+
 const TRANSMISSION_CODE = {
     S80: 's80',
     Y21: 'y21',
@@ -326,6 +333,16 @@ SL!
   <sl-icon name="archive"></sl-icon>
   <sl-icon name="battery-charging"></sl-icon>
   <sl-icon name="bell"></sl-icon>
+
+  dropdown!
+  <sl-select>
+  <sl-option value="option-1">Option 1</sl-option>
+  <sl-option value="option-2">Option 2</sl-option>
+  <sl-option value="option-3">Option 3</sl-option>
+  <sl-option value="option-4">Option 4</sl-option>
+  <sl-option value="option-5">Option 5</sl-option>
+  <sl-option value="option-6">Option 6</sl-option>
+</sl-select>
 </div>
 
 </template>

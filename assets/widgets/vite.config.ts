@@ -36,7 +36,7 @@ export default defineConfig({
       targets: [
         {
           src: iconsPath,
-          dest: 'assets',
+          dest: '../../../static/shoelace',
         },
       ],
     }),
@@ -47,6 +47,7 @@ export default defineConfig({
         find: '@', 
         replacement: fileURLToPath(new URL('./src', import.meta.url)) 
       },
+      // Shoelace icons
       {
         find: /\/assets\/icons\/(.+)/,
         replacement: `${iconsPath}/$1`,
@@ -54,10 +55,15 @@ export default defineConfig({
     ],
   },
   build: {
-    outDir: "dist",
+    // Required since output dir is outside of vue project.
+    emptyOutDir: true, 
     rollupOptions: {
       input: rollupInputs,
       output: {
+        assetFileNames: (asset) => {
+          return '[name][extname]'
+        },
+        dir: "../../static/widgets",
         entryFileNames(chunkInfo) {
           return `${chunkInfo.name}.js`
         }

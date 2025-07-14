@@ -1,8 +1,11 @@
-<!-- Import vue in the calc instead of page header to avoid loading it on every page. -->
-{{- if not ($.Page.Scratch.Get "bSeriesGearCalculator") }}
-  {{ $widget := resources.Get "widgets/dist/b-series-gear-calculator.js" }}
-  <script type="module" src="{{ $widget.Permalink }}"></script>
+<!-- Import vue component and JS in the calc instead of page header to avoid loading it on every page. -->
+{{ if not ($.Page.Scratch.Get "bSeriesGearCalculator") }}
+    <script type="module" src="{{ .Site.BaseURL }}widgets/b-series-gear-calculator.js"></script>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}widgets/b-series-gear-calculator.css"></script>
+{{ else }}
+FUDGE {{ $.Page.Scratch.Get "bSeriesGearCalculator" }}
 {{ end }}
-{{- $.Page.Scratch.Add "bSeriesGearCalculator" 1 -}}
+{{ $.Page.Scratch.Add "bSeriesGearCalculator" 1 }}
 
+hi222
 <b-series-gear-calculator></b-series-gear-calculator>
