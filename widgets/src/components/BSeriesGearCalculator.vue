@@ -5,7 +5,7 @@
 import '@shoelace-style/shoelace';
 import '@shoelace-style/shoelace/dist/themes/light.css';
 import { setBasePath } from '@shoelace-style/shoelace';
-// setBasePath("static")
+setBasePath("../../../shoelace")
 
 const TRANSMISSION_CODE = {
     S80: 's80',

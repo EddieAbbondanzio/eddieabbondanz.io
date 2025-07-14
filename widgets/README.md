@@ -19,11 +19,11 @@ They're implemented in Vue and exported as web components so they can be used by
 - Switch over to Hugo and create a new shortcut for the widget (`/layouts/shortcodes/new-widget-file.html`)
 - Add the following code:
     ```html
-        {{- if not ($.Page.Scratch.Get "widgetName") }}
-        {{ $widget := resources.Get "widgets/elements/widget.js" }}
-        <script type="module" src="{{ $widget.Permalink }}"></script>
+        {{ if not ($.Page.Scratch.Get "bSeriesGearCalculator") }}
+            <script type="module" src="{{ .Site.BaseURL }}widgets/b-series-gear-calculator.js"></script>
+            <link rel="stylesheet" href="{{ .Site.BaseURL }}widgets/b-series-gear-calculator.css"></script>
         {{ end }}
-        {{- $.Page.Scratch.Add "widgetName" 1 -}}
+        {{ $.Page.Scratch.Add "bSeriesGearCalculator" 1 }}
 
         <widget></widget>
     ```

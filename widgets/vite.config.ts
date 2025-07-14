@@ -36,7 +36,7 @@ export default defineConfig({
       targets: [
         {
           src: iconsPath,
-          dest: '../../../static/shoelace',
+          dest: '../../static/shoelace/assets',
         },
       ],
     }),
