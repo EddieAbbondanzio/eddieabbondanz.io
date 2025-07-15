@@ -2,6 +2,14 @@
 
 My personal blog that I like to write up posts about various projects I'm working on.
 
+# Tech Stack
+
+Hugo with a sprinkle of Vue. Hugo is used for generating the static website (blog posts, about page, etc...) and Vue is used for more interactive features like calculators or widgets. 
+
+Styling is a mix of custom css, [Open Color](https://yeun.github.io/open-color/), and [Shoelace](https://shoelace.style/).
+
+The website is hosted on Github Pages and uses a git submodule for the build dir. This setup is a little more complex than it needs to be now but back when I first built out the blog Github pages didn't support deploying from a sub dir.
+
 # Dev
 
 - Install nvm and run `nvm use`
