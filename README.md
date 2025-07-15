@@ -15,5 +15,5 @@ The website is hosted on Github Pages and uses a git submodule for the build dir
 - Install nvm and run `nvm use`
 - Install yarn `npm install -g yarn`
 - Run `yarn` on the root dir
-- `cd assets/widgets` and run `yarn`
+- Build widgets `yarn workspace widgets run build`
 - Start app via `yarn run serve` (`cd` back to root dir)
