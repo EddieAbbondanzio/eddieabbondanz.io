@@ -24,14 +24,26 @@ const iconsPath = '../node_modules/@shoelace-style/shoelace/dist/assets/icons';
 export default defineConfig({
   plugins: [
     // Enable export SFCs as custom elements
-    vue({ features: { customElement: true }, template: {
-      compilerOptions: {
-        // Shoelace components
-        isCustomElement: tag => tag.startsWith("sl-")
+    vue({
+      features: { customElement: true }, template: {
+        compilerOptions: {
+          // Shoelace components
+          isCustomElement: tag => tag.startsWith("sl-")
+        }
       }
-    }}),
+    }),
     vueJsx(),
     vueDevTools(),
+    // Copy assets to Vue build dir for demo use (has to be under root dir of Vue)
+    viteStaticCopy({
+      targets: [
+        {
+          src: iconsPath,
+          dest: 'assets',
+        },
+      ],
+    }),
+    // Copy assets to Hugo static directory for blog use
     viteStaticCopy({
       targets: [
         {
@@ -43,9 +55,9 @@ export default defineConfig({
   ],
   resolve: {
     alias: [
-      { 
-        find: '@', 
-        replacement: fileURLToPath(new URL('./src', import.meta.url)) 
+      {
+        find: '@',
+        replacement: fileURLToPath(new URL('./src', import.meta.url))
       },
       // Shoelace icons
       {
@@ -56,7 +68,7 @@ export default defineConfig({
   },
   build: {
     // Required since output dir is outside of vue project.
-    emptyOutDir: true, 
+    emptyOutDir: true,
     rollupOptions: {
       input: rollupInputs,
       output: {
