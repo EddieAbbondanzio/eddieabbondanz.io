@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": "yarn run build",
+      "problemMatcher": ["$tsc"],
+      "label": "Build blog",
+    },
+    {
+        "type": "shell",
+        "command": "yarn run serve",
+        "problemMatcher": ["$tsc"],
+        "label": "Serve blog"
+    },
+    {
+      "type": "shell",
+      "command": "source ~/.nvm/nvm.sh && nvm use && yarn workspace widgets run dev",
+      "problemMatcher": ["$tsc"],
+      "label": "Serve widget demo"
+    },
+        {
+      "type": "shell",
+      "command": "source ~/.nvm/nvm.sh && nvm use && yarn workspace widgets run build",
+      "problemMatcher": ["$tsc"],
+      "label": "Build widget demo"
+    }
+  ]
+}
