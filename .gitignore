@@ -7,3 +7,5 @@ static/pagefind/
 static/shoelace/
 
 node_modules/
+
+.hugo_build.lock
