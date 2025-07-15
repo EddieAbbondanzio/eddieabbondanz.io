@@ -103,10 +103,6 @@ unsafe= true
 
 [module]
   [[module.mounts]]
-    source = "./node_modules/open-color/"
-    target = "assets/sass/open-color/"
-
-  [[module.mounts]]
     source = "assets"
     target = "assets"
 
