@@ -28,7 +28,7 @@ export enum Chassis {
   JDM_98_01_ITR = 'jdm-98-01-itr',
 }
 
-export const CHASSIS_LABEL = {
+export const CHASSIS_LABEL: Record<Chassis, string> = {
   [Chassis.USDM_94_95_DELSOL]: 'US 94-95 Del Sol',
   [Chassis.USDM_95_97_DELSOL]: 'US 95-97 Del Sol',
   [Chassis.USDM_99_01_CIVIC_SI]: 'US 99-01 Civic SI',
@@ -46,7 +46,18 @@ export const CHASSIS_LABEL = {
   [Chassis.JDM_98_01_ITR]: 'JDM 98-01 Integra Type R',
 }
 
-export const TRANSMISSION_CHASSIS_SPECS = {
+type ClutchType = 'hydro' | 'cable'
+
+interface TransmissionConfig {
+  gears: [number, number, number, number, number]
+  finalDrive: number
+  clutchType: ClutchType
+}
+
+export const TRANSMISSION_CHASSIS_SPECS: Record<
+  Transmission,
+  Partial<Record<Chassis, TransmissionConfig>>
+> = {
   [Transmission.S80]: {
     [Chassis.JDM_93_5_01_SIR_SIG]: {
       gears: [3.23, 1.9, 1.36, 1.034, 0.787],
@@ -64,7 +75,7 @@ export const TRANSMISSION_CHASSIS_SPECS = {
       clutchType: 'hydro',
     },
     [Chassis.USDM_94_01_LS_GS_SE]: {
-      gear: [3.23, 1.9, 1.269, 0.966, 0.787],
+      gears: [3.23, 1.9, 1.269, 0.966, 0.787],
       finalDrive: 4.266,
       clutchType: 'hydro',
     },
@@ -81,21 +92,21 @@ export const TRANSMISSION_CHASSIS_SPECS = {
   },
   [Transmission.Y21]: {
     [Chassis.USDM_94_95_DELSOL]: {
-      gear: [3.23, 2.105, 1.458, 1.107, 0.848],
+      gears: [3.23, 2.105, 1.458, 1.107, 0.848],
       finalDrive: 4.4,
       clutchType: 'hydro',
     },
   },
   [Transmission.S21]: {
     [Chassis.USDM_95_97_DELSOL]: {
-      gear: [3.23, 2.105, 1.458, 1.107, 0.848],
+      gears: [3.23, 2.105, 1.458, 1.107, 0.848],
       finalDrive: 4.4,
       clutchType: 'hydro',
     },
   },
   [Transmission.S4C]: {
     [Chassis.USDM_99_01_CIVIC_SI]: {
-      gear: [3.23, 2.105, 1.458, 1.107, 0.875],
+      gears: [3.23, 2.105, 1.458, 1.107, 0.875],
       finalDrive: 4.266,
       clutchType: 'hydro',
     },

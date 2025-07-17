@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 
 import { mount } from '@vue/test-utils'
-import BSeriesGearCalculator from '../BSeriesGearCalculator.vue'
+import BSeriesGearCalculator from '../b-series-gear-calculator/BSeriesGearCalculator.vue'
 
 describe('BSeriesGearcalculator', () => {
   it('renders properly', () => {
