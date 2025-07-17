@@ -1,8 +1,9 @@
-
 import { createApp } from 'vue'
 import App from './App.vue'
 
-// N.B. Don't import assets like css or js here because they won't get detected by 
-// rollup since it starts at the component files themselves. 
+// Import SASS from the hugo project here instead of the components because
+// normally it'd be imported from Hugo itself. This just ensures the widget demo
+// renders properly.
+import '../../assets/sass/index.sass'
 
 const app = createApp(App).mount('#app')
