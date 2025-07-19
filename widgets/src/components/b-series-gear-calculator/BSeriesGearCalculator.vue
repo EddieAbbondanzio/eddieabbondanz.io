@@ -3,7 +3,7 @@
   // them as the entry points to compile from.
   import '@shoelace-style/shoelace';
   import '@shoelace-style/shoelace/dist/themes/light.css';
-  import { setBasePath, SlInput, type SlBlurEvent, type SlInputEvent } from '@shoelace-style/shoelace';
+  import { setBasePath, SlInput, type SlBlurEvent, type SlChangeEvent, type SlInputEvent, type SlSelectEvent } from '@shoelace-style/shoelace';
   if (import.meta.env.MODE === 'production') {
     // Hugo auto resolve's the /static sub-dir so we omit it in the path
     setBasePath('../../../shoelace');
@@ -18,31 +18,40 @@
   } from '@/components/b-series-gear-calculator/hondaTransmissions';
   import { inchesToMM, isSLInput, isSLSelect, objectEntries, objectKeys } from '@/utils';
 
+  // Tire Size
   const availableTireWidths = [175, 185, 195, 205, 215, 225, 235, 245, 255, 265, 275];
   const availableTireRatios = [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80];
   const availableTireDiameters = [13, 14, 15, 16, 17, 18];
   const tireWidth = ref(205);
   const tireRatio = ref(50);
   const tireDiameter = ref(15);
-  const updateTireWidth = (ev: SlInputEvent) => {
+  const updateTireWidth = (ev: SlChangeEvent) => {
     if (!isSLSelect(ev.target)) {
       throw new Error("No target for updateTireWidth");
     }
     tireWidth.value = Number(ev.target.value)
   }
-  const updateTireRatio = (ev: SlInputEvent) => {
+  const updateTireRatio = (ev: SlChangeEvent) => {
     if (!isSLSelect(ev.target)) {
       throw new Error("No target for updateTireRatio");
     }
     tireRatio.value = Number(ev.target.value)
   }
-  const updateTireDiameter = (ev: SlInputEvent) => {
+  const updateTireDiameter = (ev: SlChangeEvent) => {
     if (!isSLSelect(ev.target)) {
       throw new Error("No target for updateTireDiameter");
     }
     tireDiameter.value = Number(ev.target.value)
   }
+  const overallTireDiameter = computed(() => {
+    const tireWidthInches = inchesToMM(tireWidth.value);
+    const sidewallHeightInches = tireWidthInches * tireRatio.value / 100;
+    const rimDiameterInches = tireDiameter.value;
 
+    return 2 * sidewallHeightInches + rimDiameterInches;
+  });
+
+  // Engine
   const maxRPM = ref(7000);
   const updateMaxRPM = (ev: SlInputEvent) => {
     if (!isSLInput(ev.target)) {
@@ -71,65 +80,103 @@
     }
   }
 
-  const overallTireDiameter = computed(() => {
-    const tireWidthInInches = inchesToMM(tireWidth.value);
-    const sidewallHeight = tireWidthInInches * tireRatio.value / 100;
-    const rimDiameter = tireDiameter.value;
+  interface SelectOption<V> {
+    label: string,
+    value: V,
+  }
 
-    const overallDiameter = 2 * sidewallHeight + rimDiameter;
-    return overallDiameter;
+  // Transmission
+  const GEAR_LABELS = ["1st", "2nd", "3rd", "4th", "5th"]
+  const transmission = ref(Transmission.S80);
+  const chassis = ref(objectKeys(TRANSMISSION_CHASSIS_SPECS[transmission.value])[0]);
+
+  const availableTransmissions = computed<SelectOption<Transmission>[]>(() => {
+    return objectEntries(Transmission).map(([label, value]) => ({ label, value }));
+  });
+  const availableChassis = computed<SelectOption<Chassis>[]>(() => {
+    return objectKeys(TRANSMISSION_CHASSIS_SPECS[transmission.value]).map((value) => ({
+      label: CHASSIS_LABEL[value],
+      value
+    }))
   });
 
-  const transmissionCode = ref(Transmission.S80);
-  const chassisCode = ref(objectKeys(TRANSMISSION_CHASSIS_SPECS[transmissionCode.value])[0]);
-
-  const availableTransmissionCodes = computed(() => {
-    const transmissions = objectEntries(Transmission);
-
-    const transWithLabels: { transmission: Transmission; label: string }[] = [];
-    for (const [label, transmission] of transmissions) {
-      transWithLabels.push({ transmission, label });
+  const updateChassis = (ev: SlChangeEvent) => {
+    if (!isSLSelect(ev.target)) {
+      throw new Error("No target for updateChassisCode")
     }
-    return transWithLabels;
-  });
-
-  const onTransmissionCodeChange = (v: any) => {
-    transmissionCode.value = v.target.value as Transmission;
-
-    if (!availableChassisCodes.value.some(cc => cc.code === chassisCode.value)) {
-      chassisCode.value = availableChassisCodes.value[0].code
-    }
+    chassis.value = ev.target.value as Chassis
   };
 
-  const availableChassisCodes = computed(() => {
-    const chassisCodes = objectKeys(TRANSMISSION_CHASSIS_SPECS[transmissionCode.value]);
+  const updateTransmission = (ev: SlChangeEvent) => {
+    if (!isSLSelect(ev.target)) {
+      throw new Error("No target for updateTransmission")
+    }
+    transmission.value = ev.target.value as Transmission
 
-    const codesWithLabels: { code: Chassis; label: string }[] = [];
-    for (const code of chassisCodes) {
-      codesWithLabels.push({ code, label: CHASSIS_LABEL[code] });
+    // TODO: Update chassis in case it's no longer a valid option.
+    if (TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value] === undefined) {
+      chassis.value = objectKeys(TRANSMISSION_CHASSIS_SPECS[transmission.value])[0]
+    }
+  }
+
+  const gears = ref(TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]?.gears ?? [0, 0, 0, 0, 0])
+  const finalDrive = ref(TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]?.finalDrive ?? 0)
+
+  const updateGear = (gearIndex: number, ev: SlInputEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error(`No target for updateGear(gearIndex: ${gearIndex})`);
+    }
+    gears.value[gearIndex] = ev.target.valueAsNumber
+  }
+  const validateGear = (gearIndex: number, ev: SlBlurEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error(`No target for validateGear(gearIndex: ${gearIndex})`);
     }
 
-    return codesWithLabels;
-  });
-
-  const onChassisCodeChange = (v: any) => (chassisCode.value = v.target.value);
-
-
-  const getGearRatio = (gear: number) => {
-    return TRANSMISSION_CHASSIS_SPECS[transmissionCode.value][chassisCode.value]?.gears[gear]
+    const currGearValue = gears.value[gearIndex]
+    if (currGearValue < 0) {
+      gears.value[gearIndex] = 0
+      ev.target.value = "0"
+    }
+    if (currGearValue > 10) {
+      gears.value[gearIndex] = 10
+      ev.target.value = "10"
+    }
   }
-  const getFinalDrive = () => {
-    return TRANSMISSION_CHASSIS_SPECS[transmissionCode.value][chassisCode.value]?.finalDrive
+
+  const updateFinalDrive = (ev: SlInputEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error(`No target for updateFinalDrive`);
+    }
+    finalDrive.value = ev.target.valueAsNumber
   }
+  const validateFinalDrive = (ev: SlBlurEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error(`No target for validateFinalDrive`);
+    }
+
+    const currFinalDrive = finalDrive.value
+    if (Number.isNaN(currFinalDrive)) {
+      finalDrive.value = TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]?.finalDrive ?? 0
+      ev.target.value = finalDrive.value.toString();
+    }
+    if (currFinalDrive < 0) {
+      finalDrive.value = 0;
+      ev.target.value = "0"
+    }
+    if (currFinalDrive > 10) {
+      finalDrive.value = 10
+      ev.target.value = "10"
+    }
+  }
+
+  // Display
   const getMaxMPH = (gear: number) => {
-    const gearRatio = getGearRatio(gear);
-    const finalRatio = getFinalDrive();
+    const gearRatio = gears.value[gear];
     const tireDiameter = overallTireDiameter.value
-    const rpm = maxRPM.value
+    const redline = maxRPM.value
 
-    if (gearRatio === undefined || finalRatio === undefined) return 0
-
-    return (rpm * tireDiameter) / (gearRatio * finalRatio * 336)
+    return (redline * tireDiameter) / (gearRatio * finalDrive.value * 336)
   }
 </script>
 
@@ -159,60 +206,38 @@
       <sl-divider></sl-divider>
 
       <strong>Transmission code</strong>
-      <sl-select :value="transmissionCode" @sl-change="onTransmissionCodeChange">
-        <sl-option v-for="{ transmission, label } in availableTransmissionCodes"
-          :value="transmission">[[label]]</sl-option>
+      <sl-select :value="transmission" @sl-change="updateTransmission">
+        <sl-option v-for="{ value, label } in availableTransmissions" :value="value">[[label]]</sl-option>
       </sl-select>
 
       <strong class="fr aic">
         <span class="pr1">Chassis</span>
         <sl-tooltip class="tooltip" hoist content="The chassis that the transmission came from"><sl-icon
             name="question-circle-fill"></sl-icon></sl-tooltip></strong>
-      <sl-select :value="chassisCode" @sl-change="onChassisCodeChange">
-        <sl-option v-for="{ code, label } in availableChassisCodes" :value="code">[[label]]</sl-option>
+      <sl-select :value="chassis" @sl-change="updateChassis">
+        <sl-option v-for="{ value, label } in availableChassis" :value="value">[[label]]</sl-option>
       </sl-select>
 
       <div>
         <div class="fr jcsb">
           <strong class="fg1">Gears</strong>
-          <strong class="ratio-input">Ratio</strong>
-          <strong class="max-mph">Max MPH</strong>
+          <strong class="gear-column">Ratio</strong>
+          <strong class="gear-column">Max MPH</strong>
         </div>
 
-        <div class="fr">
-          <span class="fg1">1st</span>
-          <sl-input class="ratio-input" :value="getGearRatio(0)"></sl-input>
-          <sl-input class="max-mph" :value="getMaxMPH(0).toFixed(2)" readonly></sl-input>
-        </div>
-
-        <div class="fr jcsb">
-          <span class="fg1">2nd</span>
-          <sl-input class="ratio-input" :value="getGearRatio(1)"></sl-input>
-          <sl-input class="max-mph" :value="getMaxMPH(1).toFixed(2)" readonly></sl-input>
-        </div>
-
-        <div class="fr jcsb">
-          <span class="fg1">3rd</span>
-          <sl-input class="ratio-input" :value="getGearRatio(2)"></sl-input>
-          <sl-input class="max-mph" :value="getMaxMPH(2).toFixed(2)" readonly></sl-input>
-        </div>
-
-        <div class="fr jcsb">
-          <span class="fg1">4th</span>
-          <sl-input class="ratio-input" :value="getGearRatio(3)"></sl-input>
-          <sl-input class="max-mph" :value="getMaxMPH(3).toFixed(2)" readonly></sl-input>
-        </div>
-
-        <div class="fr jcsb">
-          <span class="fg1">5th</span>
-          <sl-input class="ratio-input" :value="getGearRatio(4)"></sl-input>
-          <sl-input class="max-mph" :value="getMaxMPH(4).toFixed(2)" readonly></sl-input>
+        <div class="fr" v-for="(gear, index) in gears">
+          <span class="fg1">[[ GEAR_LABELS[index] ]]</span>
+          <sl-input type="number" step="0.001" inputmode="numeric" class="gear-column" :value="gears[index]"
+            @sl-input="(ev: SlInputEvent) => updateGear(index, ev)"
+            @sl-blur="(ev: SlBlurEvent) => validateGear(index, ev)"></sl-input>
+          <sl-input class="gear-column" :value="getMaxMPH(index).toFixed(2)" readonly></sl-input>
         </div>
 
         <div class="fr jcsb">
           <span class="fg1">Final drive</span>
-          <sl-input class="ratio-input" :value="getFinalDrive()"></sl-input>
-          <div class="spacer"></div>
+          <sl-input type="number" step="0.01" inputmode="numeric" class="gear-column" :value="finalDrive"
+            @sl-input="updateFinalDrive" @sl-blur="validateFinalDrive"></sl-input>
+          <div class="gear-column"></div>
         </div>
         <sl-divider></sl-divider>
       </div>
@@ -221,6 +246,6 @@
 </template>
 
 <style lang="sass" scoped>
-  .ratio-input, .max-mph, .spacer
+  .gear-column
     width: 120px
 </style>
