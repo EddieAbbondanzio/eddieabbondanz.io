@@ -44,14 +44,15 @@ export const CHASSIS_LABEL: Record<Chassis, string> = {
   [Chassis.JDM_92_00_SIR_CTR]: 'JDM 92-00 Civic SIR/Type R',
   [Chassis.JDM_95_97_ITR]: 'JDM 95-97 Integra Type R',
   [Chassis.JDM_98_01_ITR]: 'JDM 98-01 Integra Type R',
-}
+};
 
-type ClutchType = 'hydro' | 'cable'
+type ClutchType = 'hydro' | 'cable';
+type Gears = [number, number, number, number, number];
 
 interface TransmissionConfig {
-  gears: [number, number, number, number, number]
-  finalDrive: number
-  clutchType: ClutchType
+  gears: Gears;
+  finalDrive: number;
+  clutchType: ClutchType;
 }
 
 export const TRANSMISSION_CHASSIS_SPECS: Record<
@@ -181,4 +182,4 @@ export const TRANSMISSION_CHASSIS_SPECS: Record<
       clutchType: 'cable',
     },
   },
-}
+};

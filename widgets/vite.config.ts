@@ -1,30 +1,29 @@
-import { fileURLToPath, URL } from 'node:url'
+import { fileURLToPath, URL } from 'node:url';
 
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import vueJsx from '@vitejs/plugin-vue-jsx'
-import vueDevTools from 'vite-plugin-vue-devtools'
-import path from 'node:path'
-import { readdirSync } from 'node:fs'
-import { viteStaticCopy } from 'vite-plugin-static-copy'
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+import vueDevTools from 'vite-plugin-vue-devtools';
+import path from 'node:path';
+import { readdirSync } from 'node:fs';
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 // https://vite.dev/config/
 export default defineConfig(({ command }) => {
-  const isDevelopment = command === 'serve'
+  const isDevelopment = command === 'serve';
 
   // Shoelace - Ref: https://github.com/shoelace-style/shoelace/discussions/1240
-  const iconsPath = '../node_modules/@shoelace-style/shoelace/dist/assets/icons'
+  const iconsPath = '../node_modules/@shoelace-style/shoelace/dist/assets/icons';
 
   // Webcomponents
-  const elementDirPath = path.resolve(__dirname, 'src/elements')
+  const elementDirPath = path.resolve(__dirname, 'src/elements');
   const elements = readdirSync(elementDirPath).map((fileName) => ({
     fileName,
     compiledFileName: fileName.split('.')[0],
-  }))
-  const rollupInputs: Record<string, string> = {}
+  }));
+  const rollupInputs: Record<string, string> = {};
   elements.forEach(
     (el) => (rollupInputs[el.compiledFileName] = path.join(elementDirPath, el.fileName)),
-  )
+  );
 
   /*
    * When `customElement: true` is set Vite will compile CSS directly into the
@@ -32,7 +31,7 @@ export default defineConfig(({ command }) => {
    * web components. However, this breaks CSS in dev so we only enable it when
    * building.
    */
-  const customElement = !isDevelopment
+  const customElement = !isDevelopment;
 
   return {
     plugins: [
@@ -47,7 +46,6 @@ export default defineConfig(({ command }) => {
           },
         },
       }),
-      vueJsx(),
       vueDevTools(),
       // Copy assets to Vue build dir for demo use (has to be under root dir of Vue)
       viteStaticCopy({
@@ -88,14 +86,14 @@ export default defineConfig(({ command }) => {
         input: rollupInputs,
         output: {
           assetFileNames: (asset) => {
-            return '[name][extname]'
+            return '[name][extname]';
           },
           dir: '../static/widgets',
           entryFileNames(chunkInfo) {
-            return `${chunkInfo.name}.js`
+            return `${chunkInfo.name}.js`;
           },
         },
       },
     },
-  }
-})
+  };
+});
