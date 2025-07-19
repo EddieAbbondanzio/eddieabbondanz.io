@@ -183,7 +183,7 @@
 <template>
   <!-- On large displays inputs will be on left, graph on right. -->
   <!-- On small displays inputs will be on top, graph on bottom -->
-  <div id="foo" class="fr red-and-blue">
+  <div id="foo" class="fr">
     <div class="fc">
       <strong>Tire size <small>([[overallTireDiameter.toFixed(2)]]" diameter)</small></strong>
       <div class="fr">
@@ -221,13 +221,13 @@
       <div>
         <div class="fr jcsb">
           <strong class="fg1">Gears</strong>
-          <strong class="gear-column">Ratio</strong>
+          <strong class="gear-column mr10px">Ratio</strong>
           <strong class="gear-column">Max MPH</strong>
         </div>
 
-        <div class="fr" v-for="(gear, index) in gears">
+        <div class="fr mb1" v-for="(gear, index) in gears">
           <span class="fg1">[[ GEAR_LABELS[index] ]]</span>
-          <sl-input type="number" step="0.001" inputmode="numeric" class="gear-column" :value="gears[index]"
+          <sl-input type="number" step="0.001" inputmode="numeric" class="gear-column mr10px" :value="gears[index]"
             @sl-input="(ev: SlInputEvent) => updateGear(index, ev)"
             @sl-blur="(ev: SlBlurEvent) => validateGear(index, ev)"></sl-input>
           <sl-input class="gear-column" :value="getMaxMPH(index).toFixed(2)" readonly></sl-input>
@@ -235,7 +235,7 @@
 
         <div class="fr jcsb">
           <span class="fg1">Final drive</span>
-          <sl-input type="number" step="0.01" inputmode="numeric" class="gear-column" :value="finalDrive"
+          <sl-input type="number" step="0.01" inputmode="numeric" class="gear-column mr10px" :value="finalDrive"
             @sl-input="updateFinalDrive" @sl-blur="validateFinalDrive"></sl-input>
           <div class="gear-column"></div>
         </div>
@@ -248,4 +248,7 @@
 <style lang="sass" scoped>
   .gear-column
     width: 120px
+
+  .mr10px
+    margin-right: 10px 
 </style>
