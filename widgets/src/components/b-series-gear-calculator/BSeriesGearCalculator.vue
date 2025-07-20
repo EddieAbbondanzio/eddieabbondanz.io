@@ -221,16 +221,6 @@
     }
   }
 
-  // Display
-  const getMaxMPH = (gear: number) => {
-    const gearRatio = gears.value[gear];
-    const tireDiameter = overallTireDiameter.value
-    const redline = maxRPM.value
-
-    return (redline * tireDiameter) / (gearRatio * finalDrive.value * 336)
-  }
-
-
   const gearLines = computed<GearLine[]>(() => {
     const redline = maxRPM.value
     const fd = finalDrive.value
@@ -311,7 +301,9 @@
           <sl-input type="number" step="0.001" inputmode="numeric" class="gear-column mr10px" :value="gears[index]"
             @sl-input="(ev: SlInputEvent) => updateGear(index, ev)"
             @sl-blur="(ev: SlBlurEvent) => validateGear(index, ev)"></sl-input>
-          <sl-input class="gear-column" :value="getMaxMPH(index).toFixed(2)" readonly></sl-input>
+          <sl-input class="gear-column"
+            :value="maxMPHForGear({ gearRatio: gear, finalDrive, maxRPM, tireDiameter: overallTireDiameter }).toFixed(2)"
+            readonly></sl-input>
         </div>
 
         <div class="fr jcsb">
