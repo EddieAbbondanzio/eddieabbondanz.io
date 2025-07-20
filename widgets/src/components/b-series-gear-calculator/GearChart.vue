@@ -5,18 +5,20 @@
 
   ChartJS.register(Title, Tooltip, Legend, BarElement, PointElement, LineElement, CategoryScale, LinearScale)
 
+  const CHART_MAX_MPH = 180
+  const CHART_MAX_RPM_BUFFER = 500
 
   export type Coord = { x: number, y: number }
   export type GearLine = [Coord, Coord]
 
   const props = defineProps<{
     gears: GearLine[],
-    maxRPM: number
+    maxRPM: number,
+    vtecCrossover: number | undefined
   }>()
 
-  const data = computed(() => ({
-    type: 'line',
-    datasets: [
+  const data = computed(() => {
+    const datasets = [
       // Gears  
       ...props.gears.map(g => ({
         showLine: true,
@@ -27,13 +29,28 @@
       // Redline
       {
         showLine: true,
-        data: [{ x: 0, y: props.maxRPM }, { x: 180, y: props.maxRPM }],
+        data: [{ x: 0, y: props.maxRPM }, { x: CHART_MAX_MPH, y: props.maxRPM }],
         borderColor: "red",
         borderDash: [4, 12],
         pointRadius: 0,
       }
     ]
-  }));
+
+    if (props.vtecCrossover !== undefined) {
+      datasets.push({
+        showLine: true,
+        data: [{ x: 0, y: props.vtecCrossover }, { x: CHART_MAX_MPH, y: props.vtecCrossover }],
+        borderColor: "green",
+        borderDash: [4, 12],
+        pointRadius: 0,
+      })
+    }
+
+    return {
+      type: 'line',
+      datasets,
+    }
+  });
 
   const options = computed(() => ({
     plugins: {
@@ -48,7 +65,7 @@
           text: "MPH"
         },
         min: 0,
-        max: 180,
+        max: CHART_MAX_MPH,
         ticks: {
           stepSize: 10
         }
@@ -59,7 +76,7 @@
           text: "RPM"
         },
         min: 0,
-        max: props.maxRPM + 500,
+        max: props.maxRPM + CHART_MAX_RPM_BUFFER,
         ticks: {
           stepSize: 100
         }

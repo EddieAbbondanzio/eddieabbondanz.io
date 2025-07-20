@@ -83,6 +83,34 @@
     }
   }
 
+  const vtecCrossover = ref(4500)
+  const updateVTECCrossover = (ev: SlInputEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error("No target for updateVTECCrossover");
+    }
+
+    vtecCrossover.value = ev.target.valueAsNumber;
+  }
+  const validateVTECCrossover = (ev: SlBlurEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error("No target for validateVTECCrossover");
+    }
+
+    if (!Number.isInteger(vtecCrossover.value)) {
+      const rounded = Math.round(vtecCrossover.value)
+      vtecCrossover.value = rounded;
+      ev.target.value = rounded.toString();
+    }
+    if (vtecCrossover.value < 0) {
+      vtecCrossover.value = 0;
+      ev.target.value = '0';
+    }
+    if (vtecCrossover.value > maxRPM.value) {
+      vtecCrossover.value = maxRPM.value;
+      ev.target.value = maxRPM.value.toString();
+    }
+  }
+
   interface SelectOption<V> {
     label: string,
     value: V,
@@ -244,6 +272,10 @@
       <strong>Redline</strong>
       <sl-input type="number" inputmode="numeric" :step="100" :value="maxRPM" @input="updateMaxRPM"
         @blur="validateMaxRPM"></sl-input>
+
+      <strong>VTEC Crossover (optional)</strong>
+      <sl-input type="number" inputmode="numeric" :step="100" :value="vtecCrossover" @input="updateVTECCrossover"
+        @blur="validateVTECCrossover" clearable></sl-input>
       <sl-divider></sl-divider>
 
       <strong>Transmission code</strong>
@@ -285,7 +317,7 @@
     </div>
 
     <div class="fg1">
-      <GearChart :gears="gearLines" :maxRPM="maxRPM" />
+      <GearChart :gears="gearLines" :maxRPM="maxRPM" :vtecCrossover="vtecCrossover" />
     </div>
   </div>
 </template>
