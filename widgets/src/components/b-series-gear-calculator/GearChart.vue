@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { Scatter } from 'vue-chartjs'
   import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, PointElement, LineElement, CategoryScale, LinearScale } from 'chart.js'
+  import { computed } from 'vue'
 
   ChartJS.register(Title, Tooltip, Legend, BarElement, PointElement, LineElement, CategoryScale, LinearScale)
 
@@ -13,18 +14,16 @@
     maxRPM: number
   }>()
 
-  const data = {
+  const data = computed(() => ({
     type: 'line',
+
     datasets: props.gears.map(g => ({
       showLine: true,
-      data: g, backgroundColor: "red"
+      data: g, backgroundColor: "black"
     }))
-  }
+  }));
 
-  console.log("RERENDER")
-
-  const options = {
-    responsive: true,
+  const options = computed(() => ({
     scales: {
       x: {
         title: {
@@ -49,7 +48,7 @@
         }
       }
     }
-  }
+  }));
 
 </script>
 

@@ -18,8 +18,7 @@
     type Gears,
   } from '@/components/b-series-gear-calculator/hondaTransmissions';
   import { inchesToMM, isSLInput, isSLSelect, objectEntries, objectKeys } from '@/utils';
-  import { Chart } from 'chart.js';
-  import GearChart, { GearLine } from './GearChart.vue';
+  import GearChart, { type GearLine } from './GearChart.vue';
   import { maxMPHForGear, rpmForGearAtMPH } from './utils';
 
   // Tire Size
@@ -189,12 +188,16 @@
   const gearLines = computed<GearLine[]>(() => {
     const redline = maxRPM.value
     const fd = finalDrive.value
-    const td = tireDiameter.value
+    const td = overallTireDiameter.value
 
     const lines: GearLine[] = gears.value.map((g, i) => {
-      const startMPH = i > 0 ? maxMPHForGear(gears.value[i - 1], fd, redline, td) : 0;
-      const startRPM = i > 0 ? rpmForGearAtMPH(gears.value[i], fd, startMPH, td) : 0;
-      const endMPH = maxMPHForGear(g, fd, redline, td)
+      const startMPH = i > 0
+        ? maxMPHForGear({ gearRatio: gears.value[i - 1], finalDrive: fd, maxRPM: redline, tireDiameter: td })
+        : 0;
+      const startRPM = i > 0
+        ? rpmForGearAtMPH({ gearRatio: gears.value[i], finalDrive: fd, mph: startMPH, tireDiameter: td })
+        : 0;
+      const endMPH = maxMPHForGear({ gearRatio: g, finalDrive: fd, maxRPM: redline, tireDiameter: td })
       const endRPM = redline
 
       return [
