@@ -211,8 +211,8 @@
       const endRPM = redline
 
       return [
-        { x: startMPH, y: startRPM },
-        { x: endMPH, y: endRPM }
+        { x: startMPH, y: Math.round(startRPM) },
+        { x: endMPH, y: Math.round(endRPM) }
       ]
     })
 

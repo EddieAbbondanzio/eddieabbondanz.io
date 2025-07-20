@@ -16,14 +16,20 @@
 
   const data = computed(() => ({
     type: 'line',
-
     datasets: props.gears.map(g => ({
       showLine: true,
-      data: g, backgroundColor: "black"
+      data: g,
+      backgroundColor: "black",
+      borderColor: "black"
     }))
   }));
 
   const options = computed(() => ({
+    plugins: {
+      legend: {
+        display: false
+      }
+    },
     scales: {
       x: {
         title: {
