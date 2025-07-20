@@ -108,6 +108,12 @@
       throw new Error("No target for updateChassisCode")
     }
     chassis.value = ev.target.value as Chassis
+
+    const specs = TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]
+    if (specs !== undefined) {
+      gears.value = [...specs.gears]
+      finalDrive.value = specs.finalDrive
+    }
   };
 
   const updateTransmission = (ev: SlChangeEvent) => {
@@ -121,6 +127,10 @@
     // transmission.
     if (TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value] === undefined) {
       chassis.value = objectKeys(TRANSMISSION_CHASSIS_SPECS[transmission.value])[0]
+      const specs = TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]!
+
+      gears.value = [...specs.gears]
+      finalDrive.value = specs.finalDrive
     }
   }
 
