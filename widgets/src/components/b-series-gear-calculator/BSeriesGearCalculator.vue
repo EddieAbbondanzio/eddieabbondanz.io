@@ -3,7 +3,7 @@
   // them as the entry points to compile from.
   import '@shoelace-style/shoelace';
   import '@shoelace-style/shoelace/dist/themes/light.css';
-  import { setBasePath, SlInput, type SlBlurEvent, type SlChangeEvent, type SlInputEvent, type SlSelectEvent } from '@shoelace-style/shoelace';
+  import { setBasePath, SlInput, type SlBlurEvent, type SlChangeEvent, type SlInputEvent } from '@shoelace-style/shoelace';
   if (import.meta.env.MODE === 'production') {
     // Hugo auto resolve's the /static sub-dir so we omit it in the path
     setBasePath('../../../shoelace');
@@ -21,13 +21,21 @@
   import GearChart, { type GearLine } from './GearChart.vue';
   import { maxMPHForGear, rpmForGearAtMPH } from './utils';
 
+  const DEFAULT_TIRE_WIDTH = 205;
+  const DEFAULT_TIRE_RATIO = 50;
+  const DEFAULT_TIRE_DIAMETER = 15;
+  const DEFAULT_REDLINE = 8200;
+  const DEFAULT_VTEC_CROSSOVER = 4400;
+  const DEFAULT_TRANSMISSION = Transmission.S80;
+  const DEFAULT_CHASSIS = Chassis.USDM_94_01_GSR;
+
   // Tire Size
   const availableTireWidths = [175, 185, 195, 205, 215, 225, 235, 245, 255, 265, 275];
   const availableTireRatios = [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80];
   const availableTireDiameters = [13, 14, 15, 16, 17, 18];
-  const tireWidth = ref(205);
-  const tireRatio = ref(50);
-  const tireDiameter = ref(15);
+  const tireWidth = ref(DEFAULT_TIRE_WIDTH);
+  const tireRatio = ref(DEFAULT_TIRE_RATIO);
+  const tireDiameter = ref(DEFAULT_TIRE_DIAMETER);
   const updateTireWidth = (ev: SlChangeEvent) => {
     if (!isSLSelect(ev.target)) {
       throw new Error("No target for updateTireWidth");
@@ -55,7 +63,7 @@
   });
 
   // Engine
-  const maxRPM = ref(7000);
+  const maxRPM = ref(DEFAULT_REDLINE);
   const updateMaxRPM = (ev: SlInputEvent) => {
     if (!isSLInput(ev.target)) {
       throw new Error("No target for updateMaxRPM");
@@ -83,7 +91,7 @@
     }
   }
 
-  const vtecCrossover = ref(4500)
+  const vtecCrossover = ref(DEFAULT_VTEC_CROSSOVER)
   const updateVTECCrossover = (ev: SlInputEvent) => {
     if (!isSLInput(ev.target)) {
       throw new Error("No target for updateVTECCrossover");
@@ -118,8 +126,8 @@
 
   // Transmission
   const GEAR_LABELS = ["1st", "2nd", "3rd", "4th", "5th"]
-  const transmission = ref(Transmission.S80);
-  const chassis = ref(objectKeys(TRANSMISSION_CHASSIS_SPECS[transmission.value])[0]);
+  const transmission = ref(DEFAULT_TRANSMISSION);
+  const chassis = ref(DEFAULT_CHASSIS);
 
   const availableTransmissions = computed<SelectOption<Transmission>[]>(() => {
     return objectEntries(Transmission).map(([label, value]) => ({ label, value }));
@@ -273,7 +281,7 @@
       <sl-input type="number" inputmode="numeric" :step="100" :value="maxRPM" @input="updateMaxRPM"
         @blur="validateMaxRPM"></sl-input>
 
-      <strong>VTEC Crossover (optional)</strong>
+      <strong title="When VTEC kicks in yo">VTEC Crossover (optional)</strong>
       <sl-input type="number" inputmode="numeric" :step="100" :value="vtecCrossover" @input="updateVTECCrossover"
         @blur="validateVTECCrossover" clearable></sl-input>
       <sl-divider></sl-divider>
