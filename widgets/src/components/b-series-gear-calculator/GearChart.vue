@@ -14,7 +14,8 @@
   const props = defineProps<{
     gears: GearLine[],
     maxRPM: number,
-    vtecCrossover: number | undefined
+    vtecEnabled: boolean
+    vtecCrossover: number
   }>()
 
   const data = computed(() => {
@@ -36,7 +37,7 @@
       }
     ]
 
-    if (props.vtecCrossover !== undefined) {
+    if (props.vtecEnabled) {
       datasets.push({
         showLine: true,
         data: [{ x: 0, y: props.vtecCrossover }, { x: CHART_MAX_MPH, y: props.vtecCrossover }],

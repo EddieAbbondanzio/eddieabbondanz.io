@@ -3,7 +3,7 @@
   // them as the entry points to compile from.
   import '@shoelace-style/shoelace';
   import '@shoelace-style/shoelace/dist/themes/light.css';
-  import { setBasePath, SlInput, type SlBlurEvent, type SlChangeEvent, type SlInputEvent } from '@shoelace-style/shoelace';
+  import { setBasePath, SlInput, type SlBlurEvent, type SlChangeEvent, type SlClearEvent, type SlInputEvent } from '@shoelace-style/shoelace';
   if (import.meta.env.MODE === 'production') {
     // Hugo auto resolve's the /static sub-dir so we omit it in the path
     setBasePath('../../../shoelace');
@@ -17,7 +17,7 @@
     TRANSMISSION_CHASSIS_SPECS,
     type Gears,
   } from '@/components/b-series-gear-calculator/hondaTransmissions';
-  import { inchesToMM, isSLInput, isSLSelect, objectEntries, objectKeys } from '@/utils';
+  import { inchesToMM, isSLCheckbox, isSLInput, isSLSelect, objectEntries, objectKeys } from '@/utils';
   import GearChart, { type GearLine } from './GearChart.vue';
   import { maxMPHForGear, rpmForGearAtMPH } from './utils';
 
@@ -91,12 +91,18 @@
     }
   }
 
+  const vtecEnabled = ref(true);
+  const updateVtecEnabled = (ev: SlChangeEvent) => {
+    if (!isSLCheckbox(ev.target)) {
+      throw new Error("No target for updateVtecEnabled");
+    }
+    vtecEnabled.value = ev.target.checked;
+  }
   const vtecCrossover = ref(DEFAULT_VTEC_CROSSOVER)
   const updateVTECCrossover = (ev: SlInputEvent) => {
     if (!isSLInput(ev.target)) {
       throw new Error("No target for updateVTECCrossover");
     }
-
     vtecCrossover.value = ev.target.valueAsNumber;
   }
   const validateVTECCrossover = (ev: SlBlurEvent) => {
@@ -244,7 +250,6 @@
 
     return lines
   })
-
 </script>
 
 <template>
@@ -268,12 +273,15 @@
       </div>
 
       <strong>Redline</strong>
-      <sl-input type="number" inputmode="numeric" :step="100" :value="maxRPM" @input="updateMaxRPM"
-        @blur="validateMaxRPM"></sl-input>
+      <sl-input type="number" inputmode="numeric" :step="100" :value="maxRPM" @sl-input="updateMaxRPM"
+        @sl-blur="validateMaxRPM"></sl-input>
 
-      <strong title="When VTEC kicks in yo">VTEC Crossover (optional)</strong>
-      <sl-input type="number" inputmode="numeric" :step="100" :value="vtecCrossover" @input="updateVTECCrossover"
-        @blur="validateVTECCrossover" clearable></sl-input>
+      <strong title="When VTEC kicks in yo">VTEC Crossover</strong>
+      <div class="fr">
+        <sl-checkbox class="mr10px" :checked="vtecEnabled" @sl-change="updateVtecEnabled">VTEC enabled</sl-checkbox>
+        <sl-input class="fg1" type="number" inputmode="numeric" :step="100" :value="vtecCrossover"
+          @sl-input="updateVTECCrossover" @sl-blur="validateVTECCrossover" :disabled="!vtecEnabled"></sl-input>
+      </div>
       <sl-divider></sl-divider>
 
       <strong>Transmission code</strong>
@@ -317,7 +325,7 @@
     </div>
 
     <div class="fg1">
-      <GearChart :gears="gearLines" :maxRPM="maxRPM" :vtecCrossover="vtecCrossover" />
+      <GearChart :gears="gearLines" :maxRPM="maxRPM" :vtecCrossover="vtecCrossover" :vtec-enabled="vtecEnabled" />
     </div>
   </div>
 </template>

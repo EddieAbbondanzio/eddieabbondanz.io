@@ -1,4 +1,4 @@
-import { SlInput, SlSelect } from '@shoelace-style/shoelace';
+import { SlInput, SlSelect, SlCheckbox } from '@shoelace-style/shoelace';
 
 export function objectKeys<K extends string>(obj: Partial<Record<K, unknown>>): K[] {
   return Object.keys(obj) as K[];
@@ -16,6 +16,10 @@ export function isSLInput(el: unknown | null | undefined): el is SlInput {
   return el !== null && el !== undefined && el instanceof SlInput;
 }
 
-export function isSLSelect(el: unknown | null | undefined): el is SlInput {
+export function isSLSelect(el: unknown | null | undefined): el is SlSelect {
   return el !== null && el !== undefined && el instanceof SlSelect;
+}
+
+export function isSLCheckbox(el: unknown | null | undefined): el is SlCheckbox {
+  return el !== null && el !== undefined && el instanceof SlCheckbox;
 }
