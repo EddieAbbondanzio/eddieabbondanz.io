@@ -16,12 +16,23 @@
 
   const data = computed(() => ({
     type: 'line',
-    datasets: props.gears.map(g => ({
-      showLine: true,
-      data: g,
-      backgroundColor: "black",
-      borderColor: "black"
-    }))
+    datasets: [
+      // Gears  
+      ...props.gears.map(g => ({
+        showLine: true,
+        data: g,
+        backgroundColor: "black",
+        borderColor: "black"
+      })),
+      // Redline
+      {
+        showLine: true,
+        data: [{ x: 0, y: props.maxRPM }, { x: 180, y: props.maxRPM }],
+        borderColor: "red",
+        borderDash: [4, 12],
+        pointRadius: 0,
+      }
+    ]
   }));
 
   const options = computed(() => ({
