@@ -15,8 +15,12 @@
     CHASSIS_LABEL,
     Transmission,
     TRANSMISSION_CHASSIS_SPECS,
+    type Gears,
   } from '@/components/b-series-gear-calculator/hondaTransmissions';
   import { inchesToMM, isSLInput, isSLSelect, objectEntries, objectKeys } from '@/utils';
+  import { Chart } from 'chart.js';
+  import GearChart, { GearLine } from './GearChart.vue';
+  import { maxMPHForGear, rpmForGearAtMPH } from './utils';
 
   // Tire Size
   const availableTireWidths = [175, 185, 195, 205, 215, 225, 235, 245, 255, 265, 275];
@@ -113,13 +117,15 @@
     }
     transmission.value = ev.target.value as Transmission
 
-    // TODO: Update chassis in case it's no longer a valid option.
+    // It's possible for the current chassis to no longer be a valid option
+    // when the transmission changed since not every chassis came with every
+    // transmission.
     if (TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value] === undefined) {
       chassis.value = objectKeys(TRANSMISSION_CHASSIS_SPECS[transmission.value])[0]
     }
   }
 
-  const gears = ref(TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]?.gears ?? [0, 0, 0, 0, 0])
+  const gears = ref<Gears>(TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]?.gears ?? [0, 0, 0, 0, 0])
   const finalDrive = ref(TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]?.finalDrive ?? 0)
 
   const updateGear = (gearIndex: number, ev: SlInputEvent) => {
@@ -178,6 +184,28 @@
 
     return (redline * tireDiameter) / (gearRatio * finalDrive.value * 336)
   }
+
+
+  const gearLines = computed<GearLine[]>(() => {
+    const redline = maxRPM.value
+    const fd = finalDrive.value
+    const td = tireDiameter.value
+
+    const lines: GearLine[] = gears.value.map((g, i) => {
+      const startMPH = i > 0 ? maxMPHForGear(gears.value[i - 1], fd, redline, td) : 0;
+      const startRPM = i > 0 ? rpmForGearAtMPH(gears.value[i], fd, startMPH, td) : 0;
+      const endMPH = maxMPHForGear(g, fd, redline, td)
+      const endRPM = redline
+
+      return [
+        { x: startMPH, y: startRPM },
+        { x: endMPH, y: endRPM }
+      ]
+    })
+
+    return lines
+  })
+
 </script>
 
 <template>
@@ -241,6 +269,10 @@
         </div>
         <sl-divider></sl-divider>
       </div>
+    </div>
+
+    <div class="fg1">
+      <GearChart :gears="gearLines" :maxRPM="maxRPM" />
     </div>
   </div>
 </template>

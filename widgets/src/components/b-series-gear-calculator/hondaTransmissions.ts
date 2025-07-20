@@ -46,8 +46,8 @@ export const CHASSIS_LABEL: Record<Chassis, string> = {
   [Chassis.JDM_98_01_ITR]: 'JDM 98-01 Integra Type R',
 };
 
-type ClutchType = 'hydro' | 'cable';
-type Gears = [number, number, number, number, number];
+export type ClutchType = 'hydro' | 'cable';
+export type Gears = [number, number, number, number, number];
 
 interface TransmissionConfig {
   gears: Gears;
