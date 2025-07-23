@@ -20,6 +20,7 @@
   import { inchesToMM, isSLCheckbox, isSLInput, isSLSelect, objectEntries, objectKeys } from '@/utils';
   import GearChart, { type GearLine } from './GearChart.vue';
   import { maxMPHForGear, rpmForGearAtMPH } from './utils';
+  import Reset from './Reset.vue';
 
   const DEFAULT_TIRE_WIDTH = 205;
   const DEFAULT_TIRE_RATIO = 50;
@@ -153,7 +154,7 @@
 
     const specs = TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]
     if (specs !== undefined) {
-      gears.value = [...specs.gears]
+      gears.value = [...specs.gears.map(newGearConfig)]
       finalDrive.value = specs.finalDrive
     }
   };
@@ -171,34 +172,56 @@
       chassis.value = objectKeys(TRANSMISSION_CHASSIS_SPECS[transmission.value])[0]
       const specs = TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]!
 
-      gears.value = [...specs.gears]
+      gears.value = [...specs.gears.map(newGearConfig)]
       finalDrive.value = specs.finalDrive
     }
   }
 
-  const gears = ref<Gears>(TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]?.gears ?? [0, 0, 0, 0, 0])
+  interface GearConfig {
+    stockRatio: number;
+    ratio: number
+    modified: boolean
+  }
+
+  function newGearConfig(ratio: number): GearConfig {
+    return {
+      stockRatio: ratio,
+      ratio,
+      modified: false
+    }
+  }
+
+
+  const gears = ref<GearConfig[]>((TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]?.gears ?? [0, 0, 0, 0, 0]).map(newGearConfig))
   const finalDrive = ref(TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]?.finalDrive ?? 0)
 
   const updateGear = (gearIndex: number, ev: SlInputEvent) => {
     if (!isSLInput(ev.target)) {
       throw new Error(`No target for updateGear(gearIndex: ${gearIndex})`);
     }
-    gears.value[gearIndex] = ev.target.valueAsNumber
+    const gear = gears.value[gearIndex]
+    gear.ratio = ev.target.valueAsNumber
+    gear.modified ||= true
   }
   const validateGear = (gearIndex: number, ev: SlBlurEvent) => {
     if (!isSLInput(ev.target)) {
       throw new Error(`No target for validateGear(gearIndex: ${gearIndex})`);
     }
 
-    const currGearValue = gears.value[gearIndex]
-    if (currGearValue < 0) {
-      gears.value[gearIndex] = 0
+    const gear = gears.value[gearIndex]
+    if (gear.ratio < 0) {
+      gear.ratio = 0
       ev.target.value = "0"
     }
-    if (currGearValue > 10) {
-      gears.value[gearIndex] = 10
+    if (gear.ratio > 10) {
+      gear.ratio = 10
       ev.target.value = "10"
     }
+  }
+  const resetGear = (gearIndex: number) => {
+    const gear = gears.value[gearIndex];
+    gear.ratio = gear.stockRatio;
+    gear.modified = false;
   }
 
   const updateFinalDrive = (ev: SlInputEvent) => {
@@ -234,12 +257,12 @@
 
     const lines: GearLine[] = gears.value.map((g, i) => {
       const startMPH = i > 0
-        ? maxMPHForGear({ gearRatio: gears.value[i - 1], finalDrive: fd, maxRPM: redline, tireDiameter: td })
+        ? maxMPHForGear({ gearRatio: gears.value[i - 1].ratio, finalDrive: fd, maxRPM: redline, tireDiameter: td })
         : 0;
       const startRPM = i > 0
-        ? rpmForGearAtMPH({ gearRatio: gears.value[i], finalDrive: fd, mph: startMPH, tireDiameter: td })
+        ? rpmForGearAtMPH({ gearRatio: g.ratio, finalDrive: fd, mph: startMPH, tireDiameter: td })
         : 0;
-      const endMPH = maxMPHForGear({ gearRatio: g, finalDrive: fd, maxRPM: redline, tireDiameter: td })
+      const endMPH = maxMPHForGear({ gearRatio: g.ratio, finalDrive: fd, maxRPM: redline, tireDiameter: td })
       const endRPM = redline
 
       return [
@@ -309,14 +332,18 @@
 
         <div class="fr mb1" v-for="(gear, index) in gears">
           <div class="fr fg1">
-            <span class="gear-column">[[ GEAR_LABELS[index] ]]</span>
-            <sl-input class="gear-column" type="number" step="0.001" inputmode="numeric" :value="gears[index]"
+            <div class="gear-column">
+              <span>[[ GEAR_LABELS[index] ]]</span>
+              <span v-if="gear.modified" :title="`Gear was changed. Stock ratio is ${gear.stockRatio}`">*</span>
+            </div>
+            <sl-input class="gear-column" type="number" step="0.001" inputmode="numeric" :value="gears[index].ratio"
               @sl-input="(ev: SlInputEvent) => updateGear(index, ev)"
               @sl-blur="(ev: SlBlurEvent) => validateGear(index, ev)"></sl-input>
+            <Reset v-if="gear.modified" @click="() => resetGear(index)"></Reset>
           </div>
 
           <sl-input class="gear-column"
-            :value="maxMPHForGear({ gearRatio: gear, finalDrive, maxRPM, tireDiameter: overallTireDiameter }).toFixed(2)"
+            :value="maxMPHForGear({ gearRatio: gear.ratio, finalDrive, maxRPM, tireDiameter: overallTireDiameter }).toFixed(2)"
             readonly></sl-input>
         </div>
 
@@ -325,9 +352,11 @@
             <span class="gear-column">Final drive</span>
             <sl-input class="gear-column" type="number" step="0.01" inputmode="numeric" :value="finalDrive"
               @sl-input="updateFinalDrive" @sl-blur="validateFinalDrive"></sl-input>
+            <Reset @click="() => { console.log('ffff') }"></Reset>
           </div>
 
-          <div class="gear-column">&nbsp;</div>
+          <div class=" gear-column">&nbsp;
+          </div>
         </div>
         <sl-divider></sl-divider>
       </div>
@@ -348,4 +377,5 @@
 
   .mr10px
     margin-right: 10px 
+
 </style>
