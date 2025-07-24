@@ -283,7 +283,7 @@
 <template>
   <!-- On large displays inputs will be on left, graph on right. -->
   <!-- On small displays inputs will be on top, graph on bottom -->
-  <div id="foo" class="fr">
+  <div id="foo" class="fr-desktop">
     <div id="calculator-form" class="fc">
       <strong>Tire size <small>([[overallTireDiameter.toFixed(2)]]" diameter)</small></strong>
       <div class="fr">
@@ -364,17 +364,12 @@
               @sl-input="updateFinalDrive" @sl-blur="validateFinalDrive"></sl-input>
             <Reset @click="resetFinalDrive" v-if="finalDrive.modified"></Reset>
           </div>
-
-          <div class=" gear-column">&nbsp;
-          </div>
         </div>
         <sl-divider></sl-divider>
       </div>
     </div>
 
-    <div class="fg1">
-      <GearChart :gears="gearLines" :maxRPM="maxRPM" :vtecCrossover="vtecCrossover" :vtec-enabled="vtecEnabled" />
-    </div>
+    <GearChart :gears="gearLines" :maxRPM="maxRPM" :vtecCrossover="vtecCrossover" :vtec-enabled="vtecEnabled" />
   </div>
 </template>
 

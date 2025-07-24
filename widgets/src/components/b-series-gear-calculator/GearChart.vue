@@ -91,5 +91,12 @@
 </script>
 
 <template>
-  <Scatter :data="data" :options="options" />
+  <div class="fg1 pr">
+    <Scatter :data="data" :options="options" />
+  </div>
 </template>
+
+<style lang="sass" scoped>
+  .pr
+    position: relative
+</style>
