@@ -283,19 +283,19 @@
 <template>
   <!-- On large displays inputs will be on left, graph on right. -->
   <!-- On small displays inputs will be on top, graph on bottom -->
-  <div id="foo" class="fr-desktop">
+  <div class="fr-desktop">
     <div id="calculator-form" class="fc">
       <strong>Tire size <small>([[overallTireDiameter.toFixed(2)]]" diameter)</small></strong>
-      <div class="fr">
-        <sl-select placeholder="Width" class="pr2" :value="tireWidth.toString()" @sl-change="updateTireWidth">
+      <div class="fr fgap1">
+        <sl-select class="fg1" placeholder="Width" :value="tireWidth.toString()" @sl-change="updateTireWidth">
           <sl-option v-for="w in availableTireWidths" :value="w">[[w]]</sl-option>
         </sl-select>
 
-        <sl-select placeholder="Ratio" class="pr2" :value="tireRatio.toString()" @sl-change="updateTireRatio">
+        <sl-select class="fg1" placeholder="Ratio" :value="tireRatio.toString()" @sl-change="updateTireRatio">
           <sl-option v-for="r in availableTireRatios" :value="r">[[r]]</sl-option>
         </sl-select>
 
-        <sl-select placeholder="Diameter" :value="tireDiameter.toString()" @sl-change="updateTireDiameter">
+        <sl-select class="fg1" placeholder="Diameter" :value="tireDiameter.toString()" @sl-change="updateTireDiameter">
           <sl-option v-for="d in availableTireDiameters" :value="d">[[d]]</sl-option>
         </sl-select>
       </div>
@@ -376,6 +376,9 @@
 <style lang="sass" scoped>
   #calculator-form
     min-width: 320px
+
+  .fgap1
+    gap: 1rem
 
   .gear-column
     width: 90px

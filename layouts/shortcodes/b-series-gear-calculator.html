@@ -1,8 +1,14 @@
 <!-- Import vue component and JS in the calc instead of page header to avoid loading it on every page. -->
 {{ if not ($.Page.Scratch.Get "bSeriesGearCalculator") }}
-    <script type="module" src="{{ .Site.BaseURL }}widgets/b-series-gear-calculator.js"></script>
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}widgets/b-series-gear-calculator.css"></script>
-{{ end }}
-{{ $.Page.Scratch.Add "bSeriesGearCalculator" 1 }}
+<script
+  type="module"
+  src="{{ .Site.BaseURL }}widgets/b-series-gear-calculator.js"
+></script>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ .Site.BaseURL }}widgets/b-series-gear-calculator.css"
+/>
+{{ end }} {{ $.Page.Scratch.Add "bSeriesGearCalculator" 1 }}
 
 <b-series-gear-calculator></b-series-gear-calculator>

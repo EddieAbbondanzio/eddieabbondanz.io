@@ -25,19 +25,11 @@ export default defineConfig(({ command }) => {
     (el) => (rollupInputs[el.compiledFileName] = path.join(elementDirPath, el.fileName)),
   );
 
-  /*
-   * When `customElement: true` is set Vite will compile CSS directly into the
-   * JS so we don't have to worry about importing CSS files when using the built
-   * web components. However, this breaks CSS in dev so we only enable it when
-   * building.
-   */
-  const customElement = !isDevelopment;
-
   return {
     plugins: [
       // Enable export SFCs as custom elements
       vue({
-        features: { customElement },
+        features: { customElement: false },
         template: {
           compilerOptions: {
             delimiters: ['[[', ']]'],
@@ -85,7 +77,7 @@ export default defineConfig(({ command }) => {
       rollupOptions: {
         input: rollupInputs,
         output: {
-          assetFileNames: (asset) => {
+          assetFileNames: () => {
             return '[name][extname]';
           },
           dir: '../static/widgets',
