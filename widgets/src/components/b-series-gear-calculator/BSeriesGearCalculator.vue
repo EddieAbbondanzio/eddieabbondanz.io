@@ -1,138 +1,389 @@
 <script setup lang="ts">
-// Shoelace must be imported / setBasePathed in every web component since we use 
-// them as root files to compile.
-import '@shoelace-style/shoelace';
-import '@shoelace-style/shoelace/dist/themes/light.css';
-import { setBasePath } from '@shoelace-style/shoelace';
-// Hugo auto resolve's the /static sub-dir so we omit it in the path
-if (import.meta.env.MODE === "production") {
-  setBasePath("../../../shoelace")
-}
+  // Shoelace must be imported / setBasePathed in every root web component since we use
+  // them as the entry points to compile from.
+  import '@shoelace-style/shoelace';
+  import '@shoelace-style/shoelace/dist/themes/light.css';
+  import { setBasePath, SlInput, type SlBlurEvent, type SlChangeEvent, type SlClearEvent, type SlInputEvent } from '@shoelace-style/shoelace';
+  if (import.meta.env.MODE === 'production') {
+    // Hugo auto resolve's the /static sub-dir so we omit it in the path
+    setBasePath('../../../shoelace');
+  }
 
-import { computed, ref } from 'vue';
-import { Chassis, CHASSIS_LABEL, Transmission, TRANSMISSION_CHASSIS_SPECS } from '@/components/b-series-gear-calculator/hondaTransmissions';
-import { objectKeys } from '@/utils';
+  import { computed, ref } from 'vue';
+  import {
+    Chassis,
+    CHASSIS_LABEL,
+    Transmission,
+    TRANSMISSION_CHASSIS_SPECS,
+    type Gears,
+  } from '@/components/b-series-gear-calculator/hondaTransmissions';
+  import { inchesToMM, isSLCheckbox, isSLInput, isSLSelect, objectEntries, objectKeys } from '@/utils';
+  import GearChart, { type GearLine } from './GearChart.vue';
+  import { maxMPHForGear, rpmForGearAtMPH } from './utils';
+  import Reset from './Reset.vue';
+
+  const DEFAULT_TIRE_WIDTH = 205;
+  const DEFAULT_TIRE_RATIO = 50;
+  const DEFAULT_TIRE_DIAMETER = 15;
+  const DEFAULT_REDLINE = 8200;
+  const DEFAULT_VTEC_CROSSOVER = 4400;
+  const DEFAULT_TRANSMISSION = Transmission.S80;
+  const DEFAULT_CHASSIS = Chassis.USDM_94_01_GSR;
+
+  // Tire Size
+  const availableTireWidths = [175, 185, 195, 205, 215, 225, 235, 245, 255, 265, 275];
+  const availableTireRatios = [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80];
+  const availableTireDiameters = [13, 14, 15, 16, 17, 18];
+  const tireWidth = ref(DEFAULT_TIRE_WIDTH);
+  const tireRatio = ref(DEFAULT_TIRE_RATIO);
+  const tireDiameter = ref(DEFAULT_TIRE_DIAMETER);
+  const updateTireWidth = (ev: SlChangeEvent) => {
+    if (!isSLSelect(ev.target)) {
+      throw new Error("No target for updateTireWidth");
+    }
+    tireWidth.value = Number(ev.target.value)
+  }
+  const updateTireRatio = (ev: SlChangeEvent) => {
+    if (!isSLSelect(ev.target)) {
+      throw new Error("No target for updateTireRatio");
+    }
+    tireRatio.value = Number(ev.target.value)
+  }
+  const updateTireDiameter = (ev: SlChangeEvent) => {
+    if (!isSLSelect(ev.target)) {
+      throw new Error("No target for updateTireDiameter");
+    }
+    tireDiameter.value = Number(ev.target.value)
+  }
+  const overallTireDiameter = computed(() => {
+    const tireWidthInches = inchesToMM(tireWidth.value);
+    const sidewallHeightInches = tireWidthInches * tireRatio.value / 100;
+    const rimDiameterInches = tireDiameter.value;
+
+    return 2 * sidewallHeightInches + rimDiameterInches;
+  });
+
+  // Engine
+  const maxRPM = ref(DEFAULT_REDLINE);
+  const updateMaxRPM = (ev: SlInputEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error("No target for updateMaxRPM");
+    }
+
+    maxRPM.value = ev.target.valueAsNumber;
+  }
+  const validateMaxRPM = (ev: SlBlurEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error("No target for validateMaxRPM");
+    }
+
+    if (!Number.isInteger(maxRPM.value)) {
+      const rounded = Math.round(maxRPM.value)
+      maxRPM.value = rounded;
+      ev.target.value = rounded.toString();
+    }
+    if (maxRPM.value < 0) {
+      maxRPM.value = 0;
+      ev.target.value = '0';
+    }
+    if (maxRPM.value > 10_000) {
+      maxRPM.value = 10_000;
+      ev.target.value = '10000';
+    }
+  }
+
+  const vtecEnabled = ref(true);
+  const updateVtecEnabled = (ev: SlChangeEvent) => {
+    if (!isSLCheckbox(ev.target)) {
+      throw new Error("No target for updateVtecEnabled");
+    }
+    vtecEnabled.value = ev.target.checked;
+  }
+  const vtecCrossover = ref(DEFAULT_VTEC_CROSSOVER)
+  const updateVTECCrossover = (ev: SlInputEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error("No target for updateVTECCrossover");
+    }
+    vtecCrossover.value = ev.target.valueAsNumber;
+  }
+  const validateVTECCrossover = (ev: SlBlurEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error("No target for validateVTECCrossover");
+    }
+
+    if (!Number.isInteger(vtecCrossover.value)) {
+      const rounded = Math.round(vtecCrossover.value)
+      vtecCrossover.value = rounded;
+      ev.target.value = rounded.toString();
+    }
+    if (vtecCrossover.value < 0) {
+      vtecCrossover.value = 0;
+      ev.target.value = '0';
+    }
+    if (vtecCrossover.value > maxRPM.value) {
+      vtecCrossover.value = maxRPM.value;
+      ev.target.value = maxRPM.value.toString();
+    }
+  }
+
+  interface SelectOption<V> {
+    label: string,
+    value: V,
+  }
+
+  // Transmission
+  const GEAR_LABELS = ["1st", "2nd", "3rd", "4th", "5th"]
+  const transmission = ref(DEFAULT_TRANSMISSION);
+  const chassis = ref(DEFAULT_CHASSIS);
+
+  const availableTransmissions = computed<SelectOption<Transmission>[]>(() => {
+    return objectEntries(Transmission).map(([label, value]) => ({ label, value }));
+  });
+  const availableChassis = computed<SelectOption<Chassis>[]>(() => {
+    return objectKeys(TRANSMISSION_CHASSIS_SPECS[transmission.value]).map((value) => ({
+      label: CHASSIS_LABEL[value],
+      value
+    }))
+  });
+
+  const updateChassis = (ev: SlChangeEvent) => {
+    if (!isSLSelect(ev.target)) {
+      throw new Error("No target for updateChassisCode")
+    }
+    chassis.value = ev.target.value as Chassis
+
+    const specs = TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]
+    if (specs !== undefined) {
+      gears.value = [...specs.gears.map(newGearConfig)]
+      finalDrive.value = newGearConfig(specs.finalDrive)
+    }
+  };
+
+  const updateTransmission = (ev: SlChangeEvent) => {
+    if (!isSLSelect(ev.target)) {
+      throw new Error("No target for updateTransmission")
+    }
+    transmission.value = ev.target.value as Transmission
+
+    // It's possible for the current chassis to no longer be a valid option
+    // when the transmission changed since not every chassis came with every
+    // transmission.
+    if (TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value] === undefined) {
+      chassis.value = objectKeys(TRANSMISSION_CHASSIS_SPECS[transmission.value])[0]
+      const specs = TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]!
+
+      gears.value = [...specs.gears.map(newGearConfig)]
+      finalDrive.value = newGearConfig(specs.finalDrive)
+    }
+  }
+
+  interface GearConfig {
+    stockRatio: number;
+    ratio: number
+    modified: boolean
+  }
+
+  function newGearConfig(ratio: number): GearConfig {
+    return {
+      stockRatio: ratio,
+      ratio,
+      modified: false
+    }
+  }
 
 
-const availableTireWidths = [175, 185, 195, 205, 215, 225, 235, 245, 255, 265, 275];
-const availableTireRatios = [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80];
-const availableTireDiameters = [13, 14, 15, 16, 17, 18];
+  const gears = ref<GearConfig[]>((TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]?.gears ?? [0, 0, 0, 0, 0]).map(newGearConfig))
+  const finalDrive = ref<GearConfig>(newGearConfig(TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]?.finalDrive ?? 0))
 
-const tireWidth = ref(205);
-const tireRatio = ref(50);
-const tireDiameter = ref(15);
+  const updateGear = (gearIndex: number, ev: SlInputEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error(`No target for updateGear(gearIndex: ${gearIndex})`);
+    }
+    const gear = gears.value[gearIndex]
+    gear.ratio = ev.target.valueAsNumber
+    gear.modified ||= true
+  }
+  const validateGear = (gearIndex: number, ev: SlBlurEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error(`No target for validateGear(gearIndex: ${gearIndex})`);
+    }
 
-const onTireWidthChange = (v: any) => tireWidth.value = Number(v.target.value);
-const onRatioChange = (v: any) => tireRatio.value = Number(v.target.value);
-const onDiameterChange = (v: any) => tireDiameter.value = Number(v.target.value);
+    const gear = gears.value[gearIndex]
+    if (gear.ratio < 0) {
+      gear.ratio = 0
+      ev.target.value = "0"
+    }
+    if (gear.ratio > 10) {
+      gear.ratio = 10
+      ev.target.value = "10"
+    }
+  }
+  const resetGear = (gearIndex: number) => {
+    const gear = gears.value[gearIndex];
+    gear.ratio = gear.stockRatio;
+    gear.modified = false;
+  }
 
-const overallTireDiameter = computed(() => {
-  const raw = (2 * (tireWidth.value * tireRatio.value / 100) / 25.4) + tireDiameter.value;
-  return `${raw.toFixed(2)}"`;
-});
+  const updateFinalDrive = (ev: SlInputEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error(`No target for updateFinalDrive`);
+    }
+    finalDrive.value.ratio = ev.target.valueAsNumber
+    finalDrive.value.modified ||= true;
+  }
+  const validateFinalDrive = (ev: SlBlurEvent) => {
+    if (!isSLInput(ev.target)) {
+      throw new Error(`No target for validateFinalDrive`);
+    }
 
-const transmissionCode = ref(Transmission.S80)
-const chassisCode = ref(objectKeys(TRANSMISSION_CHASSIS_SPECS[transmissionCode.value])[0])
+    const currFinalDrive = finalDrive.value
+    if (Number.isNaN(currFinalDrive)) {
+      finalDrive.value.ratio = TRANSMISSION_CHASSIS_SPECS[transmission.value][chassis.value]?.finalDrive ?? 0
+      ev.target.value = finalDrive.value.toString();
+    }
+    if (currFinalDrive.ratio < 0) {
+      finalDrive.value.ratio = 0;
+      ev.target.value = "0"
+    }
+    if (currFinalDrive.ratio > 10) {
+      finalDrive.value.ratio = 10
+      ev.target.value = "10"
+    }
+  }
+  const resetFinalDrive = () => {
+    finalDrive.value.ratio = finalDrive.value.stockRatio
+    finalDrive.value.modified = false;
+  }
 
-const availableTransmissionCodes = objectKeys(Transmission)
-const availableChassisCodes = computed(() => {
-  const chassisCodes = objectKeys(TRANSMISSION_CHASSIS_SPECS[transmissionCode.value])
-  let available: Partial<Record<Chassis, string>> = {}
-  chassisCodes.forEach(value => {
-    available[value] = CHASSIS_LABEL[value];
+  const gearLines = computed<GearLine[]>(() => {
+    const redline = maxRPM.value
+    const fd = finalDrive.value
+    const td = overallTireDiameter.value
+
+    const lines: GearLine[] = gears.value.map((g, i) => {
+      const startMPH = i > 0
+        ? maxMPHForGear({ gearRatio: gears.value[i - 1].ratio, finalDrive: fd.ratio, maxRPM: redline, tireDiameter: td })
+        : 0;
+      const startRPM = i > 0
+        ? rpmForGearAtMPH({ gearRatio: g.ratio, finalDrive: fd.ratio, mph: startMPH, tireDiameter: td })
+        : 0;
+      const endMPH = maxMPHForGear({ gearRatio: g.ratio, finalDrive: fd.ratio, maxRPM: redline, tireDiameter: td })
+      const endRPM = redline
+
+      return [
+        { x: startMPH, y: Math.round(startRPM) },
+        { x: endMPH, y: Math.round(endRPM) }
+      ]
+    })
+
+    return lines
   })
-
-  return available
-})
-
-const onTransmissionCodeChange = (v: any) => {
-  transmissionCode.value = v.target.value
-
-  // Default chassis code to first option
-  chassisCode.value = objectKeys(TRANSMISSION_CHASSIS_SPECS[transmissionCode.value])[0]
-}
-const onChassisCodeChange = (v: any) => chassisCode.value = v.target.value;
-
-const gearRatios = computed(() => {
-  return structuredClone(TRANSMISSION_CHASSIS_SPECS[transmissionCode.value][chassisCode.value])
-})
-
-
-const bar = "value-from-the-script!"
 </script>
 
 <template>
   <!-- On large displays inputs will be on left, graph on right. -->
   <!-- On small displays inputs will be on top, graph on bottom -->
-  <div id="foo" class="fr red-and-blue">
-    <div class="fc">
-      <strong>Tire size <small>([[overallTireDiameter]])</small></strong>
-      <div class="fr">
-        <sl-select placeholder="Width" class="pr2" :value="tireWidth.toString()" @sl-change="onTireWidthChange">
+  <div class="fr-desktop">
+    <div id="calculator-form" class="fc">
+      <strong>Tire size <small>([[overallTireDiameter.toFixed(2)]]" diameter)</small></strong>
+      <div class="fr fgap1">
+        <sl-select class="fg1" placeholder="Width" :value="tireWidth.toString()" @sl-change="updateTireWidth">
           <sl-option v-for="w in availableTireWidths" :value="w">[[w]]</sl-option>
         </sl-select>
 
-        <sl-select placeholder="Ratio" class="pr2" :value="tireRatio.toString()" @sl-change="onRatioChange">
+        <sl-select class="fg1" placeholder="Ratio" :value="tireRatio.toString()" @sl-change="updateTireRatio">
           <sl-option v-for="r in availableTireRatios" :value="r">[[r]]</sl-option>
         </sl-select>
 
-        <sl-select placeholder="Diameter" :value="tireDiameter.toString()" @sl-change="onDiameterChange">
+        <sl-select class="fg1" placeholder="Diameter" :value="tireDiameter.toString()" @sl-change="updateTireDiameter">
           <sl-option v-for="d in availableTireDiameters" :value="d">[[d]]</sl-option>
         </sl-select>
       </div>
 
       <strong>Redline</strong>
-      <sl-input value="7000"></sl-input>
+      <sl-input type="number" inputmode="numeric" :step="100" :value="maxRPM" @sl-input="updateMaxRPM"
+        @sl-blur="validateMaxRPM"></sl-input>
+
+      <strong title="When VTEC kicks in yo">VTEC Crossover</strong>
+      <div class="fr">
+        <sl-checkbox class="mr10px" :checked="vtecEnabled" @sl-change="updateVtecEnabled">VTEC enabled</sl-checkbox>
+        <sl-input class="fg1" type="number" inputmode="numeric" :step="100" :value="vtecCrossover"
+          @sl-input="updateVTECCrossover" @sl-blur="validateVTECCrossover" :disabled="!vtecEnabled"></sl-input>
+      </div>
       <sl-divider></sl-divider>
 
       <strong>Transmission code</strong>
-      <sl-select :value="transmissionCode" @sl-change="onTransmissionCodeChange">
-        <sl-option v-for="(value, label) in availableTransmissionCodes" :value="value">[[label]]</sl-option>
+      <sl-select :value="transmission" @sl-change="updateTransmission">
+        <sl-option v-for="{ value, label } in availableTransmissions" :value="value">[[label]]</sl-option>
       </sl-select>
 
       <strong class="fr aic">
         <span class="pr1">Chassis</span>
         <sl-tooltip class="tooltip" hoist content="The chassis that the transmission came from"><sl-icon
             name="question-circle-fill"></sl-icon></sl-tooltip></strong>
-      <sl-select :value="chassisCode" @sl-change="onChassisCodeChange">
-        <sl-option v-for="(humanReadableChassisCode, chassisCode) in availableChassisCodes"
-          :value="chassisCode">[[humanReadableChassisCode]]</sl-option>
+      <sl-select :value="chassis" @sl-change="updateChassis">
+        <sl-option v-for="{ value, label } in availableChassis" :value="value">[[label]]</sl-option>
       </sl-select>
 
-      <strong>Gears</strong>
-      <div class="fr jcsb">
-        <span>1st</span>
-        <sl-input :value="gearRatios?.gears[0]"></sl-input>
-      </div>
+      <div>
+        <div class="fr">
+          <div class="fr fg1">
+            <strong class="gear-column">Gear</strong>
+            <strong class="gear-column">Ratio</strong>
+          </div>
 
-      <div class="fr jcsb">
-        <span>2nd</span>
-        <sl-input :value="gearRatios?.gears[1]"></sl-input>
-      </div>
+          <strong class="gear-column">Max MPH</strong>
+        </div>
 
-      <div class="fr jcsb">
-        <span>3rd</span>
-        <sl-input :value="gearRatios?.gears[2]"></sl-input>
-      </div>
+        <div class="fr mb1" v-for="(gear, index) in gears">
+          <div class="fr fg1">
+            <div class="gear-column"
+              :title="gear.modified ? `Gear was changed. Stock ratio is ${gear.stockRatio}` : undefined">
+              <span>[[ GEAR_LABELS[index] ]]</span>
+              <span v-if="gear.modified">*</span>
+            </div>
+            <sl-input class="gear-column" type="number" step="0.001" inputmode="numeric" :value="gears[index].ratio"
+              @sl-input="(ev: SlInputEvent) => updateGear(index, ev)"
+              @sl-blur="(ev: SlBlurEvent) => validateGear(index, ev)"></sl-input>
+            <Reset v-if="gear.modified" @click="() => resetGear(index)"></Reset>
+          </div>
 
-      <div class="fr jcsb">
-        <span>4th</span>
-        <sl-input :value="gearRatios?.gears[3]"></sl-input>
-      </div>
+          <sl-input class="gear-column"
+            :value="maxMPHForGear({ gearRatio: gear.ratio, finalDrive: finalDrive.ratio, maxRPM, tireDiameter: overallTireDiameter }).toFixed(2)"
+            readonly></sl-input>
+        </div>
 
-      <div class="fr jcsb">
-        <span>5th</span>
-        <sl-input :value="gearRatios?.gears[4]"></sl-input>
+        <div class="fr">
+          <div class="fr fg1">
+            <div class="gear-column"
+              :title="finalDrive.modified ? `Final drive was changed. Stock ratio is ${finalDrive.stockRatio}` : undefined">
+              <span>Final drive</span>
+              <span v-if="finalDrive.modified">*</span>
+            </div>
+            <sl-input class="gear-column" type="number" step="0.01" inputmode="numeric" :value="finalDrive.ratio"
+              @sl-input="updateFinalDrive" @sl-blur="validateFinalDrive"></sl-input>
+            <Reset @click="resetFinalDrive" v-if="finalDrive.modified"></Reset>
+          </div>
+        </div>
+        <sl-divider></sl-divider>
       </div>
-
-      <div class="fr jcsb">
-        <span>Final drive</span>
-        <sl-input :value="gearRatios?.finalDrive"></sl-input>
-      </div>
-      <sl-divider></sl-divider>
     </div>
+
+    <GearChart :gears="gearLines" :maxRPM="maxRPM" :vtecCrossover="vtecCrossover" :vtec-enabled="vtecEnabled" />
   </div>
 </template>
 
 <style lang="sass" scoped>
+  #calculator-form
+    min-width: 320px
+
+  .fgap1
+    gap: 1rem
+
+  .gear-column
+    width: 90px
+
+  .mr10px
+    margin-right: 10px 
+
 </style>

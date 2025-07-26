@@ -7,7 +7,10 @@ import BSeriesGearCalculator from './components/b-series-gear-calculator/BSeries
 
 <template>
   <header>
-    Widget Demo Page
+    <h1>
+      Widget Demo Page
+    </h1>
+    <hr />
   </header>
 
   <main>
