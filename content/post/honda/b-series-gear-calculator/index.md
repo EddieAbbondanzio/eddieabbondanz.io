@@ -9,7 +9,7 @@ summary: "Helpful calculator for comparing different b-series transmissions. All
 
 {{<b-series-gear-calculator >}}
 
-# How to use
+## How to use
 
 1. Select your tire size
 2. Enter your car's red line.
@@ -19,11 +19,11 @@ summary: "Helpful calculator for comparing different b-series transmissions. All
 
 \*\*You can't rely on just the transmission code because Honda re-used them for multiple transmissions. For example an S80 trans could be anything from an LS to a GSR.
 
-# Why I built it
+## Why I built it
 
 I'm toying with the idea of swapping in a shorter final gear in my B20 swapped civic hatch and wanted to see what kind of effect that'd have on my shift points. The Zealautoworks calculator has always been my go to but the graphing wouldn't work for me so I decided to build a new calculator that can generate charts.
 
-# References
+## References
 
 - [Calculating mph/rpm/Gear Ratio/Tire Size](https://www.rcnmag.com/tech/calculating-mph-rpm-gear-ratio-tire-size)
 - [Specnically Speaking B-Series Gear Ratio Guide + More!](https://www.ff-squad.com/tech/temp/Bgears.htm)
