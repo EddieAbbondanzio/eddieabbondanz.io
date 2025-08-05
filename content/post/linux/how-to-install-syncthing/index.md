@@ -22,7 +22,7 @@ sudo apt-get install syncthing
 
 2. Set up a `systemd` service.
 
-`sudo nano /etc/systemd/system/syncthing.servce` and enter the following:
+`sudo nano /etc/systemd/system/syncthing.service` and enter the following:
 
 ```
 [Unit]

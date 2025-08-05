@@ -1,5 +1,5 @@
 ---
-title: "Mini Bike Build With a Predator 212 Swap"
+title: "Arco Mini Bike Build With a Predator 212 Swap"
 date: 2025-08-03
 type: post
 thumbnail: "/post/shop/mini-bike-build/images/thumbnail.jpg"
