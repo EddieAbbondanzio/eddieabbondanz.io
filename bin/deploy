@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# Note: This doesn't build the site! Be sure to run ./bin/build first!
+
+cd public;
+
+git add *
+DATETIME="$(date +%Y-%m-%dT%H:%M:%S%z)"
+
+git commit -m 'Deploy-$DATETIME'
+
+git push
+
+echo "Pushed $DATETIME to Github. GH pages deploy started."

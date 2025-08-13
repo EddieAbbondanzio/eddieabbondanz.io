@@ -5,13 +5,19 @@
       "type": "shell",
       "command": "yarn run build",
       "problemMatcher": ["$tsc"],
-      "label": "Build blog",
+      "label": "Build blog"
     },
     {
-        "type": "shell",
-        "command": "yarn run serve",
-        "problemMatcher": ["$tsc"],
-        "label": "Serve blog"
+      "type": "shell",
+      "command": "yarn run serve",
+      "problemMatcher": ["$tsc"],
+      "label": "Serve blog"
+    },
+    {
+      "type": "shell",
+      "command": "yarn run deploy",
+      "problemMatcher": ["$tsc"],
+      "label": "Deploy blog"
     },
     {
       "type": "shell",
@@ -19,7 +25,7 @@
       "problemMatcher": ["$tsc"],
       "label": "Serve widget demo"
     },
-        {
+    {
       "type": "shell",
       "command": "source ~/.nvm/nvm.sh && nvm use && yarn workspace widgets run build",
       "problemMatcher": ["$tsc"],

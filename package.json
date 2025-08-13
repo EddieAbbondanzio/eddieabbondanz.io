@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "build": "./bin/build",
-    "serve": "./bin/serve"
+    "serve": "./bin/serve",
+    "deploy": "./bin/deploy"
   },
   "author": "Ed Abbondanzio",
   "license": "MIT",
