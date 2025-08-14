@@ -6,9 +6,7 @@ cd public;
 
 git add *
 DATETIME="$(date +%Y-%m-%dT%H:%M:%S%z)"
-
 git commit -m 'Deploy-$DATETIME'
-
 git push
 
 echo "Pushed $DATETIME to Github. GH pages deploy started."
