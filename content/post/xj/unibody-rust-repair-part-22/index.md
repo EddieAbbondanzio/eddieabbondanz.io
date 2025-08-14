@@ -20,7 +20,8 @@ As I was dragging it, the XJ would occasionally get stuck on the studs sticking 
 ![](./images/3.jpg)
 
 ## Removing the Rear Axle
-Once the XJ was pulled far enough up on the table I started removing the rear leaf springs and axle. 
+
+Once the XJ was pulled far enough up on the table I started removing the rear leaf springs and axle.
 ![](./images/3b.jpg)
 
 The front bolts for the leaf springs were so stuck that I had to use a 6' breaker bar to get them to pop free. I was worried the bolt heads would strip and I'd have to cut the bolts out but thankfully the only thing that got damaged was one of my sockets.
@@ -31,7 +32,6 @@ It was just a cheapo socket so I tossed it but I'm surprised I was able to break
 The rear bolts were much easier and came out without any trouble because they weren't original and had also been protected by a nice thick layer of fluid film and dust.
 ![](./images/5.jpg)
 ![](./images/6.jpg)
-
 
 ## Getting the XJ Temporarily Secured
 
@@ -49,7 +49,8 @@ The rear axle is just a Dana 35 and I'm not sure if I'll actually have a use for
 The gutted axle just above it is a Chrysler 8.25 and is the axle I plan on swapping into this XJ.
 
 ## Making Some Custom Jigs To Hold the XJ
-I used some 3x4 3/16" tube I had laying around for the jigs. 
+
+I used some 3x4 3/16" tube I had laying around for the jigs.
 ![](./images/12.jpg)
 
 The tubing was a little rusty from sitting but a flap disc cleaned them up nicely.
@@ -74,3 +75,5 @@ Then using some 2" 1/8" tube I made some rear jigs to hold the XJ level.
 
 And just like that the XJ was officially secured to the table.
 ![](./images/21.jpg)
+
+[Continue on to Part 23]({{< ref "unibody-rust-repair-part-23" >}})
