@@ -94,4 +94,4 @@ I threw as much weight in the driver seat as I could while doing the alignment t
 
 That's about it so far. The car's starting to feel like it could use more power (currently a high comp B20) so I'll likely finally build the B20V I've had laying around this winter. I meant to do it last winter but with how well the car has been running I didn't want to mess with the motor.
 
-I've got a second car that I could race now (more on this soon!) so I'm not as worried about messing with the Civic's motor now.
+I've got a second car that I could race now (more on this soon!) so I'm not as worried about messing with the Civic's motor now because even if it were to blow up I could still race something.
