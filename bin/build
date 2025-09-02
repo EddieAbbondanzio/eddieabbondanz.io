@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 # Build site
-hugo
+# --cleanDestinationDir removes unused files from the build dir
+hugo --cleanDestinationDir
 
 # Generate index
 yarn -s pagefind --site "public"
