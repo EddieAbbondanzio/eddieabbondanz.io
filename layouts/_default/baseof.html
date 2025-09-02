@@ -19,6 +19,8 @@
   {{ $styles := resources.Get "sass/index.sass" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
 
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/widgets/_plugin-vue_export-helper.css">
+
   <script data-goatcounter="https://tgpo.eddieabbondanz.io/count" async src="//tgpo.eddieabbondanz.io/count.js"></script>
 </head>
 

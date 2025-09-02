@@ -1,5 +1,4 @@
 import { fileURLToPath, URL } from 'node:url';
-
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import vueDevTools from 'vite-plugin-vue-devtools';
@@ -8,9 +7,7 @@ import { readdirSync } from 'node:fs';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 // https://vite.dev/config/
-export default defineConfig(({ command }) => {
-  const isDevelopment = command === 'serve';
-
+export default defineConfig(() => {
   // Shoelace - Ref: https://github.com/shoelace-style/shoelace/discussions/1240
   const iconsPath = '../node_modules/@shoelace-style/shoelace/dist/assets/icons';
 
