@@ -1,5 +1,7 @@
 public/
 public.diff
+public_dev/
+
 resources/_gen/
 
 # Don't commit the dev copy of page find.
