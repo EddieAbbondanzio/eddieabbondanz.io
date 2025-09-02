@@ -1,0 +1,14 @@
+<!-- Import vue component and JS in the calc instead of page header to avoid loading it on every page. -->
+{{ if not ($.Page.Scratch.Get "springRateConverter") }}
+<script
+  type="module"
+  src="{{ .Site.BaseURL }}widgets/spring-rate-converter.js"
+></script>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{{ .Site.BaseURL }}widgets/spring-rate-converter.css"
+/>
+{{ end }} {{ $.Page.Scratch.Add "springRateConverter" 1 }}
+
+<spring-rate-converter></spring-rate-converter>
