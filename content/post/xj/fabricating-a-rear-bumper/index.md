@@ -6,8 +6,6 @@ series: "XJ Build"
 thumbnail: "/post/xj/fabricating-a-rear-bumper/images/thumbnail.jpg"
 ---
 
-# Preface
-
 I've been driving my Jeep around for almost 6 months now with no rear bumper. I know, I know, not the safest choice but I don't drive far. Why? Because 6 months ago I wrapped up an **extensive** rust repair project on my XJ where [I cut out and replaced the entire rear floor along with the unibody frame rails and crossmembers.]({{< ref "unibody-rust-repair-part-1" >}}).
 
 In order for me to perform those rust repairs I needed to remove the rear bumper to get at everything behind it. Unfortunately, the bumper had rusted itself into place over the course of 20 years and wasn't keen to the idea of moving. As I was already planning on upgrading the rear bumper to an aftermarket steel one,I opted to remove the bumper via force.
