@@ -1,5 +1,5 @@
 ---
-title: "I Bought an RSX Type S With a Blown Transmission"
+title: "I Bought an 05 RSX Type S With a Blown Transmission"
 date: 2025-09-06
 type: post
 series: "RSX Type-S"
