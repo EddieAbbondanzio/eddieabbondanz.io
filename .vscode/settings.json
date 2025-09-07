@@ -13,5 +13,5 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "vue.format.style.initialIndent": true,
   "vue.format.script.initialIndent": true,
-  "cSpell.words": ["subframe", "understeer"]
+  "cSpell.words": ["Hasport", "mainshaft", "subframe", "understeer"]
 }
