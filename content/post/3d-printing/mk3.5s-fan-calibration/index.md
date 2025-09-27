@@ -4,6 +4,7 @@ date: 2025-09-26
 type: post
 series: "3d-Printing"
 thumbnail: "/post/3d-printing/mk3.5s-fan-calibration/images/thumbnail.jpg"
+summary: "The Prusa MK3.5S is a great printer but it's definitely picky about it's fans. I figured I'd write up some of the tricks I learned while tuning mine."
 ---
 
 The Prusa MK3.5S is a great printer but it's definitely picky about it's fans. I figured I'd write up some of the tricks I learned while tuning mine.
