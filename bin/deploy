@@ -2,6 +2,14 @@
 
 # Note: This doesn't build the site! Be sure to run ./bin/build first!
 
+if [[ -n "$(git status --porcelain)" ]]; then
+  echo ""
+  echo "No changes to deploy."
+  echo "Goodbye!"
+  echo ""
+  exit 1
+fi
+
 cd public;
 
 git add *
