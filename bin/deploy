@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-# Note: This doesn't build the site! Be sure to run ./bin/build first!
+echo "Building site"
+bin/build
 
 if [[ -n "$(git status --porcelain)" ]]; then
   echo ""
