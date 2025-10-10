@@ -7,32 +7,32 @@
     <a class="tdn fwb" href="{{ .Site.BaseURL }}">
       <span>Eddie Abbondanzio</span>
     </a>
-  </div>  
+  </div>
 
-  <div id="desktop-search" class="pr2 hidden-phone" >
+  <div id="desktop-search" class="pr2 hidden-phone">
     <!-- Gets populated by pagefind -->
   </div>
 
   <div class="menu h100 aic fr-tablet dn-phone">
-    {{ range .Site.Menus.main }}
-    {{ if not .HasChildren }}
+    {{ range .Site.Menus.main }} {{ if not .HasChildren }}
     <a class="item single" href="{{ .URL | relURL }}">{{ .Name }}</a>
     {{ else }}
     <div class="item dropdown">
-      <a class="trigger">{{ .Name }}
+      <a class="trigger"
+        >{{ .Name }}
         <span class="icon"><i class="fas fa-chevron-down"></i></span>
       </a>
+      <div class="content-wrapper">
+        <div class="content">
+          <a href="{{ $.Site.Params.hostName }}/post/"> All </a>
 
-      <div class="content">
-        <a href="{{ $.Site.Params.hostName }}/post/"> All </a>
-
-        {{ range .Children }}
-        <a href="{{ .URL | relURL }}">{{ .Name }}</a>
-        {{ end }}
+          {{ range .Children }}
+          <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+          {{ end }}
+        </div>
       </div>
     </div>
-    {{ end }}
-    {{ end }}
+    {{ end }} {{ end }}
     <div class="item social h100 fr aic px3">
       {{ with .Site.Params.github }}
       <a href="{{ . }}" target="_blank" title="GitHub">
@@ -55,5 +55,4 @@
       <i class="fa fa-bars fa-lg"></i>
     </span>
   </a>
-
 </nav>
