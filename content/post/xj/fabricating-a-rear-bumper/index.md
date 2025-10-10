@@ -2,7 +2,7 @@
 title: "Fabricating a New Rear Bumper"
 date: 2021-06-20
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/fabricating-a-rear-bumper/images/thumbnail.jpg"
 ---
 

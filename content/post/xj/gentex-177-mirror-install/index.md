@@ -2,7 +2,7 @@
 title: "Installing a Gentex 177 Auto Dimming Rear View Mirror"
 date: 2021-04-24
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/gentex-177-mirror-install/images/thumbnail.jpg"
 ---
 

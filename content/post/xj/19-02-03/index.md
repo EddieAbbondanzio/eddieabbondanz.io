@@ -2,7 +2,7 @@
 title: "XJ Build - 02/03/19"
 date: 2019-02-03
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/19-02-03/images/9.jpg"
 ---
 

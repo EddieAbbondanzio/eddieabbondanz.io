@@ -1,3 +1,0 @@
----
-title: 'OG XJ Build'
----

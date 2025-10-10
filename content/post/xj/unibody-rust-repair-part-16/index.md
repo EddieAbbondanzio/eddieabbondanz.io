@@ -2,7 +2,7 @@
 title: "Rust Repair Part 16: A New Rear Passenger Inner Wheel Well"
 date: 2023-03-19
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/unibody-rust-repair-part-16/images/thumbnail.jpg"
 ---
 

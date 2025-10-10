@@ -6,9 +6,10 @@ series: "Shop and Tools"
 thumbnail: "/post/tools/diy-chassis-table/images/thumbnail.jpg"
 ---
 
-I recently built a chassis table for [the XJ I'm restoring]({{<relref "../../../series/xj-build" >}}) and figured I'd do a brief writeup. I've never built a chassis table before and from researching them online I quickly learned there's no one size fits all solution. 
+I recently built a chassis table for [the XJ I'm restoring]({{<relref "../../../series/ls-xj-build" >}}) and figured I'd do a brief writeup. I've never built a chassis table before and from researching them online I quickly learned there's no one size fits all solution.
 
 I wasn't 100% sure what I wanted the table to look like but I knew:
+
 - It needed to be reasonable sized yet not too bulky
 - It shouldn't block me from being to be able to weld underneath the XJ
 - It can't be too tall otherwise how would I get the XJ on it (I don't have a lift)
@@ -21,6 +22,7 @@ Doodling in FreeCAD I came up with a rough idea of what I wanted to build.
 ![](./images/1.png)
 
 Specs:
+
 - 12' long
 - 4' wide
 - (4) 5" casters
@@ -36,7 +38,7 @@ I'm using 4x4 tube because it offers a lot of top surface area for welding jigs 
 
 Each of the 6 legs has an adjustable leveling foot that I'll use to get the table level front to back and side to side. I want to be able to take measurements off the table while working on the XJ and my shop floor isn't flat.
 
-Lastly, each leg will have a mounting plate that will allow me to add leg extensions to later on so I can raise the table and turn it into a workbench. 
+Lastly, each leg will have a mounting plate that will allow me to add leg extensions to later on so I can raise the table and turn it into a workbench.
 
 With everything roughly planned out I put in an order for some steel.
 ![](./images/2.jpg)
@@ -44,10 +46,12 @@ With everything roughly planned out I put in an order for some steel.
 Not all of that steel is for the table as some of the smaller stuff is going to be used for bracing the XJ unibody and making jigs.
 
 The 4x4 tubes are for the table. They are:
+
 - (2) 12' cuts of 4x4 3/16 steel tube
 - (2) 12' cuts of 4x4 1/8 steel tube
 
 Then I took the 1/8" thick tubes and cut each as follows:
+
 - 40", 40", 40", 12", 12"
 - 40", 40", 12", 12", 12", 12"
 

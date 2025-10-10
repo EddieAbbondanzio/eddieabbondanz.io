@@ -2,7 +2,7 @@
 title: "Rust Repair Part 23: Fixing The Windshield Pillar Gaps And Adding Bracing"
 date: 2025-08-13
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/unibody-rust-repair-part-23/images/thumbnail.jpg"
 ---
 
@@ -49,3 +49,5 @@ Passenger side 50/50.
 
 And with the roof sitting back where it should be I added some bracing just to ensure it never moves again. I really don't want to have to redo this all again.
 ![](images/16-new-bracing.jpg)
+
+[Continue on to Part 24]({{< ref "unibody-rust-repair-part-24" >}})

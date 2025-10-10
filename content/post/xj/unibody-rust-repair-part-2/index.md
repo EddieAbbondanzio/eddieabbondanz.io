@@ -2,7 +2,7 @@
 title: "Rust Repair Part 2: Bending a New Passenger Frame Rail"
 date: 2020-11-14
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/unibody-rust-repair-part-2/images/thumbnail.jpg"
 ---
 

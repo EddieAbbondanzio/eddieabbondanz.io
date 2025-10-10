@@ -2,7 +2,7 @@
 title: "Rust Repair Part 10: The Finishing Touches"
 date: 2021-01-02
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/unibody-rust-repair-part-10/images/thumbnail.jpg"
 ---
 

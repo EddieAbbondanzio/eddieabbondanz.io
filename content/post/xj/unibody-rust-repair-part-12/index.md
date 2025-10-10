@@ -2,7 +2,7 @@
 title: "Rust Repair Part 12: Welding in the New Passenger Drip Rail"
 date: 2022-09-14
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/unibody-rust-repair-part-12/images/thumbnail.jpg"
 ---
 
