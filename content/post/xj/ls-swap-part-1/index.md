@@ -2,7 +2,7 @@
 title: "LS Swap Part 1: A New Heart for the XJ"
 date: 2023-09-05
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/ls-swap-part-1/images/thumbnail.jpg"
 ---
 

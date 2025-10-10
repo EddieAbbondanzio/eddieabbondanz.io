@@ -2,7 +2,7 @@
 title: "Rust Repair Part 22: Getting Jiggy With the XJ and Putting It on a Chassis Table"
 date: 2025-06-20
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/unibody-rust-repair-part-22/images/thumbnail.jpg"
 ---
 

@@ -2,7 +2,7 @@
 title: "Rust Repair Part 17: Finally Finishing the Passenger Quarter Panel"
 date: 2023-04-12
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/unibody-rust-repair-part-17/images/thumbnail.jpg"
 ---
 

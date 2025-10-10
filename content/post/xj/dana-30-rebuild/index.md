@@ -2,7 +2,7 @@
 title: "Dana 30 Front Axle Rebuild"
 date: 2020-09-15
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/dana-30-rebuild/images/thumbnail.jpg"
 ---
 

@@ -2,13 +2,13 @@
 title: "LS Swap Part 2: Converting a NP241C Transfer Case For the XJ With a SYE"
 date: 2025-06-12
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/ls-swap-part-2-transfer-case/images/thumbnail.jpg"
 ---
 
-There's several options for transfer cases when LS swapping an XJ. Two of the more popular options are running the stock NP231 / NP242 with an adapter so it'll mate up to the GM transmission or use a GM transfer case such as the NP241 that can be adapted to work with the XJ's driveshafts. 
+There's several options for transfer cases when LS swapping an XJ. Two of the more popular options are running the stock NP231 / NP242 with an adapter so it'll mate up to the GM transmission or use a GM transfer case such as the NP241 that can be adapted to work with the XJ's driveshafts.
 
-Each choice has it's own sets of pros and cons and for my build I settled on a GM transfer case because I don't intend to run the stock Jeep gauges so it didn't matter if I still had the Jeep VSS (vehicle speed sensor). 
+Each choice has it's own sets of pros and cons and for my build I settled on a GM transfer case because I don't intend to run the stock Jeep gauges so it didn't matter if I still had the Jeep VSS (vehicle speed sensor).
 
 # A New to Me NP241C
 
@@ -51,9 +51,10 @@ Comparison of the short shaft (top) vs long (bottom)
 From there you can run a 32 spline CV yoke to work with the XJ driveshaft. The main thing to be careful about is ensuring the yoke's diameter matches your output seal. Some other options besides the Crown part # listed above: Spicer #2-4-5341, Advance Adapters 300475, JB Conversions #1942
 
 ## Misc Parts
+
 The rest of the parts used are nothing special and were intended to replace worn out parts. The easiest option is to buy a master rebuild kit (RockAuto has some) but I wasn't interested in replacing everything since my transfer case was a known good unit.
 
-# Teardown 
+# Teardown
 
 I started off by removing the front yoke. The nut is a 1-1/8" and mine came off pretty easy using a stubby Milwaukee impact. The yoke on the other hand was completely stuck. I had to repurpose my harmonic balancer puller to put tension on it while I smacked the yoke with a hammer until it popped.
 ![](images/4.jpg)
@@ -65,7 +66,7 @@ The rear output shaft looks silly long without the slip yoke housing.
 Split apart.
 ![](images/7.jpg)
 
-I ran into a snag trying to remove the front output shaft. For some reason mine was stuck and wouldn't budge even after a ton of hammering. 
+I ran into a snag trying to remove the front output shaft. For some reason mine was stuck and wouldn't budge even after a ton of hammering.
 ![](images/8.jpg)
 
 This isn't normal since the shaft isn't pressed onto the bearing and it should have just slid right out.
@@ -78,6 +79,7 @@ It was a little sketchy grinding near the soft aluminum case but the only other 
 In the end I was able to remove the bearing and I gave the case a good cleaning to ensure there wasn't any debris left behind.
 
 # Re-assembly
+
 Prior to re-assembling everything I couldn't resist giving the exterior a fresh coat of paint.
 ![](images/11.jpg)
 
@@ -144,8 +146,8 @@ The transfer case is so much shorter now.
 
 ![](images/31.jpg)
 
-
 ## References
+
 - [LQ4 6.0L/NV4500/NP241c in an XJ - Q's before I waste a bunch of money :)](https://naxja.org/threads/lq4-6-0l-nv4500-np241c-in-an-xj-qs-before-i-waste-a-bunch-of-money.1119261/)
 - [5.3L/4L80E/241 swap into 92 cherokee](https://www.pirate4x4.com/threads/5-3l-4l80e-241-swap-into-92-cherokee.809502/)
 - [GM 5.3/4L60E/Klune/Stak 300](https://naxja.org/threads/gm-5-3-4l60e-klune-stak-300.945920/)

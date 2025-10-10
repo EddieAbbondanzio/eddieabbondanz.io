@@ -41,10 +41,10 @@ unsafe= true
     weight = 1
 
     [[menu.main]]
-    name = "OG XJ Build"
-    identifier = "xj-build"
+    name = "LS XJ Build"
+    identifier = "ls-xj-build"
     parent = "posts"
-    url="series/xj-build"
+    url="series/ls-xj-build"
     weight = 2
 
     [[menu.main]]

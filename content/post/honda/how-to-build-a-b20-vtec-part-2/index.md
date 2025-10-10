@@ -10,7 +10,7 @@ In order to hit my power goals of 200 - 225whp, the B20V I'm building will need 
 
 For the cylinder head I'll be using a GSR head. I initially settled on the GSR head over a B16 head because it was cheaper and I didn't think there'd be any major differences.
 
-That was a little shortsighted as I later found out that GSR heads have different intake manifold bolt patterns so they are limited on IM options, and have smaller combustion chambers which make it harder to find pistons that'll achieve reasonable compression ratios. Neither of these issues were deal breakers though.
+That was a little shortsighted because I later found out that GSR heads have different intake manifold bolt patterns so they are limited on IM options, and have smaller combustion chambers which make it harder to find pistons that'll achieve reasonable compression ratios. Neither of these issues were deal breakers though and I would still buy a GSR head had I known them beforehand.
 
 # Parts List
 
@@ -27,9 +27,9 @@ I'll go over the reasoning behind some of the parts picked below, but here's the
 - **VTEC Kit**: Golden Eagle VTEC Kit
 - **Timing belt / water pump / tensioner**: Gates TCKWP247
 - **Pistons**: Supertech 84.5mm bore pistons P4-H845-P1
-- **Rods**: SCAT pro sport H-beam connecting rods 65394 (aka 2-5394-1771-935-827)
+- **Rods**: SCAT pro sport H-beam connecting rods 65394198 (aka 2-5394-1771-935-827)
 - **Main bearings**: ACL 5M1959H-STD
-- **Rod bearings**: ACL 4B1946H-STD
+- **Rod bearings**: ACL 4B1946H-STD and 4B1946HX-STD
 - **Thrust washers**: ACL 1T1957-STD
 - **Oil pump**: ACL OPHD1194HP
 - **Intake manifold**: Skunk2 pro series 307-05-0270
@@ -49,7 +49,7 @@ I also had to order the following for seals, gaskets, and hardware:
 - **Oil pan gasket**: Fel-Pro OS30630R
 - **Water pump tube o-rings**: (2) OEM 91314-PH7-003
 - **Valve cover nuts**: (4) m6x1.0 acorn nuts, (4) m6x1.0 hex nuts
-- **Spark plugs**: (4) NGK BKR7E-11
+- **Spark plugs**: (4) NGK BKR6E-11
 
 ## Cams
 
@@ -62,7 +62,7 @@ Cams I considered:
 - Brian Crower stage 2 NAs
 - Toda spec Bs
 
-I didn't consider ITR cams because the prices for them have gone too high IMO. A used set on Ebay runs about $600 now and puts you into the same price range as aftermarket cams. If I had stayed stock internals I would have likely gone with them since they're known to clear the stock pistons.
+I didn't consider ITR cams because the prices have gone too high IMO. A used set on Ebay runs about $600 now and that puts you into the same price range as aftermarket cams. If I had stayed stock internals I would have likely gone with them since they're known to clear the stock B20 pistons.
 
 Of the four aftermarket options listed above I ended up settling on the Skunk2 tuner 2s. I felt they were the best option due to price, availability, and that they've been proven to make good gains in similar builds while also maintaining a normal idle.
 
@@ -97,7 +97,7 @@ I ended up comparing a lot of different pistons by putting their specs into the 
 
 Of the two I settled on the Supertechs because they offered a slightly higher comp ratio 11.6:1 vs the Wiseco's at 11:1 and the price was a little better.
 
-11.6:1 compression is slightly higher than I want but I can easily drop it down using a slightly thicker than stock head gasket.
+11.6:1 compression is slightly higher than I want but I can easily drop it down using a thicker than stock head gasket.
 
 ## Rods
 
@@ -110,7 +110,19 @@ My power goals are on the low side for forged pistons and rods so I felt pretty 
 - [scat rods?](https://honda-tech.com/forums/all-motor-naturally-aspirated-44/scat-rods-1398781/)
 - [Scat rods? anyone running these or know anything about them?](https://honda-tech.com/forums/forced-induction-16/scat-rods-anyone-running-these-know-anytihng-about-them-2577011/)
 
-## Head gasket
+## Rod Bearings
+
+I ordered two sets of rod bearings (ACL 4B1946H-STD and ACL 4B1946HX-STD) because aftermarket rod bearings are manufactured to a specific size compared to Honda's various bearing colors. Having two different sets will let me loosen my clearances by 0.5 thou (one H half with one HX half) or a full 1 thou (two HX halfs) if any of my clearances are too tight.
+
+I plan on running my rods with slightly looser clearances (.00018" - .00020") since I'll be beating on the motor and want to rev it high.
+
+**Links**
+
+- [Bearing clearance choice and measurement discussion](https://honda-tech.com/forums/forced-induction-16/bearing-clearance-choice-measurement-discussion-3129922/)
+- [B20VTEC help, first time B builder](https://www.d-series.org/threads/b20vtec-help-first-time-b-builder.164481/?post_id=2628320&nested_view=1&sortby=oldest#post-2628320)
+- [How to measure bearing clearances on your Engine](https://youtu.be/T6q1dAvn5nQ?t=570)
+
+## Head Gasket
 
 I went with the Cometic C4194-040 B20V head gasket because it's slightly thicker than the OEM gasket at .04" thick vs .036". The extra thickness helps drop my compression ratio from 11.6:1 to 11.44:1 which gets me about as close to my target goal as I can get.
 
@@ -130,7 +142,7 @@ This probably doesn't matter for most daily drivers as there's an abundance of p
 
 ## Head Studs
 
-There was a lot of debate about what the correct head studs to use for a B20V so I ended up falling back to the OEM parts catalog to double check things. I found that while B series studs do vary in length depending on the engine (B181, B18B, B20, B16, etc...) it's due to the head and all the blocks are the same. This means you should buy the head stud kit that matches your head.
+There was a lot of debate about what the correct head studs to use for a B20V so I ended up falling back to the OEM parts catalog to double check things. I found that while B series studs vary in length depending on the engine (B181, B18B, B20, B16, etc...) it's just because of variances in the heads and all the blocks are the same. This means you should buy the head stud kit that matches your head.
 
 For a GSR head this would be ARP-208-4303, and for a B16 head it'd be ARP ARP 208-4306.
 
@@ -145,10 +157,6 @@ For a GSR head this would be ARP-208-4303, and for a B16 head it'd be ARP ARP 20
   - 188mm part #: 90005-PR4-A01
 
 Other companies like [Skunk2](https://skunk2.com/engine/pro-head-studs-bvtec-kseries-661-05-0001.html) sell a universal head stud kit that works with any VTEC B-series engine so if I had to guess they probably make them to GSR spec and the extra length is fine on a B16. I wouldn't dare run a B16 head stud kit with a GSR head though.
-
-## VTEC Kit
-
-Non-vtec blocks are missing the oil passage that supplies the VTEC head with oil. This is an easy to solve problem though as there's multiple companies out there that sell conversion kits. I went with the [Golden Eagle kit](https://goldeneaglemfg.com/products/golden-eagle-vtec-full-conversion-kit) since I already bought rods from them.
 
 ## Timing Belt / Water Pump
 
@@ -173,9 +181,11 @@ One extra benefit to using the Golden Eagle kit is that the oil filter sandwich 
 
 ## Oil Pump
 
-Regarding oil pumps the OEM B20 oil pump is perfectly fine to use because the B20, OBD2 GSR, and Type-R all share the same oil pump. OEM part #: 15100-p72-a01
+Regarding oil pumps the OEM B20 oil pump is perfectly fine to use because the B20, OBD2 GSR, and Type-R all share the same oil pump. OEM part #: 15100-P72-A01
 
 I only opted to replace my oil pump because my block had a bunch of metal bits in the bottom end and I was worried small debris may have made it past the oil pickup filter into the pump. OEM is always best but there's nothing wrong with an ACL oil pump too.
+
+Part #: ACL OPHD1194HP
 
 **Links**
 
@@ -238,7 +248,7 @@ Part #s:
 
 - **GSR upper**: 56997-P72-000
 - **B16 upper**: 56997-P30-010
-- **Type R upper**: 56997-p73-000
+- **Type R upper**: 56997-P73-000
 
 **Links**
 
@@ -263,12 +273,6 @@ It's not necessary for me to go into detail on all of the seals and gaskets need
 
 I haven't settled on the injectors I plan on using yet but am currently exploring RDX or K series injectors. All I'm certain of so far is that I can't use the stock 240cc B20 injectors because they'll start the motor for fuel at higher RPM.
 
-# Assembly Time
+# Next Steps
 
-If you've made it this far it means you've got all the parts needed to start assembling the new engine.
-
-(Part 3 in the works!)
-
-# Additional Resources
-
-- [How to build a "reliable" lsvtec/b20vtec](https://honda-tech.com/forums/all-motor-naturally-aspirated-44/how-build-%22reliable%22-lsvtec-b20vtec-1676914/)
+At this point it's almost time to begin assembly but there's still some final prep work to do such as measuring bearing clearances and setting piston ring gap. These steps may sound boring but they can be the deciding factor in how long your motor will last.

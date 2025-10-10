@@ -2,7 +2,7 @@
 title: "Rust Repair Part 21: Blowing Off the Dust a Year Later AGAIN"
 date: 2025-05-17
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/unibody-rust-repair-part-21/images/thumbnail.jpg"
 ---
 
@@ -17,19 +17,19 @@ I'm changing up my approach to how I've been fixing up the XJ so I can be more "
 
 ## The Mistake
 
-Back when I was rebuilding the drip rails  I failed to notice that the roof had shifted backwards by about 1/8" due to not enough bracing. This messed with the door gaps and now the top corners of the front doors are just about touching the A pillars.
+Back when I was rebuilding the drip rails I failed to notice that the roof had shifted backwards by about 1/8" due to not enough bracing. This messed with the door gaps and now the top corners of the front doors are just about touching the A pillars.
 ![](images/0a.jpg)
 
 Back when the XJ was still whole the front doors never touched the pillars. (It's not a great photo but you can see the door / pillar are parallel)
 ![](images/0b.jpg)
 
-Digging through all my photos I was able to identify that the issue occurred shortly after I cut out the drip rail. I'm fairly certain it happened due to a lack of bracing. 
+Digging through all my photos I was able to identify that the issue occurred shortly after I cut out the drip rail. I'm fairly certain it happened due to a lack of bracing.
 ![](images/0d.jpg)
 
 With the drip rail missing there just wasn't enough structure left to keep the roof in position.
 ![](images/0c.jpg)
 
-I did eventually add bracing but by then it was already too late. 
+I did eventually add bracing but by then it was already too late.
 ![](images/0e.jpg)
 
 In hindsight this seems like a pretty obvious mistake but I figured since I was doing each drip rail separately there'd still be enough structure in the roof.
@@ -53,7 +53,7 @@ Some of the bigger parts I pulled.
 
 ![](images/5.jpg)
 
-A few hours later and the drivetrain was out. 
+A few hours later and the drivetrain was out.
 ![](images/6.jpg)
 
 I left the exhaust header attached because the bolts are rusted in place and looked like a nightmare to mess with.

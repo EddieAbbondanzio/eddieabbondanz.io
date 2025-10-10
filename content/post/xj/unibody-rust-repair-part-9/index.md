@@ -2,7 +2,7 @@
 title: "Rust Repair Part 9: Closing Up The Floor"
 date: 2020-12-27
 type: post
-series: "XJ Build"
+series: "LS XJ Build"
 thumbnail: "/post/xj/unibody-rust-repair-part-9/images/thumbnail.jpg"
 ---
 
