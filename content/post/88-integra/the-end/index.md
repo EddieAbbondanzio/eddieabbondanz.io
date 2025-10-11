@@ -3,10 +3,9 @@ title: "The End"
 date: 2025-04-12
 series: "88 Integra Build"
 type: post
-thumbnail: "/post/88-integra/the-end/images/thumbnail.jpg"
 ---
 
-The Integra has been a fun project but after 4 years of ownership I decided it was time to sell and as of last weekend it's no longer mine. For the past several months it hasn't seen much use and I don't see that changing as my XJ from Colorado is my new daily. 
+The Integra has been a fun project but after 4 years of ownership I decided it was time to sell and as of last weekend it's no longer mine. For the past several months it hasn't seen much use and I don't see that changing as my XJ from Colorado is my new daily.
 
 The Integra was in solid shape other than some rust on the backside but I already have too many projects so I figured I should sell it to someone else who could enjoy it and fix it up more.
 

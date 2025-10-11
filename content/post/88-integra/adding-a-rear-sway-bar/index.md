@@ -3,7 +3,6 @@ title: "Adding a Rear Sway Bar"
 date: 2023-06-29
 series: "88 Integra Build"
 type: post
-thumbnail: "/post/88-integra/adding-a-rear-sway-bar/images/thumbnail.jpg"
 ---
 
 At the last auto-x event I ran in, I managed to get the Integra up on two wheels not once, but twice. While kinda fun, I don't wanna risk rolling the car and I figured it was time to take advantage of the last mod H Street permits and add a rear sway bar to try to dial down the absurd levels of body roll.

@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 6: Overhauling the Suspension"
 date: 2023-08-31
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-6/images/thumbnail.jpg"
 ---
 
 The suspension on my hatch was in rough shape. Nearly every bushings was ripped, the ball joints were original and questionable at best, and all of the various suspension arms were covered in rust and some still had over spray on them from when we painted the car years ago.

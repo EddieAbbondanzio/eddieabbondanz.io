@@ -3,7 +3,6 @@ title: "Refreshing the Suspension"
 date: 2022-02-13
 series: "88 Integra Build"
 type: post
-thumbnail: "/post/88-integra/refreshing-the-suspension/images/thumbnail.jpg"
 ---
 
 It's been just under a month since my last post about fixing up this Integra and I've made a ton of progress. I've successfully completed replacing most of the suspension including all four shocks, outer tie rods, ball joints, sway bar bushings, cv axles, and front lower control arms.

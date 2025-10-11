@@ -6,13 +6,14 @@
       <span class="fc-inherit">- {{ .Description }}</span>
     </div>
 
-    <img class="mw100 mb3" src="{{ .Site.BaseURL }}{{.Params.featuredimage }}" />
+    <img
+      class="mw100 mb3"
+      src="{{ .Site.BaseURL }}{{.Params.featuredimage }}"
+    />
   </a>
 
   <p class="desc my3">
-    {{ .Summary }}
-    {{ if .Truncated }}
-    <a href="{{ .Permalink }}">Read more...</a>
-    {{ end }}
+    {{ .Summary | plainify }}
+    <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
   </p>
 </div>

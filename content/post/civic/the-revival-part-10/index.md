@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 10: Dropping the B20B Back In and Fixing Some 
 date: 2023-10-28
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-10/images/thumbnail.jpg"
 ---
 
 Before dropping in the motor, I wanted to make sure there wouldn't be any surprises during re-assembly so I went through the engine bay and cleaned up every bolt / access hole. I found that a lot of the holes had paint built up in them so I used a couple taps and a deburring tool to clean everything up.

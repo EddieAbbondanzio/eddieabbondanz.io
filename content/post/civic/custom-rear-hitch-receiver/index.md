@@ -3,7 +3,6 @@ title: "A Custom Rear Hitch To Haul My Mini Bike"
 date: 2025-08-07
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/custom-rear-hitch-receiver/images/thumbnail.jpg"
 ---
 
 I recently built a [mini bike]({{< relref "mini-bike-build" >}}) and needed a way to haul it around with my 93 Civic hatch. Even though the bike is small enough that it'd fit inside the Civic, I'd have to lay it sideways and I didn't like that because it could potentially leak oil or gas so I figured my best option would be to use a hitch cargo tray.

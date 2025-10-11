@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 13: Denjis and a Custom Radiator Fan Shroud"
 date: 2023-12-21
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-13/images/thumbnail.jpg"
 ---
 
 I couldn't resist splurging and picking up a set of Denji headlights for the hatch.

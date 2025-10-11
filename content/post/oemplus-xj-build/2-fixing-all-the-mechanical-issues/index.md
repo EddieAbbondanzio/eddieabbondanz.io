@@ -3,7 +3,6 @@ title: "Fixing All The Mechanical Issues"
 date: 2025-02-15
 type: post
 series: "OEM+ XJ Build"
-thumbnail: "/post/oemplus-xj-build/2-fixing-all-the-mechanical-issues/images/thumbnail.jpg"
 ---
 
 With a rough idea of what it'd take to fix up the damage I decided to switch focus and tackle all the mechanical / electrical issues before diving into the bodywork.
@@ -17,7 +16,7 @@ New timing chain installed.
 The engine was surprisingly clean on the inside for 214k miles.
 ![](./images/17.jpg)
 
-Engine bay all spiffed up. I stole the set of four hole injectors, billet fuel rail, battery tray, and fan shroud off my other XJ. 
+Engine bay all spiffed up. I stole the set of four hole injectors, billet fuel rail, battery tray, and fan shroud off my other XJ.
 ![](./images/18.jpg)
 
 I wanted to see if I could fix the neutral safety switch with a good cleaning before replacing it so while I was underneath the XJ swapping the starter I popped it off the trans.
@@ -55,7 +54,7 @@ A little solder work later and the harness was good to go again.
 The front half of the interior was starting to really shape up.
 ![](./images/26.jpg)
 
-# Sneaking in Some Upgrades - A 2" lift,  ZJ Steering, and a Trans Cooler
+# Sneaking in Some Upgrades - A 2" lift, ZJ Steering, and a Trans Cooler
 
 Alongside doing all the maintenance work under the hood I wanted to do a few upgrades. The first upgrade was [adding a trans cooler along with AN lines]( {{< relref "an-transmission-lines-with-cooler" >}} ).
 
@@ -74,7 +73,7 @@ The last upgrade was doing a [2" Old Man Emu lift]( {{< relref "how-to-piece-tog
 New leaf springs installed.
 ![](./images/31.jpg)
 
-One of the rear upper shock bolts got stuck so I had to cut it off. 
+One of the rear upper shock bolts got stuck so I had to cut it off.
 ![](./images/32.jpg)
 
 I decided to punch out the upper shock bolts with an air hammer and install some AzzyWorks rear upper shock mounts to replace them.
@@ -83,7 +82,7 @@ I decided to punch out the upper shock bolts with an air hammer and install some
 All done in the rear.
 ![](./images/34.jpg)
 
-The front was much easier since it was swapping the shocks and installing new springs. 
+The front was much easier since it was swapping the shocks and installing new springs.
 ![](./images/35.jpg)
 
 The lift looks a little tall for 2"s but I think it'll settle.

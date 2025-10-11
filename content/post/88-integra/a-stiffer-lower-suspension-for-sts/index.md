@@ -3,7 +3,6 @@ title: "Goodbye H Street, Hello STS"
 date: 2024-04-06
 series: "88 Integra Build"
 type: post
-thumbnail: "/post/88-integra/a-stiffer-lower-suspension-for-sts/images/thumbnail.jpg"
 ---
 
 Last year I ran the Integra in almost 20 events and had a great time. Plus with all the seat time I feel like I've gained a bunch of valuable experience and really improved as a driver.

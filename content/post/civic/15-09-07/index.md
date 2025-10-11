@@ -3,7 +3,6 @@ title: "Civic Build - 09/07/15"
 date: 2015-09-07
 type: post
 series: "93 EG Hatch Build"
-thumbnail: "/post/civic/15-09-07/images/thumbnail.jpg"
 ---
 
 Now that I'm back at college it's been hard to make progress on the Civic. I do have a slight update to drop as the hood is just about done now.

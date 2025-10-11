@@ -3,7 +3,6 @@ title: "ZJ Steering Upgrade with Parts List"
 date: 2024-08-03
 type: post
 series: "XJ Info and DIYs"
-thumbnail: "/post/xj-info/zj-steering-upgrade-with-parts-list/images/thumbnail.jpg"
 ---
 
 The ZJ steering upgrade is a cheap and easy bolt-on mod that'll beef up your XJ's steering. The upgrade shouldn't take more than a few hours of labor, and parts are super easy to source since they're from a 93 - 98 Grand Cherokee, and can be purchased from sites like RockAuto, or your local auto parts store.
@@ -15,14 +14,14 @@ I recently upgraded my XJ to the ZJ steering setup and have been pretty impresse
 
 There's several good options out there for OE part brands so it's really up to you with who you go with. I personally went with Mevotech since I've had decent luck with them but Moog is another solid option so part #s for both brands are listed below.
 
-| Quantity | Part | Part #s |
-|----------|------|--------|
-| 1 | Drag link** | Mevotech MDS1238, Moog DS1238 |
-| 1 | Tie rod bar | Mevotech MDS1312, Moog DS1312 |
-| 2 | Tie rod end | Mevotech MES3096L, Moog ES3096L |
-| 2 | Adjuster sleeves | Mevotech MES2079S, Moog ES2079S |
+| Quantity | Part             | Part #s                         |
+| -------- | ---------------- | ------------------------------- |
+| 1        | Drag link\*\*    | Mevotech MDS1238, Moog DS1238   |
+| 1        | Tie rod bar      | Mevotech MDS1312, Moog DS1312   |
+| 2        | Tie rod end      | Mevotech MES3096L, Moog ES3096L |
+| 2        | Adjuster sleeves | Mevotech MES2079S, Moog ES2079S |
 
-**The XJ and ZJ share the same drag link so if your existing one is already in good shape you can re-use it.
+\*\*The XJ and ZJ share the same drag link so if your existing one is already in good shape you can re-use it.
 
 Some other good items to have on hand are anti-seize for when you're assembling the new parts and some extra cotter pins in case any parts come with them missing.
 
@@ -57,7 +56,7 @@ Once everything is installed you'll want to grease any parts that need it, and d
 
 **What's the difference between the 1238 and 1310 drag link?**
 
-ZJ Grand Cherokees came with two different length drag lengths depending on if they were a v8 model or not. The v8 models came with the 1310 drag link which is 30.83" long, and the straight six models came with the 1238 drag link which is 30.18" long. 
+ZJ Grand Cherokees came with two different length drag lengths depending on if they were a v8 model or not. The v8 models came with the 1310 drag link which is 30.83" long, and the straight six models came with the 1238 drag link which is 30.18" long.
 
 The 1310 drag link is too long for XJs and will not work.
 

@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 11: Beginning Reassembly"
 date: 2023-11-11
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-11/images/thumbnail.jpg"
 ---
 
 With the engine back in the bay, I couldn't resist starting to reassemble as much of the car as I could.

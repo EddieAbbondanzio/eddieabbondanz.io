@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 7: Re-Adding Power Steering, a Full-Sized Radi
 date: 2023-09-16
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-7/images/thumbnail.jpg"
 ---
 
 Having finished up the suspension (minus coilovers) I figured the next logical step would be to dive into the engine bay. I'm itching to start on the engine bay body work but I felt it'd be smarter to address every existing issue, and figure out how/where everything would mount up prior to spraying any paint.

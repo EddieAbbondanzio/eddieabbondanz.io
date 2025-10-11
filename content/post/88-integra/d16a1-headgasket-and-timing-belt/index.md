@@ -3,7 +3,6 @@ title: "Replacing a D16A1 Headgasket and Timing Belt"
 date: 2022-02-17
 series: "88 Integra Build"
 type: post
-thumbnail: "/post/88-integra/d16a1-headgasket-and-timing-belt/images/thumbnail.jpg"
 ---
 
 With the headgasket and timing belt swap fully completed it feels like the rest of this project will be a piece of cake. Fabricating a custom exhaust is the last major task on the list and I'm looking forward to it because that means I have an excuse to break out my welder.

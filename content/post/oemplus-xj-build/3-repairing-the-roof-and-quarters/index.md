@@ -3,13 +3,12 @@ title: "Repairing the Quarter Panels and Rusty Roof"
 date: 2025-02-17
 type: post
 series: "OEM+ XJ Build"
-thumbnail: "/post/oemplus-xj-build/3-repairing-the-roof-and-quarters/images/thumbnail.jpg"
 ---
 
 At this point the XJ was mechanically solid but in desperate need of some cosmetic work.
 ![](./images/42.jpg)
 
-It was hard deciding where to draw the line in terms of what I'd work on vs what I'd leave as-is but I settled on repairing both quarter panels, and the roof as they were the worst. 
+It was hard deciding where to draw the line in terms of what I'd work on vs what I'd leave as-is but I settled on repairing both quarter panels, and the roof as they were the worst.
 
 All the other panels have damage (hood paint is flaking off, front doors are starting to rust on the lower edge, rear doors are dented, fenders are dented, hatch is dented) but I wasn't confident I had the motivation or desire to do a full paint job.
 
@@ -34,7 +33,6 @@ New lower patch panel welded in.
 ![](./images/47b.jpg)
 ![](./images/47c.jpg)
 
-
 From there I worked on building a replacement skin for the pillar. This was a slow process and I ended up building it out of a few patches welded together.
 ![](./images/48b.jpg)
 ![](./images/48c.jpg)
@@ -55,13 +53,13 @@ I used one of those cheap piano wire tools to remove it.
 
 ![](images/50.jpg)
 
-The rust ended up being worse than expected and some of the metal up top would need to be replaced. 
+The rust ended up being worse than expected and some of the metal up top would need to be replaced.
 ![](images/51.jpg)
 
 I cleaned up everything salvageable via a mix of grinding / sandblasting and coated it with some epoxy to protect it.
 ![](images/52.jpg)
 
-Just to make sure I'd be welding to good metal on the roof I decided to do a test spot with the sandblaster. 
+Just to make sure I'd be welding to good metal on the roof I decided to do a test spot with the sandblaster.
 
 Before:
 ![](images/53.jpg)
@@ -70,7 +68,7 @@ After:
 ![](images/54.jpg)
 ![](images/55.jpg)
 
-It took roughly 2 hours to sandblast that spot. 
+It took roughly 2 hours to sandblast that spot.
 
 ### Patching the upper windshield channel
 
@@ -86,7 +84,7 @@ Then it was just a matter of welding the new metal back in.
 
 ### Sandblasting the Roof
 
-With the windshield channel taken care of all I had left for metalwork was to sandblast the roof. This ended up being a pretty miserable experience that took 9 hours. 
+With the windshield channel taken care of all I had left for metalwork was to sandblast the roof. This ended up being a pretty miserable experience that took 9 hours.
 
 ![](images/62.jpg)
 
@@ -112,7 +110,7 @@ On a whim I popped in the quarter panel window gasket to see how it looked and w
 
 When looking at the XJ from the rear I could see too much of the gasket sticking out because I had built my pillar too shallow. This meant there wasn't enough of a "pocket" for the window to sit in.
 
-This was a massive set back by a few weeks worth of work as it meant I'd have to remake most of the pillar and redo all the filler work I had spent hours on. 
+This was a massive set back by a few weeks worth of work as it meant I'd have to remake most of the pillar and redo all the filler work I had spent hours on.
 
 I was reasonably upset by the mistake and ended up stepping away from XJ for 4 weeks before I was ready to try again.
 
@@ -188,11 +186,10 @@ Final coat of epoxy.
 
 With all of the panels in 2k primer I thought I was super close to being ready for paint because all that was left at this point was some block sanding. That was a huge understatement that I didn't realize until I actually started sanding
 
-Block sanding panels flat takes forever and even though I wasn't going for a show car finish, I still spent about 3 weeks block sanding everything. 
+Block sanding panels flat takes forever and even though I wasn't going for a show car finish, I still spent about 3 weeks block sanding everything.
 
 I started off blocking with 180 and once I had the panels as flat I as thought they needed to be, I sprayed another coat of 2k primer over everything. (spraying the second coat after doing the 180 work helps fill all the 180 scratches instead of having to sand them out)
 ![](images/79b.jpg)
-
 
 Then I started blocking with 320 followed by 400 and lastly went up to 600.
 ![](images/80.jpg)
@@ -220,7 +217,7 @@ A couple coats of color and clear later and the XJ was looking fresh.
 
 ## Reassembly
 
-I was super excited to see the XJ back in one color because it really felt like the project was almost done. 
+I was super excited to see the XJ back in one color because it really felt like the project was almost done.
 
 It also felt great seeing the parts pile get smaller and smaller as I re installed each piece.
 
@@ -245,7 +242,7 @@ A week later I had a new windshield popped in and was finally able to drive the 
 
 ## Intermittent No Starts
 
-After the XJ was fully reassembled I started taking it on a couple short test drives to make sure all the gremlins had been worked out and for the most part everything was solid. 
+After the XJ was fully reassembled I started taking it on a couple short test drives to make sure all the gremlins had been worked out and for the most part everything was solid.
 
 The first and only major issue to pop up during the test drives was an intermittent no start. The first time this happened the XJ was trying to start like normal but the starter was super weak.
 

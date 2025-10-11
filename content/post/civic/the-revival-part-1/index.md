@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 1: Restarting a Forgotten Project"
 date: 2023-06-03
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-1/images/thumbnail.jpg"
 ---
 
 I've owned my 1993 Civic Hatch for about 10 years now but it's sat neglected in my shop for the last 3. It was my first real project car, and the car I learned how to do almost everything on.

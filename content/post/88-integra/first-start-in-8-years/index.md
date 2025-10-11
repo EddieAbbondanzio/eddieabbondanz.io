@@ -3,7 +3,6 @@ title: "The First Start"
 date: 2021-12-03
 series: "88 Integra Build"
 type: post
-thumbnail: "/post/88-integra/first-start-in-8-years/images/thumbnail.jpg"
 ---
 
 Last weekend I had the opportunity to purchase a _bone stock_ 1988 Acura Integra from it's original owner. The previous owner is a family friend of ours and has had this sitting in his garage for over 9 years now. There was no way I could pass it up.
