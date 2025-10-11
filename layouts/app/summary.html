@@ -10,9 +10,7 @@
   </a>
 
   <p class="desc my3">
-    {{ .Summary }}
-    {{ if .Truncated }}
-    <a href="{{ .Permalink }}">Read more...</a>
-    {{ end }}
+    {{ index (split .Summary "</p>") 0 | safeHTML }}
+    <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
   </p>
 </div>
