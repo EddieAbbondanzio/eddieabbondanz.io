@@ -28,7 +28,7 @@
     </div>
 
     <p class="mt2">
-      {{ .Summary }}
+      {{ index (split .Summary "</p>") 0 | safeHTML }}
       {{ if .Truncated }}
       <a href="{{ .Permalink }}">Read more...</a>
       {{ end }}
