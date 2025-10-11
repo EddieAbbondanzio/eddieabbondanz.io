@@ -11,7 +11,12 @@
   {{ end }}
 
   <div class="ml4-tablet mt3-phone">
-    <a class="mb1 fw500 tdn h4" href="{{ .Permalink }}">{{ .Title }}</a>
+    <a class="mb1 fw500 tdn h4" href="{{ .Permalink }}">
+      {{ if .Draft }}
+      <span class="draft-warning">(Draft)</span>
+      {{ end }} 
+      {{ .Title }}
+    </a>
 
     <div class="fr meta">
       {{ if .Params.Series }}
