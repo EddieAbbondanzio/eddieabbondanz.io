@@ -14,6 +14,7 @@
   "vue.format.style.initialIndent": true,
   "vue.format.script.initialIndent": true,
   "cSpell.words": [
+    "Crossmember",
     "Hasport",
     "hotend",
     "mainshaft",
@@ -21,6 +22,7 @@
     "plastigage",
     "Prusa",
     "subframe",
-    "understeer"
+    "understeer",
+    "unibody"
   ]
 }
