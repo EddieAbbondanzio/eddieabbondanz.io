@@ -30,7 +30,7 @@
     </div>
 
     <p class="mt2">
-      {{ index (split .Summary "</p>") 0 | safeHTML }}
+      {{ .Summary | plainify }}
       <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
     </p>
   </div>
