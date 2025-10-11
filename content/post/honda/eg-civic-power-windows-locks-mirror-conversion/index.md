@@ -2,7 +2,6 @@
 title: "How To: 92-95 Civic Coupe/Hatch Power Windows, Locks, and Mirrors DIY Conversion"
 date: 2024-02-28
 type: post
-thumbnail: "/post/honda/eg-civic-power-windows-locks-mirror-conversion/images/thumbnail.jpg"
 series: "Honda Info and DIYs"
 ---
 

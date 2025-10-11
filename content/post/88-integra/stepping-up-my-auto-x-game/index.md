@@ -3,7 +3,6 @@ title: "Stepping up my Auto-X Game"
 date: 2023-05-26
 series: "88 Integra Build"
 type: post
-thumbnail: "/post/88-integra/stepping-up-my-auto-x-game/images/thumbnail.jpg"
 ---
 
 I've been having a blast auto crossing the Integra. It doesn't have the most power, and it's got enough body roll to lift a rear tire when making tight turns but I feel like I'm learning a ton and slowly getting better too!
@@ -83,6 +82,5 @@ Above was taken by Cooper Boardman
 Overall it felt like my times were better and I managed to beat a few higher classed cars but I still need to work on my driving skills. I'm not going to mod the car any further until I get more seat time in and feel confident I'm maxing out what the car's capable of.
 
 When I reach that point I plan on adding a rear sway bar to try to tame some of the body roll and help keep the front wheels planted.
-
 
 [Next post]({{< ref "adding-a-rear-sway-bar" >}})

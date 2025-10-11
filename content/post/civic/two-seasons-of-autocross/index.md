@@ -3,7 +3,6 @@ title: "Two Seasons of Autocross Under It's Belt"
 date: 2025-08-24
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/two-seasons-of-autocross/images/thumbnail.jpg"
 ---
 
 The Civic has completed almost two full seasons of auto cross without any major issues and has been an absolute blast to drive. I've been slowly making changes to it so I could see how each change feels and at this point I think it's about perfect for my driving style.

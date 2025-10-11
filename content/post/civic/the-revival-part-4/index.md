@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 4: Even More Teardown"
 date: 2023-07-16
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-4/images/thumbnail.jpg"
 ---
 
 Even with the motor and transmission already pulled there was still a good chunk of parts that needed to be removed from the chassis.

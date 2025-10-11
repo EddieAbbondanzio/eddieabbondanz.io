@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 18: Finalizing the New Brakes"
 date: 2024-01-26
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-18/images/thumbnail.jpg"
 ---
 
 The brakes are officially finished on the car and I figured it was time to post up an overview of them. Previously the car had DX brakes with drums in the rear that were a horrible eyesore, but since I had been wanting brakes with more oomph, it was a no brainer to switch over to a full EX / Integra setup.

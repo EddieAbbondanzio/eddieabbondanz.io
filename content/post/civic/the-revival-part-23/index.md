@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 23: The Final Push To Get It Road Legal"
 date: 2024-04-05
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-23/images/thumbnail.jpg"
 ---
 
 Wrapping up the Civic has not been an easy task. The to-do list is basically finished at this point, but since I've started taking it on short test drives I've uncovered a few issues that need to be fixed.

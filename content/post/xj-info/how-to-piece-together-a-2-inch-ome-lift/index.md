@@ -1,9 +1,8 @@
 ---
-title: "How to Piece Together a 2\" Old Man Emu Lift"
+title: 'How to Piece Together a 2" Old Man Emu Lift'
 date: 2024-07-28
 type: post
 series: "XJ Info and DIYs"
-thumbnail: "/post/xj-info/how-to-piece-together-a-2-inch-ome-lift/images/thumbnail.jpg"
 ---
 
 Old Man Emu is a great choice for lifting your XJ, but hunting down the correct part numbers can be difficult. I spent the last couple weeks DIYing a lift for my second XJ so I figured I'd post up everything I found.
@@ -23,22 +22,21 @@ The coil spacer sits below the OEM spring isolator.
 
 Now is also a good time to order new spring isolators if the one's on your XJ are starting to crack or fall apart.
 
-
 **Note:** If you're XJ is equipped with an aftermarket front bumper and/or winch you may want to go with a set of [OME 2934 front springs](https://store.arbusa.com/front-coil-spring-set-2934/) and skip the coil spacers. 2934 springs will give an XJ about 2.5" of lift but they have a stiffer spring rate so the ride may not be as comfortable.
 
 ### Parts List
 
-| Quantity | Part | Part # |
-|----------|------|--------|
-| 1 | Pair of front coil springs | OME 2930 |
-| 2 | 10mm coil spacers | OME JGF10 |
-| 2 | Spring isolators | Moog K160039 |
+| Quantity | Part                       | Part #       |
+| -------- | -------------------------- | ------------ |
+| 1        | Pair of front coil springs | OME 2930     |
+| 2        | 10mm coil spacers          | OME JGF10    |
+| 2        | Spring isolators           | Moog K160039 |
 
 # Rear Leaf Springs
 
-For the rear leaf springs you'll need [2 OME CS033RB leaf springs](https://store.arbusa.com/rear-leaf-spring-cs033rb/) and will need to remove the extra leaf from the packs. The extra leaf is the third leaf down from the top. 
+For the rear leaf springs you'll need [2 OME CS033RB leaf springs](https://store.arbusa.com/rear-leaf-spring-cs033rb/) and will need to remove the extra leaf from the packs. The extra leaf is the third leaf down from the top.
 
-Here's an example of a leaf spring with the extra leaf removed (front one), and one with the extra leaf still in place (rear one). 
+Here's an example of a leaf spring with the extra leaf removed (front one), and one with the extra leaf still in place (rear one).
 ![](./images/extra-leaf.jpg)
 
 You'll also need a set of leaf spring bushings since the OME springs don't include these. Any set of OE leaf spring bushings will work since the OME leaf springs have the same size eyes.
@@ -57,13 +55,13 @@ Lastly you'll need to get 4 new u bolts for the new leaf springs. The size of th
 
 ### Parts List
 
-| Quantity | Part | Part # |
-|----------|------|--------|
-| 2 | Leaf springs | CS033RB |
-| 2 | Shackles with bolts and bushing | Moog K150405 |
-| 2 | Front leaf spring bushing | Moog SB371 |
-| 2 | Front leaf spring bolt | Crown 34202118 |
-| 4 | U bolts | Dana 35: Husky Spring UA125R, Chrysler 8.25: Husky Spring UA141R |
+| Quantity | Part                            | Part #                                                           |
+| -------- | ------------------------------- | ---------------------------------------------------------------- |
+| 2        | Leaf springs                    | CS033RB                                                          |
+| 2        | Shackles with bolts and bushing | Moog K150405                                                     |
+| 2        | Front leaf spring bushing       | Moog SB371                                                       |
+| 2        | Front leaf spring bolt          | Crown 34202118                                                   |
+| 4        | U bolts                         | Dana 35: Husky Spring UA125R, Chrysler 8.25: Husky Spring UA141R |
 
 # Shocks
 
@@ -79,32 +77,31 @@ While removing my rear shocks I found that two of the nuts were stripped out, an
 
 ### Parts List
 
-| Quantity | Part | Part # |
-|----------|------|--------|
-| 2 | Front shocks | OME 60052 |
-| 2 | Rear shocks | OME 60053 |
-| 1 | Upper shock fix | n/a |
-
+| Quantity | Part            | Part #    |
+| -------- | --------------- | --------- |
+| 2        | Front shocks    | OME 60052 |
+| 2        | Rear shocks     | OME 60053 |
+| 1        | Upper shock fix | n/a       |
 
 # Track Bar
+
 The last major piece needed for the lift is an adjustable track bar. An OEM track bar will be too short and will cause the front axle to be shifted towards the driver side.
 
 There's an abundance of options and styles out there for track bars and for my build I opted to go with a BDS 124423 track bar.
 
-| Quantity | Part | Part # |
-|----------|------|--------|
-| 1 | Track bar | BDS 124423 |
+| Quantity | Part      | Part #     |
+| -------- | --------- | ---------- |
+| 1        | Track bar | BDS 124423 |
 
 # Sway Bar Links
 
-Last but not least you'll need some longer sway bar links. Longer links are required because the body of the XJ will be sitting higher above the axle once the new springs are installed. 
+Last but not least you'll need some longer sway bar links. Longer links are required because the body of the XJ will be sitting higher above the axle once the new springs are installed.
 
 There's plenty of options on the market but JKS makes a nice detachable set.
 
-| Quantity | Part | Part # |
-|----------|------|--------|
-| 1 | JKS sway bar links | JSK2000 |
-
+| Quantity | Part               | Part #  |
+| -------- | ------------------ | ------- |
+| 1        | JKS sway bar links | JSK2000 |
 
 At this point you should have everything needed to lift your XJ.
 
@@ -120,7 +117,7 @@ The extra leaf is the third one down from the top.
 
 **Why do the leaf springs have a "+" or "-" or "0" symbol on them?**
 
-OME tests their leaf springs to ensure they match their expected spring rate. For springs that test stiffer, they put a + on them,  springs that test softer get a -, and springs right on spec are marked 0.
+OME tests their leaf springs to ensure they match their expected spring rate. For springs that test stiffer, they put a + on them, springs that test softer get a -, and springs right on spec are marked 0.
 
 The spring rates won't be drastically different, but if you do get a mismatched pair you should put the stiffer of the two springs on the driver side since it'll need to handle more weight.
 

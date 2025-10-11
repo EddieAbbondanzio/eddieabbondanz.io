@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 14: Pushing Through the Final Bodywork"
 date: 2023-12-26
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-14/images/thumbnail.jpg"
 ---
 
 Having spent so much time on bodywork when prepping the engine bay for paint, I've been resisting doing anymore of it just because I'm somewhat burnt out from it.

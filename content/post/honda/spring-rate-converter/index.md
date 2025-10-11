@@ -2,7 +2,6 @@
 title: "Spring Rate Converter"
 date: 2025-09-01
 type: post
-thumbnail: "/post/honda/spring-rate-converter/images/thumbnail.jpg"
 series: "Honda Info and DIYs"
 summary: "Easily convert spring rates from lb/in to kg/mm or vice versa"
 ---

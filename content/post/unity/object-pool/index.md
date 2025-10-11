@@ -3,7 +3,6 @@ title: "Object Pooling in Unity"
 date: 2018-03-30
 draft: false
 type: post
-thumbnail: "/post/unity/object-pool/images/thumbnail.jpg"
 series: "Development"
 ---
 

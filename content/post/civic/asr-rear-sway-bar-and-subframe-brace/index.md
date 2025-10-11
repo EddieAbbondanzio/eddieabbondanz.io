@@ -3,7 +3,6 @@ title: "ASR 24mm Rear Sway Bar and Brace Install"
 date: 2024-06-09
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/asr-rear-sway-bar-and-subframe-brace/images/thumbnail.jpg"
 ---
 
 After having ran several autocross events with the Civic, I felt it was time to add a rear sway bar. The Civic was handling good on the course but I didn't care for the understeer it had and adding a rear sway bar would be the easiest way to take care of that.

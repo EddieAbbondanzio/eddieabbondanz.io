@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 20: Wiring Some DIY Headlight / Radiator Relay
 date: 2024-02-14
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-20/images/thumbnail.jpg"
 ---
 
 Planning out how to wire up the headlights and radiator fan took some time as my new fan had a higher amp rating which meant I couldn't use the stock wiring, and the Denji headlights also required beefier wiring since the low beam bulbs are 55 watt.

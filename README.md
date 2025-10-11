@@ -21,3 +21,8 @@ GH Pages doesn't play nice with files that start with an underscore so a `.nojek
 - Run `yarn` on the root dir
 - Build widgets `yarn workspace widgets run build`
 - Start app via `yarn run serve` (`cd` back to root dir)
+
+## Post Tips
+
+- Store images under an `/images` subdir
+- Post summaries will automatically add a thumbnail if `images/thumbnail.jpg` exists.

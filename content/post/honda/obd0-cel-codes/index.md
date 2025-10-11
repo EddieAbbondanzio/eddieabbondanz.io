@@ -2,11 +2,10 @@
 title: "OBD0 Check Engine Light Codes"
 date: 2024-11-01
 type: post
-thumbnail: "/post/honda/obd0-cel-codes/images/thumbnail.jpg"
 series: "Honda Info and DIYs"
 ---
 
-Reading CEL codes for an OBD0 Honda is easy since you don't need to jump a service connector like the OBD1 Hondas, but you do need to find the ECU so you can count how many times the red LED in the ECU blinks. 
+Reading CEL codes for an OBD0 Honda is easy since you don't need to jump a service connector like the OBD1 Hondas, but you do need to find the ECU so you can count how many times the red LED in the ECU blinks.
 
 ECU location varies based on model, but for older Civics the ECU is located in the passenger foot well below the dash, and in the 1st gen Integra it's located underneath the passenger seat.
 
@@ -14,7 +13,7 @@ Long blinks are 10, and short blinks are 1.
 
 For example, code 14 (Idle air control) would look like: long blink - short blink - short blink - short blink - short blink
 
-| Code | Description                             | 
+| Code | Description                             |
 | ---- | --------------------------------------- |
 | 0    | Engine Control Module (ECM)             |
 | 1    | Oxygen Content (02 sensor)              |
@@ -37,4 +36,3 @@ For example, code 14 (Idle air control) would look like: long blink - short blin
 # References
 
 Codes were cross referenced from the 1988 Integra FSM (page 11-12), and the 1991 Civic FSM (page 6-18)
-
