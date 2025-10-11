@@ -3,7 +3,6 @@ title: "How I Built My Chassis Table"
 date: 2025-05-31
 type: post
 series: "Shop and Tools"
-thumbnail: "/post/tools/diy-chassis-table/images/thumbnail.jpg"
 ---
 
 I recently built a chassis table for [the XJ I'm restoring]({{<relref "../../../series/ls-xj-build" >}}) and figured I'd do a brief writeup. I've never built a chassis table before and from researching them online I quickly learned there's no one size fits all solution.

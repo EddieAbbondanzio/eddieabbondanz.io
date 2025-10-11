@@ -3,7 +3,6 @@ title: "Electrical Gremlins, a Blown Clutch, and a Massive Oil Leak"
 date: 2022-08-09
 series: "88 Integra Build"
 type: post
-thumbnail: "/post/88-integra/electrical-gremlins-and-a-blown-clutch/images/thumbnail.jpg"
 ---
 
 Having driven over 2,500 miles and raced in 2 auto cross events, the Integra has had a few issues pop up along the way, but is still holding strong.

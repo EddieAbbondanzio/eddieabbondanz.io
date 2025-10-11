@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 2: Revamping the Trans with an LSD"
 date: 2023-07-07
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-2/images/thumbnail.jpg"
 ---
 
 Itching to take a break from all the metal work I've been doing on my XJ, I decided to start with the transmission for my civic. There's nothing actually wrong with it, but I can't resist adding an LSD to it.

@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 21: Jamming out the Cabin Harness so I Can Put
 date: 2024-02-22
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-21/images/thumbnail.jpg"
 ---
 
 The two biggest lessons I've learned from all the wiring I've been doing on the Civic are to always double check your work at each step, and try to wire at a desk whenever possible instead of kneeling next to, or inside a car.

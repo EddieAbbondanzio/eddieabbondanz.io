@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 15: Bolting More Bits Back On"
 date: 2024-01-05
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-15/images/thumbnail.jpg"
 ---
 
 It's a relief having finished up all the bodywork on the Civic but I'm starting to feel short on time with the beginning of the race seasoning looming closer and closer. The project is approaching the finish line, but at a high level I still need to:

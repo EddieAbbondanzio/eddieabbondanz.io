@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 5: Sandblasting the Engine Bay"
 date: 2023-07-20
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-5/images/thumbnail.jpg"
 ---
 
 With so many spots that needed to be addressed in the engine bay it was hard to pick where to start. To break the ice I decided to start with a small first step of unshaving the headlight adjuster holes that I had accidentally shaved.

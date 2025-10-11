@@ -3,7 +3,6 @@ title: "Rust Repair Part 19: Salvaging What I Can of the Driver Side"
 date: 2023-05-15
 type: post
 series: "LS XJ Build"
-thumbnail: "/post/ls-xj-build/rust-repair-part-19/images/thumbnail.jpg"
 aliases:
   - "/post/xj/unibody-rust-repair-part-19"
 ---

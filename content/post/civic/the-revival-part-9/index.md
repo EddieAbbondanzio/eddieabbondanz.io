@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 9: Taking the Engine Bay From Primer to Paint 
 date: 2023-10-18
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-9/images/thumbnail.jpg"
 ---
 
 Bodywork is probably my least favorite step when it comes to a project. It takes a ton of time and it often feels like your just going in circles. I'm grateful I didn't have to worry about painting the entire vehicle but even just doing the engine bay I spent somewhere around 120 hours on it.

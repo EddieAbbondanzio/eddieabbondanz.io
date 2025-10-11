@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 3: Giving the Motor a Quick Refresh"
 date: 2023-07-14
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-3/images/thumbnail.jpg"
 ---
 
 The B20B I pulled out of the Civic was still perfectly healthy and didn't really need much.

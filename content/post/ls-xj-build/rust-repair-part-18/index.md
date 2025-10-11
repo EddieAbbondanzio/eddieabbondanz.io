@@ -3,7 +3,6 @@ title: "Rust Repair Part 18: Diving Into the Driver Side and Fixing the Drip Rai
 date: 2023-04-13
 type: post
 series: "LS XJ Build"
-thumbnail: "/post/ls-xj-build/rust-repair-part-18/images/thumbnail.jpg"
 aliases:
   - "/post/xj/unibody-rust-repair-part-18"
 ---

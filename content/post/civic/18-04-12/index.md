@@ -3,7 +3,6 @@ title: "Civic Build - 4/12/18"
 date: 2018-04-12
 type: post
 series: "93 EG Hatch Build"
-thumbnail: "/post/civic/18-04-12/images/thumbnail.jpg"
 ---
 
 ## Restoring the transmission

@@ -3,7 +3,6 @@ title: "Rust Repair Part 21: Blowing Off the Dust a Year Later AGAIN"
 date: 2025-05-17
 type: post
 series: "LS XJ Build"
-thumbnail: "/post/ls-xj-build/rust-repair-part-21/images/thumbnail.jpg"
 aliases:
   - "/post/xj/unibody-rust-repair-part-21"
 ---

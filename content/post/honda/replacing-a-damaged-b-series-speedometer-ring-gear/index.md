@@ -2,7 +2,6 @@
 title: "Replacing a Damaged B-Series Speedometer Gear"
 date: 2023-06-25
 type: post
-thumbnail: "/post/honda/replacing-a-damaged-b-series-speedometer-ring-gear/images/thumbnail.jpg"
 series: "Honda Info and DIYs"
 ---
 

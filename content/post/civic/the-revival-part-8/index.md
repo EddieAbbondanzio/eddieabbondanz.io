@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 8: Raptor Lining the Front Wheel Wells and Fin
 date: 2023-09-25
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-8/images/thumbnail.jpg"
 ---
 
 I made a mistake in the wheel wells. I had initially planned to leave portions of the OEM undercoating since it was so difficult to remove, and would use bed liner to recoat everything else that I had stripped, but I didn't consider how it'd be next to impossible to blend the two together.

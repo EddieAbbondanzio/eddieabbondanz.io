@@ -3,7 +3,6 @@ title: "Rust Repair Part 14: Welding in the Passenger 2x6 Rocker"
 date: 2022-10-22
 type: post
 series: "LS XJ Build"
-thumbnail: "/post/ls-xj-build/rust-repair-part-14/images/thumbnail.jpg"
 description: "In this post we'll continue building out the 2x6 rocker for the passenger side."
 aliases:
   - "/post/xj/unibody-rust-repair-part-14"

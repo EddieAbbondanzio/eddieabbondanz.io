@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 16: Redoing my Shifter Conversion Plate"
 date: 2024-01-18
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-16/images/thumbnail.jpg"
 ---
 
 Digging into the smaller details of the car has been pretty enjoyable. Most of the small things I'm working on aren't necessary for getting the car back on the road, but it's given me a chance to address all the minor issues the car has had for years.

@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 22: Dyeing the Rear Interior and Running Fuel 
 date: 2024-03-05
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-22/images/thumbnail.jpg"
 ---
 
 After 9 months of work the Civic is just about done! It feels pretty weird knowing I'll be shifting focus to another project after spending so much time on it. I'm not 100% sure what I'll pivot to next, but I'm most likely going to work on the Integra next as it needs a major tune up to be ready for the 2024 autocross season.

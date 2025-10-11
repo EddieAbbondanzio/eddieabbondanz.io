@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 19: The New Duckbill"
 date: 2024-01-31
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-19/images/thumbnail.jpg"
 ---
 
 In an effort to knock down the size of my TODO list I've been trying to wrap up the exterior of the car. Plus with how close the exterior is to being done I've been itching to see how the car is gonna look all buttoned up.

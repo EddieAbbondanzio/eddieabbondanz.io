@@ -2,7 +2,6 @@
 title: "How to tell if a B20B is high compression"
 date: 2024-05-27
 type: post
-thumbnail: "/post/honda/low-comp-or-high-comp-b20b/images/thumbnail.jpg"
 series: "Honda Info and DIYs"
 ---
 

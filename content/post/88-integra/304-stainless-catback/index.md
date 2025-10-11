@@ -3,7 +3,6 @@ title: "Fabricating a 304 Stainless Catback Exhaust"
 date: 2022-04-22
 series: "88 Integra Build"
 type: post
-thumbnail: "/post/88-integra/304-stainless-catback/images/thumbnail.jpg"
 ---
 
 The exhaust on my new to me 88 Integra was beyond saving with several holes in the resonator and the muffler having turned questionably brittle. As this is suppose to be a summer daily driver that's pleasant to drive I decided to splurge and build a stainless exhaust setup to save my ears and retain my sanity.

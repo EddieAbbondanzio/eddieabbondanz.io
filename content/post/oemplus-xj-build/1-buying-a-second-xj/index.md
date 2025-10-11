@@ -3,7 +3,6 @@ title: "Buying a Second XJ From Across the US"
 date: 2025-02-14
 type: post
 series: "OEM+ XJ Build"
-thumbnail: "/post/oemplus-xj-build/1-buying-a-second-xj/images/thumbnail.jpg"
 ---
 
 Back in June of 2024, the night before I was due to fly out to Colorado for a work trip I couldn't resist sifting through the Denver Craigslist to see what I could find. I wasn't actually in the market to buy anything, but whenever I'm traveling outside of the Northeast I always like to see whats for sale in the states that don't have to deal with road salt.
@@ -16,7 +15,7 @@ Now, for some context I already have an XJ but it's undergoing a massive rust re
 
 ![](./images/1.jpg)
 
-And ever since my XJ was torn down I've been daily driving my 88 Integra because the XJ used to be my daily. The Integra is fairly reliable and in decent shape for it's age but I've found it to be a lousy daily driver for my needs. 
+And ever since my XJ was torn down I've been daily driving my 88 Integra because the XJ used to be my daily. The Integra is fairly reliable and in decent shape for it's age but I've found it to be a lousy daily driver for my needs.
 
 My main gripes with the Integra are that it can't haul larger items (aka body panels, steel, etc...) so it was making it more difficult to acquire parts to finish the XJ, and it's also not a good car for winter. During the winter I only drive the Integra on clear days which means having to keep an eye on the weather and planning around it carefully.
 
@@ -91,9 +90,10 @@ Not bad.
 ![](./images/10.jpg)
 
 In terms of mechanical repairs under the hood I estimated it'd need:
+
 - New valve cover gasket (leaking in rear / side)
 - New water pump / inlet tube (tube was almost rusted through)
-- Fan shroud (original was missing) 
+- Fan shroud (original was missing)
 - Battery tray (OEM one is just plastic and was broken)
 - Grounds / battery terminals replaced
 - Timing chain (engine had 214k so it was due regardless)
@@ -113,7 +113,7 @@ The bolts holding the rear bumper onto the XJ were seized due to rust so to make
 
 For those that noticed the hatch interior panel is tan while the rest of the interior is gray it's because the PO had the hatch replaced with a junkyard unit. The hatch used to be red and it looks like it had a quick paint job sprayed over the red as I can see it coming through in chips / around the hatch window. I'm most likely going to steal the hatch off my other XJ since it's already the correct color and in better shape.
 
-The rear interior was pretty dusty but nothing too terrible. 
+The rear interior was pretty dusty but nothing too terrible.
 ![](./images/13.jpg)
 
 With the hatch working again I was able to remove it, the rear interior and quarter windows.

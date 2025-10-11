@@ -1,12 +1,14 @@
 <!-- Post Summary -->
 <div class="py4 fr-tablet post-summary">
+  {{ $thumbnailPath := or .Params.thumbnail (path.Join .RelPermalink .Site.Params.defaultPostThumbnailPath) }}
+  {{ if os.FileExists $thumbnailPath }}
   <a class="fr jcc fs0" href="{{ .Permalink }}">
-    {{ if isset .Params "thumbnail" }}
+
       <div class="thumbnail-container fc">
-        <img class="thumbnail aic" src="{{ .Site.BaseURL }}{{.Params.thumbnail }}" />
+        <img class="thumbnail aic" src="{{ $thumbnailPath }}" />
       </div>
-    {{ end }}
   </a>
+  {{ end }}
 
   <div class="ml4-tablet mt3-phone">
     <a class="mb1 fw500 tdn h4" href="{{ .Permalink }}">{{ .Title }}</a>

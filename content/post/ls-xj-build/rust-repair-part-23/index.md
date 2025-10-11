@@ -3,7 +3,6 @@ title: "Rust Repair Part 23: Fixing The Windshield Pillar Gaps And Adding Bracin
 date: 2025-08-13
 type: post
 series: "LS XJ Build"
-thumbnail: "/post/ls-xj-build/rust-repair-part-23/images/thumbnail.jpg"
 aliases:
   - "/post/xj/unibody-rust-repair-part-23"
 ---

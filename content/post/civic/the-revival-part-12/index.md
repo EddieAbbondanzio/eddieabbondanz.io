@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 12: No More Cabin Water Leaks"
 date: 2023-11-27
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-12/images/thumbnail.jpg"
 ---
 
 As of lately it's been hard for me to see the overall progress being made on the hatch because I'm working on too many small steps simultaneously.

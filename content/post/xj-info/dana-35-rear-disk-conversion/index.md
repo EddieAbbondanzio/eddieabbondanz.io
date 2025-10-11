@@ -3,7 +3,6 @@ title: "XJ Rear Disk Conversion"
 date: 2025-03-05
 type: post
 series: "XJ Info and DIYs"
-thumbnail: "/post/xj-info/dana-35-rear-disk-conversion/images/thumbnail.jpg"
 ---
 
 If you're tired of the rear drum brakes on your XJ it's easy to swap to rear disks using ZJ (93-98 Grand Cherokee) brakes. Just like some XJs, ZJs have a Dana 35 rear axle and some of the ZJs were built with rear disk brakes which is why the parts will bolt up.
@@ -14,32 +13,32 @@ If you're tired of the rear drum brakes on your XJ it's easy to swap to rear dis
 
 **Note**: This guide is written for XJs with a Dana 35 rear axle but should also work for those with a Chrysler 8.25 rear axle. You'll likely need to grind out the center hole of the backing plates to fit the larger axle tubes of the Chrysler 8.25. If your not sure which rear axle your XJ has, check out [this guide.](https://www.cherokeeforum.com/f2/rear-axle-identification-8382/)
 
-
 You'll need to source all of the following parts. The cheapest route will be to scavenge them off a ZJ in a junkyard, but if none of the junkyards near you have any ZJs you can buy new parts online.
 
-| Part | Part Number | Quantity |
-|------|-------------|----------|
-| ZJ driver rear caliper | Power Stop L4398 | 1 |
-| ZJ passenger rear caliper | Power Stop L4399 | 1 |
-| ZJ rear rotors | Centric 12067032 | 2 |
-| ZJ rear pads | Power Stop 17666 | 1 |
-| ZJ backing plates | Crown 476212829K | 1 |
-| Custom driver parking brake cable | RT Offroad RT31041 | 1 |
-| Custom passenger parking brake cable | RT Offroad RT31040 | 1 | 
-| ZJ Prop valve from a ZJ with rear disk brakes | Mopar 52009129, or Mopar 52009061 | 1 |
-| ZJ Rear wheel studs | Dorman 610-234 | 10 | 
-| ZJ rear disk rubber brake lines | Sunsong 2203837, Sunsong 2201229 | 1 of each |
-| Rear diff fluid | 80w90 diff oil (for non LSD rears) | 1.75qts |
-| 3/16 brake line | n/a | ~10ft |
-| 3/8-24 brake flare fitting | n/a | 4 |
-| Brake fluid | DOT 3 / DOT 4 | 1qt |
-| Big zip ties | n/a | 2 - 3 |
+| Part                                          | Part Number                        | Quantity  |
+| --------------------------------------------- | ---------------------------------- | --------- |
+| ZJ driver rear caliper                        | Power Stop L4398                   | 1         |
+| ZJ passenger rear caliper                     | Power Stop L4399                   | 1         |
+| ZJ rear rotors                                | Centric 12067032                   | 2         |
+| ZJ rear pads                                  | Power Stop 17666                   | 1         |
+| ZJ backing plates                             | Crown 476212829K                   | 1         |
+| Custom driver parking brake cable             | RT Offroad RT31041                 | 1         |
+| Custom passenger parking brake cable          | RT Offroad RT31040                 | 1         |
+| ZJ Prop valve from a ZJ with rear disk brakes | Mopar 52009129, or Mopar 52009061  | 1         |
+| ZJ Rear wheel studs                           | Dorman 610-234                     | 10        |
+| ZJ rear disk rubber brake lines               | Sunsong 2203837, Sunsong 2201229   | 1 of each |
+| Rear diff fluid                               | 80w90 diff oil (for non LSD rears) | 1.75qts   |
+| 3/16 brake line                               | n/a                                | ~10ft     |
+| 3/8-24 brake flare fitting                    | n/a                                | 4         |
+| Brake fluid                                   | DOT 3 / DOT 4                      | 1qt       |
+| Big zip ties                                  | n/a                                | 2 - 3     |
 
 Remarks:
+
 - Any ZJ specific parts will work. I listed part #s for Power stop / Centric / Crown above for those that want an easy to follow list.
 - There's no difference in rear brakes between the i6 / v8 ZJ models.
 - When searching for ZJ parts, don't use 1993 as the model year. ZJs only came with drum brakes in 93.
-- Others have used ZJ / KJ parking brake cables with good results but I opted to go with the custom cables for simplicity. 
+- Others have used ZJ / KJ parking brake cables with good results but I opted to go with the custom cables for simplicity.
 
 ### Warning: Replacing The Rear Wheel Studs Is Mandatory
 
@@ -49,10 +48,10 @@ Dorman 610-234 studs are perfect because they're 1.465" long which is roughly 0.
 
 If you're interested in running wheel spacers you could step up to the Dorman 610-449 studs which are 2.078" long.
 
-| Part | Part # | Length |
-|------|-------------|----------|
-| OEM XJ drum wheel studs | Mopar 83503053 | 1.375" |
-| ZJ rear disk wheel studs | Dorman 610-234 | 1.465" |
+| Part                              | Part #         | Length |
+| --------------------------------- | -------------- | ------ |
+| OEM XJ drum wheel studs           | Mopar 83503053 | 1.375" |
+| ZJ rear disk wheel studs          | Dorman 610-234 | 1.465" |
 | Extended ZJ rear disk wheel studs | Dorman 610-449 | 2.078" |
 
 # Steps
@@ -123,7 +122,7 @@ Some aftermarket backing plates will be labeled with an "L" (driver side) or "R"
 ![](./images/17.jpg)
 ![](./images/18.jpg)
 
-Go ahead and slide the axle shafts back in. You'll want to push them in as far as they can go to prep for installing the c clips. 
+Go ahead and slide the axle shafts back in. You'll want to push them in as far as they can go to prep for installing the c clips.
 
 ![](./images/19.jpg)
 
@@ -149,20 +148,19 @@ If you're using aftermarket pads it's never a bad idea to test fit them before g
 
 ![](./images/24.jpg)
 
-Once the pads are good you can pop them onto the caliper and then install the caliper. 
+Once the pads are good you can pop them onto the caliper and then install the caliper.
 ![](./images/25.jpg)
 
 Torque spec for the caliper bolts are 7 - 15 ft-lbs.
 ![](./images/26.jpg)
 ![](./images/28.jpg)
 
-
 ## DIY Rubber Brake Line Brackets
 
 Drum brakes don't use rubber brake lines because they are stationary but calipers can slide in and out so they require rubber lines to compensate.
 ![](./images/29.jpg)
 
-The rubber brake lines are pretty cheap and easy to install but they'll require a bracket to attach to. 
+The rubber brake lines are pretty cheap and easy to install but they'll require a bracket to attach to.
 
 You could probably get away with using a zip tie to secure them to the axle but it's not overly difficult to hack together a DIY bracket. I made mine out of 1/8 angle that I welded to the axle.
 ![](./images/32.jpg)
@@ -234,11 +232,11 @@ Hook up the new lines. (Shorter line goes on driver side)
 
 Use one or two large zip ties to secure the lines to the axle.
 
-Keep the lines somewhat loose and don't tighten up the adjuster yet because you'll need adjust the parking brake shoes on each side. 
+Keep the lines somewhat loose and don't tighten up the adjuster yet because you'll need adjust the parking brake shoes on each side.
 
 You can do this by removing the rubber plug on the back side of the backing plate and adjusting the parking brake by turning the brass star until you can feel the parking brake starting to drag when turning the rear wheel. Both sides will need to be done.
 
-Once that's taken care of you can tighten the adjuster nut and test the parking brake lever to ensure it locks up the brakes. 
+Once that's taken care of you can tighten the adjuster nut and test the parking brake lever to ensure it locks up the brakes.
 
 # All Done
 
@@ -273,13 +271,14 @@ Yes as long as your careful when making new flared ends on them. Given XJs are n
 
 **Where did the torque specs come from?**
 
-| Torque Spec | Amount | Source |
-|-------------|--------|--------|
-| Backing plate mount nuts | 45 ft-lbs | 96 ZJ FSM page 3-31 |
-| Caliper mounting bolts | 7-15 ft-lbs | 96 ZJ FSM page 5-33 |
-| Diff cover | 20 ft -lbs | https://www.jeepforum.com/threads/torque-spec-for-backing-plate-dana-35c.820200/ |
+| Torque Spec              | Amount      | Source                                                                           |
+| ------------------------ | ----------- | -------------------------------------------------------------------------------- |
+| Backing plate mount nuts | 45 ft-lbs   | 96 ZJ FSM page 3-31                                                              |
+| Caliper mounting bolts   | 7-15 ft-lbs | 96 ZJ FSM page 5-33                                                              |
+| Diff cover               | 20 ft -lbs  | https://www.jeepforum.com/threads/torque-spec-for-backing-plate-dana-35c.820200/ |
 
 # Resources
+
 - [BleepinJeep Rear Disk Brake Upgrade](https://www.youtube.com/watch?v=QOTjO1wkhrg)
 - [ZJ brakes on a Chrysler 8.25](https://www.jeepforum.com/threads/zj-rear-disc-conversion-to-8-25-write-up-the-whole-truth.607435/)
 - [Custom brake line brackets](https://www.cherokeeforum.com/f67/zj-rear-disc-conversion-wj-swap-210047/)

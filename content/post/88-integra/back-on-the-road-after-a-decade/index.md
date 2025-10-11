@@ -3,7 +3,6 @@ title: "Back on the Road After a Decade"
 date: 2022-05-23
 series: "88 Integra Build"
 type: post
-thumbnail: "/post/88-integra/back-on-the-road-after-a-decade/images/thumbnail.jpg"
 ---
 
 Wrapping up a project isn't always the funnest. The "last 10%" tends to take up significantly more time than anticipated because it involves addressing all the difficult parts that you've been putting off.

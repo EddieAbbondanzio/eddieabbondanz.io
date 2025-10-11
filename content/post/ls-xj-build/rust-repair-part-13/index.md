@@ -3,7 +3,6 @@ title: "Rust Repair Part 13: Replacing the Passenger Inner Rocker To Prep for 2x
 date: 2022-10-16
 type: post
 series: "LS XJ Build"
-thumbnail: "/post/ls-xj-build/rust-repair-part-13/images/thumbnail.jpg"
 aliases:
   - "/post/xj/unibody-rust-repair-part-13"
 ---

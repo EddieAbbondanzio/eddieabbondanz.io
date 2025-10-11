@@ -3,7 +3,6 @@ title: "Rust Repair Part 17: Finally Finishing the Passenger Quarter Panel"
 date: 2023-04-12
 type: post
 series: "LS XJ Build"
-thumbnail: "/post/ls-xj-build/rust-repair-part-17/images/thumbnail.jpg"
 aliases:
   - "/post/xj/unibody-rust-repair-part-17"
 ---

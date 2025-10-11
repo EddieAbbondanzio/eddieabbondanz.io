@@ -3,7 +3,6 @@ title: "Revival of the Hatch Part 17: Cleaning up the Cabin Harness and Installi
 date: 2024-01-22
 series: "93 EG Hatch Build"
 type: "post"
-thumbnail: "/post/civic/the-revival-part-17/images/thumbnail.jpg"
 ---
 
 The cabin harness has been giving me some grief because there's too much wiring underneath where the dash will sit and it's preventing the HVAC system from fitting. The main issue is that since the engine is wired up via a standalone engine harness there's a lot of unused connectors and wires sitting inside the cabin.

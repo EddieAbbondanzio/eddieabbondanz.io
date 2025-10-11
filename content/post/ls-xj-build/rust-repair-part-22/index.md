@@ -3,7 +3,6 @@ title: "Rust Repair Part 22: Getting Jiggy With the XJ and Putting It on a Chass
 date: 2025-06-20
 type: post
 series: "LS XJ Build"
-thumbnail: "/post/ls-xj-build/rust-repair-part-22/images/thumbnail.jpg"
 aliases:
   - "/post/xj/unibody-rust-repair-part-22"
 ---

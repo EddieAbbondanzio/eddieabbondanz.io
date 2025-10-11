@@ -3,7 +3,6 @@ title: "LS Swap Part 2: Converting a NP241C Transfer Case For the XJ With a SYE"
 date: 2025-06-12
 type: post
 series: "LS XJ Build"
-thumbnail: "/post/ls-xj-build/ls-swap-part-2-transfer-case/images/thumbnail.jpg"
 aliases:
   - "/post/xj/ls-swap-part-2"
 ---

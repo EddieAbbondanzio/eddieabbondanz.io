@@ -2,7 +2,6 @@
 title: "Arco Mini Bike Build With a Predator 212 Swap"
 date: 2025-08-03
 type: post
-thumbnail: "/post/shop/mini-bike-build/images/thumbnail.jpg"
 ---
 
 At some of the larger autocross venues I go to it can be a pain to walk around on foot because of how long it takes you to get from point A to B. To get around faster people usually bring an assortment of transporation mechanisms such as bicycles, e-bikes, drift trikes, or even ATVs to get around.

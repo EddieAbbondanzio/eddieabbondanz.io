@@ -2,7 +2,6 @@
 title: "OBD1 Check Engine Light Codes"
 date: 2024-05-04
 type: post
-thumbnail: "/post/honda/obd1-cel-codes/images/thumbnail.jpg"
 series: "Honda Info and DIYs"
 ---
 
