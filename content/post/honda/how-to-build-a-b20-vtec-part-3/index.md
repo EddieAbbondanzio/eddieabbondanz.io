@@ -1,9 +1,8 @@
 ---
 title: "How to Build a B20 VTEC Part 3: Measuring Bearing Clearances"
-date: 2025-10-10
+date: 2025-10-13
 type: post
 series: "Honda Info and DIYs"
-draft: true
 ---
 
 Measuring bearing clearances isn't what I'd call the most exciting step when it comes to building an engine but it's an important one that can catch issues that will dramatically shorten your engine's life. Simply put, bearing clearance is how much space exists between your crank journals and the main / rod bearings.
@@ -67,54 +66,44 @@ The OEM Honda B20 main bearing clearance specs are as follows:
 But for my build [I plan on targeting .0018" - .0020" for the mains](https://honda-tech.com/forums/forced-induction-16/bearing-clearance-choice-measurement-discussion-3129922/#post48543553). This is slightly looser than what the factory recommends but the engine will see plenty of high RPM and also be pushing above stock power so I want them on the looser side.
 
 With the main bearings installed in the block ([I'm using a set of ACL 5M1959H-STD main bearings](https://www.aclperformance.com.au/details/5M1959H)) and torqued down to spec I obtained the following measurements:
-| Main | Main Cap Diameter | Crank Journal Diameter | Bearing Clearance |
-|------|------------------|-------------------|-|
-| 1 | 2.1667 | 2.1649" | .0018" |
-| 2 | 2.1668 | 2.1648" | .0019" |
-| 3 | 2.1663 | 2.1645" | .0018" |
-| 4 | 2.1666 | 2.1648" | .0018" |
-| 5 | 2.1664 | 2.1648" | .0016" |
+| Main | Crank Journal Diameter | Bearing Clearance |
+|------|------------------------|-------------------|
+| 1 | 2.1649" | .0018" |
+| 2 | 2.1648" | .0019" |
+| 3 | 2.1645" | .0018" |
+| 4 | 2.1648" | .0018" |
+| 5 | 2.1648" | .0016" |
 
 Overall I think that's just about perfect. I kinda wish main 5 was a little looser to match the other journals better but at the same time it may not be a bad thing to have main 5 a little tight. It's the furthest from the oil pump so maybe that'll help keep oil pressure high back there.
 
 ## Measuring the Rod Bearings
 
-For rod clearances the OEM B20 specs are .0008" - .0015" but I want somewhere around .0020". This is still in spec for the GSR (B18C1) as Honda allows .0013" - .0020" (page 3-5 of the 94-01 Integra FSM) so that feels perfectly reasonable.
+For rod clearances the OEM B20 specs are .0008" - .0015" but I want somewhere around .0018" - .0020". This is still in spec for the GSR (B18C1) as Honda allows .0013" - .0020" (page 3-5 of the 94-01 Integra FSM) so that feels perfectly reasonable.
 
-Just like the main bearings I'll be running ACL race bearings. Initially I had purchased a set of [ACL 4B1946H-STD](https://www.aclperformance.com.au/details/4B1946H) but ended up having to order a second set of [ACL 4B1946HX-STD](https://www.aclperformance.com.au/details/4B1946HX) bearings afterwards because my clearances were too tight. I suspect this was because of my aftermarket rods.
+Just like the main bearings I'll be running ACL race bearings. Initially I had purchased a set of [ACL 4B1946H-STD](https://www.aclperformance.com.au/details/4B1946H) but ended up having to order another set of [ACL 4B1946HX-STD](https://www.aclperformance.com.au/details/4B1946HX) bearings afterwards because my clearances were too tight. The HX series bearings by ACL have an extra .001" of oil clearance and you can swap a single half to add .0005" of clearance if needed.
 
 Bearing clearances with the H series bearings:
-| Rod | Rod End Diameter | Crank Journal Diameter | Bearing Clearance |
-| --- | ---------------- | ---------------------- | ----------------- |
-| 1 | 1.77245 | 1.7712" | .00125" |
-| 2 | 1.7725 | 1.7710" | .0015" |
-| 3 | 1.77245 | 1.7712" | .00125" |
-| 4 | 1.77245 | 1.7712" | .00125" |
+| Rod | Crank Journal Diameter | Bearing Clearance |
+| --- | ---------------------- | ----------------- |
+| 1 | 1.7712" | .00125" |
+| 2 | 1.7710" | .0015" |
+| 3 | 1.7711" | .00125" |
+| 4 | 1.7711" | .00125" |
 
 A little too tight, especially rod 3 and 4. Once I swapped one H half with a HX half I was able to increase my clearances to:
-| Rod | Rod End Diameter | Crank Journal Diameter | Bearing Clearance |
-| --- | ---------------- | ---------------------- | ----------------- |
-| 1 | 1.7 | 1.7712" | .00" |
-| 2 | 1.7 | 1.7710" | .00" |
-| 3 | 1.7 | 1.7712" | .00" |
-| 4 | 1.7 | 1.7712" | .00" |
-
-TODO: FINISH TABLE!
+| Rod | Crank Journal Diameter | Bearing Clearance |
+| --- | ---------------------- | ----------------- |
+| 1 | 1.7712" | .00175" |
+| 2 | 1.7710" | .0020" |
+| 3 | 1.7711" | .0020" |
+| 4 | 1.7711" | .00175" |
 
 Which is much better.
 
-## Thrust Washers
-
-There's not much to mention for the thrust washers since they prevent the crank from walking and there's no reason not to use the OEM range.
-
-The GSR and CRV allow similar amounts of crank end play (lol) with the GSR allowing up to .0008" and the CRV allowing up to .001".
-
-[Be sure to give this a quick check to make sure your motor is all good](https://www.k1technologies.com/k1-blog/how-to-check-crankshaft-end-play/) and also double check that you don't install your thrust washers backwards.
-
-TODO: Mention cheap dial indicator I bought and what my specs were.
+**Side note**: If you're wondering why rod 3 increased by .00075" when the HX bearing half should have only added .0005" it's because I measured the crank journal incorrectly when testing the H bearings and had over-estimated it's diameter so there was more clearance than expected.
 
 ## Summary
 
-All in all I think these bearing clearances look great. Now that OEM bearings have gotten hard to source with various colors being discontinued it can be harder to really dial in your clearances but it's definitely still doable.
+All in all I think these bearing clearances look great. Now that some of the OEM bearing colors are discontinued it can be harder to perfect your clearances but it's still reasonable to get within the ideal range.
 
 The next part will be over P2W clearance and ring gaps. Stay tuned!

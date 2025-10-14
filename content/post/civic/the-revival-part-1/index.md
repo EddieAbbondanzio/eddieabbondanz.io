@@ -15,7 +15,7 @@ I never really had the money or time to fix it 3 years ago so I had to set it as
 
 # A Quick Recap of 8 Years
 
-It started it's life as a gray 1993 Honda Civic DX with a D15B7 and automatic tranmission when I first bought it in 2015. At the time it had a blown motor and 101k on it.
+It started it's life as a gray 1993 Honda Civic DX with a D15B7 and automatic transmission when I first bought it in 2015. At the time it had a blown motor and 101k on it.
 ![](images/2.jpg)
 
 6 months later it was back on the road with a new heart and a manual transmission conversion.
