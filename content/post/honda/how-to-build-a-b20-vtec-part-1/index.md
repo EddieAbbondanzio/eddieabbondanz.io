@@ -17,7 +17,7 @@ The nut left a bunch of dings and scratches inside of the block and even managed
 ![](./images/2.jpg)
 ![](./images/3.jpg)
 
-I had a local machine shop inspect it as a precautionary measure and they said the block was still usable and only needed a bore due to out of round cylinders. I consider myself lucky that none of the metal bits banging around down there damaged the cylinder walls.
+I brought the block to a local machinist and they said the block was still usable and only needed a bore due to out of round cylinders. I consider myself lucky that none of the metal bits banging around down there damaged the cylinder walls.
 
 # Setting Goals and Making Sure a B20V is a Good Choice
 
