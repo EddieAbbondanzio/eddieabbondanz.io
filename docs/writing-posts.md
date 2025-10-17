@@ -23,10 +23,10 @@ For example a Foo Bar post would look like:
 /foo-bar
   images
   index.md
-``
+```
+
 Where index.md is the markdown content of the post and images is a subdir.
 
 The blog theme will automatically look for a `thumbnail.jpg` to use from `images` but if needed a new path can be specified via the `thumbnail` front matter property.
 
 Ideal thumbnail dimensions are 500x281.
-```
