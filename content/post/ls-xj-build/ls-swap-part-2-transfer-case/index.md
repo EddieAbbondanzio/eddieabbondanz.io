@@ -4,7 +4,7 @@ date: 2025-06-12
 type: post
 series: "LS XJ Build"
 aliases:
-  - "/post/xj/ls-swap-part-2"
+  - "/post/xj/ls-swap-part-2-transfer-case"
 ---
 
 There's several options for transfer cases when LS swapping an XJ. Two of the more popular options are running the stock NP231 / NP242 with an adapter so it'll mate up to the GM transmission or use a GM transfer case such as the NP241 that can be adapted to work with the XJ's driveshafts.

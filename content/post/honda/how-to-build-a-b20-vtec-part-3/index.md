@@ -105,5 +105,3 @@ Which is much better.
 ## Summary
 
 All in all I think these bearing clearances look great. Now that some of the OEM bearing colors are discontinued it can be harder to perfect your clearances but it's still reasonable to get within the ideal range.
-
-The next part will be over P2W clearance and ring gaps. Stay tuned!
