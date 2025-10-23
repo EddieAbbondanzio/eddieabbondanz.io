@@ -19,11 +19,13 @@
     "Gentex",
     "Hasport",
     "hotend",
+    "Integra",
     "mainshaft",
     "Noctua",
     "plastigage",
     "Prusa",
     "subframe",
+    "tensioner",
     "understeer",
     "unibody"
   ]

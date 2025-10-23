@@ -34,9 +34,18 @@
       {{ end }}
     </div>
 
+    {{ if .Description }}
+
+    <p class="mt2">
+      {{ .Description | plainify }}
+      <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
+    </p>
+    {{ else }}
     <p class="mt2">
       {{ .Summary | plainify }}
       <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
     </p>
+    {{ end }}
+
   </div>
 </div>
