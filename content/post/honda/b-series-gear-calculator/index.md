@@ -3,7 +3,7 @@ title: "B-Series Gear Calculator"
 date: 2025-07-26
 type: post
 thumbnail: "/post/honda/b-series-gear-calculator/images/featured.jpg"
-series: "Honda Info and DIYs"
+category: "Honda Info and DIYs"
 summary: "Helpful calculator for comparing different b-series transmissions. Allows for custom gear ratios, and tire sizes."
 ---
 

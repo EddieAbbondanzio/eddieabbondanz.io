@@ -2,7 +2,7 @@
 title: "Harbor Freight 30-5 Cart Lid Lock Delete Mod"
 date: 2024-12-01
 type: post
-series: "Shop and Tools"
+category: "Shop and Tools"
 ---
 
 I don't use the locks on my HF 5 drawer carts and wanted to free up some extra space so I decided to delete them. This was a fairly easy mod to do since the parts are held in by small rivets that can be drilled out.

@@ -2,7 +2,7 @@
 title: "How to Install Syncthing on Ubuntu"
 date: 2025-07-28
 type: post
-series: "Linux"
+category: "Linux"
 thumbnail: "/post/linux/how-to-install-syncthing/images/syncthing-logo.png"
 ---
 

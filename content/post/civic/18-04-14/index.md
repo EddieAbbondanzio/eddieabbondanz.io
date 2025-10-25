@@ -2,7 +2,7 @@
 title: "Civic Build - 4/14/18"
 date: 2018-04-14
 type: post
-series: "93 EG Hatch Build"
+category: "93 EG Hatch Build"
 ---
 
 ## Getting Closer.

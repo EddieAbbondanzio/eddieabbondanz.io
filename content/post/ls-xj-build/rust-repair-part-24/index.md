@@ -2,7 +2,8 @@
 title: "Rust Repair Part 24: Final Tweaks for the Passenger Fender"
 date: 2025-10-09
 type: post
-series: "LS XJ Build"
+category: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-24"
 ---

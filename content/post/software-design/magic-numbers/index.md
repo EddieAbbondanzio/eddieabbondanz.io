@@ -2,7 +2,7 @@
 title: "Software Design - Magic Numbers"
 date: 2018-10-29
 type: post
-series: "Development"
+category: "Development"
 ---
 
 # What Are They?

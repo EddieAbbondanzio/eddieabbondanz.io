@@ -2,7 +2,8 @@
 title: "How to Build a B20 VTEC Part 1: Planning Your Goals and Budget"
 date: 2024-11-26
 type: post
-series: "Honda Info and DIYs"
+category: "Honda Info and DIYs"
+series: "How to Build a B20V"
 ---
 
 Building a B20 VTEC (aka B20V, aka CRVTEC) isn't much more difficult than building a normal B20 but it can be daunting to figure out what you'll need for parts with so many different options out there. You can do anything from slapping a VTEC head on a stock B20 block and sending it, to going all out with high comp pistons, big cams, and a bunch of headwork.

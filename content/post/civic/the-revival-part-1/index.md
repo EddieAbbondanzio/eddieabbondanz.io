@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 1: Restarting a Forgotten Project"
 date: 2023-06-03
-series: "93 EG Hatch Build"
+category: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 

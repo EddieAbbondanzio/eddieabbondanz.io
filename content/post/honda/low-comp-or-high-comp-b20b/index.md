@@ -2,7 +2,7 @@
 title: "How to tell if a B20B is high compression"
 date: 2024-05-27
 type: post
-series: "Honda Info and DIYs"
+category: "Honda Info and DIYs"
 ---
 
 The B20B came in a few different versions. There's a low compression one, a high compression one, and a third variant with the P8R head.

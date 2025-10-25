@@ -1,7 +1,7 @@
 ---
 title: "Acura Build - 09/09/2014"
 date: 2014-09-09
-series: "RL Build"
+category: "RL Build"
 type: post
 thumbnail: "/post/acura/14-09-09/images/1.jpg"
 ---

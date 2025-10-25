@@ -2,7 +2,7 @@
 title: "OBD1 Check Engine Light Codes"
 date: 2024-05-04
 type: post
-series: "Honda Info and DIYs"
+category: "Honda Info and DIYs"
 ---
 
 Pulling CEL codes for an OBD1 Honda is actually pretty easy. All you need to do is locate the service connector (a 2 pin connector usually behind the glove box) and jump it. Then when the key is set to IGN the check engine light will start blinking.

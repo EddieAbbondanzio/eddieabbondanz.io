@@ -2,7 +2,7 @@
 title: "Centered vs Offset AW4 Transmission Mounts"
 date: 2025-03-21
 type: post
-series: "XJ Info and DIYs"
+category: "XJ Info and DIYs"
 ---
 
 There's two different versions of the transmission mount for XJs that came with the AW4 automatic transmission and they're commonly referred to as centered, and offset.

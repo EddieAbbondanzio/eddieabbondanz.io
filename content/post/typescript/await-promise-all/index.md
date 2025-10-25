@@ -3,7 +3,7 @@ title: "TypeScript - Await Promise.All() And Get The Results"
 date: 2020-03-15
 type: post
 thumbnail: "/post/typescript/await-promise-all/images/featured.jpg"
-series: "Development"
+category: "Development"
 ---
 
 I'm a big fan of the `async` `await` syntax in ES2017. In my opinion it just feels a lot more natural than [and then and then and then...](https://www.youtube.com/watch?v=CkdyU_eUm1U). I digress. I'll keep this one short.

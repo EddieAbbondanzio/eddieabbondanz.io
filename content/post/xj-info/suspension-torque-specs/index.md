@@ -2,7 +2,7 @@
 title: "XJ Suspension Torque Specs"
 date: 2024-10-23
 type: post
-series: "XJ Info and DIYs"
+category: "XJ Info and DIYs"
 ---
 
 Working on your XJ's suspension and need a torque spec? This list should have you covered. I grabbed all of these torque specs from the 2001 factory service manual and should apply to any year. (You may want to double check if you've got an older Renix XJ)

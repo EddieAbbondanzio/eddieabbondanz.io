@@ -2,7 +2,7 @@
 title: "Fixing All The Mechanical Issues"
 date: 2025-02-15
 type: post
-series: "OEM+ XJ Build"
+category: "OEM+ XJ Build"
 ---
 
 With a rough idea of what it'd take to fix up the damage I decided to switch focus and tackle all the mechanical / electrical issues before diving into the bodywork.

@@ -2,7 +2,7 @@
 title: "No Mans Blocks - 10/13/2018"
 date: 2018-10-13
 type: post
-series: "Development"
+category: "Development"
 ---
 
 # Where I've Been, and Where I'm Heading

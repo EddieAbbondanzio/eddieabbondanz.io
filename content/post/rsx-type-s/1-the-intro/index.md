@@ -2,7 +2,7 @@
 title: "I Bought an 05 RSX Type S With a Blown Transmission"
 date: 2025-09-06
 type: post
-series: "RSX Type-S"
+category: "RSX Type-S"
 ---
 
 About a month back I was staying at an AirBnB with some buddies for an autocross event when one of them casually mentioned they had a friend with a broken down RSX type S sitting around and he was looking to sell it.
@@ -28,7 +28,7 @@ But it already has some nice mods like being lowered on Function & Form Type 1 c
 
 # Let's See Why The Transmissions Locked Up
 
-My first idea for the RSX was to part it out and use it as a donor car for K-swapping my [EG hatch]({{< relref "series/93-eg-hatch-build" >}}) but after looking it over I think it can still be made road worthy and have some fun auto crossing it. I'm also not looking to K-swap my EG anytime soon (maybe in 3-4 years) so even if I did use it as a donor it'd just sit in my yard until then.
+My first idea for the RSX was to part it out and use it as a donor car for K-swapping my [EG hatch]({{ categoryref "93 EG Hatch Build" }}) but after looking it over I think it can still be made road worthy and have some fun auto crossing it. I'm also not looking to K-swap my EG anytime soon (maybe in 3-4 years) so even if I did use it as a donor it'd just sit in my yard until then.
 
 Before I could make any solid plans with it I needed to figure out what was going on inside the transmission. Right now the RSX won't move and if you try and shift it in gear and let the clutch out it just stalls. From what I could tell, the engagement of the clutch feels good and based on how the front wheels locked while driving I didn't expect I'd get lucky and find a bad clutch.
 

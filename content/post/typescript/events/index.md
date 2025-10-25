@@ -3,7 +3,7 @@ title: "TypeScript - Events"
 date: 2019-01-21
 type: post
 thumbnail: "/post/typescript/events/images/1.jpg"
-series: "Development"
+category: "Development"
 ---
 
 If you were expecting a phone call from a friend, you (hopefully) wouldn't sit by the phone and continuously pick it up to see if your friend was on the other end. Instead, you'd wait to be notified of an incoming call when the phone started ringing or vibrating. Sitting by the phone and picking it up over and over again is a form of what's known as polling.

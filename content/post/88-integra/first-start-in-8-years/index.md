@@ -1,7 +1,7 @@
 ---
 title: "The First Start"
 date: 2021-12-03
-series: "88 Integra Build"
+category: "88 Integra Build"
 type: post
 ---
 

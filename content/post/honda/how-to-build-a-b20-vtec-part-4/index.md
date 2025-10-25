@@ -2,7 +2,8 @@
 title: "How to Build a B20 VTEC Part 4: Piston to Wall Clearance and Ring Gaps"
 date: 2025-10-18
 type: post
-series: "Honda Info and DIYs"
+category: "Honda Info and DIYs"
+series: "How to Build a B20V"
 ---
 
 With the bearing clearances dialed in, all that's left to prep for installing the crank, pistons, and rods in the block is double checking the piston to wall clearance and setting the ring gaps.

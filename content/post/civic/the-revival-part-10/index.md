@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 10: Dropping the B20B Back In and Fixing Some Mistakes"
 date: 2023-10-28
-series: "93 EG Hatch Build"
+category: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 

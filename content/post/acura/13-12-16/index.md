@@ -1,7 +1,7 @@
 ---
 title: "Acura Build - 12/16/2013"
 date: 2013-12-15
-series: "RL Build"
+category: "RL Build"
 type: post
 ---
 

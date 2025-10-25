@@ -2,7 +2,7 @@
 title: "No Mans Blocks - 6/4/18"
 date: 2018-06-04
 type: post
-series: "Development"
+category: "Development"
 ---
 
 ## Creating Time (literally!)

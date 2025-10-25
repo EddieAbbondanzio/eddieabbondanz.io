@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 8: Raptor Lining the Front Wheel Wells and Finishing the Firewall"
 date: 2023-09-25
-series: "93 EG Hatch Build"
+category: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 

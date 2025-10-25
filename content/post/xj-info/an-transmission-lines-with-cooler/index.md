@@ -2,7 +2,7 @@
 title: "AN Transmission Lines Upgrade with Aftermarket Trans Cooler"
 date: 2024-08-03
 type: post
-series: "XJ Info and DIYs"
+category: "XJ Info and DIYs"
 ---
 
 The OEM transmission lines on XJs can be difficult to work with due to their quick disconnect fittings, and the lines themselves are known to leak due to rusting out. Swapping out the OEM lines for AN lines isn't overly difficult, and it's easy to add a transmission cooler while you're doing the lines.

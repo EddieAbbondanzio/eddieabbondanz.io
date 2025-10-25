@@ -2,7 +2,7 @@
 title: "Buying a Second XJ From Across the US"
 date: 2025-02-14
 type: post
-series: "OEM+ XJ Build"
+category: "OEM+ XJ Build"
 ---
 
 Back in June of 2024, the night before I was due to fly out to Colorado for a work trip I couldn't resist sifting through the Denver Craigslist to see what I could find. I wasn't actually in the market to buy anything, but whenever I'm traveling outside of the Northeast I always like to see whats for sale in the states that don't have to deal with road salt.

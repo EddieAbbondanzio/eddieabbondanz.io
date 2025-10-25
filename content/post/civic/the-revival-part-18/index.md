@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 18: Finalizing the New Brakes"
 date: 2024-01-26
-series: "93 EG Hatch Build"
+category: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 

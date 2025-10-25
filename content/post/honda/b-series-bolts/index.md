@@ -3,7 +3,7 @@ title: "B-Series Bolt Sizes"
 date: 2018-04-06
 type: post
 thumbnail: "/post/honda/b-series-bolts/images/featured.jpg"
-series: "Honda Info and DIYs"
+category: "Honda Info and DIYs"
 ---
 
 I'm in the middle of swapping a B20B into my 1993 civic, and I had to buy (just about) every bolt / nut on the engine and transmission since I was missing so many. I also had the pleasure of tracking down all this information from various forums and sources. To try and help any others who are partaking in a similar project I've compiled a list of what I found below.
@@ -31,9 +31,11 @@ This is because Honda bolts are JIS spec, and most hardware stores don't carry t
 ### Intake Manifold Studs
 
 If you have the OEM studs:
+
 - (9) m8x1.25 flange nuts
 
 Or if you deleted the studs:
+
 - (9) m8x1.25x30 flange bolts
 
 ### MAP Sensor
@@ -116,9 +118,9 @@ If you're running the OEM mount with the studs:
 
 If you're running a billet aluminum mount and removed the studs:
 
-- (3) m12x1.25x35mm flange bolts**
+- (3) m12x1.25x35mm flange bolts\*\*
 
-**Billet aluminum mounts are thicker and require longer than stock bolts to compensate.
+\*\*Billet aluminum mounts are thicker and require longer than stock bolts to compensate.
 
 ### Clutch Slave Cylinder
 

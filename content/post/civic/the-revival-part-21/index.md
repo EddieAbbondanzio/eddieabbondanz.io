@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 21: Jamming out the Cabin Harness so I Can Put the Dash Back In"
 date: 2024-02-22
-series: "93 EG Hatch Build"
+category: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 

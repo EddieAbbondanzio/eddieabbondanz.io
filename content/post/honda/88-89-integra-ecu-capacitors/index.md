@@ -1,7 +1,7 @@
 ---
 title: "88 - 89 Integra OBD0 ECU Capacitors"
 date: 2024-10-20
-series: "Honda Info and DIYs"
+category: "Honda Info and DIYs"
 type: post
 ---
 

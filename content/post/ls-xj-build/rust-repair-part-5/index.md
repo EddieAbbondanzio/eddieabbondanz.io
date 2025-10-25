@@ -2,7 +2,8 @@
 title: "Rust Repair Part 5: Designing A Custom Gas Tank Cradle"
 date: 2020-11-22
 type: post
-series: "LS XJ Build"
+category: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-5"
 ---

@@ -2,7 +2,8 @@
 title: "Rust Repair Part 3: Déjà Vu Replacing the Driver Frame Rail"
 date: 2020-11-19
 type: post
-series: "LS XJ Build"
+category: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-3"
 ---

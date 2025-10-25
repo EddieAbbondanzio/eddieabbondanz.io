@@ -2,7 +2,8 @@
 title: "LS Swap Part 1: A New Heart for the XJ"
 date: 2023-09-05
 type: post
-series: "LS XJ Build"
+category: "LS XJ Build"
+series: "LS Swap"
 aliases:
   - "/post/xj/ls-swap-part-1"
 ---

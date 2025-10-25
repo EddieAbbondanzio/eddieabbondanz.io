@@ -1,7 +1,7 @@
 ---
 title: "ASP.NET Core - Claims Based Authentication: Claims vs Identities vs Principals"
 date: 2019-10-14
-series: "Development"
+category: "Development"
 type: post
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 20: Wiring Some DIY Headlight / Radiator Relay Harnesses and Power Door Harnesses "
 date: 2024-02-14
-series: "93 EG Hatch Build"
+category: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 

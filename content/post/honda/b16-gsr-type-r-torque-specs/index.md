@@ -2,7 +2,7 @@
 title: "B16 / B18C1 / B18C5 Torque Specs"
 date: 2025-10-21
 type: post
-series: "Honda Info and DIYs"
+category: "Honda Info and DIYs"
 description: "The ultimate list of torque specs for VTEC B-series engines (B16, B18C1, B18C5, B18C, etc...)"
 ---
 

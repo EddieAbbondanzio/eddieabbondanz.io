@@ -3,7 +3,7 @@ title: "B18 / B20 Torque Specs"
 date: 2024-04-25
 type: post
 thumbnail: "/post/honda/b18-b20-torque-specs/images/featured.jpg"
-series: "Honda Info and DIYs"
+category: "Honda Info and DIYs"
 ---
 
 The ultimate list of torque specs for B18A1, B18B1, B20B, B20Z2 engines. I made this list because I was tired of digging through the 94-01 Integra and 97 - 02 CRV factory service manuals to find them all.
