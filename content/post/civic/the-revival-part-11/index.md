@@ -209,5 +209,3 @@ Getting closer! I even mounted up the evap solenoid on the intake manifold.
 
 All of the parts still awaiting reassembly.
 ![](images/44.jpg)
-
-[Continue on to Part 12]({{< ref "the-revival-part-12" >}})

@@ -78,5 +78,3 @@ The upper seam looks a little lumpy but it's not that bad. I think with some pla
 ![](images/16.jpg)
 
 It's exciting to finally have finished the first side. I've still got a ton of work to do on the driver side, floor pan, and firewall but it feels like a huge accomplishment getting such a large portion done.
-
-[Continue on to Part 18]({{< ref "rust-repair-part-18" >}})

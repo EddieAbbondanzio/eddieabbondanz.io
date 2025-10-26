@@ -51,5 +51,3 @@ Passenger side 50/50.
 
 And with the roof sitting back where it should be I added some bracing just to ensure it never moves again. I really don't want to have to redo this all again.
 ![](images/16-new-bracing.jpg)
-
-[Continue on to Part 24]({{< ref "rust-repair-part-24" >}})

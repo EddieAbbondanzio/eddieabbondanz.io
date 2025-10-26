@@ -153,5 +153,3 @@ All done!
 ![](images/48.jpg)
 
 All in all I think it's a huge improvement for the interior.
-
-[Continue on to Part 17]({{< ref "the-revival-part-17" >}})

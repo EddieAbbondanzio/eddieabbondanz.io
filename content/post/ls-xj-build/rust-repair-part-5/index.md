@@ -81,5 +81,3 @@ When I say floor I mean patch panel.
 ![](images/25.jpg)
 
 It's a patch panel for the pre-face lift (96 and older) Cherokees at that. I couldn't get my hands on anything better so I'll be building it out into a full fledged floor.
-
-[Continue on to Part 6]({{< ref "rust-repair-part-6" >}})

@@ -75,5 +75,3 @@ The subframe was also dropped. This was surprisingly easy as all of the bolts ca
 
 The engine bay's looking super empty now.
 ![](images/24.jpg)
-
-[Continue on to Part 5]({{< ref "the-revival-part-5" >}})

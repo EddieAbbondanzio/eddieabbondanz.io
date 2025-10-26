@@ -77,5 +77,3 @@ Then using some 2" 1/8" tube I made some rear jigs to hold the XJ level.
 
 And just like that the XJ was officially secured to the table.
 ![](./images/21.jpg)
-
-[Continue on to Part 23]({{< ref "rust-repair-part-23" >}})

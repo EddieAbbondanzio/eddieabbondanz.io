@@ -218,5 +218,3 @@ With the bumper all set I couldn't resist bolting it back up to see how the car 
 I think it looks pretty awesome.
 ![](images/65.jpg)
 ![](images/66.jpg)
-
-[Continue on to Part 21]({{< ref "the-revival-part-21" >}})

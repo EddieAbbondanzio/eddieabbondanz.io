@@ -125,5 +125,3 @@ The damage was worse than I anticipated.
 But on the bright side I could see clamp marks on the pillar from the XJ being on a frame puller so it looks like the previous owner at least had it straightened out so I wouldn't have to worry about any major unibody issues.
 
 At the very least I'd need to rebuild the rear of the quarter panel and part of the pillar.
-
-[Continue on to part 2]({{< relref "2-fixing-all-the-mechanical-issues" >}})

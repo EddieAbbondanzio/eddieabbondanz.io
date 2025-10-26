@@ -126,5 +126,3 @@ Tailgate re-installed.
 ![](images/41.jpg)
 
 That's it for now!
-
-[Continue on to Part 15]({{< ref "the-revival-part-15" >}})

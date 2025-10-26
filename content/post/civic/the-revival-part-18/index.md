@@ -119,5 +119,3 @@ Bleeding the brakes was actually pretty straight forward. I started off by bench
 ![](./images/29.jpg)
 
 I did have a couple of leaks to resolve as one of the fittings was only finger tight, and I also had a leaky banjo bolt on the rear passenger caliper but that just turned out to be a dirty mating surface that was easy to take care of.
-
-[Continue on to Part 19]({{< ref "the-revival-part-19" >}})

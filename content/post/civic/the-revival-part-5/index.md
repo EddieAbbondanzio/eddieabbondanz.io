@@ -160,5 +160,3 @@ It was super relieving spraying this section with epoxy knowing I was finally do
 
 I'm glad it's done, but I really hope I never have to paint this engine bay again once it's painted LSB.
 ![](images/48.jpg)
-
-[Continue on to Part 6]({{< ref "the-revival-part-6" >}})

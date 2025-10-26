@@ -143,5 +143,3 @@ I ended up having to weld in some scrap just to get one to bite.
 ![](images/45.jpg)
 
 They're not 100% water tight yet because I still need to put seam sealer down. My goal is to time everything up so the seam sealer will be the last thing I put on right before I bedline the entire underside / quarter panel covers.
-
-[Continue on to Part 8]({{< ref "rust-repair-part-8" >}})

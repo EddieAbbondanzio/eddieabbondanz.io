@@ -123,5 +123,3 @@ After that adventure was resolved I was able to install the steering wheel back 
 On top of that I popped the upper interior back in too. The pictures don't do it justice as the lighting makes the panels look all beat but it's really exciting to see the interior come together.
 ![](./images/28.jpg)
 ![](./images/29.jpg)
-
-[Continue on to Part 20]({{< ref "the-revival-part-20" >}})

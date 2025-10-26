@@ -106,5 +106,3 @@ Which is much better.
 ## Summary
 
 All in all I think these bearing clearances look great. Now that some of the OEM bearing colors are discontinued it can be harder to perfect your clearances but it's still reasonable to get within the ideal range.
-
-[Continue on to part 4]({{< ref "how-to-build-a-b20-vtec-part-4" >}})
