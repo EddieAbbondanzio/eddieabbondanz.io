@@ -277,5 +277,3 @@ I haven't settled on the injectors I plan on using yet but am currently explorin
 # Next Steps
 
 At this point it's almost time to begin assembly but there's still some final prep work to do such as measuring bearing clearances and setting piston ring gap. These steps may sound boring but they can be the deciding factor in how long your motor will last.
-
-[Continue on to part 3]({{< ref "how-to-build-a-b20-vtec-part-3" >}})

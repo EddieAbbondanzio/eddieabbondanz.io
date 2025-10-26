@@ -239,5 +239,3 @@ Touched up the paint.
 Not bad!
 ![](images/74.jpg)
 ![](images/75.jpg)
-
-[Continue on to Part 7]({{< ref "rust-repair-part-7" >}})

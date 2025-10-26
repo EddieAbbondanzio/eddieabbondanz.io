@@ -153,5 +153,3 @@ And 6 spot welds later, she was reinstalled.
 ![](images/31.jpg)
 
 I was beginning to feel like there was a chance I'd be able to fix this heap.
-
-[Continue on to part 2]({{< ref "rust-repair-part-2" >}})

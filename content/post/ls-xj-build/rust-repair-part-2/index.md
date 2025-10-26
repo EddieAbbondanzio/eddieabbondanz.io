@@ -178,5 +178,3 @@ It's exciting to be able to use off the shelf parts with my work.
 ![](images/41.jpg)
 
 With one frame rail complete I finally felt more confident in my ability to fix the Jeep. There was multiple days during this repair where I really questioned if the Jeep would survive this. I was feeling slightly relieved but at the same time dreading having to repeat all that hard work plus more for the other side.
-
-[Continue on to part 3]({{< ref "rust-repair-part-3" >}})

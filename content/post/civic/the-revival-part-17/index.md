@@ -123,5 +123,3 @@ I also had to shorten up the hood pins so they wouldn't block the headlights fro
 
 All done and looking sharp.
 ![](images/33.jpg)
-
-[Continue on to Part 18]({{< ref "the-revival-part-18" >}})

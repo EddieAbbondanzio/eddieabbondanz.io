@@ -1,4 +1,4 @@
-import { createApp, type Plugin as VuePlugin } from 'vue';
+import { createApp } from 'vue';
 import App from './App.vue';
 
 // Import SASS from the hugo project here instead of the components because
