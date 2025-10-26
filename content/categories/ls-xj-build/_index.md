@@ -1,5 +1,4 @@
 ---
 title: "LS XJ Build"
-aliases:
-  - "/series/xj-build"
+description: "My XJ that I'm working on LS swapping and bringing back to life."
 ---
