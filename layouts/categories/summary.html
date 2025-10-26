@@ -1,7 +1,7 @@
 <!-- Post Summary -->
-<div class="py4 fr-tablet post-summary">
+<div class="py4 fr-tablet summary">
   {{ $thumbnailPath := or .Params.thumbnail (path.Join .RelPermalink
-    .Site.Params.defaultPostThumbnailPath)
+    .Site.Params.defaultThumbnailPath)
   }}
   {{ if os.FileExists $thumbnailPath }}
     <a class="fr jcc fs0" href="{{ .Permalink }}">

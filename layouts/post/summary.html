@@ -1,57 +1,65 @@
 <!-- Post Summary -->
-<div class="py4 fr-tablet post-summary">
-  {{ $thumbnailPath := or .Params.thumbnail (path.Join .RelPermalink .Site.Params.defaultPostThumbnailPath) }}
+<div class="py4 fr-tablet summary">
+  {{ $thumbnailPath := or .Params.thumbnail (path.Join .RelPermalink .Site.Params.defaultThumbnailPath) }}
   {{ if os.FileExists $thumbnailPath }}
-  <a class="fr jcc fs0" href="{{ .Permalink }}">
-
+    <a class="fr jcc fs0" href="{{ .Permalink }}">
       <div class="thumbnail-container fc">
         <img class="thumbnail aic" src="{{ $thumbnailPath }}" />
       </div>
-  </a>
+    </a>
   {{ end }}
+
 
   <div class="ml4-tablet mt3-phone">
     <a class="mb1 fw500 tdn h4" href="{{ .Permalink }}">
       {{ if .Draft }}
-      <span class="draft-warning">(Draft)</span>
-      {{ end }} 
+        <span class="draft-warning">(Draft)</span>
+      {{ end }}
       {{ .Title }}
     </a>
 
     <div class="fr meta">
       {{ if .Params.Categories }}
-      <a class="mr1ch tdn" href="/categories/{{ .Params.Categories | urlize  }}" title="More {{ .Params.Categories }} posts">
-        <i class="fas fa-folder"></i>
-        {{ .Params.Categories }}
-      </a>
+        <a
+          class="mr1ch tdn"
+          href="/categories/{{ .Params.Categories | urlize }}"
+          title="More {{ .Params.Categories }} posts"
+        >
+          <i class="fas fa-folder"></i>
+          {{ .Params.Categories }}
+        </a>
       {{ end }}
 
       {{ if .Params.Series }}
-      <a class="mr1ch tdn" href="/series/{{ .Params.Series | urlize  }}" title="More {{ .Params.Series }} posts">
-        <i class="fas fa-th-list"></i>
-        {{ .Params.Series }}
-      </a>
+        <a
+          class="mr1ch tdn"
+          href="/series/{{ .Params.Series | urlize }}"
+          title="More {{ .Params.Series }} posts"
+        >
+          <i class="fas fa-th-list"></i>
+          {{ .Params.Series }}
+        </a>
       {{ end }}
 
       {{ if .Date }}
-      <div class="date" title="Posted on{{ .Date.Format " Jan 2, 2006" }}">
-        <i class="fas fa-calendar-day"></i>
-        <time>{{ .Date.Format "Jan 2, 2006" }}</time>
-      </div>
+        <div class="date" title="Posted on{{ .Date.Format " Jan 2, 2006" }}">
+          <i class="fas fa-calendar-day"></i>
+          <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+        </div>
       {{ end }}
     </div>
 
     {{ if .Description }}
 
-    <p class="mt2">
-      {{ .Description | plainify }}
-      <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
-    </p>
+      <p class="mt2">
+        {{ .Description | plainify }}
+        <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
+      </p>
     {{ else }}
-    <p class="mt2">
-      {{ .Summary | plainify }}
-      <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
-    </p>
+      <p class="mt2">
+        {{ .Summary | plainify }}
+        <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
+      </p>
     {{ end }}
 
   </div>

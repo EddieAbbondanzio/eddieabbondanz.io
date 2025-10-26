@@ -1,33 +1,36 @@
 <!-- Post Summary -->
-<div class="py4 fr-tablet post-summary">
+<div class="py4 fr-tablet summary">
   {{ $thumbnailPath := or .Params.thumbnail (path.Join .RelPermalink
-  .Site.Params.defaultPostThumbnailPath) }} {{ if os.FileExists $thumbnailPath
+    .Site.Params.defaultThumbnailPath)
   }}
-  <a class="fr jcc fs0" href="{{ .Permalink }}">
-    <div class="thumbnail-container fc">
-      <img class="thumbnail aic" src="{{ $thumbnailPath }}" />
-    </div>
-  </a>
+  {{ if os.FileExists $thumbnailPath }}
+    <a class="fr jcc fs0" href="{{ .Permalink }}">
+      <div class="thumbnail-container fc">
+        <img class="thumbnail aic" src="{{ $thumbnailPath }}" />
+      </div>
+    </a>
   {{ end }}
+
 
   <div class="ml4-tablet mt3-phone">
     <a class="mb1 fw500 tdn h4" href="{{ .Permalink }}">
       {{ if .Draft }}
-      <span class="draft-warning">(Draft)</span>
-      {{ end }} {{ .Title }}
+        <span class="draft-warning">(Draft)</span>
+      {{ end }}
+      {{ .Title }}
     </a>
 
     {{ if .Description }}
 
-    <p class="mt2">
-      {{ .Description | plainify }}
-      <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
-    </p>
+      <p class="mt2">
+        {{ .Description | plainify }}
+        <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
+      </p>
     {{ else }}
-    <p class="mt2">
-      {{ .Summary | plainify }}
-      <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
-    </p>
+      <p class="mt2">
+        {{ .Summary | plainify }}
+        <a class="db mt1" href="{{ .Permalink }}">Read more...</a>
+      </p>
     {{ end }}
   </div>
 </div>
