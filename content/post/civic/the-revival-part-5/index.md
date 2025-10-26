@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 5: Sandblasting the Engine Bay"
 date: 2023-07-20
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -159,5 +160,3 @@ It was super relieving spraying this section with epoxy knowing I was finally do
 
 I'm glad it's done, but I really hope I never have to paint this engine bay again once it's painted LSB.
 ![](images/48.jpg)
-
-[Continue on to Part 6]({{< ref "the-revival-part-6" >}})

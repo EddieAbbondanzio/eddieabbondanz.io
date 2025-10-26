@@ -2,7 +2,8 @@
 title: "Rust Repair Part 6: Turning A Patch Panel Into A New Cargo Floor Pan"
 date: 2020-12-06
 type: post
-series: "LS XJ Build"
+categories: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-6"
 ---
@@ -238,5 +239,3 @@ Touched up the paint.
 Not bad!
 ![](images/74.jpg)
 ![](images/75.jpg)
-
-[Continue on to Part 7]({{< ref "rust-repair-part-7" >}})

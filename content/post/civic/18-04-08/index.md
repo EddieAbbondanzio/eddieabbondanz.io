@@ -2,7 +2,7 @@
 title: "Civic Build - 4/8/18"
 date: 2018-04-08
 type: post
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 ---
 
 ## New Transmission Mount Installed

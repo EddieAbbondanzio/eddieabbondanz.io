@@ -2,7 +2,8 @@
 title: "Rust Repair Part 13: Replacing the Passenger Inner Rocker To Prep for 2x6 Rockers"
 date: 2022-10-16
 type: post
-series: "LS XJ Build"
+categories: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-13"
 ---
@@ -257,8 +258,6 @@ Last but not least, don't forget to weld a nut (7x16-14) on the inner rocker for
 Yet another coat of epoxy was sprayed to cover up the exposed metal from the welds.
 ![](images/90.jpg)
 ![](images/91.jpg)
-
-[Continue on to Part 14]({{< ref "rust-repair-part-14" >}})
 
 # Resources
 

@@ -2,7 +2,8 @@
 title: "How to Build a B20 VTEC Part 3: Measuring Bearing Clearances"
 date: 2025-10-13
 type: post
-series: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
+series: "How to Build a B20V"
 ---
 
 Measuring bearing clearances isn't what I'd call the most exciting step when it comes to building an engine but it's an important one that can catch issues that will dramatically shorten your engine's life. Simply put, bearing clearance is how much space exists between your crank journals and the main / rod bearings.
@@ -105,5 +106,3 @@ Which is much better.
 ## Summary
 
 All in all I think these bearing clearances look great. Now that some of the OEM bearing colors are discontinued it can be harder to perfect your clearances but it's still reasonable to get within the ideal range.
-
-[Continue on to part 4]({{< ref "how-to-build-a-b20-vtec-part-4" >}})

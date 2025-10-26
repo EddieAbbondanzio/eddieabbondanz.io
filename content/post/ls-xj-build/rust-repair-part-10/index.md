@@ -2,7 +2,8 @@
 title: "Rust Repair Part 10: The Finishing Touches"
 date: 2021-01-02
 type: post
-series: "LS XJ Build"
+categories: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-10"
 ---
@@ -101,5 +102,3 @@ Well until I turned on the Jeep and found it had three dash lights on. And no th
 Turns out the hatch light was on because the striker wasn't position properly.
 The ABS light was on because I left the passenger front sensor unplugged when I replaced the heater core.
 And the check engine light was on due to an evap emission leak.
-
-[Continue on to Part 11]({{< ref "rust-repair-part-11" >}})

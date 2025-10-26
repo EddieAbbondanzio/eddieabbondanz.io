@@ -1,7 +1,7 @@
 <div class="summary">
   <a class="image" href="{{ .Permalink }}">
     {{ if isset .Params "thumbnail" }}
-    <img src="{{ .Site.BaseURL }}{{.Params.thumbnail }}" />
+      <img src="{{ .Site.BaseURL }}{{ .Params.thumbnail }}" />
     {{ end }}
   </a>
 
@@ -12,24 +12,28 @@
 
     <div class="meta">
       {{ if .Params.Series }}
-      <a class="series" href="/series/{{ .Params.Series | urlize  }}" title="More {{ .Params.Series }} posts">
-        <i class="fas fa-th-list"></i>
-        {{ .Params.Series }}
-      </a>
+        <a
+          class="series"
+          href="/series/{{ .Params.Series | urlize }}"
+          title="More {{ .Params.Series }} posts"
+        >
+          <i class="fas fa-th-list"></i>
+          {{ .Params.Series }}
+        </a>
       {{ end }}
 
       {{ if .Date }}
-      <div class="date" title="Posted on{{ .Date.Format " Jan 2, 2006" }}">
-        <i class="fas fa-calendar-day"></i>
-        <time>{{ .Date.Format "Jan 2, 2006" }}</time>
-      </div>
+        <div class="date" title="Posted on{{ .Date.Format " Jan 2, 2006" }}">
+          <i class="fas fa-calendar-day"></i>
+          <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+        </div>
       {{ end }}
     </div>
 
     <p class="desc">
       {{ .Summary }}
       {{ if .Truncated }}
-      <a href="{{ .Permalink }}">Read more...</a>
+        <a href="{{ .Permalink }}">Read more...</a>
       {{ end }}
     </p>
   </div>

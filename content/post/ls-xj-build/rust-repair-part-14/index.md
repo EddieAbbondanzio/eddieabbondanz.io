@@ -2,7 +2,8 @@
 title: "Rust Repair Part 14: Welding in the Passenger 2x6 Rocker"
 date: 2022-10-22
 type: post
-series: "LS XJ Build"
+categories: "LS XJ Build"
+series: "Rust Repair"
 description: "In this post we'll continue building out the 2x6 rocker for the passenger side."
 aliases:
   - "/post/xj/unibody-rust-repair-part-14"
@@ -240,5 +241,3 @@ While working on the passenger rocker I took the time to build the custom parts 
 ![](images/86.jpg)
 
 Next steps are to finish the outer layer of the B pillar and repair the metal at the bottom of the C pillar (aka dog leg).
-
-[Continue on to Part 15]({{< ref "rust-repair-part-15" >}})

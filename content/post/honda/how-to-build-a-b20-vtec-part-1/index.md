@@ -2,7 +2,8 @@
 title: "How to Build a B20 VTEC Part 1: Planning Your Goals and Budget"
 date: 2024-11-26
 type: post
-series: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
+series: "How to Build a B20V"
 ---
 
 Building a B20 VTEC (aka B20V, aka CRVTEC) isn't much more difficult than building a normal B20 but it can be daunting to figure out what you'll need for parts with so many different options out there. You can do anything from slapping a VTEC head on a stock B20 block and sending it, to going all out with high comp pistons, big cams, and a bunch of headwork.
@@ -61,8 +62,6 @@ Based on all of the above I'm fairly confident a mildly built B20V would be perf
 I'll have to keep the compression to a max of 11.5:1 since 91 octane is the best fuel I'll be able to source without having to be selective of gast stations but that should be more than enough for stage 2 cams.
 
 In terms of cams I'll aim to find a set of cams that focuses on low end power since I'm interested in as much area under the curve as possible.
-
-[Continue on to part 2]({{< ref "how-to-build-a-b20-vtec-part-2" >}})
 
 # Resources
 

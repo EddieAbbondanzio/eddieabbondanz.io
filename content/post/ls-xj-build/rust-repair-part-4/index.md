@@ -2,7 +2,8 @@
 title: "Rust Repair Part 4: Hooking Up The Suspension"
 date: 2020-11-20
 type: post
-series: "LS XJ Build"
+categories: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-4"
 ---
@@ -95,5 +96,3 @@ The Jeep actually sits about 1 1/2" higher now. I know the replacement shackles 
 
 I had to change the bolt location for the shackles. That was a real PITA. All the copper stuff around bolts is just anti-seize.
 ![](images/28.jpg)
-
-[Continue on to Part 5]({{< ref "rust-repair-part-5" >}})

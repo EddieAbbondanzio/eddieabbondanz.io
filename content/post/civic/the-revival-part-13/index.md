@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 13: Denjis and a Custom Radiator Fan Shroud"
 date: 2023-12-21
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -122,5 +123,3 @@ Re-installed. I know no-one will ever see it, but it's nice knowing it's all ref
 
 I also went through and cleaned up any grommets that had over spray on them as well.
 ![](images/36.jpg)
-
-[Continue on to Part 14]({{< ref "the-revival-part-14" >}})

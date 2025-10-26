@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 2: Revamping the Trans with an LSD"
 date: 2023-07-07
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -116,5 +117,3 @@ That's it for now. I still need to plan out my clutch + flywheel along with prep
 
 Sneak peak of the new shift linkage.
 ![](images/38.jpg)
-
-[Continue on to Part 3]({{< ref "the-revival-part-3" >}})

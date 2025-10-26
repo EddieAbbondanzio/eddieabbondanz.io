@@ -2,7 +2,7 @@
 title: "No Mans Blocks - 4/8/18"
 date: 2018-04-08
 type: post
-series: "Development"
+categories: "Development"
 ---
 
 ## Building Up the Network Logic

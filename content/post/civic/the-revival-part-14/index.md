@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 14: Pushing Through the Final Bodywork"
 date: 2023-12-26
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -125,5 +126,3 @@ Tailgate re-installed.
 ![](images/41.jpg)
 
 That's it for now!
-
-[Continue on to Part 15]({{< ref "the-revival-part-15" >}})

@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 3: Giving the Motor a Quick Refresh"
 date: 2023-07-14
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -75,5 +76,3 @@ And I was just about ready to install the throttle body when I realized I had or
 ![](images/27.jpg)
 
 I could have sworn it said for the LS when this is clearly for a B16 so maybe it was just incorrectly listed. I'll eventually order the correct one so I can install the throttle body but for now I'm gonna move on to other parts of the project.
-
-[Continue on to Part 4]({{< ref "the-revival-part-4" >}})

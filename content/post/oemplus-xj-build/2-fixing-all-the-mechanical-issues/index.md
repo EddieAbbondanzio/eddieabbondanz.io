@@ -2,7 +2,7 @@
 title: "Fixing All The Mechanical Issues"
 date: 2025-02-15
 type: post
-series: "OEM+ XJ Build"
+categories: "OEM+ XJ Build"
 ---
 
 With a rough idea of what it'd take to fix up the damage I decided to switch focus and tackle all the mechanical / electrical issues before diving into the bodywork.
@@ -87,5 +87,3 @@ The front was much easier since it was swapping the shocks and installing new sp
 
 The lift looks a little tall for 2"s but I think it'll settle.
 ![](./images/36.jpg)
-
-[Continue on to part 3]({{< relref "3-repairing-the-roof-and-quarters" >}})

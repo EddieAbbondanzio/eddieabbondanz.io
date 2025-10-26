@@ -2,7 +2,8 @@
 title: "Rust Repair Part 18: Diving Into the Driver Side and Fixing the Drip Rail"
 date: 2023-04-13
 type: post
-series: "LS XJ Build"
+categories: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-18"
 ---
@@ -170,5 +171,3 @@ And lastly, two coats of epoxy were sprayed over everything.
 ![](images/54.jpg)
 
 Next up will be replacing the inner rocker.
-
-[Continue on to Part 19]({{< ref "rust-repair-part-19" >}})

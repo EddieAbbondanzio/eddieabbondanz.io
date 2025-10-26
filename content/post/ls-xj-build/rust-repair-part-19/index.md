@@ -2,7 +2,8 @@
 title: "Rust Repair Part 19: Salvaging What I Can of the Driver Side"
 date: 2023-05-15
 type: post
-series: "LS XJ Build"
+categories: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-19"
 ---
@@ -277,5 +278,3 @@ The lower portion of the C pillar still needs to be cleaned up a bit more before
 Once it's ready for paint I'll give it a couple coats of epoxy and also spray the inner rocker at the same time.
 
 From there I'll likely work on installing the outer rocker.
-
-[Continue on to Part 20]({{< ref "rust-repair-part-20" >}})

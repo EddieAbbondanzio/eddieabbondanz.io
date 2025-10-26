@@ -2,7 +2,8 @@
 title: "Rust Repair Part 15: Finalizing the 2x6 Rocker"
 date: 2022-11-03
 type: post
-series: "LS XJ Build"
+categories: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-15"
 ---
@@ -261,5 +262,3 @@ All in all, I'm excited to be wrapping up the passenger side as it's just down t
 On the bright side though, I've been fabricating pieces for the driver side as I worked on the passenger side so it shouldn't take nearly as long to do the other side.
 
 ~~I'm hoping to have metal work completed by March-ish so I can get started on bodywork.~~
-
-[Continue on to Part 16]({{< ref "rust-repair-part-16" >}})

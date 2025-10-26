@@ -2,7 +2,8 @@
 title: "How to Build a B20 VTEC Part 2: Collecting All the Parts"
 date: 2024-11-28
 type: post
-series: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
+series: "How to Build a B20V"
 ---
 
 In order to hit my power goals of 200 - 225whp, the B20V I'm building will need some mods to get there. Originally my block was a high compression B20B that had [the better PHK pistons]({{< ref "low-comp-or-high-comp-b20b" >}}) but the cylinders were out of round and had to be bored 0.5mm over (not to mention 1 piston was cracked) so I can't use the stock internals.
@@ -276,5 +277,3 @@ I haven't settled on the injectors I plan on using yet but am currently explorin
 # Next Steps
 
 At this point it's almost time to begin assembly but there's still some final prep work to do such as measuring bearing clearances and setting piston ring gap. These steps may sound boring but they can be the deciding factor in how long your motor will last.
-
-[Continue on to part 3]({{< ref "how-to-build-a-b20-vtec-part-3" >}})

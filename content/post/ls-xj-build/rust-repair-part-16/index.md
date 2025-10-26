@@ -2,7 +2,8 @@
 title: "Rust Repair Part 16: A New Rear Passenger Inner Wheel Well"
 date: 2023-03-19
 type: post
-series: "LS XJ Build"
+categories: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-16"
 ---
@@ -169,5 +170,3 @@ The sizing of the wheels is already looking pretty good to me even though it's j
 The current rims are TJ canyons from a wrangler and they've got a lot of backspacing which is why they sit so far in.
 
 I plan on switching back to the dark gray icons I've got laying around and will be using wheel spacers to bump them out just a tad.
-
-[Continue on to Part 17]({{< ref "rust-repair-part-17" >}})

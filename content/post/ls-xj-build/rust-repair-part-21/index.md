@@ -2,7 +2,8 @@
 title: "Rust Repair Part 21: Blowing Off the Dust a Year Later AGAIN"
 date: 2025-05-17
 type: post
-series: "LS XJ Build"
+categories: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-21"
 ---
@@ -89,5 +90,3 @@ Bunch of new bins on my shelf full of XJ parts.
 ![](images/18.jpg)
 
 Next up is to build a chassis table.
-
-[Continue on to Part 22]({{< ref "rust-repair-part-22" >}})

@@ -3,7 +3,7 @@ title: "Object Pooling in Unity"
 date: 2018-03-30
 draft: false
 type: post
-series: "Development"
+categories: "Development"
 ---
 
 Creating new gameobjects during runtime can be a costly operation. Multiple this action by 10 or more times in a single frame and you'll notice a slight hiccup in FPS. One option to counter this is by taking advantage of object pooling. Object pooling is when a collection of inactive gameobjects is kept on standby. When the game needs a new object it can call upon the pool to retrieve an already instantiated instance. Then when finished, the object can be returned back to the pool for later use.

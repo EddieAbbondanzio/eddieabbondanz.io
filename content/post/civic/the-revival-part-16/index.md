@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 16: Redoing my Shifter Conversion Plate"
 date: 2024-01-18
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -152,5 +153,3 @@ All done!
 ![](images/48.jpg)
 
 All in all I think it's a huge improvement for the interior.
-
-[Continue on to Part 17]({{< ref "the-revival-part-17" >}})

@@ -2,7 +2,7 @@
 title: "Buying a Second XJ From Across the US"
 date: 2025-02-14
 type: post
-series: "OEM+ XJ Build"
+categories: "OEM+ XJ Build"
 ---
 
 Back in June of 2024, the night before I was due to fly out to Colorado for a work trip I couldn't resist sifting through the Denver Craigslist to see what I could find. I wasn't actually in the market to buy anything, but whenever I'm traveling outside of the Northeast I always like to see whats for sale in the states that don't have to deal with road salt.
@@ -125,5 +125,3 @@ The damage was worse than I anticipated.
 But on the bright side I could see clamp marks on the pillar from the XJ being on a frame puller so it looks like the previous owner at least had it straightened out so I wouldn't have to worry about any major unibody issues.
 
 At the very least I'd need to rebuild the rear of the quarter panel and part of the pillar.
-
-[Continue on to part 2]({{< relref "2-fixing-all-the-mechanical-issues" >}})

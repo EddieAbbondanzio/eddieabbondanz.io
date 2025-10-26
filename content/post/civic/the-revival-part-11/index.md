@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 11: Beginning Reassembly"
 date: 2023-11-11
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -208,5 +209,3 @@ Getting closer! I even mounted up the evap solenoid on the intake manifold.
 
 All of the parts still awaiting reassembly.
 ![](images/44.jpg)
-
-[Continue on to Part 12]({{< ref "the-revival-part-12" >}})

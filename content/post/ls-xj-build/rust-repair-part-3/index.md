@@ -2,7 +2,8 @@
 title: "Rust Repair Part 3: Déjà Vu Replacing the Driver Frame Rail"
 date: 2020-11-19
 type: post
-series: "LS XJ Build"
+categories: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-3"
 ---
@@ -99,5 +100,3 @@ When I first welded the handles on the edges I angled them to prevent you from h
 ![](images/9.jpg)
 
 My workstation. Most of the fabrication was done with me kneeling on the floor and working on the ground.
-
-[Continue on to Part 4]({{< ref "rust-repair-part-4" >}})

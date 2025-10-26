@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 8: Raptor Lining the Front Wheel Wells and Finishing the Firewall"
 date: 2023-09-25
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -81,5 +82,3 @@ My bracket doesn't look as professional as the OEM unit, but it works perfectly.
 ![](images/24.jpg)
 
 There's still plenty of space for the tuck wire harness to the left of the canister, and the new canister bracket ties in nicely with the heater core valve too.
-
-[Continue on to Part 9]({{< ref "the-revival-part-9" >}})

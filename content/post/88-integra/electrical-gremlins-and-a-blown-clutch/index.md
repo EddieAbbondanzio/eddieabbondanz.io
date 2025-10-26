@@ -1,7 +1,7 @@
 ---
 title: "Electrical Gremlins, a Blown Clutch, and a Massive Oil Leak"
 date: 2022-08-09
-series: "88 Integra Build"
+categories: "88 Integra Build"
 type: post
 ---
 

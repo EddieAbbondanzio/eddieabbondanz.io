@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 10: Dropping the B20B Back In and Fixing Some Mistakes"
 date: 2023-10-28
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -147,5 +148,3 @@ Two out of three mounts done!
 
 Turns out I needed some longer bolts for the rear mount though so I had to hold off installing it. Thankfully the motor is more than secure with just the two side mounts for now.
 ![](images/44.jpg)
-
-[Continue on to Part 11]({{< ref "the-revival-part-11" >}})

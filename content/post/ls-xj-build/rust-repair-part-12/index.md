@@ -2,7 +2,8 @@
 title: "Rust Repair Part 12: Welding in the New Passenger Drip Rail"
 date: 2022-09-14
 type: post
-series: "LS XJ Build"
+categories: "LS XJ Build"
+series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-12"
 ---
@@ -100,5 +101,3 @@ And since it'll be several months before I'm ready to start body work I gave eve
 
 Next up I'll be tackling is replacing the passenger inner / outer rocker panel.
 ![](images/35.jpg)
-
-[Continue on to Part 13]({{< ref "rust-repair-part-13" >}})

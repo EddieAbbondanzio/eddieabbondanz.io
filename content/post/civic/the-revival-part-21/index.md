@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 21: Jamming out the Cabin Harness so I Can Put the Dash Back In"
 date: 2024-02-22
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -268,5 +269,3 @@ Swapping them over was actually pretty easy at it's 3 bolts per rail and once th
 
 Both seats installed.
 ![](images/69.jpg)
-
-[Continue on to Part 22]({{< ref "the-revival-part-22" >}})

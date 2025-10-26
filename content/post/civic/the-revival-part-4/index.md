@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 4: Even More Teardown"
 date: 2023-07-16
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -74,5 +75,3 @@ The subframe was also dropped. This was surprisingly easy as all of the bolts ca
 
 The engine bay's looking super empty now.
 ![](images/24.jpg)
-
-[Continue on to Part 5]({{< ref "the-revival-part-5" >}})

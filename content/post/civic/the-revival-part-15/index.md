@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 15: Bolting More Bits Back On"
 date: 2024-01-05
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -132,5 +133,3 @@ Windshield trim re-installed and all nice and secure.
 
 Pro tip: Get the bottom of the trim in position before the top otherwise you risk scratching your fender.
 ![](images/30.jpg)
-
-[Continue on to Part 16]({{< ref "the-revival-part-16" >}})

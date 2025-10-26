@@ -1,40 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ .Site.LanguageCode | default " en-us" }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{ .Title }}</title>
+    {{ with .Site.Params.description }}
+      <meta name="description" content="{{ . }}" />
+    {{ end }}
+    {{ with .Site.Params.author }}
+      <meta name="author" content="{{ . }}" />
+    {{ end }}
+    {{ with .OutputFormats.Get "RSS" -}}
+      {{ printf `
+        <link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML
+      }}
+    {{- end }}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ .Title }}</title>
-  {{ with .Site.Params.description }}
-  <meta name="description" content="{{ . }}">{{ end }}
-  {{ with .Site.Params.author }}
-  <meta name="author" content="{{ . }}">{{ end }}
-  {{ with .OutputFormats.Get "RSS" -}}
-  {{ printf `
-  <link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
-  {{- end }}
+    {{/* Compile SCSS */}}
+    {{ $styles := resources.Get "sass/index.sass" | toCSS | minify | fingerprint }}
+    <link
+      rel="stylesheet"
+      href="{{ $styles.Permalink }}"
+      integrity="{{ $styles.Data.Integrity }}"
+      media="screen"
+    />
 
-  {{/* Compile SCSS */}}
-  {{ $styles := resources.Get "sass/index.sass" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+    <link
+      rel="stylesheet"
+      href="{{ .Site.BaseURL }}/widgets/_plugin-vue_export-helper.css"
+    />
 
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}/widgets/_plugin-vue_export-helper.css">
+    <script
+      data-goatcounter="https://tgpo.eddieabbondanz.io/count"
+      async
+      src="//tgpo.eddieabbondanz.io/count.js"
+    ></script>
+  </head>
 
-  <script data-goatcounter="https://tgpo.eddieabbondanz.io/count" async src="//tgpo.eddieabbondanz.io/count.js"></script>
-</head>
+  <body>
+    {{ partial "navbar" . }}
+    {{ partial "hamburger" . }}
 
-<body>
-  {{ partial "navbar" . }}
-  {{ partial "hamburger" . }}
 
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
 
-  {{ partial "footer" . }}
-  <script src="/js/lol.js"></script>
-  {{ partial "pagefind" }}
-</body>
-
+    {{ partial "footer" . }}
+    <script src="/js/lol.js"></script>
+    {{ partial "pagefind" }}
+  </body>
 </html>

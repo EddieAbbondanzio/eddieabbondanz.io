@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 1: Restarting a Forgotten Project"
 date: 2023-06-03
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 
@@ -136,5 +137,3 @@ Using just compressed air I was able to knock almost all the paint of the transm
 
 I already fixed up the mount bolt holes by helicoiling all 3 of them.
 ![](images/37.jpg)
-
-[Continue on to Part 2]({{< ref "the-revival-part-2" >}})
