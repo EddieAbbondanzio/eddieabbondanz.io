@@ -10,6 +10,8 @@
         <span class="dn-phone">{{ .Title }}</span>
       </div>
     </a>
+  {{ else }}
+    &nbsp;
   {{ end }}
 
   {{ with $seriesPosts.Next . }}
