@@ -210,5 +210,3 @@ I also scuffed down the backside of the drip rail so I could coat it with epoxy 
 ![](images/69.jpg)
 
 That's it for progress right now. I'm stuck waiting until next week because I need a new metal brake before I can proceed any further. I got tired of fiddling with my Harbor Freight metal brake, and decided it was time to invest in something nicer. It should be perfect for my needs and I'm super excited for it!
-
-[Continue on to Part 12]({{< ref "rust-repair-part-12" >}})

@@ -135,5 +135,3 @@ I was worried I had picked out too large of a master cylinder at first but then 
 
 So close to it's first drive.
 ![](./images/38.jpg)
-
-[Continue on to Part 23]({{< ref "the-revival-part-23" >}})

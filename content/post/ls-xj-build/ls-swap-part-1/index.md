@@ -79,5 +79,3 @@ I don't have a great spot to leave the transmission yet so it's sitting behind m
 In terms of plans for the motor I'm not going to go too wild.
 
 I'm thinking a mild cam (212/218 low lift) to try and bump it up to the 300hp mark and a LS6 intake so it'll fit underneath the hood of my XJ. Beyond that I'll be replacing all of the seals + gaskets and giving the block a fresh paint job. I want something that looks OEM-ish in the Jeep so I'm imaging silver paint on the block + heads and wrinkle black valve covers.
-
-[Continue on to Part 2]({{< ref "ls-swap-part-2-transfer-case" >}})

@@ -63,8 +63,6 @@ I'll have to keep the compression to a max of 11.5:1 since 91 octane is the best
 
 In terms of cams I'll aim to find a set of cams that focuses on low end power since I'm interested in as much area under the curve as possible.
 
-[Continue on to part 2]({{< ref "how-to-build-a-b20-vtec-part-2" >}})
-
 # Resources
 
 - [High compression daily driven?](https://honda-tech.com/forums/all-motor-naturally-aspirated-44/high-compression-daily-driven-2804592/#post43014749)

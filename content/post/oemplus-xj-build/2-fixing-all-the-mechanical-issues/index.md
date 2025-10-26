@@ -87,5 +87,3 @@ The front was much easier since it was swapping the shocks and installing new sp
 
 The lift looks a little tall for 2"s but I think it'll settle.
 ![](./images/36.jpg)
-
-[Continue on to part 3]({{< relref "3-repairing-the-roof-and-quarters" >}})

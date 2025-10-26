@@ -84,5 +84,3 @@ Not too shabby. Like I mentioned earlier, I was on the fence about installing fr
 
 After sanding the loose stuff off, I touched up the paint with a brush as I'm not worried about how the finish on the inside of the rails look. As long as they're black, and not rusted I'm happy.
 ![](images/28.jpg)
-
-[Continue on to Part 9]({{< ref "rust-repair-part-9" >}})

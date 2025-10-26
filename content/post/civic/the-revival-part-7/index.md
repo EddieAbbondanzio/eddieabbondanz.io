@@ -212,5 +212,3 @@ Good enough for now.
 
 At this point I'd wager I'm basically ready to start the bodywork.
 ![](images/71.jpg)
-
-[Continue on to Part 8]({{< ref "the-revival-part-8" >}})

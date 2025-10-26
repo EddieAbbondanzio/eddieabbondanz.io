@@ -102,5 +102,3 @@ Well until I turned on the Jeep and found it had three dash lights on. And no th
 Turns out the hatch light was on because the striker wasn't position properly.
 The ABS light was on because I left the passenger front sensor unplugged when I replaced the heater core.
 And the check engine light was on due to an evap emission leak.
-
-[Continue on to Part 11]({{< ref "rust-repair-part-11" >}})

@@ -117,5 +117,3 @@ That's it for now. I still need to plan out my clutch + flywheel along with prep
 
 Sneak peak of the new shift linkage.
 ![](images/38.jpg)
-
-[Continue on to Part 3]({{< ref "the-revival-part-3" >}})

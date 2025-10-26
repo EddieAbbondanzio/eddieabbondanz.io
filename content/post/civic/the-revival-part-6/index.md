@@ -298,5 +298,3 @@ Last but not least, the new hood came in. It's a Seibon carbon fiber hood.
 ![](images/83.jpg)
 
 I'm pretty excited about the hood. I've always wanted a carbon fiber one.
-
-[Continue on to Part 7]({{< ref "the-revival-part-7" >}})

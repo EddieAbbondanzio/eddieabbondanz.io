@@ -1,0 +1,25 @@
+<div class="post-series-buttons">
+  {{ $series := .Params.Series }}
+  {{ $seriesPosts := where .Site.RegularPages "Params.series" "eq" $series }}
+
+  {{ with $seriesPosts.Prev . }}
+    <a class="prev-post fr aic jcc pa0-phone pa2" href="{{ .Permalink }}">
+      <span class="icon"><i class="fas fa-angle-left"></i></span>
+      <div>
+        <h6>Prev</h6>
+        <span class="dn-phone">{{ .Title }}</span>
+      </div>
+    </a>
+  {{ end }}
+
+  {{ with $seriesPosts.Next . }}
+    <a class="next-post fr aic jcc pa0-phone pa2" href="{{ .Permalink }}">
+      <div>
+        <h6>Next</h6>
+        <span class="dn-phone">{{ .Title }}</span>
+      </div>
+
+      <span class="icon"><i class="fas fa-angle-right"></i></span>
+    </a>
+  {{ end }}
+</div>
