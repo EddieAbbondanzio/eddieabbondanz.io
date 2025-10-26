@@ -2,7 +2,7 @@
 title: "Civic Build - 4/1/18"
 date: 2018-04-01
 type: post
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 ---
 
 ## I like projects

@@ -2,7 +2,7 @@
 title: "97-01 XJ Interior Bulb Sizes for LEDs"
 date: 2025-02-23
 type: post
-series: "XJ Info and DIYs"
+categories: "XJ Info and DIYs"
 ---
 
 Converting the interior lights of a 97-01 XJ to LEDs is easy since there's only 12 bulbs to swap. Plus LEDs are drastically brighter than the stock incandescent bulbs so it'll help improve visibility at night, and they won't turn your interior plastic brittle or burn your fingers.

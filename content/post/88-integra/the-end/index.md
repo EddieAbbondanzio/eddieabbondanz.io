@@ -1,7 +1,7 @@
 ---
 title: "The End"
 date: 2025-04-12
-series: "88 Integra Build"
+categories: "88 Integra Build"
 type: post
 ---
 

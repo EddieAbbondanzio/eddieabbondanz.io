@@ -3,7 +3,7 @@ title: "TypeScript - Taking The Magic Out of Magic Strings"
 date: 2019-01-05
 type: post
 thumbnail: "/post/typescript/magic-strings/images/1.jpg"
-series: "Development"
+categories: "Development"
 ---
 
 # What's so Magical About Magic Strings?

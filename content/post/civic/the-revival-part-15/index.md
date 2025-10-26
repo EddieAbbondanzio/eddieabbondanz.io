@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 15: Bolting More Bits Back On"
 date: 2024-01-05
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 

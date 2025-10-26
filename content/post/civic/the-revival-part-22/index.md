@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 22: Dyeing the Rear Interior and Running Fuel Lines for the First Start"
 date: 2024-03-05
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 

@@ -3,7 +3,7 @@ title: "Unity - How to Set Up LiteNetLib"
 date: 2019-11-12
 thumbnail: "/post/unity/litenetlib-setup/images/hero.jpg"
 type: post
-series: "Development"
+categories: "Development"
 ---
 
 **TL;DR** Download the most recent stable release source code zip and copy the `/LiteNetLib` folder to the `Plugins` folder in your Unity project.
