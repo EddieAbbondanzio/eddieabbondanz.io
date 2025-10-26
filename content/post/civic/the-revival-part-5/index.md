@@ -1,7 +1,7 @@
 ---
 title: "Revival of the Hatch Part 5: Sandblasting the Engine Bay"
 date: 2023-07-20
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 series: "Revival of the Hatch"
 type: "post"
 ---

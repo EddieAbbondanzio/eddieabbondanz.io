@@ -1,7 +1,7 @@
 ---
 title: "Back on the Road After a Decade"
 date: 2022-05-23
-category: "88 Integra Build"
+categories: "88 Integra Build"
 type: post
 ---
 

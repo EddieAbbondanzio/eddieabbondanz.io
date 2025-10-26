@@ -1,7 +1,7 @@
 ---
 title: "Stepping up my Auto-X Game"
 date: 2023-05-26
-category: "88 Integra Build"
+categories: "88 Integra Build"
 type: post
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Adding a Rear Sway Bar"
 date: 2023-06-29
-category: "88 Integra Build"
+categories: "88 Integra Build"
 type: post
 ---
 

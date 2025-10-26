@@ -2,7 +2,7 @@
 title: "Software Design - Dependency Injection and Inversion"
 date: 2018-10-18
 type: post
-category: "Development"
+categories: "Development"
 ---
 
 ## What are they?

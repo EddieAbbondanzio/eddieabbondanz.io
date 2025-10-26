@@ -2,7 +2,7 @@
 title: "Rust Repair Part 9: Closing Up The Floor"
 date: 2020-12-27
 type: post
-category: "LS XJ Build"
+categories: "LS XJ Build"
 series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-9"

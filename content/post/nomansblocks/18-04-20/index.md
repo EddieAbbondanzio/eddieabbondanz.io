@@ -2,7 +2,7 @@
 title: "No Mans Blocks - 4/20/18"
 date: 2018-04-20
 type: post
-category: "Development"
+categories: "Development"
 ---
 
 ## Playing Around at the Bit Level

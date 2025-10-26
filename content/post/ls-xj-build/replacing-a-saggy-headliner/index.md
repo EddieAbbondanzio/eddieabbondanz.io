@@ -2,7 +2,7 @@
 title: "Replacing a Saggy Headliner"
 date: 2021-06-05
 type: post
-category: "LS XJ Build"
+categories: "LS XJ Build"
 description: "No more saggy headliner for my XJ"
 ---
 

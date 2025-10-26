@@ -1,7 +1,7 @@
 ---
 title: "Revival of the Hatch Part 3: Giving the Motor a Quick Refresh"
 date: 2023-07-14
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 series: "Revival of the Hatch"
 type: "post"
 ---

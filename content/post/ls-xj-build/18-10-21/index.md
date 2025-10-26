@@ -2,7 +2,7 @@
 title: "XJ Build - 10/21/18"
 date: 2018-10-21
 type: post
-category: "LS XJ Build"
+categories: "LS XJ Build"
 thumbnail: "/post/ls-xj-build/18-10-21/images/2.jpg"
 aliases:
   - "/post/xj/18-10-21"

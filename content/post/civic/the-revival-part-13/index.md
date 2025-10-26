@@ -1,7 +1,7 @@
 ---
 title: "Revival of the Hatch Part 13: Denjis and a Custom Radiator Fan Shroud"
 date: 2023-12-21
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 series: "Revival of the Hatch"
 type: "post"
 ---

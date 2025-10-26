@@ -2,7 +2,7 @@
 title: 'How to Piece Together a 2" Old Man Emu Lift'
 date: 2024-07-28
 type: post
-category: "XJ Info and DIYs"
+categories: "XJ Info and DIYs"
 ---
 
 Old Man Emu is a great choice for lifting your XJ, but hunting down the correct part numbers can be difficult. I spent the last couple weeks DIYing a lift for my second XJ so I figured I'd post up everything I found.

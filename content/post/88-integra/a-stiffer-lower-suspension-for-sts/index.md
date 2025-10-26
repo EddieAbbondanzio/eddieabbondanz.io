@@ -1,7 +1,7 @@
 ---
 title: "Goodbye H Street, Hello STS"
 date: 2024-04-06
-category: "88 Integra Build"
+categories: "88 Integra Build"
 type: post
 ---
 

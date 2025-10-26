@@ -2,7 +2,7 @@
 title: "Software Design - Marker Interfaces"
 date: 2018-11-02
 type: post
-category: "Development"
+categories: "Development"
 ---
 
 # What Are They?

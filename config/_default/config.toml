@@ -16,6 +16,7 @@ unsafe= true
     smartypants = false
 
 [taxonomies]
+    category = "categories"
     series = "series"
 
 [params]
@@ -38,56 +39,56 @@ unsafe= true
     name = "Development"
     identifier = "development"
     parent = "posts"
-    url="series/development"
+    url="/categories/development"
     weight = 1
 
     [[menu.main]]
     name = "LS XJ Build"
     identifier = "ls-xj-build"
     parent = "posts"
-    url="series/ls-xj-build"
+    url="/categories/ls-xj-build"
     weight = 2
 
     [[menu.main]]
     name = "OEM+ XJ Build"
     identifier = "oem+-xj-build"
     parent = "posts"
-    url="series/oem+-xj-build"
+    url="/categories/oem+-xj-build"
     weight = 3
 
     [[menu.main]]
     name = "93 EG Hatch Build"
     identifier = "93-eg-hatch-build"
     parent = "posts"
-    url="series/93-eg-hatch-build"
+    url="/categories/93-eg-hatch-build"
     weight = 4
 
     [[menu.main]]
     name = "88 Integra Build"
     identifier = "88-integra-build"
     parent = "posts"
-    url="series/88-integra-build"
+    url="/categories/88-integra-build"
     weight = 5
 
     [[menu.main]]
     name = "Honda Info and DIYs"
     identifier = "honda-info-and-diys"
     parent = "posts"
-    url="series/honda-info-and-diys"
+    url="/categories/honda-info-and-diys"
     weight = 6
 
     [[menu.main]]
     name = "XJ Info and DIYs"
     identifier = "xj-info-and-diys"
     parent = "posts"
-    url="series/xj-info-and-diys"
+    url="/categories/xj-info-and-diys"
     weight = 7
 
     [[menu.main]]
     name = "Shop and Tools"
     identifier = "shop-and-tools"
     parent = "posts"
-    url="series/shop-and-tools"
+    url="/categories/shop-and-tools"
     weight = 8
 
     [[menu.main]]

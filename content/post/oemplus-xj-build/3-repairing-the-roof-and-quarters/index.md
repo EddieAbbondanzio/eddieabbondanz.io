@@ -2,7 +2,7 @@
 title: "Repairing the Quarter Panels and Rusty Roof"
 date: 2025-02-17
 type: post
-category: "OEM+ XJ Build"
+categories: "OEM+ XJ Build"
 ---
 
 At this point the XJ was mechanically solid but in desperate need of some cosmetic work.

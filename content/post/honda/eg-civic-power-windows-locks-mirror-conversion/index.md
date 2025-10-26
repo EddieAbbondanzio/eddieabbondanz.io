@@ -2,7 +2,7 @@
 title: "How To: 92-95 Civic Coupe/Hatch Power Windows, Locks, and Mirrors DIY Conversion"
 date: 2024-02-28
 type: post
-category: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
 ---
 
 Converting an EG Civic from manual to power windows, locks, and mirrors by building your own wiring harnesses is a moderately challenging task as it'll require you to pull the dash, gut the doors, remove the fenders, dig into the main cabin harness, and get overly familiar with the wiring of the car, but it's definitely doable and the results are well worth it.

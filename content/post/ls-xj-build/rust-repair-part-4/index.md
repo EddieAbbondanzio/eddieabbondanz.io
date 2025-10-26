@@ -2,7 +2,7 @@
 title: "Rust Repair Part 4: Hooking Up The Suspension"
 date: 2020-11-20
 type: post
-category: "LS XJ Build"
+categories: "LS XJ Build"
 series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-4"

@@ -2,7 +2,7 @@
 title: "How to Build a B20 VTEC Part 3: Measuring Bearing Clearances"
 date: 2025-10-13
 type: post
-category: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
 series: "How to Build a B20V"
 ---
 

@@ -2,7 +2,7 @@
 title: "I Bought an 05 RSX Type S With a Blown Transmission"
 date: 2025-09-06
 type: post
-category: "RSX Type-S"
+categories: "RSX Type-S"
 ---
 
 About a month back I was staying at an AirBnB with some buddies for an autocross event when one of them casually mentioned they had a friend with a broken down RSX type S sitting around and he was looking to sell it.

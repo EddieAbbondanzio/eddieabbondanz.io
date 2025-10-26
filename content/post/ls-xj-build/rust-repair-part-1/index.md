@@ -2,7 +2,7 @@
 title: "Rust Repair Part 1: Fabricating A New Rear Crossmember"
 date: 2020-11-13
 type: post
-category: "LS XJ Build"
+categories: "LS XJ Build"
 series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-1"

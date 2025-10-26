@@ -2,7 +2,7 @@
 title: "Software Design - Unit Tests vs Integration Tests"
 date: 2018-10-15
 type: post
-category: "Development"
+categories: "Development"
 ---
 
 ## Preface

@@ -2,7 +2,7 @@
 title: "Engine Stand Bolts For The 84-01 XJ 4.0"
 date: 2025-05-16
 type: post
-category: "XJ Info and DIYs"
+categories: "XJ Info and DIYs"
 ---
 
 The OEM bell housing bolts are too short for an engine stand so you'll need to pick up some longer bolts.

@@ -1,7 +1,7 @@
 ---
 title: "Revival of the Hatch Part 9: Taking the Engine Bay From Primer to Paint and All the Filler Inbetween"
 date: 2023-10-18
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 series: "Revival of the Hatch"
 type: "post"
 ---

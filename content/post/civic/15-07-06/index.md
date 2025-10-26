@@ -2,7 +2,7 @@
 title: "Civic Build - 07/06/15"
 date: 2015-07-15
 type: post
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 ---
 
 The transmission in the Civic was a good deal for the price of $100, but it had a nasty grind anytime you shifted into 3rd gear above 3k RPM. Because of this, and a transmission popping up for sale for $75 bucks I couldn't resist making the switch.

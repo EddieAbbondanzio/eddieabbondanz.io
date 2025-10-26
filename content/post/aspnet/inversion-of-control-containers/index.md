@@ -1,7 +1,7 @@
 ---
 title: "ASP.NET Core - Inversion of Control Container"
 date: 2019-06-29
-category: "Development"
+categories: "Development"
 type: post
 ---
 

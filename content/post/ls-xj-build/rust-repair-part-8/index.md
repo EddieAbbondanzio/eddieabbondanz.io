@@ -2,7 +2,7 @@
 title: "Rust Repair Part 8: Welding on Frame Stiffeners"
 date: 2020-12-19
 type: post
-category: "LS XJ Build"
+categories: "LS XJ Build"
 series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-8"

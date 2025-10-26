@@ -3,7 +3,7 @@ title: "Unity - How to Send Data With LiteNetLib"
 date: 2019-11-13
 thumbnail: "/post/unity/litenetlib-sending-data/images/hero.jpg"
 type: post
-category: "Development"
+categories: "Development"
 ---
 
 Continuing off the previous post about [how to build a basic server / client set up with LiteNetLib]({{< ref "/post/unity/litenetlib-basic-server-client" >}}) it's time to talk about sending data. Because, well, a network set up that doesn't actually send any data is kind of useless.

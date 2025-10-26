@@ -19,6 +19,13 @@
     </a>
 
     <div class="fr meta">
+      {{ if .Params.Categories }}
+      <a class="mr1ch tdn" href="/categories/{{ .Params.Categories | urlize  }}" title="More {{ .Params.Categories }} posts">
+        <i class="fas fa-folder"></i>
+        {{ .Params.Categories }}
+      </a>
+      {{ end }}
+
       {{ if .Params.Series }}
       <a class="mr1ch tdn" href="/series/{{ .Params.Series | urlize  }}" title="More {{ .Params.Series }} posts">
         <i class="fas fa-th-list"></i>

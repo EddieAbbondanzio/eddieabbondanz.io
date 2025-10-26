@@ -2,7 +2,7 @@
 title: "How to Build a B20 VTEC Part 2: Collecting All the Parts"
 date: 2024-11-28
 type: post
-category: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
 series: "How to Build a B20V"
 ---
 

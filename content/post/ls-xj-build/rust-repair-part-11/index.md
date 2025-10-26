@@ -2,7 +2,7 @@
 title: "Rust Repair Part 11: Finishing What I Started"
 date: 2022-08-20
 type: post
-category: "LS XJ Build"
+categories: "LS XJ Build"
 series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-11"

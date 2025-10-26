@@ -2,7 +2,7 @@
 title: "OBD0 Check Engine Light Codes"
 date: 2024-11-01
 type: post
-category: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
 ---
 
 Reading CEL codes for an OBD0 Honda is easy since you don't need to jump a service connector like the OBD1 Hondas, but you do need to find the ECU so you can count how many times the red LED in the ECU blinks.

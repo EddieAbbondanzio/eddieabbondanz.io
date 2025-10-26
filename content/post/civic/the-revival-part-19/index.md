@@ -1,7 +1,7 @@
 ---
 title: "Revival of the Hatch Part 19: The New Duckbill"
 date: 2024-01-31
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 series: "Revival of the Hatch"
 type: "post"
 ---

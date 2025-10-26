@@ -2,7 +2,7 @@
 title: "Replacing a Damaged B-Series Speedometer Gear"
 date: 2023-06-25
 type: post
-category: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
 ---
 
 While installing an M-Factory LSD into my B18B1 (LS) transmission I made the dreaded mistake of damaging several teeth on the speedometer gear ring that sits on the differential.

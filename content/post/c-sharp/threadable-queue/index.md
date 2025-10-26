@@ -2,7 +2,7 @@
 title: "C# Threadable Queue"
 date: 2018-05-09
 type: post
-category: "Development"
+categories: "Development"
 ---
 
 ## Implementing a Thread-Safe Queue

@@ -2,7 +2,7 @@
 title: "Civic Build - 08/22/15"
 date: 2015-08-22
 type: post
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 ---
 
 I've been quite busy working on the Civic in the past month. I'm verfy excited to shared the journey I'm embarking on, and can't wait to see how the finished product looks.

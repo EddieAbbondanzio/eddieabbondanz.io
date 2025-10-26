@@ -1,7 +1,7 @@
 ---
 title: "ASR 24mm Rear Sway Bar and Brace Install"
 date: 2024-06-09
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 type: "post"
 ---
 

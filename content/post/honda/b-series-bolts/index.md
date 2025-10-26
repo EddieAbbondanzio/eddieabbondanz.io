@@ -3,7 +3,7 @@ title: "B-Series Bolt Sizes"
 date: 2018-04-06
 type: post
 thumbnail: "/post/honda/b-series-bolts/images/featured.jpg"
-category: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
 ---
 
 I'm in the middle of swapping a B20B into my 1993 civic, and I had to buy (just about) every bolt / nut on the engine and transmission since I was missing so many. I also had the pleasure of tracking down all this information from various forums and sources. To try and help any others who are partaking in a similar project I've compiled a list of what I found below.

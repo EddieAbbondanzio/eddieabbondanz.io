@@ -2,7 +2,7 @@
 title: "How to Get Your Prusa i3 MK3.5S to Pass Fan Calibration"
 date: 2025-09-26
 type: post
-category: "Shop and Tools"
+categories: "Shop and Tools"
 series: "3d Printing"
 summary: "The Prusa MK3.5S is a great printer but it's definitely picky about it's fans. I figured I'd write up some of the tricks I learned while tuning mine."
 ---

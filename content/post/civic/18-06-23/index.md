@@ -2,7 +2,7 @@
 title: "Civic Build - 6/23/18"
 date: 2018-06-23
 type: post
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 ---
 
 # Ten months of work finally pays off

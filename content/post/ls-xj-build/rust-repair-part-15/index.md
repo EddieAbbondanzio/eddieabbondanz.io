@@ -2,7 +2,7 @@
 title: "Rust Repair Part 15: Finalizing the 2x6 Rocker"
 date: 2022-11-03
 type: post
-category: "LS XJ Build"
+categories: "LS XJ Build"
 series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-15"

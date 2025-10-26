@@ -1,7 +1,7 @@
 ---
 title: "Revival of the Hatch Part 11: Beginning Reassembly"
 date: 2023-11-11
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 series: "Revival of the Hatch"
 type: "post"
 ---

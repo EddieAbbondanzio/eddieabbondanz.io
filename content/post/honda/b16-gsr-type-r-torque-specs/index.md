@@ -2,11 +2,11 @@
 title: "B16 / B18C1 / B18C5 Torque Specs"
 date: 2025-10-21
 type: post
-category: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
 description: "The ultimate list of torque specs for VTEC B-series engines (B16, B18C1, B18C5, B18C, etc...)"
 ---
 
-The ultimate list of torque specs for VTEC B-series engines (B16, B18C1, B18C5, B18C, etc...).
+The ultimate list of torque specs for VTEC B-series engines such as the B16, B18C1 (GSR), B18C5 (USDM Type R), B18C (JDM Type R), etc...
 
 **Note**: Non-VTEC engines have different torque specs available [here]({{< relref "b18-b20-torque-specs" >}}).
 

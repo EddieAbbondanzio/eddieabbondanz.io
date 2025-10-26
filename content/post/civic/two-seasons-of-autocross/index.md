@@ -1,7 +1,7 @@
 ---
 title: "Two Seasons of Autocross Under It's Belt"
 date: 2025-08-24
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 type: "post"
 ---
 

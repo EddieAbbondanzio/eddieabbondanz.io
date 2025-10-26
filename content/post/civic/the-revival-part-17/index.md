@@ -1,7 +1,7 @@
 ---
 title: "Revival of the Hatch Part 17: Cleaning up the Cabin Harness and Installing Hood Pins"
 date: 2024-01-22
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 series: "Revival of the Hatch"
 type: "post"
 ---

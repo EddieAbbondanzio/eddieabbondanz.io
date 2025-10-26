@@ -1,7 +1,7 @@
 ---
 title: "Fabricating a 304 Stainless Catback Exhaust"
 date: 2022-04-22
-category: "88 Integra Build"
+categories: "88 Integra Build"
 type: post
 ---
 

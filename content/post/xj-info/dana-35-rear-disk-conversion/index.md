@@ -2,7 +2,7 @@
 title: "XJ Rear Disk Conversion"
 date: 2025-03-05
 type: post
-category: "XJ Info and DIYs"
+categories: "XJ Info and DIYs"
 ---
 
 If you're tired of the rear drum brakes on your XJ it's easy to swap to rear disks using ZJ (93-98 Grand Cherokee) brakes. Just like some XJs, ZJs have a Dana 35 rear axle and some of the ZJs were built with rear disk brakes which is why the parts will bolt up.

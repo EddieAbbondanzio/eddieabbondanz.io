@@ -2,7 +2,7 @@
 title: "FreeCAD AppImage Fails to Start Due to SquashFS Error"
 date: 2025-08-04
 type: post
-category: "Linux"
+categories: "Linux"
 thumbnail: "/post/linux/freecad-appimage-fails-to-start/images/freeCAD.svg"
 ---
 

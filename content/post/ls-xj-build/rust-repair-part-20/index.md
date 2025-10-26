@@ -2,7 +2,7 @@
 title: "Rust Repair Part 20: Blowing Off the Dust a Year Later"
 date: 2024-05-10
 type: post
-category: "LS XJ Build"
+categories: "LS XJ Build"
 series: "Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-20"

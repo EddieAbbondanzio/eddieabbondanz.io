@@ -2,7 +2,7 @@
 title: "How to Build a B20 VTEC Part 4: Piston to Wall Clearance and Ring Gaps"
 date: 2025-10-18
 type: post
-category: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
 series: "How to Build a B20V"
 ---
 

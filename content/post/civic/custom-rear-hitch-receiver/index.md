@@ -1,7 +1,7 @@
 ---
 title: "A Custom Rear Hitch To Haul My Mini Bike"
 date: 2025-08-07
-category: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 type: "post"
 ---
 

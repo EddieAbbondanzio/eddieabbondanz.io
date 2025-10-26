@@ -2,7 +2,7 @@
 title: "Swapping Another Dana 30 In"
 date: 2025-05-10
 type: post
-category: "OEM+ XJ Build"
+categories: "OEM+ XJ Build"
 ---
 
 Having just passed 215k miles, the XJ from Colorado has proven to be a reliable daily over the past few months. It did have a recent incident with the alternator intermittently failing where it'd just stop charging and the "check gauges" light would come on but that was an easy fix by swapping in the spare alternator I had laying around.
