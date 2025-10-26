@@ -1,7 +1,7 @@
 ---
 title: "Refreshing the Suspension"
 date: 2022-02-13
-series: "88 Integra Build"
+categories: "88 Integra Build"
 type: post
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 7: Re-Adding Power Steering, a Full-Sized Radiator and More"
 date: 2023-09-16
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 

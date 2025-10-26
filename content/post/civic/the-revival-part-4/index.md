@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 4: Even More Teardown"
 date: 2023-07-16
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 

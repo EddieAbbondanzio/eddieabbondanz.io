@@ -1,30 +1,44 @@
 {{ define "main" }}
-<article class="post" data-pagefind-meta="image:{{.Params.thumbnail }}">
-  <h1 class="h1 mb2" data-pagefind-meta="title">
-    {{ if .Draft }}
-    <span class="draft-warning">(Draft)</span>
-    {{ end }}
-    {{ .Title }}
-  </h1>
+  <article class="post" data-pagefind-meta="image:{{ .Params.thumbnail }}">
+    <h1 class="h1 mb2" data-pagefind-meta="title">
+      {{ if .Draft }}
+        <span class="draft-warning">(Draft)</span>
+      {{ end }}
+      {{ .Title }}
+    </h1>
 
-  <div class="fr meta pb3">
-    {{ if .Params.Series }}
-    <a class="mr1ch tdn" href="/series/{{ .Params.Series | urlize  }}" title="More {{ .Params.Series }} posts">
-      <i class="fas fa-th-list"></i>
-      {{ .Params.Series }}
-    </a>
-    {{ end }}
+    <div class="fr meta pb3">
+      {{ if .Params.Categories }}
+        <a
+          class="mr1ch tdn"
+          href="/categories/{{ .Params.Categories | urlize }}"
+          title="More {{ .Params.Categories }} posts"
+        >
+          <i class="fas fa-folder"></i>
+          {{ .Params.Categories }}
+        </a>
+      {{ end }}
+      {{ if .Params.Series }}
+        <a
+          class="mr1ch tdn"
+          href="/series/{{ .Params.Series | urlize }}"
+          title="More {{ .Params.Series }} posts"
+        >
+          <i class="fas fa-th-list"></i>
+          {{ .Params.Series }}
+        </a>
+      {{ end }}
 
-    {{ if .Date }}
-    <div class="date" title="Posted on{{ .Date.Format " Jan 2, 2006" }}">
-      <i class="fas fa-calendar-day"></i>
-      <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+      {{ if .Date }}
+        <div class="date" title="Posted on{{ .Date.Format " Jan 2, 2006" }}">
+          <i class="fas fa-calendar-day"></i>
+          <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+        </div>
+      {{ end }}
     </div>
-    {{ end }}
-  </div>
 
-  <div class="markdown-body" data-pagefind-body>
-    {{ .Content }}
-  </div>
-</article>
+    <div class="markdown-body" data-pagefind-body>
+      {{ .Content }}
+    </div>
+  </article>
 {{ end }}

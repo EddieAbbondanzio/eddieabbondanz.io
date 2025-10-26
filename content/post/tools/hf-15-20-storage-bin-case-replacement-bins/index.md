@@ -2,7 +2,7 @@
 title: "Replacements Bins for the HF 15 and 20 Bin Storage Cases"
 date: 2024-10-25
 type: post
-series: "Shop and Tools"
+categories: "Shop and Tools"
 ---
 
 I've got a growing collection of nuts and bolts and started using the [20 bin storage cases (SKU: 93928)](https://www.harborfreight.com/20-bin-medium-portable-parts-storage-case-93928.html) that Harbor Freight sells to keep them all organized.

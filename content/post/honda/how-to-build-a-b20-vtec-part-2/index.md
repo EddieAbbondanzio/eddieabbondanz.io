@@ -2,7 +2,8 @@
 title: "How to Build a B20 VTEC Part 2: Collecting All the Parts"
 date: 2024-11-28
 type: post
-series: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
+series: "How to Build a B20V"
 ---
 
 In order to hit my power goals of 200 - 225whp, the B20V I'm building will need some mods to get there. Originally my block was a high compression B20B that had [the better PHK pistons]({{< ref "low-comp-or-high-comp-b20b" >}}) but the cylinders were out of round and had to be bored 0.5mm over (not to mention 1 piston was cracked) so I can't use the stock internals.

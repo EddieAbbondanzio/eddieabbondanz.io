@@ -2,7 +2,7 @@
 title: "Civic Build - 07/03/15"
 date: 2015-07-15
 type: post
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
 ---
 
 I don't know why, but I've always been a fan of Honda. I just love the simplicity, and elegant styling. Sure they may not be the most luxurious cars out there but they are reliable and that's a fact.

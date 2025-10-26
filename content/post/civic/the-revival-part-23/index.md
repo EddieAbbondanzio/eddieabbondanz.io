@@ -1,7 +1,8 @@
 ---
 title: "Revival of the Hatch Part 23: The Final Push To Get It Road Legal"
 date: 2024-04-05
-series: "93 EG Hatch Build"
+categories: "93 EG Hatch Build"
+series: "Revival of the Hatch"
 type: "post"
 ---
 

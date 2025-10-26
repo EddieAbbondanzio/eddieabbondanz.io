@@ -2,7 +2,7 @@
 title: "Building My Ultimate Mig Cart"
 date: 2023-03-01
 type: post
-series: "Shop and Tools"
+categories: "Shop and Tools"
 ---
 
 I've had my OG mig welder for about 8 years now. It's just a little Lincoln Power Mig 140c but the thing has been an absolute unit for only being a 110v welder. I've pushed it well beyond it's 20% duty cycle many times now and never once hit thermal throttling. And while it's only rated for up to 1/8" steel, I've managed to weld up to 3/16" on occasion.

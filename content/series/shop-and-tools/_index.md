@@ -1,3 +1,0 @@
----
-title: "Shop and Tools"
----
