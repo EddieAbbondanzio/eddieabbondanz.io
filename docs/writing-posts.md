@@ -30,3 +30,9 @@ Where index.md is the markdown content of the post and images is a subdir.
 The blog theme will automatically look for a `thumbnail.jpg` to use from `images` but if needed a new path can be specified via the `thumbnail` front matter property.
 
 Ideal thumbnail dimensions are 500x281.
+
+## Custom Markdown Rendering
+
+Hugo allows for customizing markdown rendering via hooks. These can be found in `layouts/_default/_markup`
+
+See: https://gohugo.io/templates/render-hooks/
