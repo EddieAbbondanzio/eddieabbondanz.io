@@ -2,6 +2,10 @@
   <h1 class="h1 mb2">
     {{ .Title }}
   </h1>
-  {{ range .Paginator.Pages.ByParam "title" }}{{ .Render "summary" }}{{ end }}
+  {{ if eq .Title "Series" }}
+    {{ range .Paginator.Pages.ByTitle }}{{ .Render "summary" }}{{ end }}
+  {{ else }}
+    {{ range .Paginator.Pages }}{{ .Render "summary" }}{{ end }}
+  {{ end }}
   {{ partial "pagination.html" . }}
 {{ end }}
