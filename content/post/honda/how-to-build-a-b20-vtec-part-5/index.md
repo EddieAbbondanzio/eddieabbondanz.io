@@ -1,12 +1,17 @@
 ---
 title: "How to Build a B20 VTEC Part 5: Bottom End Assembly"
-date: 2025-10-24
+date: 2025-10-31
 type: post
-series: "Honda Info and DIYs"
+categories: "Honda Info and DIYs"
+series: "How to Build a B20V"
 draft: true
 ---
 
+Enough measuring for now, it's time to do some assembly and get the pistons and rods installed in the block. Overall this shouldn't be too difficult of a step but it's one you need to be careful with.
+
 ![](./images/1.jpg)
+
+There's a lot of easy to make small mistakes that can lead to trouble during assembly. Small things like mixing up a piston and installing it in the wrong cylinder causing your P2W to be off, or forgetting to torque a rod bolt.
 
 - TODO: Installing the rods
   - Explain the difference between press pin and free floating
