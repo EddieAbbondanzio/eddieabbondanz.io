@@ -14,29 +14,31 @@ Enough measuring for now, it's time to do some assembly and get the crank, pisto
 First up is the crank. Before proceeding you'll want to make sure the crank and block are as clean as possible.
 ![](./images/empty-block.jpg)
 (The numbers on my block are the bolt torque sequence because I kept messing up the order)
+![](./images/cleaned-up-crank.jpg)
 
-With the block and crank is as clean as possible you can go ahead and pop the bearing halves in. If you're using OEM bearings make sure you match each one to the correct journal. I'm using ACL bearings and they should all be the same size but out of precaution I put each one back in the same journal I measured bearing clearance for.
+Then you can pop the bearing halves in. 
 ![](./images/block-with-bearings.jpg)
+
+If you're using OEM bearings make sure you match each one to the correct journal. I'm using ACL race bearings and they should all be the same size but out of precaution I put each one back in the same journal I measured bearing clearance for.
 
 Then each bearing was given a coating of assembly lube, the crank was carefully lowered into position and the thrust washers were pushed into place. 
 
 Note: Make sure you don't install the thrust washers backwards! The slots on them should be facing out towards the crank. An easy way to verify they are correct is if the chamfered edge on each end is facing the crank.
 ![](./images/thrust-washers.jpg)
 
-Then all that's left is to install the other bearing halves into the main journals, coat in assembly lube, and torque down the main caps. Proper torque sequence is available here, or can be found in the CRV FSM.
+After that the remaining bearing halves can be installed in the main caps, coated in assembly lube, and the caps can be torqued to spec. 
 
-TODO: Link to torque spec post here: https://eddieabbondanz.io/post/honda/b18-b20-torque-specs/#main-caps
+TODO: Link to torque spec post here: https://eddieabbondanz.io/post/honda/b18-b20-torque-specs/#main-caps AND mention FSM page you can find them on.
 
 Make sure each main cap is installed in the correct spot as they are numbered and also make sure the crank can spin freely. If you're not able to rotate the crank by hand you'll need to take things apart and figure out what went wrong before moving forward.
 
-If the crank does spin freely you can proceed with installing the rear main seal and oil pump.
-![](./images//rear-main-and-oil-pump.jpg)
+If the crank does spin freely you can proceed with installing the rear main seal and oil pump. TODO: Mention FSM page for torque specs.
+![](./images/rear-main-and-oil-pump.jpg)
 
-## Attaching the Pistons to the Rods
+## Mating the Pistons to the Rods
 
 ![](./images/1.jpg)
 
-There's a lot of easy to make mistakes that can lead to trouble during assembly. Small things like mixing up a piston and installing it in the wrong cylinder causing your P2W to be off, or forgetting to torque a rod bolt.
 
 - TODO: Installing the rods
   - Explain the difference between press pin and free floating
