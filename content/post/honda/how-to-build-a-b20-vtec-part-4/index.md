@@ -59,6 +59,8 @@ My measurements were as follows:
 | 3 | 3.32325" | .003775" |
 | 4 | 3.32325" | .003771" |
 
+If you haven't already you should number your pistons before going any further to ensure your P2W measurements stay correct.
+
 ## Piston Ring Gaps
 
 Piston ring gap is how far apart each end of the piston ring are from each other where they meet. It's important to have just enough ring gap to prevent the ring ends from touching because when that happens the ring will warp and no longer hold compression.
