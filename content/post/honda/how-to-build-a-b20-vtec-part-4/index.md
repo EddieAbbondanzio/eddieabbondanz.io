@@ -27,7 +27,7 @@ There's a few factors to keep in mind when figuring out what your ideal pw2 will
 - Piston material (what alloy)
 - Target power level
 
-But the best place to start would be the spec sheet for your pistons (assuming your not running OEM).
+But the best (and easiest) place to start would be the spec sheet for your pistons.
 ![](./images/piston-specs.jpg)
 
 For my pistons the manufacturer recommends a minimum p2w of .00276" and from measuring my cylinders the machine shop I used targeted .0035" which gives me a bit of a nice safety margin. (I didn't explicitly request a p2w clearance when they had the block)
@@ -45,7 +45,11 @@ Measuring piston to wall clearance is pretty similar to measuring bearing cleara
 
 There's lot of good videos out there like [this one](https://www.youtube.com/watch?v=oBmrGro0MhM).
 
-Just be careful and make sure you measure your pistons in the correct spot. The spec sheet should explain where to measure from.
+If your pistons and block had been at the machine shop and the machine shop put numbers on them make sure you follow them when measuring p2w and assembly.
+
+If your pistons don't have numbers you can swap pistons around to try and adjust P2W if needed.
+
+**Note**: Be careful when measuring the diameter of your pistons because pistons typically have a specific point that you're suppose to measure from. This should be easy to find in the piston spec sheet.
 
 My measurements were as follows:
 | Position | Piston Diameter | P2W |
@@ -54,6 +58,8 @@ My measurements were as follows:
 | 2 | 3.32350" | .003525" |
 | 3 | 3.32325" | .003775" |
 | 4 | 3.32325" | .003771" |
+
+If you haven't already you should number your pistons before going any further to ensure your P2W measurements stay correct.
 
 ## Piston Ring Gaps
 
