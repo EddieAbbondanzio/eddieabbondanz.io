@@ -6,6 +6,7 @@ categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-23"
+  - "/post/ls-xj-build/rust-repair-part-23"
 ---
 
 With the XJ sitting on the chassis table I felt it was time to address the windshield pillars not lining up with the front doors. The pillars are almost touching the top corner of each door because [back when I was replacing the drip rails I didn't brace the roof enough and it shifted]({{< ref "unibody-rust-repair-part-21/#the-mistake" >}}).

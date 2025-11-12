@@ -6,6 +6,7 @@ categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-22"
+  - "/post/ls-xj-build/rust-repair-part-22"
 ---
 
 I've made it pretty far on the metal work for my XJ without a chassis table but once I finish up the driver side I'll need to start replacing the floor and frame rails so the rear suspension needs to come out and that means the XJ won't have any wheels. That's gonna be a problem because every so often I need to move the XJ around to make space for other projects like repairs on my daily so a chassis table just seems like the best option.
