@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-11"
+  - "/post/xj/unibody-rust-repair-part-11"
 ---
 
 Just shy of two years ago now, [I embarked on the largest rust repair job I've ever done on my XJ.]({{< ref "unibody-rust-repair-part-1" >}}) It took me several months, but I was able to replace the entire rear cargo floor including the crossmembers, gas tank bracing, and unibody frame rails along with welding in rear frame stiffeners over my newly made frame rails.

@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-5"
+  - "/post/xj/unibody-rust-repair-part-5"
 ---
 
 Directly below the floor of the XJ in the cargo area sits the gas tank. Tucked tight between the frame rails it rests a mere 1/2" from the floor. The mount for the gas tank is also what braces the floor in the cargo area.

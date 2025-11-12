@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-20"
+  - "/post/xj/unibody-rust-repair-part-20"
 ---
 
 I can't believe it's a been a year since I last worked on the XJ. When I first paused working on the XJ [to get my EG hatch back on the road]({{< ref "the-revival-part-1" >}}) I didn't think it'd be for more a few months but sure enough here we are a year later.

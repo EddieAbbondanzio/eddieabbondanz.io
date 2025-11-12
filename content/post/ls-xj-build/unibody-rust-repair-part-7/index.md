@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-7"
+  - "/post/xj/unibody-rust-repair-part-7"
 ---
 
 # The Fuel Neck Housing

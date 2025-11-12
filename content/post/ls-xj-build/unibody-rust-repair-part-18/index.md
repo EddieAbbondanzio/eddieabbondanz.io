@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-18"
+  - "/post/xj/unibody-rust-repair-part-18"
 ---
 
 Having finished the passenger side, it was a little daunting looking at the completely untouched driver side knowing I had so much work ahead of me. I was a little worried I'd lose my motivation from analysis paralysis on where to start so I decided to dive right into it and start with the roof like I did on the passenger side.

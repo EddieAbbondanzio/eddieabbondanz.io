@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-19"
+  - "/post/xj/unibody-rust-repair-part-19"
 ---
 
 There's a lot of rust on the driver side of my XJ, but it's not as bad as the passenger side used to be. Back when I first began on phase 2 of the rust repair, I purposely started on the passenger side as I thought it'd be the easier of the two sides, but it turns out that wasn't the case.
