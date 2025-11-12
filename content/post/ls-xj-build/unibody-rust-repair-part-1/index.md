@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-1"
+  - "/post/xj/unibody-rust-repair-part-1"
 ---
 
 # Background

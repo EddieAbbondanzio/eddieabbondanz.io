@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-16"
+  - "/post/xj/unibody-rust-repair-part-16"
 ---
 
 Sometimes life does that thing where it gets in the way for awhile. The XJ ended up sitting and collecting dust for a few months due to other priorities eating up my time but I'm finally tearing back into it and making progress again.

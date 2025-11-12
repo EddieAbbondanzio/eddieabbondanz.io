@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-13"
+  - "/post/xj/unibody-rust-repair-part-13"
 ---
 
 With all this metal laying around it was about time I started putting it to use.

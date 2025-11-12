@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-3"
+  - "/post/xj/unibody-rust-repair-part-3"
 ---
 
 The driver side frame rail was in far worse shape than the passenger side on my XJ. I opted to replace the passenger side first since there's a little less going on on that side. On the driver side the fuel neck hoses pass through the frame, and all of the fuel lines, brake lines, and vacuum lines run parallel down the frame rail.

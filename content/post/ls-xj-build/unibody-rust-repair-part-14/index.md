@@ -6,7 +6,7 @@ categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 description: "In this post we'll continue building out the 2x6 rocker for the passenger side."
 aliases:
-  - "/post/xj/rust-repair-part-14"
+  - "/post/xj/unibody-rust-repair-part-14"
 ---
 
 In this post we'll continue building out the 2x6 rocker for the passenger side.

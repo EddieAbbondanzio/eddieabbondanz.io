@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-10"
+  - "/post/xj/unibody-rust-repair-part-10"
 ---
 
 The epoxy primer I used on the underside of my repairs is some pretty good stuff, but I wanted just a hair more protection down there. And after all can you really say you did a rust repair job on your Jeep if bedliner wasn't involved? Because of that I picked up some UPOL Raptor liner to spray. I bought the 4qt spray kit because I wanted some leftover bedliner to spray my new rear bumper later on but I'm getting ahead of myself.

@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-21"
+  - "/post/xj/unibody-rust-repair-part-21"
 ---
 
 Another year has come and gone and the XJ remains in pieces. I truly intended on starting to fix it last time I posted about the XJ [but then I impulsively bought a second XJ ]({{< ref "1-buying-a-second-xj" >}}) and it needed some work of it's own that ended up taking me almost a year to finish.

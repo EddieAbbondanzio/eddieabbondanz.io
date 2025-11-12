@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-8"
+  - "/post/xj/unibody-rust-repair-part-8"
 ---
 
 One of my biggest concerns about my custom fabricated frame rails was the vertical welds joining the frame sections. Vertical welds like those are a big no no when it comes to frames because they're especially prone to failing. The common fix for this is to weld on fishplates that help brace the welds but since I'd have to weld on 6 fish plates on each frame rail I figured it'd be simpler to just go with frame stiffeners.

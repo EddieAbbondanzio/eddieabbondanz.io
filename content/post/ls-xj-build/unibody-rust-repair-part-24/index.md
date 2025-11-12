@@ -5,7 +5,7 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-24"
+  - "/post/xj/unibody-rust-repair-part-24"
 ---
 
 With the passenger side just about sorted out, the last panel that needed some attention before I switch over to the driver side was the front fender.

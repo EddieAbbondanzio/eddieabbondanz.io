@@ -5,12 +5,12 @@ type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
-  - "/post/xj/rust-repair-part-22"
+  - "/post/xj/unibody-rust-repair-part-22"
 ---
 
 I've made it pretty far on the metal work for my XJ without a chassis table but once I finish up the driver side I'll need to start replacing the floor and frame rails so the rear suspension needs to come out and that means the XJ won't have any wheels. That's gonna be a problem because every so often I need to move the XJ around to make space for other projects like repairs on my daily so a chassis table just seems like the best option.
 
-[Building a chassis table isn't terribly difficult and I was able to come up with my own design and build one over the course of the past month or so.]({{< ref "diy-chassis-table" >}}) It's a little over built for my needs but I wanted something nice and beefy.
+[Building a chassis table isn't terribly difficult and I was able to come up with my own design and build one over the course of the past month or so.]({{< relref "diy-chassis-table" >}}) It's a little over built for my needs but I wanted something nice and beefy.
 ![](./images/1.jpg)
 
 Getting the XJ up onto the table was a bit of an adventure. I purposely built the table lower than most chassis tables so it'd be easier since I don't have a lift but it was still harder than I had hoped.
