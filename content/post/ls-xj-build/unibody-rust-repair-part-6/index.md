@@ -6,6 +6,7 @@ categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-6"
+  - "/post/ls-xj-build/rust-repair-part-6"
 ---
 
 I didn't want to try to salvage the original cargo area floor from my Jeep. It had rusted through in several spots, and I kinda chopped it up into several pieces because I only removed bits of it as a time when I was fabricating the new frame rails.

@@ -6,6 +6,7 @@ categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-4"
+  - "/post/ls-xj-build/rust-repair-part-4"
 ---
 
 With the frame squared away I needed something that I could mount up the suspension to. The only thing holding in the rear axle at this point was the rear driveshaft and the front mounts of the leaf springs.

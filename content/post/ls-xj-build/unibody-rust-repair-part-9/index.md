@@ -6,6 +6,7 @@ categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-9"
+  - "/post/ls-xj-build/rust-repair-part-9"
 ---
 
 The least exciting portion of this project by far was closing up the two holes left in the floor directly below where the rear seat goes. I initally cut these holes in the floor way back at the beginning of the project because I needed to remove the original frame rails.

@@ -6,6 +6,7 @@ categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-12"
+  - "/post/ls-xj-build/rust-repair-part-12"
 ---
 
 My new metal brake finally arrived.

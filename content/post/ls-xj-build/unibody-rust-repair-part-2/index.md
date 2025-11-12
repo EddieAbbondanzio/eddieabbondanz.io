@@ -6,6 +6,7 @@ categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-2"
+  - "/post/ls-xj-build/rust-repair-part-2"
 ---
 
 Using a metal brake to bend up new frame rails wasn't my plan A. Nor was it plan B. It was actually plan C. I was trying to fix my Jeep on the cheap because this repair wasn't suppose to happen till spring. That meant no buying extra tools and trying to make do with what I had.

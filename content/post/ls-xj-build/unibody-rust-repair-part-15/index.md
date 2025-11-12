@@ -6,6 +6,7 @@ categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-15"
+  - "/post/ls-xj-build/rust-repair-part-15"
 ---
 
 Even though I'm making progress it sure feels like the parts pile is getting bigger as each week passes.

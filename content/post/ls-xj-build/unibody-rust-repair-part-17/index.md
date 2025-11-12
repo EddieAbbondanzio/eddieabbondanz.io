@@ -6,6 +6,7 @@ categories: "LS XJ Build"
 series: "Unibody Rust Repair"
 aliases:
   - "/post/xj/unibody-rust-repair-part-17"
+  - "/post/ls-xj-build/rust-repair-part-17"
 ---
 
 It's taken me roughly 3 times as long as I imagined to finish all the work on the passenger side, but it's been well worth the effort. To recap the past 6 months I've replaced:
