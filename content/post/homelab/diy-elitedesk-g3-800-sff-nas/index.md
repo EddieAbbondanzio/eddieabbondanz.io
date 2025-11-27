@@ -29,13 +29,13 @@ Something cool about the Elitedesk is that it even has an extra bay for a 2.5" S
 
 OS wise it's running Debian 13 (Debian is my goto for servers) and uses [ZFS](https://pve.proxmox.com/wiki/ZFS_on_Linux) to run both drives in RAID1 so they're mirrored for redundancy.
 
-In terms of NAS functionality I use [Samba](https://www.samba.org/) to create network accessible shares. I considered using NFS since almost all of my devices run Linux but I do plan on running 1 Windows device in the future so I wanted the NAS to support Windows as a precaution. It also has [Syncthing](https://syncthing.net/) installed so it's automatically backing up my laptop in realtime.
+In terms of NAS functionality I use [Samba](https://www.samba.org/) to create network accessible shares. I considered using NFS since all of my devices run Linux but in the future I plan on adding a Windows device to my fleet so I wanted the NAS to support Windows as a precaution. It also has [Syncthing](https://syncthing.net/) installed so it's automatically backing up my laptop in realtime.
 
 Security wise both 12tb drives are encrypted via a ZFS dataset and the ZFS encryption key file is stored on the boot drive that gets encrypted via LUKS.
 
-Since I'll need to unlock the boot drive each time it turns on I installed [dropbear](https://github.com/mkj/dropbear) so I could SSH in to enter the passphrase. I then took this one step further and wrote a python script that I run from my laptop to automate unlocking the boot drive.
+Since I'll need to unlock the boot drive each time it turns on I installed [dropbear](https://github.com/mkj/dropbear) so I could SSH in to enter the passphrase. I then took this one step further and wrote a python script that I can run from my laptop to automate unlocking the boot drive.
 
-In the event the boot drive was to fail I should be able to reconfigure a new one in about 30 minutes because I provisioned the server using ansible and wrote some scripts to generate a debian preseed file so I have an ISO that's pre-configured and can be ran as an automated install.
+In the event the boot drive were to fail I should be able to reconfigure a new one in about 30 minutes because I provisioned the server using ansible and wrote some scripts to generate a debian preseed file so I have an ISO that's pre-configured and can be ran as an automated install.
 
 Ansible and a Debian preseed may be overkill for provisioning a personal sever but this is my 6th server I've set up now and I'm getting tired of doing it manually so I wanted to try out automating the process.
 
