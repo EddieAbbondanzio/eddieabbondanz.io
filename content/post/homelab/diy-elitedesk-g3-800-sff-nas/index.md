@@ -41,7 +41,7 @@ Ansible and a Debian preseed may be overkill for provisioning a personal sever b
 
 ## Total Cost
 
-All in all this build cost me $461.82 which I'd consider to be a great price for 12TB of storage.
+All in all this build cost me $461.82 which I'd consider a great price for 12TB of storage.
 
 | Part                                | Price                  |
 | ----------------------------------- | ---------------------- |
@@ -52,4 +52,4 @@ All in all this build cost me $461.82 which I'd consider to be a great price for
 | Intel Wifi Card                     | Free (from old laptop) |
 | 256gb NVME SSD                      | Free (from old laptop) |
 
-I may do some upgrades in the future like swapping out the i5-6500 for an i7-7700 and adding another 16gb of ram but it already works great as-is and that would be more intended as future proofing.
+I may do some upgrades in the future like swapping out the i5-6500 for an i7-7700 and adding another 16gb of ram but it already works great as-is and that would be more for future proofing.
