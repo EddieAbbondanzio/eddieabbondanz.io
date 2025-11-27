@@ -46,3 +46,7 @@ sudo systemctl start syncthing.service
 ```
 
 Then check for any errors in `systemctl status syncthing`. If everything worked, you can access the web UI at http://127.0.0.1:8034 and start customizing Syncthing.
+
+## Config Paths
+
+It's up to you to set up your syncthing install but a handy command for figuring out your next steps is `syncthing -paths`. It'll print out the various file paths it's using such as `config.xml` or encryption keys.
