@@ -1,5 +1,5 @@
 ---
-title: "My $460 Scratch Built NAS with 12TB of Storage"
+title: "My $450 Scratch Built NAS with 12TB of Storage"
 date: 2025-11-27
 type: post
 categories: "Homelab"
@@ -41,14 +41,14 @@ Ansible and a Debian preseed may be overkill for provisioning a personal sever b
 
 ## Total Cost
 
-All in all this build cost me $461.82 which I'd consider a great price for 12TB of storage.
+All in all this build cost me $447.63 which I'd consider a great price for 12TB of storage.
 
 | Part                                | Price                  |
 | ----------------------------------- | ---------------------- |
 | HP Elitedesk G3 800 SFF PC          | $70.30                 |
 | (1) 8gb DDR4 RAM DIMM               | $15.77                 |
 | (2) 12TB Western Digital Ultrastars | $359.98                |
-| (2) SATA cables                     | $15.77                 |
+| (2) SATA cables                     | $1.58                  |
 | Intel Wifi Card                     | Free (from old laptop) |
 | 256gb NVME SSD                      | Free (from old laptop) |
 
