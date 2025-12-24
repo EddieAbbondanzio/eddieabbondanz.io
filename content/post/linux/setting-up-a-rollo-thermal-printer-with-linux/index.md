@@ -55,3 +55,9 @@ If your printer continuously feeds labels through after a print and won't stop u
 
 - You have the wrong paper size configured somewhere
 - You need to do the label learning process so the printer can detect when each label stops
+
+## Bonus: Custom Stand
+
+[If you have a 3d printer and need a stand for your Rollo printer I posted one on Printables](https://www.printables.com/model/1527545-stand-for-rollo-x1038-printer)
+
+![](./images/stand.jpg)
