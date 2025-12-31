@@ -44,7 +44,7 @@ sudo systemctl enable syncthing.service
 sudo systemctl start syncthing.service
 ```
 
-Then check for any errors in `systemctl status syncthing`. If everything worked, you can access the web UI at http://127.0.0.1:8034 and start customizing Syncthing.
+Then check for any errors in `systemctl status syncthing`. If everything worked, you can access the web UI at `http://127.0.0.1:8384` and start customizing Syncthing.
 
 ## Config Paths
 
