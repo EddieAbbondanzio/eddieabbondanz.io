@@ -14,8 +14,16 @@ The website is hosted on Github Pages and uses a git submodule for the build dir
 
 GH Pages doesn't play nice with files that start with an underscore so a `.nojekyll` file was added. ([Source](https://stackoverflow.com/questions/78633671/vue-app-getting-a-plugin-vue-export-helper-404-error-when-deployed))
 
+## git-lfs
+
+To keep the repo size small all blog post pictures are stored in gft-lfs.
+
+This was done when the repo hit the 5gb limit via `git lfs migrate import --everything --include="content/**/*.png,content/**/*.jpg,content/**/*.gif,content/**/*.svg"`
+
 # Dev
 
+- Install `git-lfs` (for linux use `sudo apt-get install git-lfs)
+- Run `git lfs install`
 - Install nvm and run `nvm use`
 - Install yarn `npm install -g yarn`
 - Run `yarn` on the root dir
