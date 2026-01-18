@@ -4,7 +4,6 @@ date: 2025-11-18
 type: post
 categories: "LS XJ Build"
 series: "Unibody Rust Repair"
-aliases:
 ---
 
 It's taken much longer than anticipated but with the outer quarter panel welded in I was finally ready to install the 2x6 rocker. [Back in May of 2024 I did most of the prep work]({{< relref "unibody-rust-repair-part-20" >}}) so all I really had to do now was the final steps of welding in the 2x6.
