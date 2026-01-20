@@ -22,8 +22,8 @@ This was done when the repo hit the 5gb limit via `git lfs migrate import --ever
 
 # Dev
 
-- Clone repo with `--recursive`
-- Install `git-lfs` (for linux use `sudo apt-get install git-lfs`) and run `git lfs install`
+- Clone repo
+- Install `git-lfs` (for linux use `sudo apt-get install git-lfs` followed by `git lfs install`)
 - Install nvm and run `nvm use`
 - Install yarn `npm install -g yarn`
 - Run `yarn` on the root dir

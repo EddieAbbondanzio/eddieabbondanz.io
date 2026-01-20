@@ -3,10 +3,12 @@
   "description": "My personal blog.",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "yarn@1.22.22",
   "workspaces": [
     "widgets"
   ],
   "scripts": {
+    "build_netlify": "./bin/build_netlify",
     "build": "./bin/build",
     "serve": "./bin/serve",
     "deploy": "./bin/deploy"
