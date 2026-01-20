@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+
+# Install dependencies
+yarn
+
 # Build site
 # --cleanDestinationDir removes unused files from the build dir
 hugo --cleanDestinationDir
@@ -8,5 +12,5 @@ hugo --cleanDestinationDir
 yarn -s pagefind --site "public"
 
 # Copy CNAME file into build
-cp CNAME public/CNAME
-cp .nojekyll public/.nojekyll
+# cp CNAME public/CNAME
+# cp .nojekyll public/.nojekyll

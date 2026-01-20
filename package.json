@@ -8,7 +8,6 @@
     "widgets"
   ],
   "scripts": {
-    "build_netlify": "./bin/build_netlify",
     "build": "./bin/build",
     "serve": "./bin/serve",
     "deploy": "./bin/deploy"
