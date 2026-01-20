@@ -1,4 +1,5 @@
-baseURL = "https://eddieabbondanz.io"
+# baseURL = "https://eddieabbondanz.io"
+baseURL = "https://eddieabbondanzio.netlify.app/"
 languageCode = "en-us"
 title = "Eddie Abbondanzio"
 theme = "blank"
