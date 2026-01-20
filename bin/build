@@ -10,7 +10,3 @@ hugo --cleanDestinationDir
 
 # Generate index
 yarn -s pagefind --site "public"
-
-# Copy CNAME file into build
-# cp CNAME public/CNAME
-# cp .nojekyll public/.nojekyll
